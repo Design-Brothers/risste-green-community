@@ -1,0 +1,16 @@
+Campo,Descrizione
+Comune,Comune di appartenenza del poligono
+Codice UdS,Codice identificativo della classe di uso del suolo
+Descrizione UdS,Descrizione della classe di uso del suolo
+Unità cartografica,Codice dell’unità cartografica pedologica
+Unità pedologica,Codice identificativo dell’unità pedologica
+Substrato,Descrizione del substrato geologico prevalente
+Morfologia,Descrizione morfologica dell’area
+Descrizione pedologica,Descrizione sintetica delle caratteristiche pedologiche
+Tassonomia,Classificazione tassonomica dei suoli
+Classi,Classe di capacità d’uso del suolo
+Copertura,Descrizione della copertura territoriale
+Limitazione,Principali limitazioni territoriali e pedologiche
+Attitudine,Indicazioni di attitudine e uso territoriale
+Superficie [ha],Superficie territoriale espressa in ettari
+Superficie [%],Percentuale della superficie rispetto al territorio comunale

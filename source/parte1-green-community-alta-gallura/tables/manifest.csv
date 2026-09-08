@@ -1,0 +1,127 @@
+file,page,rows,cols,quality,context
+p010-t0.csv,10,36,2,ok,LISTA ABBREVIAZIONI
+p011-t0.csv,11,15,2,ok,LISTA UNITA’ DI MISURA
+p022-t0.csv,22,13,6,ok,Tabella 1a. Popolazione residente nei Comuni dell'Alta Gallura (evoluzione storica)
+p023-t0.csv,23,4,4,ok,Tabella 1b. Saldo naturale e saldo migratorio totale dell’Unione (cumulativo 2002-2023)
+p025-t0.csv,25,3,4,ok,Tabella 1c. Saldo naturale e saldo migratorio totale dell’Unione (cumulativo 2002-2023)
+p026-t0.csv,26,6,4,ok,
+p030-t0.csv,30,8,6,ok,Tabella 1d. Variazione del numero di imprese in Alta Gallura (2021-2025)
+p037-t0.csv,37,8,5,ok,Tabella 2a. Funzioni territoriali prevalenti e ruolo paesaggistico dei comuni dell’Alta Gallura
+p051-t0.csv,51,9,6,ok,Tabella 2b. Quadro dei profili di qualificazione professionale della Regione Sardegna per il comparto forestale e sughericolo
+p097-t0.csv,97,2,6,ok,La Popolazione Residente nel Comune di Aggius negli anni 2001-2011-2023
+p097-t1.csv,97,2,4,ok,Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023)
+p098-t0.csv,98,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p098-t1.csv,98,5,5,ok,La Struttura della Popolazione per Classe di Età
+p099-t0.csv,99,7,4,ok,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p100-t0.csv,100,14,2,sparse,
+p101-t0.csv,101,2,6,ok,La Popolazione Residente nel Comune di Aglientu negli anni 2001-2011-2023
+p101-t1.csv,101,2,4,ok,Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023)
+p102-t0.csv,102,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p102-t1.csv,102,5,5,ok,La Struttura della Popolazione per Classe di Età
+p103-t0.csv,103,13,2,ok,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p104-t0.csv,104,8,2,sparse,
+p105-t0.csv,105,2,6,ok,La Popolazione Residente nel Comune di Badesi negli anni 2001-2011-2023
+p105-t1.csv,105,2,4,ok,Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023)
+p106-t0.csv,106,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p106-t1.csv,106,4,5,ok,La Struttura della Popolazione per Classe di Età
+p108-t0.csv,108,20,2,sparse,
+p109-t0.csv,109,2,6,ok,La Popolazione Residente nel Comune di Bortigiadas negli anni 2001-2011-2023
+p109-t1.csv,109,2,4,ok,La Popolazione Residente nel Comune di Bortigiadas negli anni 2001-2011-2023
+p110-t0.csv,110,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p110-t1.csv,110,5,5,ok,La Struttura della Popolazione per Classe di Età
+p112-t0.csv,112,21,2,sparse,
+p113-t0.csv,113,2,6,ok,La Popolazione Residente nel Comune di Calangianus negli anni 2001-2011-2023
+p114-t0.csv,114,2,4,ok,
+p114-t1.csv,114,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p115-t0.csv,115,5,5,ok,
+p116-t0.csv,116,21,2,sparse,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p118-t0.csv,118,2,6,ok,La Popolazione Residente nel Comune di Luogosanto negli anni 2001-2011-2023
+p118-t1.csv,118,2,4,ok,Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023)
+p119-t0.csv,119,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p119-t1.csv,119,4,5,ok,La Struttura della Popolazione per Classe di Età
+p121-t0.csv,121,21,2,sparse,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p123-t0.csv,123,2,6,ok,La Popolazione Residente nel Comune di Luras negli anni 2001-2011-2023
+p123-t1.csv,123,2,4,ok,Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023)
+p124-t0.csv,124,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p125-t0.csv,125,5,5,ok,
+p126-t0.csv,126,17,2,ok,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p127-t0.csv,127,4,3,sparse,
+p128-t0.csv,128,2,6,ok,La Popolazione Residente nel Comune di Santa Teresa Gallura negli anni 2001-2011-2023
+p129-t1.csv,129,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p130-t0.csv,130,5,5,ok,
+p131-t0.csv,131,13,2,ok,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p132-t0.csv,132,8,2,sparse,
+p133-t0.csv,133,2,6,ok,La Popolazione Residente nel Comune di Tempio Pausania negli anni 2001-2011-2023
+p134-t0.csv,134,2,4,ok,
+p134-t1.csv,134,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p135-t0.csv,135,5,5,ok,La Popolazione per Classe di Età e Struttura Anagrafica
+p136-t0.csv,136,15,2,ok,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p137-t0.csv,137,6,2,sparse,
+p138-t0.csv,138,2,6,ok,La Popolazione Residente nel Comune di Trinità d'Agultu e Vignola negli anni 2001-2011-2023
+p139-t0.csv,139,2,4,ok,
+p139-t1.csv,139,4,3,ok,Le Famiglie e il Numero Medio dei Componenti
+p140-t0.csv,140,5,5,ok,La Popolazione per Classe di Età e Struttura Anagrafica
+p141-t0.csv,141,15,2,ok,La Popolazione in Età Scolastica al 1° Gennaio 2025
+p142-t0.csv,142,6,2,sparse,
+p143-t0.csv,143,2,6,ok,La Popolazione Residente nel Comune di Viddalba negli anni 2001-2011-2023
+p144-t0.csv,144,4,3,ok,
+p144-t1.csv,144,5,5,ok,La Struttura della Popolazione per Classe di Età
+p146-t0.csv,146,21,2,sparse,
+p153-t0.csv,153,16,2,sparse,3.1 Comuni intersezione UdS-Pedologia
+p153-t1.csv,153,4,2,sparse,3.2 Comuni intersezione UdS
+p154-t0.csv,154,2,2,ok,
+p154-t1.csv,154,14,2,sparse,3.3 Comuni intersezione Pedologia
+p156-t0.csv,156,7,3,ok,1.2 Sintesi dell’uso del suolo
+p156-t1.csv,156,5,3,ok,1.3 Sintesi pedologica
+p156-t2.csv,156,6,3,ok,1.4 Lettura della matrice pedologia × uso del suolo
+p158-t0.csv,158,7,3,ok,2.2 Sintesi dell’uso del suolo
+p158-t1.csv,158,6,3,ok,2.3 Sintesi pedologica
+p158-t2.csv,158,6,3,ok,2.4 Lettura della matrice pedologia × uso del suolo
+p159-t0.csv,159,7,3,ok,3.2 Sintesi dell’uso del suolo
+p160-t0.csv,160,5,3,ok,3.3 Sintesi pedologica
+p160-t1.csv,160,6,3,ok,3.4 Lettura della matrice pedologia × uso del suolo
+p161-t0.csv,161,7,3,ok,4.2 Sintesi dell’uso del suolo
+p161-t1.csv,161,6,3,ok,4.3 Sintesi pedologica
+p161-t2.csv,161,6,3,ok,4.4 Lettura della matrice pedologia × uso del suolo
+p162-t0.csv,162,7,3,ok,5.2 Sintesi dell’uso del suolo
+p162-t1.csv,162,5,3,ok,5.3 Sintesi pedologica
+p163-t0.csv,163,6,3,ok,5.4 Lettura della matrice pedologia × uso del suolo
+p163-t1.csv,163,4,3,ok,6.2 Sintesi dell’uso del suolo
+p164-t0.csv,164,4,3,ok,
+p164-t1.csv,164,5,3,ok,6.3 Sintesi pedologica
+p164-t2.csv,164,6,3,ok,6.4 Lettura della matrice pedologia × uso del suolo
+p165-t0.csv,165,7,3,ok,7.2 Sintesi dell’uso del suolo
+p165-t1.csv,165,6,3,ok,7.3 Sintesi pedologica
+p165-t2.csv,165,6,3,ok,Lettura della matrice pedologia × uso del suolo
+p166-t0.csv,166,7,3,ok,8.2 Sintesi dell’uso del suolo
+p167-t0.csv,167,6,3,ok,8.3 Sintesi pedologica
+p167-t1.csv,167,6,3,ok,8.4 Lettura della matrice pedologia × uso del suolo
+p168-t0.csv,168,7,3,ok,9.2 Sintesi dell’uso del suolo
+p168-t1.csv,168,6,3,ok,9.3 Sintesi pedologica
+p168-t2.csv,168,6,3,ok,9.4 Lettura della matrice pedologia × uso del suolo
+p169-t0.csv,169,7,3,ok,10.2 Sintesi dell’uso del suolo
+p169-t1.csv,169,6,3,ok,10.3 Sintesi pedologica
+p170-t0.csv,170,6,3,ok,
+p170-t1.csv,170,6,3,ok,11.2 Sintesi dell’uso del suolo
+p171-t0.csv,171,2,3,ok,
+p171-t1.csv,171,6,3,ok,11.3 Sintesi pedologica
+p171-t2.csv,171,6,3,ok,11.4 Lettura della matrice pedologia × uso del suolo
+p172-t0.csv,172,12,5,ok,Sintesi comparativa preliminare
+p178-t0.csv,178,9,3,ok,Quadro sintetico delle vocazioni territoriali
+p189-t0.csv,189,9,4,ok,Quadro sintetico degli ambiti coerenti con progettazioni di dettaglio
+p204-t0.csv,204,8,4,ok,
+p205-t0.csv,205,10,8,ok,Modello di matrice intercomunale
+p206-t0.csv,206,3,8,ok,
+p208-t0.csv,208,2,3,ok,Comuni prioritari per la filiera bosco-sughero
+p209-t0.csv,209,3,3,ok,
+p209-t1.csv,209,3,3,ok,Categorie preliminari proposte
+p210-t0.csv,210,4,3,ok,
+p212-t0.csv,212,4,3,ok,Comuni prioritari per approfondimenti sulla filiera suinicola
+p213-t0.csv,213,10,2,ok,Criteri minimi per le aree candidate
+p215-t0.csv,215,7,3,ok,Possibili sinergie operative
+p216-t0.csv,216,8,4,ok,Azioni a breve termine
+p216-t1.csv,216,9,3,ok,Azioni a medio termine
+p217-t0.csv,217,8,3,ok,Azioni a lungo termine
+p217-t1.csv,217,9,2,ok,Indicatori per la filiera bosco-sughero
+p217-t2.csv,217,9,2,ok,Indicatori per la filiera suinicola agroforestale
+p218-t0.csv,218,2,2,ok,

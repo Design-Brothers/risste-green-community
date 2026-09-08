@@ -1,0 +1,15 @@
+comune,slug,fascia,livello,imprese_2021,imprese_2023,imprese_2025,var_pct_2021_2025,servizi_2025,agricoltura_2025,costruzioni_2025,commercio_2025,industria_2025,servizi_2025_pct,agricoltura_2025_pct,costruzioni_2025_pct,commercio_2025_pct,industria_2025_pct
+Aggius,aggius,interna,comune,219,,212,-3.2,,87,69,5,,,41.04,32.55,,
+Aglientu,aglientu,costiera,comune,194,,189,-2.58,43,95,,17,3,,50.26,,,
+Badesi,badesi,costiera,comune,267,,256,-4.12,104,39,55,38,,40.63,15.23,,,
+Bortigiadas,bortigiadas,interna,comune,100,,93,-7.0,12,40,8,28,,,43.01,,30.11,
+Calangianus,calangianus,interna,comune,517,,511,-1.16,136,87,,101,101,,,,,19.77
+Luogosanto,luogosanto,interna,comune,200,,212,6.0,59,63,52,,,27.83,29.72,24.53,,
+Luras,luras,interna,comune,231,,257,11.26,80,81,52,,,31.13,31.52,,,
+Santa Teresa Gallura,santa-teresa-gallura,costiera,comune,717,,731,1.95,408,53,,124,51,55.81,,,16.96,
+Tempio Pausania,tempio-pausania,interna,comune,1652,,1614,-2.3,549,244,251,288,174,34.01,15.12,15.55,17.84,
+Trinità d'Agultu e Vignola,trinita-d-agultu-e-vignola,costiera,comune,382,,385,0.79,123,85,84,55,,31.95,22.08,21.82,,
+Viddalba,viddalba,interna,comune,,,332,3.11,51,106,130,,,,31.93,39.16,,
+Fascia Costiera (4 Comuni),fascia-costiera,costiera,aggregato,,,1561,0.06,678,,,,87,43.43,,,14.99,5.57
+Entroterra (7 Comuni),fascia-interna,interna,aggregato,,,3231,-0.31,,708,626,,336,28.51,21.91,19.37,,10.4
+TOTALE IMPRESE UNIONE ALTA GALLURA,totale-alta-gallura,unione,aggregato,4801,4822,4792,-0.19,1599,980,839,714,423,33.37,20.45,17.51,14.9,8.83

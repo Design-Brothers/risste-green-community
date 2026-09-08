@@ -1,0 +1,185 @@
+{
+  "titolo": "Output ambientali e territoriali attesi della Green community Alta Gallura",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "4.6 Output ambientali e territoriali; output citati in 4.4.3, 4.5, 4.7 e Figura 4a",
+    "pagine_pdf": [
+      72,
+      73,
+      77,
+      78,
+      79,
+      80,
+      83,
+      86,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  "note": [
+    "Il paragrafo 4.6 è breve e descrive un solo output formale: il Sistema Informativo Territoriale (GIS) dedicato alla Green community, rimandando all'Allegato II per architettura e atlante cartografico. È l'unico record con `da_paragrafo_4_6` = true.",
+    "Gli altri record raccolgono gli output/prodotti attesi esplicitamente nominati altrove nella Parte 4 (cruscotto KPI, mappatura funzionale, profili comunali, certificazioni, contratti, marchio, disciplinari, Living Lab, crediti) e in Figura 4a (output informativi/operativi e strategici). Ciascuno cita paragrafo e pagina.",
+    "Nessun output è quantificato (numero di piani, ettari, crediti): il documento è una proposta metodologica."
+  ],
+  "dati": [
+    {
+      "ordine": 1,
+      "slug": "sit-gis-green-community",
+      "nome": "Sistema Informativo Territoriale (GIS) della Green community",
+      "categoria": "informativo",
+      "da_paragrafo_4_6": true,
+      "descrizione": "Convergenza di analisi pedologica, incrocio spaziale delle matrici d'uso del suolo e perimetrazione delle vulnerabilità in un SIT dedicato: strumento di supporto alle decisioni per la governance locale, finalizzato alla pianificazione dei carichi zootecnici e forestali sostenibili. Architettura del database, criteri delle matrici d'uso, vincoli fisici e atlante delle cartografie comunali e sovracomunali sono nell'Allegato II.",
+      "paragrafo": "4.6",
+      "pagine_pdf": [
+        89
+      ]
+    },
+    {
+      "ordine": 2,
+      "slug": "cruscotto-kpi-baseline",
+      "nome": "Cruscotto dei parametri di sostenibilità e baseline territoriale",
+      "categoria": "informativo",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Set di KPI ESG e baseline ambientali e produttive (Water e Carbon Footprint) per misurare stato di salute delle sugherete, rinnovazione delle querce, erosione, biodiversità e occupazione; nella Fig. 4a alimenta la piattaforma integrata evidence-based.",
+      "paragrafo": "4.3.1, 4.7.2, Fig. 4a",
+      "pagine_pdf": [
+        72,
+        73,
+        90
+      ]
+    },
+    {
+      "ordine": 3,
+      "slug": "mappatura-classificazione-sugherete",
+      "nome": "Mappatura e classificazione funzionale delle sugherete",
+      "categoria": "pianificazione",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Classificazione delle superfici sughericole in aree produttive, protettive e di recupero, con verifica dell'accessibilità logistica delle particelle, come base per modelli gestionali differenziati.",
+      "paragrafo": "4.4.3, 4.5.2, 4.7.2",
+      "pagine_pdf": [
+        77,
+        80,
+        90
+      ]
+    },
+    {
+      "ordine": 4,
+      "slug": "profili-territoriali-comunali",
+      "nome": "Profili di analisi agro-forestale e territoriale comunale",
+      "categoria": "pianificazione",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Sezioni dedicate ai profili territoriali dei comuni come strumenti tecnico-decisionali: pedologia e profondità dei suoli, suscettibilità erosiva, compatibilità zootecnica, potenzialità della filiera del sughero, vincoli ambientali.",
+      "paragrafo": "4.4.3",
+      "pagine_pdf": [
+        78
+      ]
+    },
+    {
+      "ordine": 5,
+      "slug": "piani-gestione-certificazioni",
+      "nome": "Piani di gestione forestale sostenibile e certificazioni FSC/PEFC di gruppo",
+      "categoria": "gestionale",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Protocolli e piani di gestione su standard FSC e PEFC con tracciabilità della catena di custodia; certificazioni di gruppo ottenute tramite la CUC; piani di gestione su durate di almeno venti anni.",
+      "paragrafo": "4.5.2, 4.7.3, 4.7.5",
+      "pagine_pdf": [
+        80,
+        91
+      ]
+    },
+    {
+      "ordine": 6,
+      "slug": "contratti-di-filiera",
+      "nome": "Contratti di filiera e gestione associata dei proprietari",
+      "categoria": "economico",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Stipula di contratti di filiera con proprietari forestali, ditte boschive e trasformatori; aggregazione dei piccoli proprietari in forme consortili; estensione a sughero-bioedilizia, granito circolare, legno-energia e carni Premium.",
+      "paragrafo": "4.5.1, 4.7.2, 4.7.4",
+      "pagine_pdf": [
+        79,
+        80,
+        90,
+        91
+      ]
+    },
+    {
+      "ordine": 7,
+      "slug": "marchio-territoriale-disciplinari",
+      "nome": "Disciplinari di produzione e marchio territoriale per carni da pascolo naturale",
+      "categoria": "economico",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Disciplinari rigidi e marchio territoriale Premium per carni bovine e suine da pascolo naturale, destinate a ristorazione d'eccellenza, enoturismo e resort costieri.",
+      "paragrafo": "4.7.4",
+      "pagine_pdf": [
+        91
+      ]
+    },
+    {
+      "ordine": 8,
+      "slug": "protocolli-biosicurezza",
+      "nome": "Protocolli e linee guida di biosicurezza per la filiera suinicola",
+      "categoria": "gestionale",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Linee guida sanitarie per la separazione tra suini allevati e fauna selvatica, validate con le autorità veterinarie regionali, prerequisito delle aziende pilota.",
+      "paragrafo": "4.5.4, 4.7.2",
+      "pagine_pdf": [
+        86,
+        91
+      ]
+    },
+    {
+      "ordine": 9,
+      "slug": "crediti-carbonio",
+      "nome": "Certificazione e collocamento dei crediti di carbonio forestale",
+      "categoria": "economico-ambientale",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Inventario di stock e capacità incrementale dei popolamenti, certificazione dei crediti e collocamento nei mercati volontari, con accesso collettivo tramite CUC, per remunerare i servizi ecosistemici dei proprietari associati.",
+      "paragrafo": "4.5.2.4, 4.7.3, 4.7.5",
+      "pagine_pdf": [
+        83,
+        91
+      ]
+    },
+    {
+      "ordine": 10,
+      "slug": "living-lab-territoriale",
+      "nome": "Living Lab Territoriale",
+      "categoria": "governance",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Piattaforma stabile e partecipata di coordinamento scientifico e sociale per definire modelli di sviluppo resiliente e monitorare le performance d'area.",
+      "paragrafo": "4.7.5",
+      "pagine_pdf": [
+        92
+      ]
+    },
+    {
+      "ordine": 11,
+      "slug": "aree-pilota-dimostrative",
+      "nome": "Aree pilota e dimostrative",
+      "categoria": "territoriale",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Cantieri nelle sugherete dei poli storici, una o due aziende suinicole semibrade pilota nei comuni interni, aree dimostrative antincendio e programmi di ripristino geomorfologico a Bortigiadas.",
+      "paragrafo": "4.7.1",
+      "pagine_pdf": [
+        89,
+        90
+      ]
+    },
+    {
+      "ordine": 12,
+      "slug": "modello-replicabile",
+      "nome": "Modello metodologico replicabile",
+      "categoria": "strategico",
+      "da_paragrafo_4_6": false,
+      "descrizione": "Sistema operativo della Green community esportabile in altri contesti montani e rurali delle isole e del Mediterraneo (Fig. 4a: 'output strategici per Green community'; Fig. 4f: 'Esportazione modello Smart Land').",
+      "paragrafo": "4.7.5, Fig. 4a, Fig. 4f",
+      "pagine_pdf": [
+        72,
+        90,
+        92
+      ]
+    }
+  ]
+}

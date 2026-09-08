@@ -1,0 +1,426 @@
+{
+  "titolo": "Famiglie e numero medio di componenti nei Comuni dell'Alta Gallura (2003, 2011, 2023, 2024)",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Allegato I – Report demografico e socio-economico strutturale dei Comuni; Prima parte – Demografia (cap. 1) – par. 1.3 e 1.7.3",
+    "pagine_pdf": [
+      23,
+      26,
+      97,
+      101,
+      105,
+      109,
+      113,
+      118,
+      123,
+      128,
+      133,
+      138,
+      143
+    ]
+  },
+  "note": [
+    "Valori 2003/2011/2023 dalle tabelle delle schede comunali; 2024 dal testo delle schede (dove citato).",
+    "La somma delle famiglie comunali 2003 (13.925) e 2023 (16.628) coincide con il par. 1.3 (+19,41%) (verificato).",
+    "Incoerenza nel par. 1.7.3 (p.26): 'Badesi e Trinità d'Agultu a medie di appena 1,76 e 1,97 componenti': le schede riportano Badesi 1,97 e Trinità d'Agultu 1,76 (2024), cioè l'ordine è invertito. Calangianus 2,28 e Tempio 2,21 citati nello stesso paragrafo sono i valori 2024.",
+    "var_pct_famiglie_2003_2011 riportata solo dove il testo la cita."
+  ],
+  "dati": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 666,
+          "componenti_medi": 2.45
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 686,
+          "componenti_medi": 2.33
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 641,
+          "componenti_medi": 2.19
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": null,
+          "componenti_medi": 2.16
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 3.0,
+      "note": "Numero famiglie 2024 non riportato; componenti medi 2024 = 2,16.",
+      "pagine_pdf": [
+        98,
+        99
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 500,
+          "componenti_medi": 2.22
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 664,
+          "componenti_medi": 1.75
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 704,
+          "componenti_medi": 1.67
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": null,
+          "componenti_medi": null
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 32.8,
+      "note": "Il testo dice solo che il numero di famiglie si 'stabilizza' nel 2024, senza valore: 2024 null.",
+      "pagine_pdf": [
+        102,
+        103
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 711,
+          "componenti_medi": 2.61
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 867,
+          "componenti_medi": 2.19
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 920,
+          "componenti_medi": 2.0
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 928,
+          "componenti_medi": 1.97
+        }
+      ],
+      "var_pct_famiglie_2003_2011": null,
+      "note": null,
+      "pagine_pdf": [
+        106,
+        107
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 346,
+          "componenti_medi": 2.47
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 365,
+          "componenti_medi": 2.17
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 331,
+          "componenti_medi": 2.12
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 328,
+          "componenti_medi": 2.12
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 5.49,
+      "note": null,
+      "pagine_pdf": [
+        110,
+        111
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 1595,
+          "componenti_medi": 2.87
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 1592,
+          "componenti_medi": 2.66
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 1618,
+          "componenti_medi": 2.33
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 1623,
+          "componenti_medi": 2.28
+        }
+      ],
+      "var_pct_famiglie_2003_2011": null,
+      "note": null,
+      "pagine_pdf": [
+        114,
+        115
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 726,
+          "componenti_medi": 2.47
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 811,
+          "componenti_medi": 2.33
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 825,
+          "componenti_medi": 2.17
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 833,
+          "componenti_medi": 2.17
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 11.7,
+      "note": null,
+      "pagine_pdf": [
+        119,
+        120
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 1004,
+          "componenti_medi": 2.65
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 1111,
+          "componenti_medi": 2.38
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 1052,
+          "componenti_medi": 2.25
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 1047,
+          "componenti_medi": 2.26
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 10.65,
+      "note": null,
+      "pagine_pdf": [
+        124,
+        125
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 1727,
+          "componenti_medi": 2.6
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 2697,
+          "componenti_medi": 1.86
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 2807,
+          "componenti_medi": 1.79
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 2873,
+          "componenti_medi": 1.77
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 56.17,
+      "note": null,
+      "pagine_pdf": [
+        129,
+        130
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 5206,
+          "componenti_medi": 2.66
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 5711,
+          "componenti_medi": 2.42
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 5759,
+          "componenti_medi": 2.23
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 5769,
+          "componenti_medi": 2.21
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 9.7,
+      "note": null,
+      "pagine_pdf": [
+        134,
+        135
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 831,
+          "componenti_medi": 2.45
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 1066,
+          "componenti_medi": 2.02
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 1208,
+          "componenti_medi": 1.8
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 1242,
+          "componenti_medi": 1.76
+        }
+      ],
+      "var_pct_famiglie_2003_2011": null,
+      "note": null,
+      "pagine_pdf": [
+        139,
+        140
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 613,
+          "componenti_medi": 2.76
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 688,
+          "componenti_medi": 2.45
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 763,
+          "componenti_medi": 2.09
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": 761,
+          "componenti_medi": 2.07
+        }
+      ],
+      "var_pct_famiglie_2003_2011": 12.23,
+      "note": null,
+      "pagine_pdf": [
+        144,
+        145
+      ]
+    },
+    {
+      "comune": "TOTALE ALTA GALLURA",
+      "slug": "totale-alta-gallura",
+      "fascia": "unione",
+      "serie": [
+        {
+          "anno": 2003,
+          "numero_famiglie": 13925,
+          "componenti_medi": 2.63
+        },
+        {
+          "anno": 2011,
+          "numero_famiglie": 16258,
+          "componenti_medi": 2.28
+        },
+        {
+          "anno": 2023,
+          "numero_famiglie": 16628,
+          "componenti_medi": 2.12
+        },
+        {
+          "anno": 2024,
+          "numero_famiglie": null,
+          "componenti_medi": null
+        }
+      ],
+      "var_pct_famiglie_2003_2011": null,
+      "var_pct_famiglie_2003_2023": 19.41,
+      "note": "Totale famiglie 2011 (16.258) = somma delle schede comunali, non citato nel testo; 2003 e 2023 e componenti medi 2,63 / 2,28 / 2,12 dal par. 1.3 (p.23). Il valore 2,09 'nel 2024' del par. 1.3 è riferito alla 'media dei piccoli comuni costieri', non all'Unione: non inserito.",
+      "pagine_pdf": [
+        23
+      ]
+    }
+  ]
+}

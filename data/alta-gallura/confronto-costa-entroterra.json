@@ -1,0 +1,190 @@
+{
+  "titolo": "Confronto fascia costiera vs entroterra dell'Unione Alta Gallura (Tabella 1c e par. 1.7)",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.7 (Tabella 1c), 1.7.1-1.7.4, 1.10",
+    "pagine_pdf": [
+      25,
+      26,
+      27,
+      29,
+      30
+    ]
+  },
+  "note": [
+    "Fascia costiera = Aglientu, Badesi, Santa Teresa Gallura, Trinità d'Agultu e Vignola (4 comuni); entroterra = Aggius, Bortigiadas, Calangianus, Luogosanto, Luras, Tempio Pausania, Viddalba (7 comuni).",
+    "La Tabella 1c è intitolata nel PDF 'Saldo naturale e saldo migratorio totale dell'Unione (cumulativo 2002-2023)' (stesso titolo della 1b) ma contiene gli indicatori comparativi; è spezzata tra p.25 e p.26.",
+    "Indice di vecchiaia e di dipendenza per fascia: l'indice di dipendenza costiero 59,9 corrisponde alla media semplice dei 4 indici comunali 2025 (69,5; 60,6; 59,0; 50,5); gli altri tre valori (IV 316,5 e 291,6; ID 58,1) non sono riproducibili né come media semplice né come rapporto tra le classi aggregate (che darebbero IV 321,7 costa / 293,5 interno e ID 58,3 / 58,9). Riportati come scritti.",
+    "Utenza scolastica: Tab. 1c dà 1.177 (costa) e 3.118 (interno); la somma delle schede comunali dà 1.167 e 3.128 (totale 4.295 in entrambi i casi).",
+    "Le righe imprese_2025, servizi_pct_2025 e industria_pct_2025 non sono nella Tabella 1c ma nel par. 1.10 (pp.29-30) e sono aggiunte per completare il confronto.",
+    "Nel par. 1.7.3 i componenti medi di Badesi e Trinità d'Agultu (1,76 e 1,97) risultano invertiti rispetto alle schede (Badesi 1,97; Trinità 1,76 nel 2024)."
+  ],
+  "dati": [
+    {
+      "indicatore": "popolazione_2001",
+      "etichetta": "Popolazione Residente (2001)",
+      "fascia_costiera": 9308,
+      "entroterra": 27386,
+      "unita": "abitanti",
+      "dinamica_prevalente": "Forte concentrazione storica nell'interno",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "popolazione_2025",
+      "etichetta": "Popolazione Residente (2025)",
+      "fascia_costiera": 10616,
+      "entroterra": 24626,
+      "unita": "abitanti",
+      "dinamica_prevalente": "Costa in crescita (+14,0%), Interno in forte calo (-10,1%)",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "saldo_naturale_2002_2023",
+      "etichetta": "Saldo Naturale Cumulato (02-23)",
+      "fascia_costiera": -861,
+      "entroterra": -2541,
+      "unita": "unità",
+      "dinamica_prevalente": "Crisi biologica totale, due punti percentuali più severa nell'interno",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "saldo_migratorio_2002_2023",
+      "etichetta": "Saldo Migratorio Cumulato (02-23)",
+      "fascia_costiera": 2538,
+      "entroterra": 748,
+      "unita": "unità",
+      "dinamica_prevalente": "La costa catalizza il 77,2 % dell'attrazione migratoria",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "indice_vecchiaia_medio_2025",
+      "etichetta": "Indice di Vecchiaia Medio (2025)",
+      "fascia_costiera": 316.5,
+      "entroterra": 291.6,
+      "unita": "anziani per 100 giovani",
+      "dinamica_prevalente": "Costa paradossalmente più vecchia per l'effetto residenziale",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "indice_dipendenza_strutturale",
+      "etichetta": "Indice di Dipendenza Strutturale",
+      "fascia_costiera": 59.9,
+      "entroterra": 58.1,
+      "unita": "non attivi per 100 attivi",
+      "dinamica_prevalente": "Carico sociale ed economico leggermente superiore sulla costa",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "stranieri_pct_2025",
+      "etichetta": "Incidenza % Stranieri (2025)",
+      "fascia_costiera": 11.4,
+      "entroterra": 3.8,
+      "unita": "%",
+      "dinamica_prevalente": "Presenza internazionale tripla sulla costa",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "utenza_scolastica_0_18",
+      "etichetta": "Utenza Scolastica Potenziale (0-18)",
+      "fascia_costiera": 1177,
+      "entroterra": 3118,
+      "unita": "ragazzi",
+      "dinamica_prevalente": "L'entroterra conserva la maggioranza assoluta dei giovani",
+      "pagine_pdf": [
+        25,
+        26
+      ]
+    },
+    {
+      "indicatore": "imprese_2025",
+      "etichetta": "Imprese attive 2025",
+      "fascia_costiera": 1561,
+      "entroterra": 3231,
+      "unita": "imprese",
+      "dinamica_prevalente": "Costa +0,06% e entroterra -0,31% rispetto al 2021 (par. 1.10)",
+      "pagine_pdf": [
+        29
+      ]
+    },
+    {
+      "indicatore": "servizi_pct_2025",
+      "etichetta": "Quota Servizi sulle imprese 2025",
+      "fascia_costiera": 43.43,
+      "entroterra": 28.51,
+      "unita": "%",
+      "dinamica_prevalente": "Modello terziario-turistico sulla costa vs diversificato tradizionale-manifatturiero nell'interno (par. 1.10)",
+      "pagine_pdf": [
+        29,
+        30
+      ]
+    },
+    {
+      "indicatore": "industria_pct_2025",
+      "etichetta": "Quota Industria manifatturiera sulle imprese 2025",
+      "fascia_costiera": 5.57,
+      "entroterra": 10.4,
+      "unita": "%",
+      "dinamica_prevalente": "Industria concentrata sul polo del sughero (Calangianus) e del granito (Tempio)",
+      "pagine_pdf": [
+        29,
+        30
+      ]
+    }
+  ],
+  "dinamiche": [
+    {
+      "paragrafo": "1.7.1",
+      "titolo": "Dinamiche di popolazione: sviluppo attrattivo vs emorragia industriale",
+      "sintesi": "La costa passa da 9.308 (2001) a 10.616 residenti (2025) trainata da turismo e indotto ricettivo (Santa Teresa +16,14%, Trinità +15,87%), mentre l'entroterra frana da 27.386 a 24.626, con Bortigiadas -20,43%, Calangianus -18,34% e Aggius -16,26%.",
+      "pagine_pdf": [
+        25
+      ]
+    },
+    {
+      "paragrafo": "1.7.2",
+      "titolo": "Dinamica di popolazione: i motori del movimento",
+      "sintesi": "Sulla costa il saldo naturale passivo (-861) è sommerso da un saldo migratorio quasi triplo (+2.538); nell'entroterra il deficit naturale (-2.541) è coperto solo per il 29,4% dal saldo migratorio (+748); Bortigiadas nel 2024: 0 nascite e 13 decessi.",
+      "pagine_pdf": [
+        26
+      ]
+    },
+    {
+      "paragrafo": "1.7.3",
+      "titolo": "Dinamica di popolazione: il tessuto sociale",
+      "sintesi": "Costa: 1.213 stranieri (11,4%), immigrazione comunitaria ed europea salvo Trinità d'Agultu (comunità pakistana 34,88%); entroterra: 938 stranieri (3,8%), modello multicontinentale (Marocco, Senegal, Argentina) e famiglie stanziali; nuclei familiari ai minimi sulla costa (Badesi e Trinità sotto 2 componenti) e più ampi nell'interno (Calangianus 2,28, Tempio 2,21).",
+      "pagine_pdf": [
+        26
+      ]
+    },
+    {
+      "paragrafo": "1.7.4",
+      "titolo": "Dinamica di popolazione: gli hub scolastici",
+      "sintesi": "L'entroterra custodisce il 72,6% dei giovani 0-18 (3.118), con Tempio Pausania hub scolastico (1.649) seguito da Calangianus (466); sulla costa solo Santa Teresa ha numeri consistenti (614), mentre Badesi (159) e Aglientu (147) hanno contingenti ridotti che minacciano le autonomie scolastiche.",
+      "pagine_pdf": [
+        26,
+        27
+      ]
+    }
+  ]
+}

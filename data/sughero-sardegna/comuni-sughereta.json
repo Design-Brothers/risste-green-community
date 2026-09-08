@@ -1,0 +1,3987 @@
+{
+  "titolo": "Sughereta Sardegna – i 30 comuni prioritari con IVP, pericolo incendio (IPI) e ICR",
+  "fonte": {
+    "documento": "parte2",
+    "capitolo": "Allegato I – Studio tecnico sugherete: dossier comunale integrato (quadro sinottico pag. 50-51; schede comunali 01-30 pag. 52-141)",
+    "pagine_pdf": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141
+    ],
+    "file": [
+      "source/parte2-filiera-sughero-sardegna/capitoli/08-allegato1-studio-tecnico-sugherete.md",
+      "source/parte2-filiera-sughero-sardegna/tables/p050-t1.csv … p140-t2.csv",
+      "source/parte2-filiera-sughero-sardegna/images/fig-2-ivp-ranking-30-comuni.jpeg",
+      "source/parte2-filiera-sughero-sardegna/images/fig-3-ipi-pericolosita-incendio-30-comuni.jpeg",
+      "source/parte2-filiera-sughero-sardegna/images/fig-4-icr-continuita-risorsa-30-comuni.jpeg"
+    ]
+  },
+  "note": [
+    "Un record per comune (30). Tutti i valori scalari provengono dal quadro sintetico in testa a ciascuna scheda comunale e sono stati verificati contro la sintesi esecutiva, le tabelle interne (pedologica, incendio, ICR, matrice) e il quadro sinottico di pag. 50-51: nessuna differenza tra sinottico e schede.",
+    "`pagine_fonte` sono pagine fisiche del PDF (i marcatori `<!-- pagina N -->`); la numerazione stampata a piè di pagina è inferiore di 17 (es. PDF 86 = 'pag. 69').",
+    "`comune` riporta il nome come scritto nel dossier (es. \"Ala' Dei Sardi\", \"Budduso'\"); `nome_corrente` la forma usata nel testo delle Parti 2-3 (\"Alà dei Sardi\", \"Buddusò\").",
+    "`provincia` è null per tutti i comuni: il documento non la indica; nel testo (pag. 27) compaiono solo i comprensori storici (Gallura, Monte Acuto, Nuorese, Goceano, Marghine, Logudoro, Sulcis-Iglesiente) senza attribuzione per comune.",
+    "`ipi` è l'\"Indice incendio ponderato\" della scheda comunale (media delle superfici per l'indice di pericolosità di ciascuna classe): coincide con l'IPI definito al par. 2.2. I valori riportati nella Figura 3 (pag. 29) differiscono per 24 comuni su 30 e sono conservati a parte in `confronto_figure`.",
+    "`confronto_figure` riporta i valori letti nelle Figure 2, 3 e 4 (pag. 28-30). Le figure derivano evidentemente da una versione diversa dell'elaborazione: la Fig. 2 include Oniferi, Dualchi e Noragugume (non tra i 30 comuni) e omette Ozieri, Calangianus e Olbia; la Fig. 4 elenca Nuoro due volte (Media 16/55,31% e Molto bassa 33/37,28%) e omette Ardara. Per il sito fare fede ai valori dei dossier.",
+    "`quota_medioalto_alto_ha` è tratta dalla sintesi esecutiva della scheda; coincide (±0,01 ha di arrotondamento) con la somma delle righe Medioalto+Alto di `distribuzione_incendio`.",
+    "`densita_frammentazione` è espressa in complessi per 100 ha di sughereta (n. complessi / sugherete_ha × 100). `superficie_media_complesso_ha` = sugherete_ha / n_complessi.",
+    "Tre tabelle incendio (Telti, Chiaramonti, Pozzomaggiore) avevano perso la riga 'Alto' nell'estrazione automatica a cavallo di pagina: la riga è stata reintegrata leggendo il PDF originale (pag. 86, 95, 110); vedi `note` del record.",
+    "Bultei: l'IVP dichiarato (3,395) non coincide con la media ponderata ricalcolata dai punteggi della tabella pedologica (3,448); per gli altri 29 comuni il ricalcolo coincide al millesimo. Mantenuto il valore dichiarato.",
+    "La 'Cautela metodologica' (punto 6) è identica per tutte le schede: \"La scheda è una sintesi comunale. Per individuare puntualmente le porzioni di sughereta più strategiche e vulnerabili è opportuno procedere con overlay GIS diretto tra unità pedologiche riclassificate, classi di pericolosità incendio e complessi sughericoli.\"",
+    "Somma delle superfici dei 30 comuni: 83.790,90 ha (testo pag. 27: 83.790,90 ha); somma dei pesi: 99,98%."
+  ],
+  "dati": [
+    {
+      "rank": 1,
+      "comune": "Bitti",
+      "nome_corrente": "Bitti",
+      "slug": "bitti",
+      "provincia": null,
+      "sugherete_ha": 5801.29,
+      "peso_pct_sughereta_sardegna": 6.92,
+      "ivp": 3.317,
+      "classe_ivp": "Alta",
+      "ipi": 27.93,
+      "classe_incendio": "Medio",
+      "quota_medioalto_alto_pct": 13.43,
+      "quota_medioalto_alto_ha": 779.15,
+      "n_complessi": 20,
+      "superficie_complesso_maggiore_ha": 4314.34,
+      "quota_complesso_maggiore_pct": 74.37,
+      "superficie_media_complesso_ha": 290.06,
+      "densita_frammentazione": 0.34,
+      "classe_densita": "Bassa",
+      "classe_icr": "Media",
+      "profilo_ivp_x_incendio": "Risorsa vocata con criticità localizzate",
+      "profilo_integrato": "Area vocata e relativamente governabile",
+      "combinazione": "Alta x Medio x Media",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "mantenere un presidio antincendio mirato sulle porzioni in pericolo Medioalto e Alto, evitando una lettura esclusivamente comunale",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Media: il complesso maggiore concentra il 74,37% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori.",
+      "sintesi_esecutiva": "Bitti presenta 5.801,29 ha di sugherete, pari al 6,92% della Sughereta Sardegna. L'IVP ponderato è 3,317, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio ponderato ricade in classe Medio. La quota Medioalto+Alto è pari a 779,15 ha (13,43%), indicando criticità localizzate più che diffuse. La classe ICR è Media: il complesso maggiore concentra il 74,37% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori. Il profilo integrato assegnato è: Area vocata e relativamente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 2425.12,
+          "incidenza_pct": 41.8,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1837.53,
+          "incidenza_pct": 31.67,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "B4",
+          "superficie_ha": 713.28,
+          "incidenza_pct": 12.3,
+          "classe_capacita_uso": "VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 551.17,
+          "incidenza_pct": 9.5,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C4",
+          "superficie_ha": 274.19,
+          "incidenza_pct": 4.73,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 124.87,
+          "incidenza_pct": 2.15,
+          "indice_classe": 14.63
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 2133.25,
+          "incidenza_pct": 36.77,
+          "indice_classe": 22.61
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 2764.03,
+          "incidenza_pct": 47.65,
+          "indice_classe": 29.43
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 680.73,
+          "incidenza_pct": 11.73,
+          "indice_classe": 37.81
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 98.42,
+          "incidenza_pct": 1.7,
+          "indice_classe": 49.54
+        }
+      ],
+      "pagine_fonte": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.742,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 27.93,
+        "classe_incendio_fig3": "Medio",
+        "classe_icr_fig4": "Media",
+        "n_complessi_fig4": 20,
+        "quota_complesso_maggiore_fig4_pct": 74.37,
+        "ivp_coerente": false,
+        "ipi_coerente": true,
+        "icr_coerente": true
+      },
+      "note": []
+    },
+    {
+      "rank": 2,
+      "comune": "Berchidda",
+      "nome_corrente": "Berchidda",
+      "slug": "berchidda",
+      "provincia": null,
+      "sugherete_ha": 5480.0,
+      "peso_pct_sughereta_sardegna": 6.54,
+      "ivp": 3.76,
+      "classe_ivp": "Alta",
+      "ipi": 45.64,
+      "classe_incendio": "Alto",
+      "quota_medioalto_alto_pct": 93.43,
+      "quota_medioalto_alto_ha": 5120.19,
+      "n_complessi": 12,
+      "superficie_complesso_maggiore_ha": 5191.69,
+      "quota_complesso_maggiore_pct": 94.74,
+      "superficie_media_complesso_ha": 456.67,
+      "densita_frammentazione": 0.22,
+      "classe_densita": "Bassa",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Alto x Alta",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 94,74% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Berchidda presenta 5.480,00 ha di sugherete, pari al 6,54% della Sughereta Sardegna. L'IVP ponderato è 3,760, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Alto e 5.120,19 ha (93,43%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Alta: il complesso maggiore concentra il 94,74% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 4603.44,
+          "incidenza_pct": 84.0,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "G1",
+          "superficie_ha": 305.79,
+          "incidenza_pct": 5.58,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 259.03,
+          "incidenza_pct": 4.73,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 123.52,
+          "incidenza_pct": 2.25,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 122.22,
+          "incidenza_pct": 2.23,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 64.35,
+          "incidenza_pct": 1.17,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "SP",
+          "superficie_ha": 1.25,
+          "incidenza_pct": 0.02,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 0.4,
+          "incidenza_pct": 0.01,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 22.2,
+          "incidenza_pct": 0.41,
+          "indice_classe": 22.25
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 337.6,
+          "incidenza_pct": 6.16,
+          "indice_classe": 31.85
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1791.56,
+          "incidenza_pct": 32.69,
+          "indice_classe": 39.8
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 3328.62,
+          "incidenza_pct": 60.74,
+          "indice_classe": 50.34
+        }
+      ],
+      "pagine_fonte": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.839,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 45.64,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 12,
+        "quota_complesso_maggiore_fig4_pct": 94.74,
+        "ivp_coerente": false,
+        "ipi_coerente": true,
+        "icr_coerente": true
+      },
+      "note": []
+    },
+    {
+      "rank": 3,
+      "comune": "Oschiri",
+      "nome_corrente": "Oschiri",
+      "slug": "oschiri",
+      "provincia": null,
+      "sugherete_ha": 5434.73,
+      "peso_pct_sughereta_sardegna": 6.49,
+      "ivp": 3.269,
+      "classe_ivp": "Alta",
+      "ipi": 43.26,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 87.51,
+      "quota_medioalto_alto_ha": 4755.88,
+      "n_complessi": 38,
+      "superficie_complesso_maggiore_ha": 3809.09,
+      "quota_complesso_maggiore_pct": 70.09,
+      "superficie_media_complesso_ha": 143.02,
+      "densita_frammentazione": 0.7,
+      "classe_densita": "Media",
+      "classe_icr": "Media",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Medioalto x Media",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Media: il complesso maggiore concentra il 70,09% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori.",
+      "sintesi_esecutiva": "Oschiri presenta 5.434,73 ha di sugherete, pari al 6,49% della Sughereta Sardegna. L'IVP ponderato è 3,269, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 4.755,88 ha (87,51%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Media: il complesso maggiore concentra il 70,09% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 2593.59,
+          "incidenza_pct": 47.72,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "G1",
+          "superficie_ha": 851.23,
+          "incidenza_pct": 15.66,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 760.05,
+          "incidenza_pct": 13.99,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "G2",
+          "superficie_ha": 352.77,
+          "incidenza_pct": 6.49,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 317.9,
+          "incidenza_pct": 5.85,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 295.05,
+          "incidenza_pct": 5.43,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 123.31,
+          "incidenza_pct": 2.27,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 107.32,
+          "incidenza_pct": 1.97,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "SP",
+          "superficie_ha": 33.51,
+          "incidenza_pct": 0.62,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 51.01,
+          "incidenza_pct": 0.94,
+          "indice_classe": 22.9
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 627.84,
+          "incidenza_pct": 11.55,
+          "indice_classe": 31.69
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 2029.32,
+          "incidenza_pct": 37.34,
+          "indice_classe": 40.06
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 2726.57,
+          "incidenza_pct": 50.17,
+          "indice_classe": 48.69
+        }
+      ],
+      "pagine_fonte": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.768,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 37.05,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Media",
+        "n_complessi_fig4": 15,
+        "quota_complesso_maggiore_fig4_pct": 76.9,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 4,
+      "comune": "Budduso'",
+      "nome_corrente": "Buddusò",
+      "slug": "budduso",
+      "provincia": null,
+      "sugherete_ha": 5185.05,
+      "peso_pct_sughereta_sardegna": 6.19,
+      "ivp": 3.383,
+      "classe_ivp": "Alta",
+      "ipi": 28.41,
+      "classe_incendio": "Medio",
+      "quota_medioalto_alto_pct": 16.94,
+      "quota_medioalto_alto_ha": 878.13,
+      "n_complessi": 11,
+      "superficie_complesso_maggiore_ha": 5030.57,
+      "quota_complesso_maggiore_pct": 97.02,
+      "superficie_media_complesso_ha": 471.37,
+      "densita_frammentazione": 0.21,
+      "classe_densita": "Bassa",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Risorsa vocata con criticità localizzate",
+      "profilo_integrato": "Area vocata e relativamente governabile",
+      "combinazione": "Alta x Medio x Alta",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "mantenere un presidio antincendio mirato sulle porzioni in pericolo Medioalto e Alto, evitando una lettura esclusivamente comunale",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 97,02% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Budduso' presenta 5.185,05 ha di sugherete, pari al 6,19% della Sughereta Sardegna. L'IVP ponderato è 3,383, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio ponderato ricade in classe Medio. La quota Medioalto+Alto è pari a 878,13 ha (16,94%), indicando criticità localizzate più che diffuse. La classe ICR è Alta: il complesso maggiore concentra il 97,02% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Area vocata e relativamente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 3117.39,
+          "incidenza_pct": 60.12,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1989.45,
+          "incidenza_pct": 38.37,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "B4",
+          "superficie_ha": 74.58,
+          "incidenza_pct": 1.44,
+          "classe_capacita_uso": "VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C4",
+          "superficie_ha": 2.5,
+          "incidenza_pct": 0.05,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 1.13,
+          "incidenza_pct": 0.02,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 138.78,
+          "incidenza_pct": 2.68,
+          "indice_classe": 15.96
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 1521.7,
+          "incidenza_pct": 29.35,
+          "indice_classe": 21.89
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 2646.44,
+          "incidenza_pct": 51.04,
+          "indice_classe": 29.37
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 829.12,
+          "incidenza_pct": 15.99,
+          "indice_classe": 38.28
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 49.0,
+          "incidenza_pct": 0.95,
+          "indice_classe": 47.81
+        }
+      ],
+      "pagine_fonte": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.815,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 28.84,
+        "classe_incendio_fig3": "Medio",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 13,
+        "quota_complesso_maggiore_fig4_pct": 94.41,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 5,
+      "comune": "Nuoro",
+      "nome_corrente": "Nuoro",
+      "slug": "nuoro",
+      "provincia": null,
+      "sugherete_ha": 4413.55,
+      "peso_pct_sughereta_sardegna": 5.27,
+      "ivp": 3.908,
+      "classe_ivp": "Alta",
+      "ipi": 40.3,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 72.3,
+      "quota_medioalto_alto_ha": 3191.18,
+      "n_complessi": 34,
+      "superficie_complesso_maggiore_ha": 1395.9,
+      "quota_complesso_maggiore_pct": 31.63,
+      "superficie_media_complesso_ha": 129.81,
+      "densita_frammentazione": 0.77,
+      "classe_densita": "Media",
+      "classe_icr": "Molto bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Molto bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Molto bassa: il complesso maggiore concentra solo il 31,63% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+      "sintesi_esecutiva": "Nuoro presenta 4.413,55 ha di sugherete, pari al 5,27% della Sughereta Sardegna. L'IVP ponderato è 3,908, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 3.191,18 ha (72,30%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Molto bassa: il complesso maggiore concentra solo il 31,63% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 4006.92,
+          "incidenza_pct": 90.79,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 405.67,
+          "incidenza_pct": 9.19,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 0.85,
+          "incidenza_pct": 0.02,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 0.11,
+          "incidenza_pct": 0.0,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 67.43,
+          "incidenza_pct": 1.53,
+          "indice_classe": 16.57
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 253.39,
+          "incidenza_pct": 5.74,
+          "indice_classe": 21.66
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 901.56,
+          "incidenza_pct": 20.43,
+          "indice_classe": 30.45
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1658.97,
+          "incidenza_pct": 37.59,
+          "indice_classe": 39.32
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1532.2,
+          "incidenza_pct": 34.72,
+          "indice_classe": 51.27
+        }
+      ],
+      "pagine_fonte": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.908,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 35.2,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Media",
+        "n_complessi_fig4": 16,
+        "quota_complesso_maggiore_fig4_pct": 55.31,
+        "ivp_coerente": true,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 6,
+      "comune": "Orune",
+      "nome_corrente": "Orune",
+      "slug": "orune",
+      "provincia": null,
+      "sugherete_ha": 4201.12,
+      "peso_pct_sughereta_sardegna": 5.01,
+      "ivp": 3.518,
+      "classe_ivp": "Alta",
+      "ipi": 30.67,
+      "classe_incendio": "Medio",
+      "quota_medioalto_alto_pct": 28.91,
+      "quota_medioalto_alto_ha": 1214.47,
+      "n_complessi": 24,
+      "superficie_complesso_maggiore_ha": 2107.19,
+      "quota_complesso_maggiore_pct": 50.16,
+      "superficie_media_complesso_ha": 175.05,
+      "densita_frammentazione": 0.57,
+      "classe_densita": "Media",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Risorsa vocata con criticità localizzate",
+      "profilo_integrato": "Area vocata, con gestione a mosaico",
+      "combinazione": "Alta x Medio x Bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "mantenere un presidio antincendio mirato sulle porzioni in pericolo Medioalto e Alto, evitando una lettura esclusivamente comunale",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 50,16% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Orune presenta 4.201,12 ha di sugherete, pari al 5,01% della Sughereta Sardegna. L'IVP ponderato è 3,518, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio è complessivamente Medio, con una quota non trascurabile di sugherete in classi Medioalto e Alto: 1.214,47 ha (28,91%). È opportuna una selezione puntuale delle aree più esposte. La classe ICR è Bassa: il complesso maggiore concentra il 50,16% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Area vocata, con gestione a mosaico.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 2178.98,
+          "incidenza_pct": 51.87,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 1130.42,
+          "incidenza_pct": 26.91,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 770.29,
+          "incidenza_pct": 18.34,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B3",
+          "superficie_ha": 92.75,
+          "incidenza_pct": 2.21,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B4",
+          "superficie_ha": 26.29,
+          "incidenza_pct": 0.63,
+          "classe_capacita_uso": "VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 2.0,
+          "incidenza_pct": 0.05,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 0.39,
+          "incidenza_pct": 0.01,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 107.44,
+          "incidenza_pct": 2.56,
+          "indice_classe": 15.85
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 1034.91,
+          "incidenza_pct": 24.63,
+          "indice_classe": 22.01
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 1844.29,
+          "incidenza_pct": 43.9,
+          "indice_classe": 29.26
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 949.48,
+          "incidenza_pct": 22.6,
+          "indice_classe": 38.84
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 265.0,
+          "incidenza_pct": 6.31,
+          "indice_classe": 51.01
+        }
+      ],
+      "pagine_fonte": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.845,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 26.66,
+        "classe_incendio_fig3": "Medio",
+        "classe_icr_fig4": "Bassa",
+        "n_complessi_fig4": 9,
+        "quota_complesso_maggiore_fig4_pct": 63.39,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 7,
+      "comune": "Ala' Dei Sardi",
+      "nome_corrente": "Alà dei Sardi",
+      "slug": "ala-dei-sardi",
+      "provincia": null,
+      "sugherete_ha": 4132.02,
+      "peso_pct_sughereta_sardegna": 4.93,
+      "ivp": 3.558,
+      "classe_ivp": "Alta",
+      "ipi": 25.02,
+      "classe_incendio": "Mediobasso",
+      "quota_medioalto_alto_pct": 3.58,
+      "quota_medioalto_alto_ha": 147.78,
+      "n_complessi": 21,
+      "superficie_complesso_maggiore_ha": 3877.3,
+      "quota_complesso_maggiore_pct": 93.84,
+      "superficie_media_complesso_ha": 196.76,
+      "densita_frammentazione": 0.51,
+      "classe_densita": "Media",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Risorsa vocata e relativamente meno esposta",
+      "profilo_integrato": "Area vocata e relativamente governabile",
+      "combinazione": "Alta x Mediobasso x Alta",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "mantenere un presidio antincendio mirato sulle porzioni in pericolo Medioalto e Alto, evitando una lettura esclusivamente comunale",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 93,84% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Ala' Dei Sardi presenta 4.132,02 ha di sugherete, pari al 4,93% della Sughereta Sardegna. L'IVP ponderato è 3,558, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio ponderato ricade in classe Mediobasso. La quota Medioalto+Alto è pari a 147,78 ha (3,58%), indicando criticità localizzate più che diffuse. La classe ICR è Alta: il complesso maggiore concentra il 93,84% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Area vocata e relativamente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 2312.87,
+          "incidenza_pct": 55.97,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 1806.02,
+          "incidenza_pct": 43.71,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 10.04,
+          "incidenza_pct": 0.24,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 3.08,
+          "incidenza_pct": 0.07,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 33.59,
+          "incidenza_pct": 0.81,
+          "indice_classe": 11.24
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 2647.89,
+          "incidenza_pct": 64.08,
+          "indice_classe": 22.18
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 1302.75,
+          "incidenza_pct": 31.53,
+          "indice_classe": 29.32
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 131.73,
+          "incidenza_pct": 3.19,
+          "indice_classe": 40.06
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 16.05,
+          "incidenza_pct": 0.39,
+          "indice_classe": 49.03
+        }
+      ],
+      "pagine_fonte": [
+        70,
+        71,
+        72,
+        73
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.642,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 19.56,
+        "classe_incendio_fig3": "Mediobasso",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 5,
+        "quota_complesso_maggiore_fig4_pct": 99.52,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 8,
+      "comune": "Villanova Monteleone",
+      "nome_corrente": "Villanova Monteleone",
+      "slug": "villanova-monteleone",
+      "provincia": null,
+      "sugherete_ha": 3664.58,
+      "peso_pct_sughereta_sardegna": 4.37,
+      "ivp": 2.988,
+      "classe_ivp": "Media",
+      "ipi": 43.95,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 93.12,
+      "quota_medioalto_alto_ha": 3412.62,
+      "n_complessi": 66,
+      "superficie_complesso_maggiore_ha": 1368.68,
+      "quota_complesso_maggiore_pct": 37.35,
+      "superficie_media_complesso_ha": 55.52,
+      "densita_frammentazione": 1.8,
+      "classe_densita": "Alta",
+      "classe_icr": "Molto bassa",
+      "profilo_ivp_x_incendio": "Risorsa compatibile ma fragile",
+      "profilo_integrato": "Risorsa compatibile ma fragile e frammentata",
+      "combinazione": "Media x Medioalto x Molto bassa",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Molto bassa: il complesso maggiore concentra solo il 37,35% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+      "sintesi_esecutiva": "Villanova Monteleone presenta 3.664,58 ha di sugherete, pari al 4,37% della Sughereta Sardegna. L'IVP ponderato è 2,988, in classe Media. La risorsa è pedologicamente compatibile, ma presenta limitazioni che richiedono attenzione nella gestione e nella selezione di aree pilota. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 3.412,62 ha (93,12%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Molto bassa: il complesso maggiore concentra solo il 37,35% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari. Il profilo integrato assegnato è: Risorsa compatibile ma fragile e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 3535.34,
+          "incidenza_pct": 96.47,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "F2",
+          "superficie_ha": 76.84,
+          "incidenza_pct": 2.1,
+          "classe_capacita_uso": "VI - IV - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D1",
+          "superficie_ha": 42.5,
+          "incidenza_pct": 1.16,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 8.93,
+          "incidenza_pct": 0.24,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "F1",
+          "superficie_ha": 0.64,
+          "incidenza_pct": 0.02,
+          "classe_capacita_uso": "VII - VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 0.32,
+          "incidenza_pct": 0.01,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 12.34,
+          "incidenza_pct": 0.34,
+          "indice_classe": 22.79
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 239.62,
+          "incidenza_pct": 6.54,
+          "indice_classe": 31.82
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1668.61,
+          "incidenza_pct": 45.53,
+          "indice_classe": 39.23
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1744.01,
+          "incidenza_pct": 47.59,
+          "indice_classe": 50.27
+        }
+      ],
+      "pagine_fonte": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.432,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 44.4,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Molto bassa",
+        "n_complessi_fig4": 27,
+        "quota_complesso_maggiore_fig4_pct": 29.92,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 9,
+      "comune": "Ozieri",
+      "nome_corrente": "Ozieri",
+      "slug": "ozieri",
+      "provincia": null,
+      "sugherete_ha": 3513.27,
+      "peso_pct_sughereta_sardegna": 4.19,
+      "ivp": 3.344,
+      "classe_ivp": "Alta",
+      "ipi": 41.78,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 83.57,
+      "quota_medioalto_alto_ha": 2936.01,
+      "n_complessi": 80,
+      "superficie_complesso_maggiore_ha": 1205.26,
+      "quota_complesso_maggiore_pct": 34.31,
+      "superficie_media_complesso_ha": 43.92,
+      "densita_frammentazione": 2.28,
+      "classe_densita": "Alta",
+      "classe_icr": "Molto bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Molto bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Molto bassa: il complesso maggiore concentra solo il 34,31% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+      "sintesi_esecutiva": "Ozieri presenta 3.513,27 ha di sugherete, pari al 4,19% della Sughereta Sardegna. L'IVP ponderato è 3,344, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 2.936,01 ha (83,57%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Molto bassa: il complesso maggiore concentra solo il 34,31% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 1676.62,
+          "incidenza_pct": 47.72,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1237.4,
+          "incidenza_pct": 35.22,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 241.22,
+          "incidenza_pct": 6.87,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 166.77,
+          "incidenza_pct": 4.75,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 139.3,
+          "incidenza_pct": 3.96,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "G2",
+          "superficie_ha": 32.7,
+          "incidenza_pct": 0.93,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 12.17,
+          "incidenza_pct": 0.35,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "B3",
+          "superficie_ha": 3.46,
+          "incidenza_pct": 0.1,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D1",
+          "superficie_ha": 3.25,
+          "incidenza_pct": 0.09,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 0.39,
+          "incidenza_pct": 0.01,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 21.06,
+          "incidenza_pct": 0.6,
+          "indice_classe": 22.56
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 556.2,
+          "incidenza_pct": 15.83,
+          "indice_classe": 32.1
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1617.35,
+          "incidenza_pct": 46.04,
+          "indice_classe": 39.92
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1318.66,
+          "incidenza_pct": 37.53,
+          "indice_classe": 48.44
+        }
+      ],
+      "pagine_fonte": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "confronto_figure": {
+        "ivp_fig2": null,
+        "classe_ivp_fig2": null,
+        "ipi_fig3": 39.14,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Molto bassa",
+        "n_complessi_fig4": 24,
+        "quota_complesso_maggiore_fig4_pct": 32.46,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 10,
+      "comune": "Orani",
+      "nome_corrente": "Orani",
+      "slug": "orani",
+      "provincia": null,
+      "sugherete_ha": 3376.52,
+      "peso_pct_sughereta_sardegna": 4.03,
+      "ivp": 3.423,
+      "classe_ivp": "Alta",
+      "ipi": 42.37,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 81.06,
+      "quota_medioalto_alto_ha": 2736.93,
+      "n_complessi": 24,
+      "superficie_complesso_maggiore_ha": 1438.81,
+      "quota_complesso_maggiore_pct": 42.61,
+      "superficie_media_complesso_ha": 140.69,
+      "densita_frammentazione": 0.71,
+      "classe_densita": "Media",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 42,61% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Orani presenta 3.376,52 ha di sugherete, pari al 4,03% della Sughereta Sardegna. L'IVP ponderato è 3,423, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 2.736,93 ha (81,06%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Bassa: il complesso maggiore concentra il 42,61% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1429.74,
+          "incidenza_pct": 42.34,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 1246.23,
+          "incidenza_pct": 36.91,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 411.9,
+          "incidenza_pct": 12.2,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 287.29,
+          "incidenza_pct": 8.51,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B1",
+          "superficie_ha": 0.84,
+          "incidenza_pct": 0.02,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 0.51,
+          "incidenza_pct": 0.02,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 20.27,
+          "incidenza_pct": 0.6,
+          "indice_classe": 15.87
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 250.52,
+          "incidenza_pct": 7.42,
+          "indice_classe": 22.06
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 368.8,
+          "incidenza_pct": 10.92,
+          "indice_classe": 31.48
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1203.87,
+          "incidenza_pct": 35.65,
+          "indice_classe": 40.03
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1533.06,
+          "incidenza_pct": 45.4,
+          "indice_classe": 50.5
+        }
+      ],
+      "pagine_fonte": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.598,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 38.34,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Bassa",
+        "n_complessi_fig4": 8,
+        "quota_complesso_maggiore_fig4_pct": 62.07,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 11,
+      "comune": "Tempio Pausania",
+      "nome_corrente": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "provincia": null,
+      "sugherete_ha": 2945.38,
+      "peso_pct_sughereta_sardegna": 3.52,
+      "ivp": 3.751,
+      "classe_ivp": "Alta",
+      "ipi": 43.12,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 90.07,
+      "quota_medioalto_alto_ha": 2653.0,
+      "n_complessi": 34,
+      "superficie_complesso_maggiore_ha": 2175.85,
+      "quota_complesso_maggiore_pct": 73.87,
+      "superficie_media_complesso_ha": 86.63,
+      "densita_frammentazione": 1.15,
+      "classe_densita": "Media",
+      "classe_icr": "Media",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Medioalto x Media",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Media: il complesso maggiore concentra il 73,87% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori.",
+      "sintesi_esecutiva": "Tempio Pausania presenta 2.945,38 ha di sugherete, pari al 3,52% della Sughereta Sardegna. L'IVP ponderato è 3,751, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 2.653,00 ha (90,07%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Media: il complesso maggiore concentra il 73,87% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 2212.82,
+          "incidenza_pct": 75.13,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 361.24,
+          "incidenza_pct": 12.26,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C3",
+          "superficie_ha": 283.94,
+          "incidenza_pct": 9.64,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 53.0,
+          "incidenza_pct": 1.8,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 33.29,
+          "incidenza_pct": 1.13,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 1.1,
+          "incidenza_pct": 0.04,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 24.57,
+          "incidenza_pct": 0.83,
+          "indice_classe": 23.2
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 267.81,
+          "incidenza_pct": 9.09,
+          "indice_classe": 31.75
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1214.43,
+          "incidenza_pct": 41.23,
+          "indice_classe": 39.94
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1438.57,
+          "incidenza_pct": 48.84,
+          "indice_classe": 48.26
+        }
+      ],
+      "pagine_fonte": [
+        82,
+        83,
+        84,
+        85
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.582,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 41.2,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Media",
+        "n_complessi_fig4": 13,
+        "quota_complesso_maggiore_fig4_pct": 71.95,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 12,
+      "comune": "Telti",
+      "nome_corrente": "Telti",
+      "slug": "telti",
+      "provincia": null,
+      "sugherete_ha": 2826.09,
+      "peso_pct_sughereta_sardegna": 3.37,
+      "ivp": 3.881,
+      "classe_ivp": "Alta",
+      "ipi": 43.34,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 92.57,
+      "quota_medioalto_alto_ha": 2616.25,
+      "n_complessi": 27,
+      "superficie_complesso_maggiore_ha": 2585.26,
+      "quota_complesso_maggiore_pct": 91.48,
+      "superficie_media_complesso_ha": 104.67,
+      "densita_frammentazione": 0.96,
+      "classe_densita": "Media",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Medioalto x Alta",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 91,48% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Telti presenta 2.826,09 ha di sugherete, pari al 3,37% della Sughereta Sardegna. L'IVP ponderato è 3,881, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 2.616,25 ha (92,57%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Alta: il complesso maggiore concentra il 91,48% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 2579.04,
+          "incidenza_pct": 91.26,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 201.76,
+          "incidenza_pct": 7.14,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 45.3,
+          "incidenza_pct": 1.6,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 11.46,
+          "incidenza_pct": 0.41,
+          "indice_classe": 23.17
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 198.38,
+          "incidenza_pct": 7.02,
+          "indice_classe": 31.87
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1269.14,
+          "incidenza_pct": 44.91,
+          "indice_classe": 39.62
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1347.11,
+          "incidenza_pct": 47.67,
+          "indice_classe": 48.71
+        }
+      ],
+      "pagine_fonte": [
+        85,
+        86,
+        87,
+        88
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.881,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 43.87,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 6,
+        "quota_complesso_maggiore_fig4_pct": 95.59,
+        "ivp_coerente": true,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": [
+        "Riga 'Alto' assente nell'estrazione Markdown/CSV (perdita a cavallo di pagina); reintegrata leggendo direttamente il PDF, pag. 86."
+      ]
+    },
+    {
+      "rank": 13,
+      "comune": "Calangianus",
+      "nome_corrente": "Calangianus",
+      "slug": "calangianus",
+      "provincia": null,
+      "sugherete_ha": 2422.54,
+      "peso_pct_sughereta_sardegna": 2.89,
+      "ivp": 3.421,
+      "classe_ivp": "Alta",
+      "ipi": 45.54,
+      "classe_incendio": "Alto",
+      "quota_medioalto_alto_pct": 93.2,
+      "quota_medioalto_alto_ha": 2257.79,
+      "n_complessi": 40,
+      "superficie_complesso_maggiore_ha": 742.81,
+      "quota_complesso_maggiore_pct": 30.66,
+      "superficie_media_complesso_ha": 60.56,
+      "densita_frammentazione": 1.65,
+      "classe_densita": "Alta",
+      "classe_icr": "Molto bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Alto x Molto bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Molto bassa: il complesso maggiore concentra solo il 30,66% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+      "sintesi_esecutiva": "Calangianus presenta 2.422,54 ha di sugherete, pari al 2,89% della Sughereta Sardegna. L'IVP ponderato è 3,421, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Alto e 2.257,79 ha (93,20%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Molto bassa: il complesso maggiore concentra solo il 30,66% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 1325.62,
+          "incidenza_pct": 54.72,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1020.94,
+          "incidenza_pct": 42.14,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C3",
+          "superficie_ha": 75.98,
+          "incidenza_pct": 3.14,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 0.0,
+          "incidenza_pct": 0.0,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 0.69,
+          "incidenza_pct": 0.03,
+          "indice_classe": 22.62
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 164.06,
+          "incidenza_pct": 6.77,
+          "indice_classe": 32.56
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 744.88,
+          "incidenza_pct": 30.75,
+          "indice_classe": 40.11
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1512.91,
+          "incidenza_pct": 62.45,
+          "indice_classe": 49.63
+        }
+      ],
+      "pagine_fonte": [
+        88,
+        89,
+        90,
+        91
+      ],
+      "confronto_figure": {
+        "ivp_fig2": null,
+        "classe_ivp_fig2": null,
+        "ipi_fig3": 45.42,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Molto bassa",
+        "n_complessi_fig4": 25,
+        "quota_complesso_maggiore_fig4_pct": 29.83,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 14,
+      "comune": "Mores",
+      "nome_corrente": "Mores",
+      "slug": "mores",
+      "provincia": null,
+      "sugherete_ha": 2362.69,
+      "peso_pct_sughereta_sardegna": 2.82,
+      "ivp": 2.477,
+      "classe_ivp": "Bassa",
+      "ipi": 41.5,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 84.84,
+      "quota_medioalto_alto_ha": 2004.62,
+      "n_complessi": 26,
+      "superficie_complesso_maggiore_ha": 789.43,
+      "quota_complesso_maggiore_pct": 33.41,
+      "superficie_media_complesso_ha": 90.87,
+      "densita_frammentazione": 1.1,
+      "classe_densita": "Media",
+      "classe_icr": "Molto bassa",
+      "profilo_ivp_x_incendio": "Area critica o marginale esposta",
+      "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+      "combinazione": "Bassa x Medioalto x Molto bassa",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Molto bassa: il complesso maggiore concentra solo il 33,41% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+      "sintesi_esecutiva": "Mores presenta 2.362,69 ha di sugherete, pari al 2,82% della Sughereta Sardegna. L'IVP ponderato è 2,477, in classe Bassa. La vocazionalità pedologica appare più limitante e suggerisce un approccio selettivo agli investimenti e agli interventi di valorizzazione. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 2.004,62 ha (84,84%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Molto bassa: il complesso maggiore concentra solo il 33,41% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari. Il profilo integrato assegnato è: Area critica/marginale esposta: priorità selettiva.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 846.18,
+          "incidenza_pct": 35.81,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "F1",
+          "superficie_ha": 624.13,
+          "incidenza_pct": 26.42,
+          "classe_capacita_uso": "VII - VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D1",
+          "superficie_ha": 410.38,
+          "incidenza_pct": 17.37,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 202.36,
+          "incidenza_pct": 8.56,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 111.04,
+          "incidenza_pct": 4.7,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "E1",
+          "superficie_ha": 74.36,
+          "incidenza_pct": 3.15,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "G1",
+          "superficie_ha": 58.13,
+          "incidenza_pct": 2.46,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 34.27,
+          "incidenza_pct": 1.45,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "F2",
+          "superficie_ha": 1.84,
+          "incidenza_pct": 0.08,
+          "classe_capacita_uso": "VI - IV - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 26.22,
+          "incidenza_pct": 1.11,
+          "indice_classe": 22.85
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 331.85,
+          "incidenza_pct": 14.05,
+          "indice_classe": 32.41
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 1035.94,
+          "incidenza_pct": 43.85,
+          "indice_classe": 39.91
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 968.68,
+          "incidenza_pct": 41.0,
+          "indice_classe": 46.82
+        }
+      ],
+      "pagine_fonte": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.047,
+        "classe_ivp_fig2": "Media",
+        "ipi_fig3": 40.18,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Molto bassa",
+        "n_complessi_fig4": 22,
+        "quota_complesso_maggiore_fig4_pct": 35.26,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 15,
+      "comune": "Chiaramonti",
+      "nome_corrente": "Chiaramonti",
+      "slug": "chiaramonti",
+      "provincia": null,
+      "sugherete_ha": 2359.32,
+      "peso_pct_sughereta_sardegna": 2.82,
+      "ivp": 2.893,
+      "classe_ivp": "Media",
+      "ipi": 41.21,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 78.3,
+      "quota_medioalto_alto_ha": 1847.4,
+      "n_complessi": 30,
+      "superficie_complesso_maggiore_ha": 1297.16,
+      "quota_complesso_maggiore_pct": 54.98,
+      "superficie_media_complesso_ha": 78.64,
+      "densita_frammentazione": 1.27,
+      "classe_densita": "Media",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Risorsa compatibile ma fragile",
+      "profilo_integrato": "Risorsa compatibile ma fragile e frammentata",
+      "combinazione": "Media x Medioalto x Bassa",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 54,98% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Chiaramonti presenta 2.359,32 ha di sugherete, pari al 2,82% della Sughereta Sardegna. L'IVP ponderato è 2,893, in classe Media. La risorsa è pedologicamente compatibile, ma presenta limitazioni che richiedono attenzione nella gestione e nella selezione di aree pilota. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.847,40 ha (78,30%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Bassa: il complesso maggiore concentra il 54,98% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Risorsa compatibile ma fragile e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 2003.31,
+          "incidenza_pct": 84.91,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D1",
+          "superficie_ha": 241.17,
+          "incidenza_pct": 10.22,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 104.71,
+          "incidenza_pct": 4.44,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "G1",
+          "superficie_ha": 6.17,
+          "incidenza_pct": 0.26,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "F1",
+          "superficie_ha": 3.95,
+          "incidenza_pct": 0.17,
+          "classe_capacita_uso": "VII - VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 23.99,
+          "incidenza_pct": 1.02,
+          "indice_classe": 22.19
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 487.93,
+          "incidenza_pct": 20.68,
+          "indice_classe": 31.98
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 960.14,
+          "incidenza_pct": 40.7,
+          "indice_classe": 39.04
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 887.25,
+          "incidenza_pct": 37.61,
+          "indice_classe": 49.14
+        }
+      ],
+      "pagine_fonte": [
+        94,
+        95,
+        96,
+        97
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.549,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 39.02,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Bassa",
+        "n_complessi_fig4": 8,
+        "quota_complesso_maggiore_fig4_pct": 64.31,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": [
+        "Riga 'Alto' assente nell'estrazione Markdown/CSV (perdita a cavallo di pagina); reintegrata leggendo direttamente il PDF, pag. 95."
+      ]
+    },
+    {
+      "rank": 16,
+      "comune": "Padru",
+      "nome_corrente": "Padru",
+      "slug": "padru",
+      "provincia": null,
+      "sugherete_ha": 2265.4,
+      "peso_pct_sughereta_sardegna": 2.7,
+      "ivp": 3.971,
+      "classe_ivp": "Alta",
+      "ipi": 44.34,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 92.76,
+      "quota_medioalto_alto_ha": 2101.33,
+      "n_complessi": 15,
+      "superficie_complesso_maggiore_ha": 1328.45,
+      "quota_complesso_maggiore_pct": 58.64,
+      "superficie_media_complesso_ha": 151.03,
+      "densita_frammentazione": 0.66,
+      "classe_densita": "Media",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 58,64% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Padru presenta 2.265,40 ha di sugherete, pari al 2,70% della Sughereta Sardegna. L'IVP ponderato è 3,971, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 2.101,33 ha (92,76%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Bassa: il complesso maggiore concentra il 58,64% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 2209.32,
+          "incidenza_pct": 97.52,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 51.33,
+          "incidenza_pct": 2.27,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 4.74,
+          "incidenza_pct": 0.21,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 2.42,
+          "incidenza_pct": 0.11,
+          "indice_classe": 23.49
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 161.65,
+          "incidenza_pct": 7.14,
+          "indice_classe": 32.29
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 880.52,
+          "incidenza_pct": 38.87,
+          "indice_classe": 40.72
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1220.81,
+          "incidenza_pct": 53.89,
+          "indice_classe": 48.59
+        }
+      ],
+      "pagine_fonte": [
+        97,
+        98,
+        99,
+        100
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.971,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 43.98,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Bassa",
+        "n_complessi_fig4": 8,
+        "quota_complesso_maggiore_fig4_pct": 66.6,
+        "ivp_coerente": true,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 17,
+      "comune": "Illorai",
+      "nome_corrente": "Illorai",
+      "slug": "illorai",
+      "provincia": null,
+      "sugherete_ha": 2070.5,
+      "peso_pct_sughereta_sardegna": 2.47,
+      "ivp": 3.257,
+      "classe_ivp": "Alta",
+      "ipi": 48.02,
+      "classe_incendio": "Alto",
+      "quota_medioalto_alto_pct": 95.92,
+      "quota_medioalto_alto_ha": 1986.07,
+      "n_complessi": 9,
+      "superficie_complesso_maggiore_ha": 1927.04,
+      "quota_complesso_maggiore_pct": 93.07,
+      "superficie_media_complesso_ha": 230.06,
+      "densita_frammentazione": 0.43,
+      "classe_densita": "Bassa",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Alto x Alta",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 93,07% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Illorai presenta 2.070,50 ha di sugherete, pari al 2,47% della Sughereta Sardegna. L'IVP ponderato è 3,257, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Alto e 1.986,07 ha (95,92%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Alta: il complesso maggiore concentra il 93,07% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 844.37,
+          "incidenza_pct": 40.78,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 572.76,
+          "incidenza_pct": 27.66,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 510.09,
+          "incidenza_pct": 24.64,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 54.9,
+          "incidenza_pct": 2.65,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 34.96,
+          "incidenza_pct": 1.69,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B3",
+          "superficie_ha": 33.25,
+          "incidenza_pct": 1.61,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 20.19,
+          "incidenza_pct": 0.97,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 0.02,
+          "incidenza_pct": 0.0,
+          "indice_classe": 16.72
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 1.02,
+          "incidenza_pct": 0.05,
+          "indice_classe": 19.26
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 83.39,
+          "incidenza_pct": 4.03,
+          "indice_classe": 29.43
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 261.13,
+          "incidenza_pct": 12.61,
+          "indice_classe": 40.52
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1724.94,
+          "incidenza_pct": 83.31,
+          "indice_classe": 50.07
+        }
+      ],
+      "pagine_fonte": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.798,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 49.75,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 7,
+        "quota_complesso_maggiore_fig4_pct": 95.26,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 18,
+      "comune": "Olbia",
+      "nome_corrente": "Olbia",
+      "slug": "olbia",
+      "provincia": null,
+      "sugherete_ha": 1971.52,
+      "peso_pct_sughereta_sardegna": 2.35,
+      "ivp": 3.673,
+      "classe_ivp": "Alta",
+      "ipi": 42.6,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 88.24,
+      "quota_medioalto_alto_ha": 1739.62,
+      "n_complessi": 78,
+      "superficie_complesso_maggiore_ha": 555.95,
+      "quota_complesso_maggiore_pct": 28.2,
+      "superficie_media_complesso_ha": 25.28,
+      "densita_frammentazione": 3.96,
+      "classe_densita": "Molto alta",
+      "classe_icr": "Molto bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Molto bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Molto bassa: il complesso maggiore concentra solo il 28,20% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+      "sintesi_esecutiva": "Olbia presenta 1.971,52 ha di sugherete, pari al 2,35% della Sughereta Sardegna. L'IVP ponderato è 3,673, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.739,62 ha (88,24%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Molto bassa: il complesso maggiore concentra solo il 28,20% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1415.52,
+          "incidenza_pct": 71.8,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 377.57,
+          "incidenza_pct": 19.15,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 119.67,
+          "incidenza_pct": 6.07,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 42.75,
+          "incidenza_pct": 2.17,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 14.01,
+          "incidenza_pct": 0.71,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 2.0,
+          "incidenza_pct": 0.1,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 19.42,
+          "incidenza_pct": 0.99,
+          "indice_classe": 23.71
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 212.47,
+          "incidenza_pct": 10.78,
+          "indice_classe": 31.58
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 894.4,
+          "incidenza_pct": 45.37,
+          "indice_classe": 39.45
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 845.22,
+          "incidenza_pct": 42.87,
+          "indice_classe": 49.14
+        }
+      ],
+      "pagine_fonte": [
+        103,
+        104,
+        105,
+        106
+      ],
+      "confronto_figure": {
+        "ivp_fig2": null,
+        "classe_ivp_fig2": null,
+        "ipi_fig3": 41.08,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Molto bassa",
+        "n_complessi_fig4": 25,
+        "quota_complesso_maggiore_fig4_pct": 33.84,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 19,
+      "comune": "Oliena",
+      "nome_corrente": "Oliena",
+      "slug": "oliena",
+      "provincia": null,
+      "sugherete_ha": 1944.06,
+      "peso_pct_sughereta_sardegna": 2.32,
+      "ivp": 3.987,
+      "classe_ivp": "Alta",
+      "ipi": 43.2,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 95.6,
+      "quota_medioalto_alto_ha": 1858.51,
+      "n_complessi": 30,
+      "superficie_complesso_maggiore_ha": 1238.47,
+      "quota_complesso_maggiore_pct": 63.71,
+      "superficie_media_complesso_ha": 64.8,
+      "densita_frammentazione": 1.54,
+      "classe_densita": "Alta",
+      "classe_icr": "Media",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Medioalto x Media",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Media: il complesso maggiore concentra il 63,71% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori.",
+      "sintesi_esecutiva": "Oliena presenta 1.944,06 ha di sugherete, pari al 2,32% della Sughereta Sardegna. L'IVP ponderato è 3,987, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.858,51 ha (95,60%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Media: il complesso maggiore concentra il 63,71% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1928.78,
+          "incidenza_pct": 99.21,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "E1",
+          "superficie_ha": 5.68,
+          "incidenza_pct": 0.29,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 5.43,
+          "incidenza_pct": 0.28,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 2.29,
+          "incidenza_pct": 0.12,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 1.89,
+          "incidenza_pct": 0.1,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 10.36,
+          "incidenza_pct": 0.53,
+          "indice_classe": 24.64
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 75.19,
+          "incidenza_pct": 3.87,
+          "indice_classe": 30.95
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 979.21,
+          "incidenza_pct": 50.37,
+          "indice_classe": 40.05
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 879.3,
+          "incidenza_pct": 45.23,
+          "indice_classe": 47.98
+        }
+      ],
+      "pagine_fonte": [
+        106,
+        107,
+        108,
+        109
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.987,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 49.28,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Media",
+        "n_complessi_fig4": 11,
+        "quota_complesso_maggiore_fig4_pct": 70.98,
+        "ivp_coerente": true,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 20,
+      "comune": "Pozzomaggiore",
+      "nome_corrente": "Pozzomaggiore",
+      "slug": "pozzomaggiore",
+      "provincia": null,
+      "sugherete_ha": 1837.12,
+      "peso_pct_sughereta_sardegna": 2.19,
+      "ivp": 2.001,
+      "classe_ivp": "Bassa",
+      "ipi": 43.74,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 91.24,
+      "quota_medioalto_alto_ha": 1676.19,
+      "n_complessi": 19,
+      "superficie_complesso_maggiore_ha": 1652.01,
+      "quota_complesso_maggiore_pct": 89.92,
+      "superficie_media_complesso_ha": 96.69,
+      "densita_frammentazione": 1.03,
+      "classe_densita": "Media",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Area critica o marginale esposta",
+      "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+      "combinazione": "Bassa x Medioalto x Alta",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 89,92% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Pozzomaggiore presenta 1.837,12 ha di sugherete, pari al 2,19% della Sughereta Sardegna. L'IVP ponderato è 2,001, in classe Bassa. La vocazionalità pedologica appare più limitante e suggerisce un approccio selettivo agli investimenti e agli interventi di valorizzazione. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.676,19 ha (91,24%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Alta: il complesso maggiore concentra il 89,92% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Area critica/marginale esposta: priorità selettiva.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "D2",
+          "superficie_ha": 1616.7,
+          "incidenza_pct": 88.0,
+          "classe_capacita_uso": "II",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "E1",
+          "superficie_ha": 138.16,
+          "incidenza_pct": 7.52,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "G1",
+          "superficie_ha": 80.63,
+          "incidenza_pct": 4.39,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "F2",
+          "superficie_ha": 1.64,
+          "incidenza_pct": 0.09,
+          "classe_capacita_uso": "VI - IV - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 5.76,
+          "incidenza_pct": 0.31,
+          "indice_classe": 22.38
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 155.17,
+          "incidenza_pct": 8.45,
+          "indice_classe": 32.32
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 817.23,
+          "incidenza_pct": 44.48,
+          "indice_classe": 39.91
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 858.96,
+          "incidenza_pct": 46.76,
+          "indice_classe": 49.58
+        }
+      ],
+      "pagine_fonte": [
+        109,
+        110,
+        111,
+        112
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.192,
+        "classe_ivp_fig2": "Media",
+        "ipi_fig3": 44.71,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 7,
+        "quota_complesso_maggiore_fig4_pct": 94.56,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": [
+        "Riga 'Alto' assente nell'estrazione Markdown/CSV (perdita a cavallo di pagina); reintegrata leggendo direttamente il PDF, pag. 110."
+      ]
+    },
+    {
+      "rank": 21,
+      "comune": "Benetutti",
+      "nome_corrente": "Benetutti",
+      "slug": "benetutti",
+      "provincia": null,
+      "sugherete_ha": 1822.49,
+      "peso_pct_sughereta_sardegna": 2.18,
+      "ivp": 3.789,
+      "classe_ivp": "Alta",
+      "ipi": 43.77,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 87.86,
+      "quota_medioalto_alto_ha": 1601.24,
+      "n_complessi": 48,
+      "superficie_complesso_maggiore_ha": 642.73,
+      "quota_complesso_maggiore_pct": 35.27,
+      "superficie_media_complesso_ha": 37.97,
+      "densita_frammentazione": 2.63,
+      "classe_densita": "Alta",
+      "classe_icr": "Molto bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Molto bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Molto bassa: il complesso maggiore concentra solo il 35,27% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+      "sintesi_esecutiva": "Benetutti presenta 1.822,49 ha di sugherete, pari al 2,18% della Sughereta Sardegna. L'IVP ponderato è 3,789, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.601,24 ha (87,86%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Molto bassa: il complesso maggiore concentra solo il 35,27% della risorsa. La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1450.5,
+          "incidenza_pct": 79.59,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 149.66,
+          "incidenza_pct": 8.21,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 98.98,
+          "incidenza_pct": 5.43,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C3",
+          "superficie_ha": 74.83,
+          "incidenza_pct": 4.11,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 39.89,
+          "incidenza_pct": 2.19,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L2",
+          "superficie_ha": 5.45,
+          "incidenza_pct": 0.3,
+          "classe_capacita_uso": "II - III",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 2.39,
+          "incidenza_pct": 0.13,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 0.77,
+          "incidenza_pct": 0.04,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 1.04,
+          "incidenza_pct": 0.06,
+          "indice_classe": 16.72
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 48.65,
+          "incidenza_pct": 2.67,
+          "indice_classe": 22.36
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 171.55,
+          "incidenza_pct": 9.41,
+          "indice_classe": 30.47
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 588.73,
+          "incidenza_pct": 32.3,
+          "indice_classe": 40.39
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1012.51,
+          "incidenza_pct": 55.56,
+          "indice_classe": 49.04
+        }
+      ],
+      "pagine_fonte": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.284,
+        "classe_ivp_fig2": "Media",
+        "ipi_fig3": 42.48,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Molto bassa",
+        "n_complessi_fig4": 21,
+        "quota_complesso_maggiore_fig4_pct": 32.58,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 22,
+      "comune": "Abbasanta",
+      "nome_corrente": "Abbasanta",
+      "slug": "abbasanta",
+      "provincia": null,
+      "sugherete_ha": 1767.81,
+      "peso_pct_sughereta_sardegna": 2.11,
+      "ivp": 2.0,
+      "classe_ivp": "Bassa",
+      "ipi": 42.55,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 96.15,
+      "quota_medioalto_alto_ha": 1699.72,
+      "n_complessi": 7,
+      "superficie_complesso_maggiore_ha": 1685.8,
+      "quota_complesso_maggiore_pct": 95.36,
+      "superficie_media_complesso_ha": 252.54,
+      "densita_frammentazione": 0.4,
+      "classe_densita": "Bassa",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Area critica o marginale esposta",
+      "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+      "combinazione": "Bassa x Medioalto x Alta",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 95,36% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Abbasanta presenta 1.767,81 ha di sugherete, pari al 2,11% della Sughereta Sardegna. L'IVP ponderato è 2,000, in classe Bassa. La vocazionalità pedologica appare più limitante e suggerisce un approccio selettivo agli investimenti e agli interventi di valorizzazione. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.699,72 ha (96,15%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Alta: il complesso maggiore concentra il 95,36% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Area critica/marginale esposta: priorità selettiva.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "E1",
+          "superficie_ha": 1718.06,
+          "incidenza_pct": 97.19,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "L2",
+          "superficie_ha": 49.76,
+          "incidenza_pct": 2.81,
+          "classe_capacita_uso": "II - III",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 1.94,
+          "incidenza_pct": 0.11,
+          "indice_classe": 22.69
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 66.15,
+          "incidenza_pct": 3.74,
+          "indice_classe": 31.08
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 957.84,
+          "incidenza_pct": 54.18,
+          "indice_classe": 37.63
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 741.88,
+          "incidenza_pct": 41.97,
+          "indice_classe": 49.98
+        }
+      ],
+      "pagine_fonte": [
+        115,
+        116,
+        117,
+        118
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 2.842,
+        "classe_ivp_fig2": "Bassa",
+        "ipi_fig3": 49.16,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 5,
+        "quota_complesso_maggiore_fig4_pct": 99.35,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 23,
+      "comune": "Pattada",
+      "nome_corrente": "Pattada",
+      "slug": "pattada",
+      "provincia": null,
+      "sugherete_ha": 1761.94,
+      "peso_pct_sughereta_sardegna": 2.1,
+      "ivp": 3.816,
+      "classe_ivp": "Alta",
+      "ipi": 40.53,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 79.39,
+      "quota_medioalto_alto_ha": 1398.86,
+      "n_complessi": 56,
+      "superficie_complesso_maggiore_ha": 805.9,
+      "quota_complesso_maggiore_pct": 45.74,
+      "superficie_media_complesso_ha": 31.46,
+      "densita_frammentazione": 3.18,
+      "classe_densita": "Molto alta",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 45,74% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Pattada presenta 1.761,94 ha di sugherete, pari al 2,10% della Sughereta Sardegna. L'IVP ponderato è 3,816, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.398,86 ha (79,39%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Bassa: il complesso maggiore concentra il 45,74% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1438.54,
+          "incidenza_pct": 81.64,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 205.27,
+          "incidenza_pct": 11.65,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "G2",
+          "superficie_ha": 77.04,
+          "incidenza_pct": 4.37,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B3",
+          "superficie_ha": 28.75,
+          "incidenza_pct": 1.63,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C3",
+          "superficie_ha": 12.35,
+          "incidenza_pct": 0.7,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Basso",
+          "superficie_ha": 2.03,
+          "incidenza_pct": 0.12,
+          "indice_classe": 14.42
+        },
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 38.3,
+          "incidenza_pct": 2.17,
+          "indice_classe": 21.59
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 322.76,
+          "incidenza_pct": 18.32,
+          "indice_classe": 31.98
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 912.17,
+          "incidenza_pct": 51.77,
+          "indice_classe": 39.46
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 486.68,
+          "incidenza_pct": 27.62,
+          "indice_classe": 49.81
+        }
+      ],
+      "pagine_fonte": [
+        118,
+        119,
+        120,
+        121
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.689,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 38.15,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Bassa",
+        "n_complessi_fig4": 9,
+        "quota_complesso_maggiore_fig4_pct": 63.52,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 24,
+      "comune": "Monti",
+      "nome_corrente": "Monti",
+      "slug": "monti",
+      "provincia": null,
+      "sugherete_ha": 1637.71,
+      "peso_pct_sughereta_sardegna": 1.95,
+      "ivp": 3.936,
+      "classe_ivp": "Alta",
+      "ipi": 43.86,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 90.74,
+      "quota_medioalto_alto_ha": 1486.09,
+      "n_complessi": 42,
+      "superficie_complesso_maggiore_ha": 823.09,
+      "quota_complesso_maggiore_pct": 50.26,
+      "superficie_media_complesso_ha": 38.99,
+      "densita_frammentazione": 2.56,
+      "classe_densita": "Alta",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+      "combinazione": "Alta x Medioalto x Bassa",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 50,26% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Monti presenta 1.637,71 ha di sugherete, pari al 1,95% della Sughereta Sardegna. L'IVP ponderato è 3,936, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.486,09 ha (90,74%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Bassa: il complesso maggiore concentra il 50,26% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1532.66,
+          "incidenza_pct": 93.59,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 103.53,
+          "incidenza_pct": 6.32,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 1.53,
+          "incidenza_pct": 0.09,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 12.51,
+          "incidenza_pct": 0.76,
+          "indice_classe": 23.12
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 139.11,
+          "incidenza_pct": 8.49,
+          "indice_classe": 32.33
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 650.04,
+          "incidenza_pct": 39.69,
+          "indice_classe": 40.02
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 836.05,
+          "incidenza_pct": 51.05,
+          "indice_classe": 49.08
+        }
+      ],
+      "pagine_fonte": [
+        121,
+        122,
+        123,
+        124
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.936,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 41.74,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Bassa",
+        "n_complessi_fig4": 7,
+        "quota_complesso_maggiore_fig4_pct": 63.77,
+        "ivp_coerente": true,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 25,
+      "comune": "Ploaghe",
+      "nome_corrente": "Ploaghe",
+      "slug": "ploaghe",
+      "provincia": null,
+      "sugherete_ha": 1561.48,
+      "peso_pct_sughereta_sardegna": 1.86,
+      "ivp": 2.569,
+      "classe_ivp": "Media",
+      "ipi": 40.57,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 87.31,
+      "quota_medioalto_alto_ha": 1363.3,
+      "n_complessi": 23,
+      "superficie_complesso_maggiore_ha": 680.08,
+      "quota_complesso_maggiore_pct": 43.55,
+      "superficie_media_complesso_ha": 67.89,
+      "densita_frammentazione": 1.47,
+      "classe_densita": "Media",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Risorsa compatibile ma fragile",
+      "profilo_integrato": "Risorsa compatibile ma fragile e frammentata",
+      "combinazione": "Media x Medioalto x Bassa",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 43,55% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Ploaghe presenta 1.561,48 ha di sugherete, pari al 1,86% della Sughereta Sardegna. L'IVP ponderato è 2,569, in classe Media. La risorsa è pedologicamente compatibile, ma presenta limitazioni che richiedono attenzione nella gestione e nella selezione di aree pilota. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.363,30 ha (87,31%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Bassa: il complesso maggiore concentra il 43,55% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Risorsa compatibile ma fragile e frammentata.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 569.19,
+          "incidenza_pct": 36.45,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "E1",
+          "superficie_ha": 459.86,
+          "incidenza_pct": 29.45,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "F2",
+          "superficie_ha": 234.65,
+          "incidenza_pct": 15.03,
+          "classe_capacita_uso": "VI - IV - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "F1",
+          "superficie_ha": 137.48,
+          "incidenza_pct": 8.8,
+          "classe_capacita_uso": "VII - VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 84.33,
+          "incidenza_pct": 5.4,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "G1",
+          "superficie_ha": 46.33,
+          "incidenza_pct": 2.97,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D1",
+          "superficie_ha": 28.44,
+          "incidenza_pct": 1.82,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "L2",
+          "superficie_ha": 1.2,
+          "incidenza_pct": 0.08,
+          "classe_capacita_uso": "II - III",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 14.9,
+          "incidenza_pct": 0.95,
+          "indice_classe": 22.43
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 183.28,
+          "incidenza_pct": 11.74,
+          "indice_classe": 31.38
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 883.06,
+          "incidenza_pct": 56.55,
+          "indice_classe": 38.74
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 480.25,
+          "incidenza_pct": 30.76,
+          "indice_classe": 48.01
+        }
+      ],
+      "pagine_fonte": [
+        124,
+        125,
+        126,
+        127
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.487,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 39.65,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": "Bassa",
+        "n_complessi_fig4": 7,
+        "quota_complesso_maggiore_fig4_pct": 62.76,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 26,
+      "comune": "Bono",
+      "nome_corrente": "Bono",
+      "slug": "bono",
+      "provincia": null,
+      "sugherete_ha": 1462.03,
+      "peso_pct_sughereta_sardegna": 1.74,
+      "ivp": 3.711,
+      "classe_ivp": "Alta",
+      "ipi": 47.15,
+      "classe_incendio": "Alto",
+      "quota_medioalto_alto_pct": 98.14,
+      "quota_medioalto_alto_ha": 1434.89,
+      "n_complessi": 19,
+      "superficie_complesso_maggiore_ha": 894.86,
+      "quota_complesso_maggiore_pct": 61.21,
+      "superficie_media_complesso_ha": 76.95,
+      "densita_frammentazione": 1.3,
+      "classe_densita": "Media",
+      "classe_icr": "Media",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Alto x Media",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Media: il complesso maggiore concentra il 61,21% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori.",
+      "sintesi_esecutiva": "Bono presenta 1.462,03 ha di sugherete, pari al 1,74% della Sughereta Sardegna. L'IVP ponderato è 3,711, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Alto e 1.434,89 ha (98,14%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Media: il complesso maggiore concentra il 61,21% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 1040.07,
+          "incidenza_pct": 71.14,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 179.15,
+          "incidenza_pct": 12.25,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 153.14,
+          "incidenza_pct": 10.47,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 74.18,
+          "incidenza_pct": 5.07,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B4",
+          "superficie_ha": 8.6,
+          "incidenza_pct": 0.59,
+          "classe_capacita_uso": "VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C3",
+          "superficie_ha": 6.08,
+          "incidenza_pct": 0.42,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B3",
+          "superficie_ha": 0.81,
+          "incidenza_pct": 0.06,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 1.36,
+          "incidenza_pct": 0.09,
+          "indice_classe": 22.34
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 25.78,
+          "incidenza_pct": 1.76,
+          "indice_classe": 31.62
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 324.16,
+          "incidenza_pct": 22.17,
+          "indice_classe": 40.68
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1110.73,
+          "incidenza_pct": 75.97,
+          "indice_classe": 49.43
+        }
+      ],
+      "pagine_fonte": [
+        127,
+        128,
+        129,
+        130
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.726,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 50.34,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Media",
+        "n_complessi_fig4": 10,
+        "quota_complesso_maggiore_fig4_pct": 73.62,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 27,
+      "comune": "Aidomaggiore",
+      "nome_corrente": "Aidomaggiore",
+      "slug": "aidomaggiore",
+      "provincia": null,
+      "sugherete_ha": 1442.56,
+      "peso_pct_sughereta_sardegna": 1.72,
+      "ivp": 2.001,
+      "classe_ivp": "Bassa",
+      "ipi": 43.85,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 97.46,
+      "quota_medioalto_alto_ha": 1405.97,
+      "n_complessi": 5,
+      "superficie_complesso_maggiore_ha": 1347.61,
+      "quota_complesso_maggiore_pct": 93.42,
+      "superficie_media_complesso_ha": 288.51,
+      "densita_frammentazione": 0.35,
+      "classe_densita": "Bassa",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Area critica o marginale esposta",
+      "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+      "combinazione": "Bassa x Medioalto x Alta",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 93,42% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Aidomaggiore presenta 1.442,56 ha di sugherete, pari al 1,72% della Sughereta Sardegna. L'IVP ponderato è 2,001, in classe Bassa. La vocazionalità pedologica appare più limitante e suggerisce un approccio selettivo agli investimenti e agli interventi di valorizzazione. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.405,97 ha (97,46%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Alta: il complesso maggiore concentra il 93,42% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Area critica/marginale esposta: priorità selettiva.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "E1",
+          "superficie_ha": 1413.01,
+          "incidenza_pct": 97.95,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "L2",
+          "superficie_ha": 28.2,
+          "incidenza_pct": 1.95,
+          "classe_capacita_uso": "II - III",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 1.35,
+          "incidenza_pct": 0.09,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 0.21,
+          "incidenza_pct": 0.01,
+          "indice_classe": 22.97
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 36.38,
+          "incidenza_pct": 2.52,
+          "indice_classe": 31.55
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 584.76,
+          "incidenza_pct": 40.54,
+          "indice_classe": 38.21
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 821.22,
+          "incidenza_pct": 56.93,
+          "indice_classe": 48.42
+        }
+      ],
+      "pagine_fonte": [
+        130,
+        131,
+        132,
+        133
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.108,
+        "classe_ivp_fig2": "Media",
+        "ipi_fig3": 48.95,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Molto bassa",
+        "n_complessi_fig4": 17,
+        "quota_complesso_maggiore_fig4_pct": 30.18,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 28,
+      "comune": "Ardara",
+      "nome_corrente": "Ardara",
+      "slug": "ardara",
+      "provincia": null,
+      "sugherete_ha": 1413.35,
+      "peso_pct_sughereta_sardegna": 1.69,
+      "ivp": 2.48,
+      "classe_ivp": "Bassa",
+      "ipi": 42.68,
+      "classe_incendio": "Medioalto",
+      "quota_medioalto_alto_pct": 90.31,
+      "quota_medioalto_alto_ha": 1276.37,
+      "n_complessi": 17,
+      "superficie_complesso_maggiore_ha": 606.03,
+      "quota_complesso_maggiore_pct": 42.88,
+      "superficie_media_complesso_ha": 83.14,
+      "densita_frammentazione": 1.2,
+      "classe_densita": "Media",
+      "classe_icr": "Bassa",
+      "profilo_ivp_x_incendio": "Area critica o marginale esposta",
+      "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+      "combinazione": "Bassa x Medioalto x Bassa",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Bassa: il complesso maggiore concentra il 42,88% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico.",
+      "sintesi_esecutiva": "Ardara presenta 1.413,35 ha di sugherete, pari al 1,69% della Sughereta Sardegna. L'IVP ponderato è 2,480, in classe Bassa. La vocazionalità pedologica appare più limitante e suggerisce un approccio selettivo agli investimenti e agli interventi di valorizzazione. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e 1.276,37 ha (90,31%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Bassa: il complesso maggiore concentra il 42,88% della risorsa. La sughereta è policentrica o frammentata e richiede una gestione a mosaico. Il profilo integrato assegnato è: Area critica/marginale esposta: priorità selettiva.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 549.42,
+          "incidenza_pct": 38.87,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "F1",
+          "superficie_ha": 489.62,
+          "incidenza_pct": 34.64,
+          "classe_capacita_uso": "VII - VIII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "E1",
+          "superficie_ha": 210.08,
+          "incidenza_pct": 14.86,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "D3",
+          "superficie_ha": 130.59,
+          "incidenza_pct": 9.24,
+          "classe_capacita_uso": "VI - VII - VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "G1",
+          "superficie_ha": 26.06,
+          "incidenza_pct": 1.84,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 4.38,
+          "incidenza_pct": 0.31,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "F2",
+          "superficie_ha": 3.14,
+          "incidenza_pct": 0.22,
+          "classe_capacita_uso": "VI - IV - III",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 0.05,
+          "incidenza_pct": 0.0,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 9.22,
+          "incidenza_pct": 0.65,
+          "indice_classe": 22.56
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 127.76,
+          "incidenza_pct": 9.04,
+          "indice_classe": 31.28
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 580.68,
+          "incidenza_pct": 41.09,
+          "indice_classe": 40.36
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 695.69,
+          "incidenza_pct": 49.22,
+          "indice_classe": 46.98
+        }
+      ],
+      "pagine_fonte": [
+        133,
+        134,
+        135,
+        136
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 2.738,
+        "classe_ivp_fig2": "Bassa",
+        "ipi_fig3": 42.02,
+        "classe_incendio_fig3": "Medioalto",
+        "classe_icr_fig4": null,
+        "n_complessi_fig4": null,
+        "quota_complesso_maggiore_fig4_pct": null,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 29,
+      "comune": "Iglesias",
+      "nome_corrente": "Iglesias",
+      "slug": "iglesias",
+      "provincia": null,
+      "sugherete_ha": 1372.51,
+      "peso_pct_sughereta_sardegna": 1.64,
+      "ivp": 2.986,
+      "classe_ivp": "Media",
+      "ipi": 46.78,
+      "classe_incendio": "Alto",
+      "quota_medioalto_alto_pct": 98.28,
+      "quota_medioalto_alto_ha": 1348.87,
+      "n_complessi": 10,
+      "superficie_complesso_maggiore_ha": 1103.9,
+      "quota_complesso_maggiore_pct": 80.43,
+      "superficie_media_complesso_ha": 137.25,
+      "densita_frammentazione": 0.73,
+      "classe_densita": "Media",
+      "classe_icr": "Alta",
+      "profilo_ivp_x_incendio": "Risorsa compatibile ma fragile",
+      "profilo_integrato": "Risorsa compatibile, esposta e gestibile con interventi coordinati",
+      "combinazione": "Media x Alto x Alta",
+      "indicazioni_operative": [
+        "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Alta: il complesso maggiore concentra il 80,43% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+      "sintesi_esecutiva": "Iglesias presenta 1.372,51 ha di sugherete, pari al 1,64% della Sughereta Sardegna. L'IVP ponderato è 2,986, in classe Media. La risorsa è pedologicamente compatibile, ma presenta limitazioni che richiedono attenzione nella gestione e nella selezione di aree pilota. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Alto e 1.348,87 ha (98,28%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Alta: il complesso maggiore concentra il 80,43% della sughereta comunale. La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati. Il profilo integrato assegnato è: Risorsa compatibile, esposta e gestibile con interventi coordinati.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 1320.32,
+          "incidenza_pct": 96.2,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 32.19,
+          "incidenza_pct": 2.35,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "A1",
+          "superficie_ha": 12.14,
+          "incidenza_pct": 0.88,
+          "classe_capacita_uso": "VIII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "A2",
+          "superficie_ha": 6.36,
+          "incidenza_pct": 0.46,
+          "classe_capacita_uso": "VII - IV",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 0.86,
+          "incidenza_pct": 0.06,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B1",
+          "superficie_ha": 0.63,
+          "incidenza_pct": 0.05,
+          "classe_capacita_uso": "VII - VII",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Medio",
+          "superficie_ha": 23.64,
+          "incidenza_pct": 1.72,
+          "indice_classe": 31.86
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 520.09,
+          "incidenza_pct": 37.89,
+          "indice_classe": 41.28
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 828.78,
+          "incidenza_pct": 60.38,
+          "indice_classe": 50.66
+        }
+      ],
+      "pagine_fonte": [
+        136,
+        137,
+        138,
+        139
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.521,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 50.62,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Alta",
+        "n_complessi_fig4": 9,
+        "quota_complesso_maggiore_fig4_pct": 94.24,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": []
+    },
+    {
+      "rank": 30,
+      "comune": "Bultei",
+      "nome_corrente": "Bultei",
+      "slug": "bultei",
+      "provincia": null,
+      "sugherete_ha": 1342.27,
+      "peso_pct_sughereta_sardegna": 1.6,
+      "ivp": 3.395,
+      "classe_ivp": "Alta",
+      "ipi": 46.19,
+      "classe_incendio": "Alto",
+      "quota_medioalto_alto_pct": 92.91,
+      "quota_medioalto_alto_ha": 1247.14,
+      "n_complessi": 17,
+      "superficie_complesso_maggiore_ha": 1047.61,
+      "quota_complesso_maggiore_pct": 78.05,
+      "superficie_media_complesso_ha": 78.96,
+      "densita_frammentazione": 1.27,
+      "classe_densita": "Media",
+      "classe_icr": "Media",
+      "profilo_ivp_x_incendio": "Risorsa strategica vulnerabile",
+      "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+      "combinazione": "Alta x Alto x Media",
+      "indicazioni_operative": [
+        "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile"
+      ],
+      "lettura_icr": "La classe ICR è Media: il complesso maggiore concentra il 78,05% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori.",
+      "sintesi_esecutiva": "Bultei presenta 1.342,27 ha di sugherete, pari al 1,60% della Sughereta Sardegna. L'IVP ponderato è 3,395, in classe Alta. La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche. Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Alto e 1.247,14 ha (92,91%) ricadono nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva. La classe ICR è Media: il complesso maggiore concentra il 78,05% della risorsa, con nuclei secondari significativi. La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori. Il profilo integrato assegnato è: Priorità alta: risorsa vocata, esposta e territorialmente governabile.",
+      "distribuzione_pedologica": [
+        {
+          "unita_pedologica": "C2",
+          "superficie_ha": 651.93,
+          "incidenza_pct": 48.57,
+          "classe_capacita_uso": "VII - VI - IV",
+          "classe_ivp": "Alta",
+          "punteggio_ivp": 4
+        },
+        {
+          "unita_pedologica": "I1",
+          "superficie_ha": 602.78,
+          "incidenza_pct": 44.91,
+          "classe_capacita_uso": "III - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D2",
+          "superficie_ha": 44.02,
+          "incidenza_pct": 3.28,
+          "classe_capacita_uso": "II",
+          "classe_ivp": "Bassa",
+          "punteggio_ivp": 2
+        },
+        {
+          "unita_pedologica": "C1",
+          "superficie_ha": 17.53,
+          "incidenza_pct": 1.31,
+          "classe_capacita_uso": "VIII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B3",
+          "superficie_ha": 11.29,
+          "incidenza_pct": 0.84,
+          "classe_capacita_uso": "VI - VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "B4",
+          "superficie_ha": 8.89,
+          "incidenza_pct": 0.66,
+          "classe_capacita_uso": "VII",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "D4",
+          "superficie_ha": 2.42,
+          "incidenza_pct": 0.18,
+          "classe_capacita_uso": "VII - V - IV",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        },
+        {
+          "unita_pedologica": "L1",
+          "superficie_ha": 2.05,
+          "incidenza_pct": 0.15,
+          "classe_capacita_uso": "I - II - III",
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "O",
+          "superficie_ha": 1.22,
+          "incidenza_pct": 0.09,
+          "classe_capacita_uso": null,
+          "classe_ivp": "Molto bassa",
+          "punteggio_ivp": 1
+        },
+        {
+          "unita_pedologica": "B2",
+          "superficie_ha": 0.12,
+          "incidenza_pct": 0.01,
+          "classe_capacita_uso": "VII - VI",
+          "classe_ivp": "Media",
+          "punteggio_ivp": 3
+        }
+      ],
+      "distribuzione_incendio": [
+        {
+          "classe": "Mediobasso",
+          "superficie_ha": 13.08,
+          "incidenza_pct": 0.97,
+          "indice_classe": 23.82
+        },
+        {
+          "classe": "Medio",
+          "superficie_ha": 82.05,
+          "incidenza_pct": 6.11,
+          "indice_classe": 31.13
+        },
+        {
+          "classe": "Medioalto",
+          "superficie_ha": 240.82,
+          "incidenza_pct": 17.94,
+          "indice_classe": 39.64
+        },
+        {
+          "classe": "Alto",
+          "superficie_ha": 1006.32,
+          "incidenza_pct": 74.97,
+          "indice_classe": 49.28
+        }
+      ],
+      "pagine_fonte": [
+        139,
+        140,
+        141
+      ],
+      "confronto_figure": {
+        "ivp_fig2": 3.665,
+        "classe_ivp_fig2": "Alta",
+        "ipi_fig3": 46.15,
+        "classe_incendio_fig3": "Alto",
+        "classe_icr_fig4": "Media",
+        "n_complessi_fig4": 12,
+        "quota_complesso_maggiore_fig4_pct": 65.78,
+        "ivp_coerente": false,
+        "ipi_coerente": false,
+        "icr_coerente": false
+      },
+      "note": [
+        "IVP dichiarato 3.395 non coincide con la media ponderata dei punteggi della tabella pedologica (3.448); mantenuto il valore dichiarato."
+      ]
+    }
+  ]
+}

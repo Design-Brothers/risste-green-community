@@ -1,0 +1,288 @@
+{
+  "titolo": "Framework Green community Alta Gallura: pilastri del modello territoriale integrato e modello di governance",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "4.1 Framework Green community Alta Gallura; 4.2 Governance territoriale; 4.7.3 e 4.7.5 (organi futuri); Figura 2a (pag. 35) e Figura 4a (pag. 72)",
+    "pagine_pdf": [
+      14,
+      35,
+      47,
+      69,
+      70,
+      71,
+      72,
+      78,
+      79,
+      80,
+      81,
+      90,
+      91,
+      92
+    ]
+  },
+  "note": [
+    "I pilastri del framework territoriale (record `tipo` = `pilastro`) derivano dall'infografica di Figura 2a 'Schema concettuale: il modello territoriale integrato dell'Alta Gallura' (pag. 35), che li nomina esplicitamente; il testo di 4.1 li descrive in forma discorsiva.",
+    "Le tre dimensioni ESG (record `tipo` = `dimensione_esg`) sono descritte in 4.3 (pag. 70-72) e riprese in Figura 4a; gli indicatori di dettaglio sono in `indicatori-esg.json`.",
+    "Nell'infografica 2a i gateway costieri includono Trinità d'Agultu, mentre il testo 4.5 (pag. 79) cita come esempi Aglientu, Badesi e Santa Teresa Gallura: entrambe le liste sono riportate.",
+    "Il modello di governance (record `tipo` = `organo_governance`) raccoglie tutti gli organi/strumenti citati nel documento: alcuni sono esistenti (Unione dei Comuni, Distretto delle Ruralità, CUC), altri proposti/da rafforzare (cabina di regia, Living Lab Territoriale). Il campo `stato` distingue i due casi secondo il testo.",
+    "Il documento non descrive composizione, regolamento o organigramma degli organi: i campi si limitano a quanto riportato."
+  ],
+  "dati": [
+    {
+      "tipo": "pilastro",
+      "ordine": 1,
+      "nome": "Unione dei Comuni dell'Alta Gallura – Piattaforma di governance",
+      "slug": "piattaforma-governance",
+      "descrizione_breve": "L'Unione dei Comuni svolge funzione di coordinamento strategico e amministrativo, assicurando integrazione tra amministrazioni locali, partenariato economico-sociale e soggetti tecnici di supporto. Nel modello 'Città dei Paesi' è la piattaforma di coordinamento per pianificazione associata, servizi sovracomunali e strategie comuni di sviluppo.",
+      "elementi": [
+        "Coordinamento strategico e amministrativo",
+        "Integrazione tra amministrazioni locali, partenariato economico-sociale e soggetti tecnici",
+        "Interoperabilità e logistica tra poli dell'entroterra e gateway costieri (Fig. 2a)"
+      ],
+      "pagine_pdf": [
+        35,
+        69
+      ],
+      "fonte_figura": "fig-2a-framework-territoriale-integrato.jpeg"
+    },
+    {
+      "tipo": "pilastro",
+      "ordine": 2,
+      "nome": "Poli dell'entroterra – Manutenzione e produzione",
+      "slug": "poli-entroterra",
+      "descrizione_breve": "I comuni interni garantiscono la manutenzione del capitale naturale (boschi, sugherete, pascoli) e ospitano i poli produttivi. Fig. 2a distingue: Calangianus e Tempio Pausania (hub sughero e servizi), Luogosanto, Luras e Aggius (mosaico agro-silvano), Bortigiadas (presidio idrogeologico).",
+      "elementi": [
+        "Calangianus e Tempio Pausania – Hub sughero e servizi",
+        "Luogosanto, Luras, Aggius – Mosaico agro-silvano",
+        "Bortigiadas – Presidio idrogeologico"
+      ],
+      "comuni": [
+        "calangianus",
+        "tempio-pausania",
+        "luogosanto",
+        "luras",
+        "aggius",
+        "bortigiadas"
+      ],
+      "pagine_pdf": [
+        35,
+        78,
+        79
+      ],
+      "fonte_figura": "fig-2a-framework-territoriale-integrato.jpeg"
+    },
+    {
+      "tipo": "pilastro",
+      "ordine": 3,
+      "nome": "Gateway costieri – Mercato e valorizzazione",
+      "slug": "gateway-costieri",
+      "descrizione_breve": "I comuni costieri a vocazione turistica assumono un ruolo non legato alla produzione primaria ma alla valorizzazione commerciale, all'accoglienza e alla narrazione delle filiere locali, fungendo da vetrina per il mercato turistico e la ristorazione di qualità e garantendo lo sbocco commerciale alle produzioni dell'interno.",
+      "elementi": [
+        "Connessione flussi turistici",
+        "Vetrina commerciale e ristorazione identitaria"
+      ],
+      "comuni_fig_2a": [
+        "santa-teresa-gallura",
+        "aglientu",
+        "badesi",
+        "trinita-d-agultu-e-vignola"
+      ],
+      "comuni_testo_4_5": [
+        "aglientu",
+        "badesi",
+        "santa-teresa-gallura"
+      ],
+      "pagine_pdf": [
+        35,
+        79
+      ],
+      "fonte_figura": "fig-2a-framework-territoriale-integrato.jpeg"
+    },
+    {
+      "tipo": "pilastro",
+      "ordine": 4,
+      "nome": "Infrastruttura verde d'area",
+      "slug": "infrastruttura-verde",
+      "descrizione_breve": "Il capitale naturale (sugherete, mosaici silvo-pastorali, habitat agroforestali mediterranei, paesaggi produttivi tradizionali) è il principale asset strategico su cui costruire bioeconomia territoriale, economia circolare e valorizzazione dei servizi ecosistemici. Fig. 2a lo declina in quattro linee: gestione attiva delle sugherete, pascolo estensivo controllato, mitigazione del rischio incendi, valorizzazione dei servizi ecosistemici.",
+      "elementi": [
+        "Gestione attiva delle sugherete",
+        "Pascolo estensivo controllato",
+        "Mitigazione del rischio incendi",
+        "Valorizzazione servizi ecosistemici"
+      ],
+      "pagine_pdf": [
+        35,
+        69
+      ],
+      "fonte_figura": "fig-2a-framework-territoriale-integrato.jpeg"
+    },
+    {
+      "tipo": "pilastro",
+      "ordine": 5,
+      "nome": "Filiere territoriali integrate",
+      "slug": "filiere-territoriali",
+      "descrizione_breve": "La Green community è una piattaforma di coordinamento per la valorizzazione sostenibile delle filiere bosco-sughero, agro-zootecnica estensiva e dei sistemi agroforestali multifunzionali, interpretate come infrastrutture territoriali che generano servizi ecosistemici, presidio attivo e riduzione delle vulnerabilità. Il modello connette gestione forestale, trasformazione industriale, allevamento estensivo e qualificazione ambientale delle produzioni.",
+      "elementi": [
+        "Filiera bosco-sughero",
+        "Filiera bovina estensiva",
+        "Filiera suinicola agroforestale controllata",
+        "Contratti di filiera"
+      ],
+      "pagine_pdf": [
+        69,
+        78,
+        79
+      ],
+      "fonte_figura": null
+    },
+    {
+      "tipo": "pilastro",
+      "ordine": 6,
+      "nome": "Framework ESG e data management territoriale",
+      "slug": "framework-esg-data",
+      "descrizione_breve": "Il framework ESG è la matrice per integrare la sostenibilità nelle strategie territoriali, in coerenza con Tassonomia UE, principio DNSH e Green Deal. Fig. 4a lo rappresenta come una piattaforma integrata di gestione e analisi territoriale evidence-based alimentata da fusione dati GIS e modellistica preventiva (PAI, PFP, FlamMap, Tobler Algorithm, DTM) e da baseline ambientali e produttive (Water e Carbon Footprint), che restituisce output informativi/operativi e strategici per la Green community.",
+      "elementi": [
+        "Dimensione Environmental",
+        "Dimensione Social",
+        "Dimensione Governance",
+        "Piattaforma integrata evidence-based (fusione dati GIS, modellistica preventiva PAI/PFP, FlamMap, Tobler Algorithm, DTM)",
+        "Baseline ambientali e produttive (Water Footprint, Carbon Footprint)",
+        "Pianificazione adattativa e supporti decisionali"
+      ],
+      "pagine_pdf": [
+        70,
+        71,
+        72
+      ],
+      "fonte_figura": "fig-4a-framework-esg-data-management.jpeg"
+    },
+    {
+      "tipo": "dimensione_esg",
+      "sigla": "E",
+      "nome": "Environmental",
+      "descrizione_breve": "Tutela e valorizzazione del capitale naturale come asset strategico: conservazione di habitat e specie tramite gestione integrata dei siti Natura 2000, protezione dei sistemi forestali e agro-silvo-pastorali, connettività ecologica. Include sorveglianza fitosanitaria e contenimento di specie aliene e organismi nocivi delle quercine, mitigazione del rischio idrogeologico e incendiario, valorizzazione delle biomasse residuali in logica di economia circolare.",
+      "priorita_fig_4a": [
+        "Monitoraggio fitosanitario sugherete: rilevamento precoce attacchi parassitari e organismi nocivi",
+        "Prevenzione suoli eluviali: verifica profondità e stabilità, tutela contro erosione superficiale",
+        "Mitigazione pirologica: fasce tagliafuoco strategiche e gestione attiva della biomassa nel sottobosco"
+      ],
+      "pagine_pdf": [
+        70,
+        72
+      ]
+    },
+    {
+      "tipo": "dimensione_esg",
+      "sigla": "S",
+      "nome": "Social",
+      "descrizione_breve": "Rafforzamento della coesione territoriale e contrasto a marginalizzazione e spopolamento: le filiere come presidio, trasmissione intergenerazionale dei saperi e identità. Valorizzazione di comunità del cibo e filiere corte; inclusione attiva di giovani NEET, disoccupati under 40, donne, lavoratori in transizione e over 60 attivi tramite inserimento lavorativo, autoimprenditorialità, upskilling e reskilling; formazione tecnica e capacity building; digitalizzazione abilitante; sostegno alla residenzialità stabile.",
+      "priorita_fig_4a": [
+        "Inclusione giovanile: programmi dedicati per under 40 e NEET locali (es. in agroforestazione)",
+        "Trasferimento saperi artigiani: formazione specializzata e corsi per scorzini e lavoratori forestali",
+        "Sicurezza sul lavoro: protocolli avanzati per decortica e cantieri boschivi"
+      ],
+      "pagine_pdf": [
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "tipo": "dimensione_esg",
+      "sigla": "G",
+      "nome": "Governance",
+      "descrizione_breve": "Rafforzamento della capacità amministrativa e gestionale, trasparenza decisionale ed efficacia di pianificazione, attuazione e monitoraggio. Coordinamento interistituzionale tra Unione dei Comuni, amministrazioni, soggetti tecnici, distretti, ricerca e partenariato; governance partecipativa; sistemi di monitoraggio, data management territoriale, indicatori condivisi e protocolli di reporting; applicazione di DNSH, due diligence ambientale e sostenibilità nel procurement.",
+      "priorita_fig_4a": [
+        "Interoperabilità dati: fusione record alfanumerici e vettoriali tra UCAG, AGRIS, Forestas",
+        "Gestione associata proprietari: animazione e aggregazione proprietari forestali e aziende rurali",
+        "Reporting ambientale periodico: strutturazione di bilanci ESG e accountability territoriale"
+      ],
+      "pagine_pdf": [
+        71,
+        72
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Unione dei Comuni dell'Alta Gallura",
+      "stato": "esistente",
+      "funzione": "Coordinamento strategico e amministrativo del modello multilivello e multi-attore; integrazione tra amministrazioni locali, partenariato economico-sociale e soggetti tecnici di supporto.",
+      "pagine_pdf": [
+        69,
+        35
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Cabina di regia tecnico-istituzionale dell'Unione dei Comuni",
+      "stato": "da rafforzare (proposta)",
+      "funzione": "Coordina il modello di governance intercomunale integrata, gestendo in modo centralizzato le risorse naturali e connettendo l'entroterra rurale con i poli industriali e i gateway costieri. Nella roadmap compare come azione 19 'Cabina regia integrata (Costa-Interno)' (M31-36).",
+      "pagine_pdf": [
+        91,
+        90
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Centrale Unica di Committenza (CUC) dell'Unione",
+      "stato": "esistente, da ottimizzare",
+      "funzione": "Standardizzazione dei processi amministrativi: gestione unificata dei bandi di gara, ottenimento delle certificazioni forestali di gruppo e accesso collettivo ai mercati volontari dei crediti di carbonio. Citata tra gli obiettivi operativi (pag. 14) e nella roadmap come azione 15 'Centralizzazione bando verde (CUC)' (M19-36).",
+      "pagine_pdf": [
+        14,
+        91,
+        90
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Living Lab Territoriale",
+      "stato": "da attivare/consolidare (proposta)",
+      "funzione": "Piattaforma di coordinamento scientifico e sociale: spazio decisionale stabile e partecipato che coinvolge istituzioni locali, agenzie scientifiche regionali e attori privati nella definizione dei modelli di sviluppo resiliente e nel monitoraggio delle performance d'area. Roadmap: azione 10 'Attivazione Living Lab Territoriale' (M7-18).",
+      "pagine_pdf": [
+        92,
+        47,
+        90
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Distretto delle Ruralità del Nord Sardegna",
+      "stato": "esistente",
+      "funzione": "Soggetto del sistema di governance insieme a operatori delle filiere, imprese di trasformazione, ricerca e partner privati; promotore del progetto Green 2030 citato tra le progettualità d'area dei contratti di filiera.",
+      "pagine_pdf": [
+        69,
+        79
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Distretto rurale del sughero dell'Alta Gallura",
+      "stato": "esistente",
+      "funzione": "Coordina la dimensione industriale e trasformativa della filiera bosco-sughero, integrando l'intera catena del valore con i poli di lavorazione dei comuni interni; obiettivo il consolidamento come infrastruttura tecnologica di economia circolare.",
+      "pagine_pdf": [
+        81
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Governance di filiera",
+      "stato": "proposta",
+      "funzione": "Necessaria per affrontare frammentazione fondiaria, ridotta dimensione aziendale, dispersione gestionale e difficoltà di accesso coordinato a certificazione e finanziamento; si attua tramite gestione associata/consorzi forestali e contratti di filiera.",
+      "pagine_pdf": [
+        69,
+        70,
+        80
+      ]
+    },
+    {
+      "tipo": "organo_governance",
+      "nome": "Partenariato economico-sociale e stakeholder",
+      "stato": "esistente",
+      "funzione": "Governance partecipativa fondata sul coinvolgimento di stakeholder pubblici e privati, imprese locali, associazioni di categoria, terzo settore e comunità territoriali; include operatori delle filiere forestali e agro-zootecniche, imprese di trasformazione, soggetti della ricerca e partner privati.",
+      "pagine_pdf": [
+        69,
+        71
+      ]
+    }
+  ]
+}

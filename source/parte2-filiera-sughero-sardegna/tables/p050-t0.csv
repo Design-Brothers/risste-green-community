@@ -1,0 +1,5 @@
+Indicatore,Domanda a cui risponde,Output
+Superficie a sughera,Quanta risorsa è presente nel comune?,ettari e peso sulla Sughereta Sardegna
+IVP,Su quali suoli insiste la sughereta?,indice ponderato e classe Alta/Media/Bassa/Molto bassa
+Pericolo incendio,Quanto è esposta al fuoco la risorsa?,"indice ponderato, classe e quota Medioalto+Alto"
+ICR,Quanto è continua o frammentata la sughereta?,"numero complessi, nucleo maggiore, densità e classe ICR"

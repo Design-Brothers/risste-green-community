@@ -1,0 +1,224 @@
+file,page,rows,cols,quality,context
+p009-t0.csv,9,21,2,ok,LISTA ABBREVIAZIONI
+p040-t0.csv,40,10,4,ok,"Tabella 1. Sintesi delle principali direttrici di innovazione individuate attraverso l’attività di technology scouting, con riferimento ai principali driver europei e alle potenziali"
+p041-t0.csv,41,12,3,ok,Tabella 2. Principali strumenti di gestione e certificazione richiamati dalla letteratura scientifica e tecnica per il
+p050-t0.csv,50,5,3,sparse,Nota metodologica sintetica
+p050-t1.csv,50,11,8,sparse,Quadro sinottico dei 30 comuni
+p051-t0.csv,51,20,8,sparse,
+p052-t0.csv,52,8,4,sparse,Scheda comunale 01
+p052-t1.csv,52,6,6,sparse,"Bitti presenta 5.801,29 ha di sugherete, pari al 6,92% della Sughereta Sardegna. L'IVP"
+p052-t2.csv,52,4,4,sparse,"Bitti presenta 5.801,29 ha di sugherete, pari al 6,92% della Sughereta Sardegna. L'IVP"
+p053-t0.csv,53,2,4,sparse,
+p053-t1.csv,53,7,3,sparse,
+p053-t2.csv,53,2,5,ok,
+p055-t0.csv,55,8,4,sparse,Scheda comunale 02
+p055-t1.csv,55,9,6,sparse,"Berchidda presenta 5.480,00 ha di sugherete, pari al 6,54% della Sughereta Sardegna. L'IVP"
+p056-t0.csv,56,5,4,sparse,
+p056-t1.csv,56,7,3,sparse,
+p056-t2.csv,56,2,4,sparse,
+p058-t0.csv,58,8,4,sparse,Scheda comunale 03
+p058-t1.csv,58,10,6,sparse,"Oschiri presenta 5.434,73 ha di sugherete, pari al 6,49% della Sughereta Sardegna. L'IVP"
+p059-t0.csv,59,5,4,sparse,
+p059-t1.csv,59,7,3,sparse,
+p059-t2.csv,59,2,4,sparse,
+p061-t0.csv,61,8,4,sparse,Scheda comunale 04
+p061-t1.csv,61,6,6,sparse,"Budduso' presenta 5.185,05 ha di sugherete, pari al 6,19% della Sughereta Sardegna. L'IVP"
+p061-t2.csv,61,4,4,sparse,"Budduso' presenta 5.185,05 ha di sugherete, pari al 6,19% della Sughereta Sardegna. L'IVP"
+p062-t0.csv,62,2,4,sparse,
+p062-t1.csv,62,7,3,sparse,
+p062-t2.csv,62,2,5,ok,
+p064-t0.csv,64,8,4,sparse,Scheda comunale 05
+p064-t1.csv,64,5,6,sparse,"Nuoro presenta 4.413,55 ha di sugherete, pari al 5,27% della Sughereta Sardegna. L'IVP"
+p064-t2.csv,64,3,4,sparse,"Nuoro presenta 4.413,55 ha di sugherete, pari al 5,27% della Sughereta Sardegna. L'IVP"
+p065-t0.csv,65,3,4,sparse,
+p065-t1.csv,65,7,3,sparse,
+p065-t2.csv,65,2,5,ok,
+p067-t0.csv,67,8,4,sparse,Scheda comunale 06
+p067-t1.csv,67,8,6,sparse,"Orune presenta 4.201,12 ha di sugherete, pari al 5,01% della Sughereta Sardegna. L'IVP"
+p067-t2.csv,67,2,4,sparse,"Orune presenta 4.201,12 ha di sugherete, pari al 5,01% della Sughereta Sardegna. L'IVP"
+p068-t0.csv,68,5,4,sparse,
+p068-t1.csv,68,7,3,sparse,
+p068-t2.csv,68,2,5,ok,
+p070-t0.csv,70,8,4,sparse,Ala' Dei Sardi
+p070-t1.csv,70,5,6,sparse,Ala' Dei Sardi
+p070-t2.csv,70,3,4,sparse,Ala' Dei Sardi
+p071-t0.csv,71,3,4,sparse,
+p071-t1.csv,71,7,3,sparse,
+p071-t2.csv,71,2,5,ok,
+p073-t0.csv,73,8,4,sparse,Villanova Monteleone
+p073-t1.csv,73,7,6,sparse,"Villanova Monteleone presenta 3.664,58 ha di sugherete, pari al 4,37% della Sughereta"
+p073-t2.csv,73,2,4,sparse,"Villanova Monteleone presenta 3.664,58 ha di sugherete, pari al 4,37% della Sughereta"
+p074-t0.csv,74,4,4,sparse,
+p074-t1.csv,74,7,3,sparse,
+p074-t2.csv,74,2,5,ok,
+p076-t0.csv,76,8,4,sparse,Scheda comunale 09
+p076-t1.csv,76,11,6,sparse,"Ozieri presenta 3.513,27 ha di sugherete, pari al 4,19% della Sughereta Sardegna. L'IVP"
+p077-t0.csv,77,5,4,sparse,
+p077-t1.csv,77,7,3,sparse,
+p077-t2.csv,77,2,4,sparse,
+p079-t0.csv,79,8,4,sparse,Scheda comunale 10
+p079-t1.csv,79,7,6,sparse,"Orani presenta 3.376,52 ha di sugherete, pari al 4,03% della Sughereta Sardegna. L'IVP"
+p079-t2.csv,79,3,4,sparse,"Orani presenta 3.376,52 ha di sugherete, pari al 4,03% della Sughereta Sardegna. L'IVP"
+p080-t0.csv,80,3,4,sparse,
+p080-t1.csv,80,7,3,sparse,
+p080-t2.csv,80,2,5,ok,
+p082-t0.csv,82,8,4,sparse,Tempio Pausania
+p082-t1.csv,82,7,6,sparse,Tempio Pausania
+p082-t2.csv,82,2,4,sparse,Tempio Pausania
+p083-t0.csv,83,4,4,sparse,
+p083-t1.csv,83,7,3,sparse,
+p083-t2.csv,83,2,5,ok,
+p085-t0.csv,85,8,4,sparse,Scheda comunale 12
+p085-t1.csv,85,4,6,sparse,"Telti presenta 2.826,09 ha di sugherete, pari al 3,37% della Sughereta Sardegna. L'IVP"
+p085-t2.csv,85,4,4,sparse,"Telti presenta 2.826,09 ha di sugherete, pari al 3,37% della Sughereta Sardegna. L'IVP"
+p086-t1.csv,86,7,3,sparse,
+p086-t2.csv,86,2,5,ok,
+p088-t0.csv,88,8,4,sparse,Scheda comunale 13
+p088-t1.csv,88,5,6,sparse,"Calangianus presenta 2.422,54 ha di sugherete, pari al 2,89% della Sughereta Sardegna. L'IVP"
+p088-t2.csv,88,3,4,sparse,"Calangianus presenta 2.422,54 ha di sugherete, pari al 2,89% della Sughereta Sardegna. L'IVP"
+p089-t0.csv,89,2,4,sparse,
+p089-t1.csv,89,7,3,sparse,
+p089-t2.csv,89,2,5,ok,
+p091-t0.csv,91,8,4,sparse,Scheda comunale 14
+p091-t1.csv,91,10,6,sparse,"Mores presenta 2.362,69 ha di sugherete, pari al 2,82% della Sughereta Sardegna. L'IVP"
+p092-t0.csv,92,5,4,sparse,
+p092-t1.csv,92,7,3,sparse,
+p092-t2.csv,92,2,4,sparse,
+p094-t0.csv,94,8,4,sparse,Scheda comunale 15
+p094-t1.csv,94,6,6,sparse,"Chiaramonti presenta 2.359,32 ha di sugherete, pari al 2,82% della Sughereta Sardegna. L'IVP"
+p094-t2.csv,94,4,4,sparse,"Chiaramonti presenta 2.359,32 ha di sugherete, pari al 2,82% della Sughereta Sardegna. L'IVP"
+p095-t1.csv,95,7,3,sparse,
+p095-t2.csv,95,2,5,ok,
+p097-t0.csv,97,8,4,sparse,Scheda comunale 16
+p097-t1.csv,97,4,6,sparse,"Padru presenta 2.265,40 ha di sugherete, pari al 2,70% della Sughereta Sardegna. L'IVP"
+p097-t2.csv,97,5,4,sparse,"Padru presenta 2.265,40 ha di sugherete, pari al 2,70% della Sughereta Sardegna. L'IVP"
+p098-t0.csv,98,7,3,sparse,
+p098-t1.csv,98,2,4,sparse,
+p100-t0.csv,100,8,4,sparse,Scheda comunale 17
+p100-t1.csv,100,8,6,sparse,"Illorai presenta 2.070,50 ha di sugherete, pari al 2,47% della Sughereta Sardegna. L'IVP"
+p101-t0.csv,101,6,4,sparse,
+p101-t1.csv,101,7,3,sparse,
+p101-t2.csv,101,2,4,sparse,
+p103-t0.csv,103,8,4,sparse,Scheda comunale 18
+p103-t1.csv,103,7,6,sparse,"Olbia presenta 1.971,52 ha di sugherete, pari al 2,35% della Sughereta Sardegna. L'IVP"
+p104-t0.csv,104,5,4,sparse,
+p104-t1.csv,104,7,3,sparse,
+p104-t2.csv,104,2,4,sparse,
+p106-t0.csv,106,8,4,sparse,Scheda comunale 19
+p106-t1.csv,106,6,6,sparse,"Oliena presenta 1.944,06 ha di sugherete, pari al 2,32% della Sughereta Sardegna. L'IVP"
+p106-t2.csv,106,2,4,sparse,"Oliena presenta 1.944,06 ha di sugherete, pari al 2,32% della Sughereta Sardegna. L'IVP"
+p107-t0.csv,107,3,4,sparse,
+p107-t1.csv,107,7,3,sparse,
+p107-t2.csv,107,2,5,ok,
+p109-t0.csv,109,8,4,sparse,Scheda comunale 20
+p109-t1.csv,109,5,6,sparse,Scheda comunale 20
+p109-t2.csv,109,4,4,sparse,Scheda comunale 20
+p110-t1.csv,110,7,3,sparse,
+p110-t2.csv,110,2,5,ok,
+p112-t0.csv,112,8,4,sparse,Scheda comunale 21
+p112-t1.csv,112,9,6,sparse,"Benetutti presenta 1.822,49 ha di sugherete, pari al 2,18% della Sughereta Sardegna. L'IVP"
+p113-t0.csv,113,6,4,sparse,
+p113-t1.csv,113,7,3,sparse,
+p113-t2.csv,113,2,4,sparse,
+p115-t0.csv,115,8,4,sparse,Scheda comunale 22
+p115-t1.csv,115,3,6,sparse,"Abbasanta presenta 1.767,81 ha di sugherete, pari al 2,11% della Sughereta Sardegna. L'IVP"
+p115-t2.csv,115,5,4,sparse,"Abbasanta presenta 1.767,81 ha di sugherete, pari al 2,11% della Sughereta Sardegna. L'IVP"
+p116-t0.csv,116,7,3,sparse,
+p116-t1.csv,116,2,4,sparse,
+p118-t0.csv,118,8,4,sparse,Scheda comunale 23
+p118-t1.csv,118,6,6,sparse,"Pattada presenta 1.761,94 ha di sugherete, pari al 2,10% della Sughereta Sardegna. L'IVP"
+p118-t2.csv,118,4,4,sparse,"Pattada presenta 1.761,94 ha di sugherete, pari al 2,10% della Sughereta Sardegna. L'IVP"
+p119-t0.csv,119,2,4,sparse,
+p119-t1.csv,119,7,3,sparse,
+p119-t2.csv,119,2,5,ok,
+p121-t0.csv,121,8,4,sparse,Scheda comunale 24
+p121-t1.csv,121,4,6,sparse,"Monti presenta 1.637,71 ha di sugherete, pari al 1,95% della Sughereta Sardegna. L'IVP"
+p121-t2.csv,121,5,4,sparse,"Monti presenta 1.637,71 ha di sugherete, pari al 1,95% della Sughereta Sardegna. L'IVP"
+p122-t0.csv,122,7,3,sparse,
+p122-t1.csv,122,2,4,sparse,
+p124-t0.csv,124,8,4,sparse,Scheda comunale 25
+p124-t1.csv,124,9,6,sparse,"Ploaghe presenta 1.561,48 ha di sugherete, pari al 1,86% della Sughereta Sardegna. L'IVP"
+p124-t2.csv,124,2,4,sparse,"Ploaghe presenta 1.561,48 ha di sugherete, pari al 1,86% della Sughereta Sardegna. L'IVP"
+p125-t0.csv,125,4,4,sparse,
+p125-t1.csv,125,7,3,sparse,
+p125-t2.csv,125,2,5,ok,
+p127-t0.csv,127,8,4,sparse,Scheda comunale 26
+p127-t1.csv,127,8,6,sparse,"Bono presenta 1.462,03 ha di sugherete, pari al 1,74% della Sughereta Sardegna. L'IVP"
+p127-t2.csv,127,2,4,sparse,"Bono presenta 1.462,03 ha di sugherete, pari al 1,74% della Sughereta Sardegna. L'IVP"
+p128-t0.csv,128,4,4,sparse,
+p128-t1.csv,128,7,3,sparse,
+p128-t2.csv,128,2,5,ok,
+p130-t0.csv,130,8,4,sparse,Scheda comunale 27
+p130-t1.csv,130,4,6,sparse,Scheda comunale 27
+p130-t2.csv,130,5,4,sparse,Scheda comunale 27
+p131-t0.csv,131,7,3,sparse,
+p131-t1.csv,131,2,4,sparse,
+p133-t0.csv,133,8,4,sparse,Scheda comunale 28
+p133-t1.csv,133,9,6,sparse,"Ardara presenta 1.413,35 ha di sugherete, pari al 1,69% della Sughereta Sardegna. L'IVP"
+p134-t0.csv,134,5,4,sparse,
+p134-t1.csv,134,7,3,sparse,
+p134-t2.csv,134,2,4,sparse,
+p136-t0.csv,136,8,4,sparse,Scheda comunale 29
+p136-t1.csv,136,7,6,sparse,"Iglesias presenta 1.372,51 ha di sugherete, pari al 1,64% della Sughereta Sardegna. L'IVP"
+p136-t2.csv,136,2,4,sparse,"Iglesias presenta 1.372,51 ha di sugherete, pari al 1,64% della Sughereta Sardegna. L'IVP"
+p137-t0.csv,137,2,4,sparse,
+p137-t1.csv,137,7,3,sparse,
+p137-t2.csv,137,2,5,ok,
+p139-t0.csv,139,8,4,sparse,Scheda comunale 30
+p139-t1.csv,139,11,6,sparse,"Bultei presenta 1.342,27 ha di sugherete, pari al 1,60% della Sughereta Sardegna. L'IVP"
+p140-t0.csv,140,5,4,sparse,
+p140-t1.csv,140,7,3,sparse,
+p140-t2.csv,140,2,4,sparse,
+p142-t0.csv,142,4,11,ok,Allegato II: Database bibliografia scientifica
+p143-t0.csv,143,4,11,ok,
+p144-t0.csv,144,4,11,ok,
+p145-t0.csv,145,3,11,ok,
+p146-t0.csv,146,2,11,ok,
+p147-t0.csv,147,3,11,ok,
+p148-t0.csv,148,2,11,sparse,
+p149-t0.csv,149,3,11,ok,
+p150-t0.csv,150,3,11,ok,
+p151-t0.csv,151,3,11,ok,
+p152-t0.csv,152,3,11,ok,
+p153-t0.csv,153,3,11,ok,
+p154-t0.csv,154,2,11,ok,
+p155-t0.csv,155,3,11,ok,
+p156-t0.csv,156,4,11,ok,
+p157-t0.csv,157,4,11,ok,
+p158-t0.csv,158,2,11,ok,
+p159-t0.csv,159,4,11,ok,
+p160-t0.csv,160,3,11,ok,
+p161-t0.csv,161,3,11,ok,
+p162-t0.csv,162,3,11,ok,
+p163-t0.csv,163,3,11,ok,
+p164-t0.csv,164,3,11,ok,
+p165-t0.csv,165,3,11,ok,
+p166-t0.csv,166,4,11,ok,
+p167-t0.csv,167,4,11,ok,
+p168-t0.csv,168,3,11,ok,
+p169-t0.csv,169,3,11,ok,
+p170-t0.csv,170,3,11,ok,
+p171-t0.csv,171,3,11,ok,
+p172-t0.csv,172,2,11,ok,
+p173-t0.csv,173,3,11,ok,
+p174-t0.csv,174,2,11,ok,
+p175-t0.csv,175,3,11,ok,
+p176-t0.csv,176,3,11,ok,
+p177-t0.csv,177,3,11,ok,
+p178-t0.csv,178,3,11,ok,
+p179-t0.csv,179,4,11,ok,
+p180-t0.csv,180,3,11,ok,
+p181-t0.csv,181,3,11,ok,
+p182-t0.csv,182,4,11,ok,
+p183-t0.csv,183,4,11,ok,
+p184-t0.csv,184,4,11,ok,
+p185-t0.csv,185,4,11,ok,
+p186-t0.csv,186,3,11,ok,
+p187-t0.csv,187,3,11,ok,
+p188-t0.csv,188,3,11,ok,
+p189-t0.csv,189,4,11,ok,
+p190-t0.csv,190,3,11,ok,
+p191-t0.csv,191,4,11,ok,
+p192-t0.csv,192,4,11,ok,
+p193-t0.csv,193,4,11,ok,
+p194-t0.csv,194,4,11,ok,

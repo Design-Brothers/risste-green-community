@@ -1,0 +1,119 @@
+{
+  "titolo": "Technology Scouting sul sughero – metodologia, distribuzione geografica, ambiti di innovazione e maturità tecnologica",
+  "fonte": {
+    "documento": "parte2",
+    "capitolo": "par. 2.4-2.6 (metodologia, pagg. 21-24); par. 3.3 (risultati, pagg. 29-33); Figura 5 (pag. 31) e Figura 6 (pag. 32)",
+    "pagine_pdf": [21, 22, 23, 24, 29, 30, 31, 32, 33]
+  },
+  "note": [
+    "Numero di pubblicazioni: il testo dice '166 pubblicazioni' (pag. 29, par. 3.3) e 'Distribuzione delle 166 pubblicazioni' (didascalia Figura 6, pag. 32), ma parla anche di '153 pubblicazioni selezionate' (pag. 30, par. 3.3.2) e la Figura 5 e la Figura 6 riportano totale 153. Il database dell'Allegato II contiene 153 record: il numero 153 è quello coerente con le figure e con i dati; 166 è verosimilmente il numero di pubblicazioni prima della selezione/validazione, ma il documento non lo spiega.",
+    "Figura 5 (pag. 31): le percentuali sono calcolate su 153 e sommano al 100% (58+23+11+20+8+6+2+2+1+22 = 153). La didascalia afferma che Portogallo, Spagna e Italia concentrano 'complessivamente il 67,5%' della produzione scientifica; dai numeri della figura risulta (58+23+11)/153 = 60,1% ('circa i due terzi' nel testo di pag. 30). Riportiamo entrambi i valori.",
+    "Figura 6 (pag. 32): i 12 ambiti sommano a 197 pubblicazioni (128,8%) su un totale dichiarato di 153: una pubblicazione può essere attribuita a più ambiti. La didascalia riporta percentuali diverse (materiali compositi 34,9%, edilizia 19,3%, isolamento 12,7%) non coerenti né con la figura (43,1%, 19,0%, 9,2% su 153) né con base 166 (39,8%, 17,5%, 8,4%). Riportiamo i valori della figura, che coincidono con i conteggi del testo (pagg. 31-32), e la didascalia a parte.",
+    "Periodo: il testo indica 2015-2025 (pag. 21 e pag. 29); la Figura 1 (workflow, pag. 26) riporta 'Periodo di riferimento: 2015-2026' e il database contiene 3 record datati 2026.",
+    "La maturità tecnologica (TRL) è descritta a pagg. 32-33 in modo qualitativo, senza conteggi: `per_trl_documento` riporta le fasce e gli ambiti citati con n = null. `per_trl_database` è invece calcolato dal dataset bibliografia-scientifica.json (campo trl_min/trl_max) e non compare come tale nel documento.",
+    "La numerazione delle figure nel Markdown estratto è incoerente (la didascalia della distribuzione geografica è 'Figura 8', quella degli ambiti 'Figura 9'); nel testo sono richiamate come Figura 5 e Figura 6 e i file immagine sono fig-5 e fig-6."
+  ],
+  "dati": {
+    "metodologia": {
+      "motore_ricerca_principale": "Google Scholar",
+      "tipologie_contributi": ["articoli su riviste scientifiche indicizzate", "atti di convegno", "capitoli di libro", "tesi di ricerca", "brevetti", "documentazione tecnica"],
+      "periodo": {"inizio": 2015, "fine": 2025, "nota": "Figura 1 indica 2015-2026; 3 record del database sono datati 2026"},
+      "lingua_query": "inglese",
+      "ambiti_query": ["materiali compositi", "edilizia sostenibile", "isolamento termo-acustico", "design industriale", "manifattura additiva", "automotive", "aerospazio", "economia circolare", "servizi ecosistemici", "valorizzazione dei sottoprodotti della filiera"],
+      "procedura": [
+        "archiviazione e organizzazione con software di gestione bibliografica",
+        "verifica manuale di pertinenza su titolo, abstract e, ove necessario, testo integrale",
+        "eliminazione delle duplicazioni e uniformazione delle informazioni bibliografiche",
+        "classificazione per ambito applicativo, settore industriale, tipologia di innovazione e potenziale interesse per la Sardegna"
+      ],
+      "attributi_registrati": ["autori", "anno di pubblicazione", "area geografica di riferimento", "tipologia del contributo", "settore applicativo", "tipologia di materiale", "forma di utilizzo del sughero", "tecnologia descritta", "finalità dell'applicazione", "vantaggi", "criticità", "TRL"],
+      "macro_settori_classificazione": ["edilizia sostenibile", "materiali compositi", "automotive", "aerospazio", "design", "packaging", "trattamento delle acque", "biomateriali", "manifattura additiva", "valorizzazione dei sottoprodotti", "economia circolare"],
+      "trl": "Scala Technology Readiness Level dei programmi europei di ricerca e innovazione; attribuzione per analisi critica delle pubblicazioni (sviluppo sperimentale, prototipi, validazione, prospettive di trasferimento industriale)",
+      "approfondimenti_separati": [
+        {"tema": "gestione del rischio di incendio nelle sugherete europee, resilienza e adattamento ai cambiamenti climatici", "pagina_pdf": 22},
+        {"tema": "strumenti di gestione sostenibile e certificazioni (FSC, PEFC, standard qualità/ambiente, prodotto, tracciabilità, packaging e tappi; aggiornamento standard italiano FSC e nuovo standard PEFC agroforestale)", "pagina_pdf": 22}
+      ],
+      "nota_approfondimenti": "I contributi dei due approfondimenti sono stati gestiti separatamente dalla banca dati delle applicazioni innovative (pagg. 22-23) e non fanno parte dei 153 record.",
+      "pagine_pdf": [21, 22, 23, 24]
+    },
+    "n_pubblicazioni": {
+      "database_allegato_2": 153,
+      "figura_5_e_6": 153,
+      "testo_par_3_3_2": 153,
+      "testo_par_3_3_e_didascalia_fig_6": 166,
+      "pagine_pdf": [29, 30, 32, 142]
+    },
+    "per_paese": {
+      "fonte": "Figura 5 (pag. 31) e par. 3.3.1 (pag. 30)",
+      "totale": 153,
+      "valori": [
+        {"paese": "Portogallo", "n_pubblicazioni": 58, "pct": 37.9},
+        {"paese": "Spagna", "n_pubblicazioni": 23, "pct": 15.0},
+        {"paese": "Italia", "n_pubblicazioni": 11, "pct": 7.2},
+        {"paese": "Studi multipaese", "n_pubblicazioni": 20, "pct": 13.1},
+        {"paese": "Francia", "n_pubblicazioni": 8, "pct": 5.2},
+        {"paese": "Polonia", "n_pubblicazioni": 6, "pct": 3.9},
+        {"paese": "Danimarca", "n_pubblicazioni": 2, "pct": 1.3},
+        {"paese": "Algeria", "n_pubblicazioni": 2, "pct": 1.3},
+        {"paese": "Marocco", "n_pubblicazioni": 1, "pct": 0.7},
+        {"paese": "Altri Paesi", "n_pubblicazioni": 22, "pct": 14.4, "nota": "Include altri Paesi europei ed extraeuropei con contributi minori (nota della figura)"}
+      ],
+      "mappa_classi_legenda": ["≥ 40", "15 – 25", "5 – 10", "1 – 4", "0"],
+      "quota_portogallo_spagna_italia_pct_didascalia": 67.5,
+      "quota_portogallo_spagna_italia_pct_calcolata": 60.1,
+      "testo_fonte": "Il Portogallo rappresenta il principale polo di ricerca, con 58 pubblicazioni (37,9%), seguito da Spagna (15%) e Italia (7,2%). Ulteriori 20 contributi sono riferiti a studi multipaese, mentre Francia e Polonia rappresentano altri contesti di ricerca consolidati. Complessivamente, Portogallo, Spagna e Italia concentrano circa i due terzi dell'intera produzione scientifica analizzata"
+    },
+    "per_ambito": {
+      "fonte": "Figura 6 (pag. 32) e par. 3.3.2 (pagg. 30-32)",
+      "totale_dichiarato": 153,
+      "somma_ambiti": 197,
+      "nota": "Attribuzione multipla: la somma degli ambiti supera il totale; le percentuali sono calcolate su 153.",
+      "valori": [
+        {"ambito": "Materiali compositi e innovativi", "n_pubblicazioni": 66, "pct": 43.1},
+        {"ambito": "Edilizia sostenibile", "n_pubblicazioni": 29, "pct": 19.0},
+        {"ambito": "Biomedicale, cosmetico e bioattivi", "n_pubblicazioni": 23, "pct": 15.0},
+        {"ambito": "Economia circolare e valorizzazione degli scarti", "n_pubblicazioni": 22, "pct": 14.4},
+        {"ambito": "Isolamento termo-acustico", "n_pubblicazioni": 14, "pct": 9.2},
+        {"ambito": "Design e arredo", "n_pubblicazioni": 9, "pct": 5.9},
+        {"ambito": "Energia", "n_pubblicazioni": 7, "pct": 4.6},
+        {"ambito": "Packaging enologico", "n_pubblicazioni": 6, "pct": 3.9},
+        {"ambito": "Automotive", "n_pubblicazioni": 6, "pct": 3.9},
+        {"ambito": "Aerospaziale", "n_pubblicazioni": 6, "pct": 3.9},
+        {"ambito": "Trattamento delle acque", "n_pubblicazioni": 5, "pct": 3.3},
+        {"ambito": "Manifattura additiva", "n_pubblicazioni": 4, "pct": 2.6}
+      ],
+      "didascalia_figura_6_pct": {"materiali_compositi": 34.9, "edilizia_sostenibile": 19.3, "isolamento_termo_acustico": 12.7, "nota": "Percentuali della didascalia (pag. 32) non coerenti con la figura; l'isolamento termo-acustico non è conteggiato nel testo di pagg. 31-32 ma compare nella figura con 14 pubblicazioni."}
+    },
+    "per_trl_documento": {
+      "fonte": "par. 3.3.3 (pagg. 32-33) e par. 4.3 (pag. 38)",
+      "nota": "Il documento non quantifica le classi TRL: descrizione qualitativa",
+      "valori": [
+        {"fascia_trl": "3–6", "descrizione": "livelli intermedi: tecnologie validate in laboratorio o in ambienti rilevanti, in ottimizzazione, dimostrazione e sviluppo preindustriale", "prevalenza": "la maggior parte delle soluzioni censite", "ambiti": null, "n_pubblicazioni": null},
+        {"fascia_trl": "7–9", "descrizione": "livelli elevati: prodotti e processi industriali consolidati o prossimi alla piena commercializzazione", "prevalenza": "numero significativo di applicazioni", "ambiti": ["materiali compositi", "edilizia sostenibile", "isolamento termo-acustico", "packaging", "valorizzazione degli scarti"], "n_pubblicazioni": null},
+        {"fascia_trl": "1–3", "descrizione": "livelli iniziali: dimostrazione del principio tecnologico, validazione sperimentale dei materiali, sviluppo di nuovi processi", "prevalenza": "componente rilevante", "ambiti": ["biomateriali innovativi", "applicazioni biomedicali e cosmetiche", "manifattura additiva", "trattamento delle acque", "alcune applicazioni aerospaziali"], "n_pubblicazioni": null}
+      ]
+    },
+    "per_trl_database": {
+      "fonte": "calcolato da bibliografia-scientifica.json (campi trl_min-trl_max), 153 record; non presente come tale nel documento",
+      "valori": [
+        {"fascia_trl": "3–5", "n_pubblicazioni": 38},
+        {"fascia_trl": "2–4", "n_pubblicazioni": 36},
+        {"fascia_trl": "3–4", "n_pubblicazioni": 31},
+        {"fascia_trl": "4–6", "n_pubblicazioni": 16},
+        {"fascia_trl": "6–8", "n_pubblicazioni": 9},
+        {"fascia_trl": "5–7", "n_pubblicazioni": 5},
+        {"fascia_trl": "2–3", "n_pubblicazioni": 1},
+        {"fascia_trl": "non quantificato (ND, NA, non tecnologico, review)", "n_pubblicazioni": 17}
+      ],
+      "nota": "Nel database nessun record supera TRL 8 e la fascia più alta è 6–8 (9 record); il testo di pag. 33 parla invece di 'un numero significativo di applicazioni' a TRL 7–9."
+    },
+    "evidenze": [
+      {"testo": "L'attività di Technology Scouting ha consentito di costruire una banca dati composta da 166 pubblicazioni scientifiche prodotte tra il 2015 e il 2025, successivamente validate e classificate secondo criteri relativi all'ambito applicativo, alla tecnologia utilizzata, al livello di maturità tecnologica e al potenziale di trasferimento industriale.", "pagina_pdf": 29},
+      {"testo": "La produzione scientifica risulta fortemente concentrata nei principali Paesi europei caratterizzati dalla presenza della filiera del sughero.", "pagina_pdf": 30},
+      {"testo": "L'ambito maggiormente rappresentato è quello dei materiali compositi e dei materiali innovativi, con 66 pubblicazioni, a testimonianza del forte interesse verso lo sviluppo di biocompositi, materiali multifunzionali e soluzioni avanzate ottenute mediante l'integrazione del sughero con matrici polimeriche, cementizie e bio-based.", "pagina_pdf": 31},
+      {"testo": "La maggior parte delle soluzioni censite si colloca nei livelli intermedi della scala (TRL 3–6), corrispondenti a tecnologie già validate in laboratorio o in ambienti rilevanti e attualmente oggetto di attività di ottimizzazione, dimostrazione e sviluppo preindustriale.", "pagina_pdf": 32},
+      {"testo": "Nel complesso, i risultati descrivono una filiera caratterizzata da una marcata capacità innovativa e da un elevato potenziale di trasferimento tecnologico.", "pagina_pdf": 33},
+      {"testo": "Tale quadro suggerisce che le future attività di ricerca dovrebbero concentrarsi sul consolidamento delle tecnologie a maturità intermedia, favorendo percorsi di validazione industriale, dimostrazione su scala reale e trasferimento verso il sistema produttivo.", "pagina_pdf": 33}
+    ]
+  }
+}

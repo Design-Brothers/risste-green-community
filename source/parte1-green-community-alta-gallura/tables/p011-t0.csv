@@ -1,0 +1,15 @@
+Unità di misura e simbolo,Significato e contesto applicativo
+ha (Ettari),"Unità di misura della superficie utilizzata per quantificare la Superficie Agricola Utilizzata (SAU), la Superficie Aziendale Totale (SAT), l'estensione dei complessi forestali, delle sugherete e dei tagli colturali"
+% (Percentuale),"Rapporto centesimale usato sia in demografia (incidenza coorti, stranieri, densità d'impresa) sia in ambito forestale (pendenze dei versanti, pendenza nei modelli anisotropici, quota di piante-habitat da rilasciare)."
+mm (Millimetri),"Unità di misura della quantità di precipitazioni, utilizzata nell'analisi termo- pluviometrica e nel calcolo del bilancio idrico del suolo secondo la metodologia di Thornthwaite."
+m (Metri),"Unità di misura della lunghezza e dell'altezza, utilizzata per la misurazione dendrometrica degli alberi (altezza media di Lorey), per il raggio fisso delle aree di saggio georeferenziate e per l'ampiezza delle fasce parafuoco."
+m s.l.m. (Metri sopra il livello del mare),"Unità di misura dell'altitudine (quota zenitale), utilizzata per l'inquadramento topografico del territorio, l'analisi delle potenzialità stazionali e la modellazione del Modello Digitale del Terreno (DTM)."
+m2 (Metri quadri),"Unità di misura della superficie a terra, utilizzata per il calcolo dell'area basimetrica dei popolamenti forestali nelle aree di saggio."
+m3 (Metri cubi),"Unità di misura del volume, utilizzata per il calcolo tassatorio delle provvigioni legnose e della biomassa forestale attraverso le formule di cubatura."
+m3ha (Metri cubi su ettaro),"Unità di misura della densità provvigionale, utilizzata per quantificare il volume di legname o biomassa presente per ogni ettaro di bosco."
+cm (Centimetri),Unità di misura utilizzata per il rilievo del diametro degli alberi a un metro e trenta da terra (punti di saggio dendrometrici).
+kW/m (Chilowatt su metro),"Unità di misura dell'intensità lineare del fuoco, utilizzata nella modellistica pirologica predittiva (FlamMap) per stabilire la pericolosità degli incendi e la fattibilità dell'attacco manuale diretto."
+h (Ore),Unità di misura del tempo utilizzata per quantificare la durata dei moduli didattici e dei percorsi di formazione professionale finanziati.
+Abitanti / Residenti,Unità numerica assoluta per la consistenza del corpo sociale del comprensorio e dei due assi strategici (Costiero e Interno).
+Imprese ogni 1.000 abitanti,"Unità di misura della densità imprenditoriale (parametro fisso al 13,6% nel 2025) per la stima predittiva degli scenari al 2035."
+1:25.000 / 1:250.000,Scale nominali di risoluzione geometrica per i vettori GIS (rispettivamente per l'Uso del Suolo e per la Carta dei Suoli).

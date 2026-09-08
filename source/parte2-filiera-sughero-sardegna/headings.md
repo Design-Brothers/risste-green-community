@@ -1,0 +1,135 @@
+# Outline rilevato – Parte2
+
+(livello, titolo, pagina PDF)
+
+      - [H4] Valorizzazione della filiera del — p.1
+      - [H4] sughero in Sardegna — p.1
+      - [H4] Un framework multidisciplinare per l'integrazione tra analisi — p.1
+      - [H4] territoriale, innovazione e gestione sostenibile — p.1
+      - [H4] Anno 2025 — p.1
+      - [H4] Valorizzazione della filiera del — p.3
+      - [H4] sughero in Sardegna — p.3
+      - [H4] Un framework multidisciplinare per l'integrazione tra analisi — p.3
+      - [H4] territoriale, innovazione e gestione sostenibile — p.3
+      - [H4] Anno 2025 — p.3
+- [H1] SOMMARIO TABELLE — p.7
+- [H1] SOMMARIO IMMAGINI — p.8
+- [H1] LISTA ABBREVIAZIONI — p.9
+- [H1] LISTA UNITA’ DI MISURA — p.10
+      - [H4] Unità di misura e simbolo Significato e contesto applicativo — p.10
+- [H1] PREMESSA — p.11
+    - [H3] i. Introduzione — p.11
+    - [H3] ii. Finalità dello studio — p.11
+    - [H3] iii. Obiettivi strategici e operativi — p.11
+    - [H3] iv. Struttura del lavoro — p.12
+    - [H3] v. Gruppo di lavoro — p.12
+- [H1] PRIMA PARTE – INTRODUZIONE — p.15
+  - [H2] 1. Contesto strategico dello studio — p.15
+    - [H3] 1.1. Il patrimonio sughericolo della Sardegna — p.16
+    - [H3] 1.2. Il sughero nel contesto della bioeconomia e dell’innovazione — p.16
+- [H1] SECONDA PARTE — p.19
+  - [H2] 2. Metodologia di analisi — p.19
+    - [H3] 2.1. Impostazione metodologica — p.19
+    - [H3] 2.2. Analisi territoriale — p.19
+    - [H3] 2.3. Analisi della filiera regionale del sughero — p.21
+    - [H3] 2.4. Technology Scouting — p.21
+    - [H3] 2.5. Classificazione delle tecnologie e degli strumenti di valorizzazione — p.23
+    - [H3] 2.6. Valutazione del livello di maturità tecnologica — p.24
+    - [H3] 2.7. Integrazione delle analisi — p.24
+- [H1] TERZA PARTE — p.27
+  - [H2] 3. Risultati — p.27
+    - [H3] 3.1. Distribuzione della risorsa sughericola — p.27
+    - [H3] 3.2. Analisi dei territori prioritari — p.27
+      - [H4] 3.2.1. Indice di Vocazionalità Pedologica (IVP) — p.27
+      - [H4] 3.2.2. Indice di Pericolosità di Incendio (IPI) — p.28
+      - [H4] 3.2.3. Indice di Continuità delle Risorse (ICR) — p.28
+    - [H3] 3.3. Innovazione della filiera del sughero — p.29
+      - [H4] 3.3.1. Distribuzione geografica dell’innovazione — p.30
+      - [H4] 3.3.2. Principali ambiti di innovazione — p.30
+      - [H4] 3.3.3. Maturità delle tecnologie e potenziale di trasferimento — p.32
+    - [H3] 3.4. Gestione forestale e certificazioni — p.33
+      - [H4] 3.4.1. Gestione forestale e resilienza delle sugherete — p.33
+      - [H4] 3.4.2. Certificazioni forestali e strumenti di valorizzazione della filiera — p.34
+- [H1] QUARTA PARTE — p.35
+  - [H2] 4. Interpretazione dei risultati e prospettive di sviluppo — p.35
+    - [H3] 4.1. Gli indicatori territoriali come strumenti di lettura della resilienza — p.35
+      - [H4] 4.1.1. Indice di Vocazionalità Pedologica (IVP) — p.35
+      - [H4] 4.1.2. Indice di Pericolosità da Incendio (IPI) — p.36
+      - [H4] 4.1.3. Indice di Continuità della Risorsa (ICR) — p.36
+    - [H3] 4.2. Interpretazione integrata degli indicatori territoriali — p.36
+    - [H3] 4.3. Innovazione, bioeconomia e sostenibilità della filiera — p.37
+    - [H3] 4.4. Gestione sostenibile, certificazioni e governance territoriale — p.38
+    - [H3] 4.5. Un modello integrato per la valorizzazione della Sughereta Sardegna — p.41
+- [H1] QUINTA PARTE — p.45
+  - [H2] 5. Conclusioni e prospettive — p.45
+- [H1] BIBLIOGRAFIA — p.47
+      - [H4] Documentazione istituzionale e normativa — p.47
+      - [H4] Letteratura scientifica — p.47
+      - [H4] Fonti cartografiche e banche dati — p.48
+      - [H4] Elaborazioni sviluppate nell'ambito del presente studio — p.48
+- [H1] ALLEGATI — p.49
+      - [H4] Allegato I. Studio tecnico sugherete — p.50
+    - [H3] SUGHERETA SARDEGNA — p.50
+      - [H4] Dossier comunale integrato — p.50
+      - [H4] Nota metodologica sintetica — p.50
+      - [H4] Quadro sinottico dei 30 comuni — p.50
+      - [H4] Scheda comunale 01 — p.52
+      - [H4] Bitti presenta 5.801,29 ha di sugherete, pari al 6,92% della Sughereta Sardegna. L'IVP — p.52
+      - [H4] Scheda comunale 02 — p.55
+      - [H4] Berchidda presenta 5.480,00 ha di sugherete, pari al 6,54% della Sughereta Sardegna. L'IVP — p.55
+      - [H4] Scheda comunale 03 — p.58
+      - [H4] Oschiri presenta 5.434,73 ha di sugherete, pari al 6,49% della Sughereta Sardegna. L'IVP — p.58
+      - [H4] Scheda comunale 04 — p.61
+      - [H4] Budduso' presenta 5.185,05 ha di sugherete, pari al 6,19% della Sughereta Sardegna. L'IVP — p.61
+      - [H4] Scheda comunale 05 — p.64
+      - [H4] Nuoro presenta 4.413,55 ha di sugherete, pari al 5,27% della Sughereta Sardegna. L'IVP — p.64
+      - [H4] Scheda comunale 06 — p.67
+      - [H4] Orune presenta 4.201,12 ha di sugherete, pari al 5,01% della Sughereta Sardegna. L'IVP — p.67
+      - [H4] Scheda comunale 07 — p.70
+      - [H4] Ala' Dei Sardi — p.70
+      - [H4] Scheda comunale 08 — p.73
+      - [H4] Villanova Monteleone — p.73
+      - [H4] Villanova Monteleone presenta 3.664,58 ha di sugherete, pari al 4,37% della Sughereta — p.73
+      - [H4] Scheda comunale 09 — p.76
+      - [H4] Ozieri presenta 3.513,27 ha di sugherete, pari al 4,19% della Sughereta Sardegna. L'IVP — p.76
+      - [H4] Scheda comunale 10 — p.79
+      - [H4] Orani presenta 3.376,52 ha di sugherete, pari al 4,03% della Sughereta Sardegna. L'IVP — p.79
+      - [H4] Scheda comunale 11 — p.82
+      - [H4] Tempio Pausania — p.82
+      - [H4] Scheda comunale 12 — p.85
+      - [H4] Telti presenta 2.826,09 ha di sugherete, pari al 3,37% della Sughereta Sardegna. L'IVP — p.85
+      - [H4] Scheda comunale 13 — p.88
+      - [H4] Calangianus presenta 2.422,54 ha di sugherete, pari al 2,89% della Sughereta Sardegna. L'IVP — p.88
+      - [H4] Scheda comunale 14 — p.91
+      - [H4] Mores presenta 2.362,69 ha di sugherete, pari al 2,82% della Sughereta Sardegna. L'IVP — p.91
+      - [H4] Scheda comunale 15 — p.94
+      - [H4] Chiaramonti presenta 2.359,32 ha di sugherete, pari al 2,82% della Sughereta Sardegna. L'IVP — p.94
+      - [H4] Scheda comunale 16 — p.97
+      - [H4] Padru presenta 2.265,40 ha di sugherete, pari al 2,70% della Sughereta Sardegna. L'IVP — p.97
+      - [H4] Scheda comunale 17 — p.100
+      - [H4] Illorai presenta 2.070,50 ha di sugherete, pari al 2,47% della Sughereta Sardegna. L'IVP — p.100
+      - [H4] Scheda comunale 18 — p.103
+      - [H4] Olbia presenta 1.971,52 ha di sugherete, pari al 2,35% della Sughereta Sardegna. L'IVP — p.103
+      - [H4] Scheda comunale 19 — p.106
+      - [H4] Oliena presenta 1.944,06 ha di sugherete, pari al 2,32% della Sughereta Sardegna. L'IVP — p.106
+      - [H4] Scheda comunale 20 — p.109
+      - [H4] Scheda comunale 21 — p.112
+      - [H4] Benetutti presenta 1.822,49 ha di sugherete, pari al 2,18% della Sughereta Sardegna. L'IVP — p.112
+      - [H4] Scheda comunale 22 — p.115
+      - [H4] Abbasanta presenta 1.767,81 ha di sugherete, pari al 2,11% della Sughereta Sardegna. L'IVP — p.115
+      - [H4] Scheda comunale 23 — p.118
+      - [H4] Pattada presenta 1.761,94 ha di sugherete, pari al 2,10% della Sughereta Sardegna. L'IVP — p.118
+      - [H4] Scheda comunale 24 — p.121
+      - [H4] Monti presenta 1.637,71 ha di sugherete, pari al 1,95% della Sughereta Sardegna. L'IVP — p.121
+      - [H4] Scheda comunale 25 — p.124
+      - [H4] Ploaghe presenta 1.561,48 ha di sugherete, pari al 1,86% della Sughereta Sardegna. L'IVP — p.124
+      - [H4] Scheda comunale 26 — p.127
+      - [H4] Bono presenta 1.462,03 ha di sugherete, pari al 1,74% della Sughereta Sardegna. L'IVP — p.127
+      - [H4] Scheda comunale 27 — p.130
+      - [H4] Scheda comunale 28 — p.133
+      - [H4] Ardara presenta 1.413,35 ha di sugherete, pari al 1,69% della Sughereta Sardegna. L'IVP — p.133
+      - [H4] Scheda comunale 29 — p.136
+      - [H4] Iglesias presenta 1.372,51 ha di sugherete, pari al 1,64% della Sughereta Sardegna. L'IVP — p.136
+      - [H4] Scheda comunale 30 — p.139
+      - [H4] Bultei presenta 1.342,27 ha di sugherete, pari al 1,60% della Sughereta Sardegna. L'IVP — p.139
+      - [H4] Allegato II: Database bibliografia scientifica — p.142

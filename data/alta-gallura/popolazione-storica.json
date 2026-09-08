@@ -1,0 +1,271 @@
+{
+  "titolo": "Popolazione residente nei Comuni dell'Alta Gallura 2001-2025",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.1, Tabella 1a; par. 1.7, Tabella 1c; Allegato I – Report demografico e socio-economico strutturale dei Comuni",
+    "pagine_pdf": [
+      21,
+      22,
+      25,
+      97,
+      101,
+      105,
+      109,
+      113,
+      118,
+      123,
+      128,
+      133,
+      138,
+      143
+    ]
+  },
+  "note": [
+    "Abitanti 2001 e 2011: censimenti ISTAT; 2023: residenti al 31 dicembre 2023; 2025: residenti al 1° gennaio 2025 (le schede dell'Allegato I chiamano lo stesso dato 'popolazione 2024').",
+    "Variazione assoluta 2001-2023 e variazioni per periodo intercensuario dalle schede dell'Allegato I (pp. 97-143); la variazione % 2001-2023 coincide tra Tabella 1a e schede.",
+    "Classificazione costa/entroterra come nel testo (par. 1 e 1.7): asse costiero = Aglientu, Badesi, Santa Teresa Gallura, Trinità d'Agultu e Vignola; asse interno = Aggius, Bortigiadas, Calangianus, Luogosanto, Luras, Tempio Pausania, Viddalba.",
+    "Le righe 'fascia-costiera' e 'fascia-interna' riportano i valori 2001 e 2025 della Tabella 1c (p.25) con la variazione % 2001-2025 dichiarata (+14,0% / -10,1%); i valori 2011 e 2023 delle fasce sono somme delle righe comunali della Tabella 1a (coerenti con i totali) e non compaiono come tali nel testo. La variazione % 2001-2023 delle fasce non è riportata dallo studio (null).",
+    "Il testo (par. 1.7.1) dice che l'interno 'ha perso quasi 3.000 abitanti': la differenza 27.386 - 24.626 è pari a 2.760.",
+    "Tutte le somme comunali coincidono con i totali della Tabella 1a (verificato)."
+  ],
+  "dati": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "abitanti_2001": 1685,
+      "abitanti_2011": 1606,
+      "abitanti_2023": 1411,
+      "abitanti_2025": 1403,
+      "var_ass_2001_2011": -79,
+      "var_ass_2011_2023": -195,
+      "var_ass_2001_2023": -274,
+      "var_pct_2001_2023": -16.26,
+      "pagine_pdf": [
+        22,
+        97
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "abitanti_2001": 1093,
+      "abitanti_2011": 1166,
+      "abitanti_2023": 1177,
+      "abitanti_2025": 1195,
+      "var_ass_2001_2011": 73,
+      "var_ass_2011_2023": 11,
+      "var_ass_2001_2023": 84,
+      "var_pct_2001_2023": 7.69,
+      "pagine_pdf": [
+        22,
+        101
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "abitanti_2001": 1843,
+      "abitanti_2011": 1895,
+      "abitanti_2023": 1838,
+      "abitanti_2025": 1832,
+      "var_ass_2001_2011": 52,
+      "var_ass_2011_2023": -57,
+      "var_ass_2001_2023": -5,
+      "var_pct_2001_2023": -0.27,
+      "pagine_pdf": [
+        22,
+        105
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "abitanti_2001": 891,
+      "abitanti_2011": 796,
+      "abitanti_2023": 709,
+      "abitanti_2025": 700,
+      "var_ass_2001_2011": -95,
+      "var_ass_2011_2023": -87,
+      "var_ass_2001_2023": -182,
+      "var_pct_2001_2023": -20.43,
+      "pagine_pdf": [
+        22,
+        109
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "abitanti_2001": 4635,
+      "abitanti_2011": 4257,
+      "abitanti_2023": 3785,
+      "abitanti_2025": 3726,
+      "var_ass_2001_2011": -378,
+      "var_ass_2011_2023": -472,
+      "var_ass_2001_2023": -850,
+      "var_pct_2001_2023": -18.34,
+      "pagine_pdf": [
+        22,
+        113
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "abitanti_2001": 1825,
+      "abitanti_2011": 1899,
+      "abitanti_2023": 1802,
+      "abitanti_2025": 1815,
+      "var_ass_2001_2011": 74,
+      "var_ass_2011_2023": -97,
+      "var_ass_2001_2023": -23,
+      "var_pct_2001_2023": -1.26,
+      "pagine_pdf": [
+        22,
+        118
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "abitanti_2001": 2655,
+      "abitanti_2011": 2649,
+      "abitanti_2023": 2375,
+      "abitanti_2025": 2368,
+      "var_ass_2001_2011": -6,
+      "var_ass_2011_2023": -274,
+      "var_ass_2001_2023": -280,
+      "var_pct_2001_2023": -10.55,
+      "pagine_pdf": [
+        22,
+        123
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "abitanti_2001": 4343,
+      "abitanti_2011": 5018,
+      "abitanti_2023": 5044,
+      "abitanti_2025": 5078,
+      "var_ass_2001_2011": 675,
+      "var_ass_2011_2023": 26,
+      "var_ass_2001_2023": 701,
+      "var_pct_2001_2023": 16.14,
+      "pagine_pdf": [
+        22,
+        128
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "abitanti_2001": 13982,
+      "abitanti_2011": 13936,
+      "abitanti_2023": 13133,
+      "abitanti_2025": 13036,
+      "var_ass_2001_2011": -46,
+      "var_ass_2011_2023": -803,
+      "var_ass_2001_2023": -849,
+      "var_pct_2001_2023": -6.07,
+      "pagine_pdf": [
+        22,
+        133
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "abitanti_2001": 2029,
+      "abitanti_2011": 2155,
+      "abitanti_2023": 2351,
+      "abitanti_2025": 2511,
+      "var_ass_2001_2011": 126,
+      "var_ass_2011_2023": 196,
+      "var_ass_2001_2023": 322,
+      "var_pct_2001_2023": 15.87,
+      "pagine_pdf": [
+        22,
+        138
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "abitanti_2001": 1713,
+      "abitanti_2011": 1688,
+      "abitanti_2023": 1595,
+      "abitanti_2025": 1578,
+      "var_ass_2001_2011": -25,
+      "var_ass_2011_2023": -93,
+      "var_ass_2001_2023": -118,
+      "var_pct_2001_2023": -6.89,
+      "pagine_pdf": [
+        22,
+        143
+      ]
+    },
+    {
+      "comune": "TOTALE ALTA GALLURA",
+      "slug": "totale-alta-gallura",
+      "fascia": "unione",
+      "abitanti_2001": 36694,
+      "abitanti_2011": 37065,
+      "abitanti_2023": 35220,
+      "abitanti_2025": 35242,
+      "var_ass_2001_2011": 371,
+      "var_ass_2011_2023": -1845,
+      "var_ass_2001_2023": -1474,
+      "var_pct_2001_2023": -4.02,
+      "pagine_pdf": [
+        21,
+        22
+      ]
+    },
+    {
+      "comune": "Fascia costiera (4 Comuni)",
+      "slug": "fascia-costiera",
+      "fascia": "costiera",
+      "abitanti_2001": 9308,
+      "abitanti_2011": 10234,
+      "abitanti_2023": 10410,
+      "abitanti_2025": 10616,
+      "var_ass_2001_2011": 926,
+      "var_ass_2011_2023": 176,
+      "var_ass_2001_2023": 1102,
+      "var_pct_2001_2023": null,
+      "var_pct_2001_2025": 14.0,
+      "pagine_pdf": [
+        25
+      ]
+    },
+    {
+      "comune": "Entroterra (7 Comuni)",
+      "slug": "fascia-interna",
+      "fascia": "interna",
+      "abitanti_2001": 27386,
+      "abitanti_2011": 26831,
+      "abitanti_2023": 24810,
+      "abitanti_2025": 24626,
+      "var_ass_2001_2011": -555,
+      "var_ass_2011_2023": -2021,
+      "var_ass_2001_2023": -2576,
+      "var_pct_2001_2023": null,
+      "var_pct_2001_2025": -10.1,
+      "pagine_pdf": [
+        25
+      ]
+    }
+  ]
+}

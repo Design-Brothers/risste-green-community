@@ -1,0 +1,115 @@
+{
+  "titolo": "Finalità, obiettivi strategici e operativi, destinatari e gruppo di lavoro dello studio Green community UCAG 193",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "I. Premessa (par. i-v) e II. Quadro metodologico (par. vii Gruppo di lavoro)",
+    "pagine_pdf": [13, 14, 15, 18, 19]
+  },
+  "note": [
+    "Testo sintetizzato in modo fedele dai paragrafi ii (Finalità), iii (Obiettivi strategici e operativi) e vii (Gruppo di lavoro); la suddivisione in punti degli obiettivi è redazionale, il documento li espone in forma discorsiva.",
+    "I destinatari non sono elencati in un paragrafo dedicato: sono ricavati dalle frasi 'fornendo alle amministrazioni locali e agli stakeholder uno strumento conoscitivo e programmatorio' (pag. 14) e dai soggetti della governance citati a pag. 15.",
+    "Il quadro normativo di riferimento delle Green communities citato è la Legge 221/2015 con sostegno dei fondi PNRR (pag. 15).",
+    "I ruoli del gruppo di lavoro sono riportati come nel documento; il documento non attribuisce compiti specifici per capitolo."
+  ],
+  "dati": [
+    {
+      "tipo": "finalita",
+      "pagina_pdf": 14,
+      "testo": "Definire un quadro d'insieme operativo per lo sviluppo sostenibile dell'Alta Gallura, fornendo ad amministrazioni locali e stakeholder uno strumento conoscitivo e programmatorio avanzato. Lo studio identifica i vettori di crescita idonei a coniugare la tutela del patrimonio forestale e sughericolo con lo sviluppo delle filiere manifatturiere, artigianali e agro-pastorali, tracciando le linee guida per una transizione ecologica fondata sulla gestione attiva del capitale naturale. Lo sviluppo delle filiere bioeconomiche è calibrato sulle tendenze demografiche locali per contrastare le dinamiche recessive e favorire ricambio generazionale e stanzialità nei centri dell'interno."
+    },
+    {
+      "tipo": "obiettivo_strategico",
+      "ordine": 1,
+      "pagina_pdf": 14,
+      "testo": "Consolidare il posizionamento dell'Alta Gallura come polo di eccellenza per la bioeconomia forestale a livello regionale e nazionale."
+    },
+    {
+      "tipo": "obiettivo_strategico",
+      "ordine": 2,
+      "pagina_pdf": 14,
+      "testo": "Valorizzare i servizi ecosistemici del territorio e strutturare un modello di sviluppo locale replicabile in altri contesti interni e montani del Mediterraneo."
+    },
+    {
+      "tipo": "obiettivo_strategico",
+      "ordine": 3,
+      "pagina_pdf": 14,
+      "testo": "Pianificare un riequilibrio territoriale sistemico che attenui la polarizzazione Costa-Entroterra, riconnettendo le aree a forte dinamismo migratorio e turistico con i borghi interni custodi del capitale forestale e delle filiere identitarie (artigianato del sughero e del granito)."
+    },
+    {
+      "tipo": "obiettivo_operativo",
+      "ordine": 1,
+      "pagina_pdf": 14,
+      "testo": "Definire piani di gestione forestale sostenibile e schede d'azione applicabili alle 11 municipalità dell'Unione dei Comuni, favorendo la rinnovazione naturale delle sugherete e l'avviamento ad alto fusto degli altri popolamenti quercini con funzione protettiva."
+    },
+    {
+      "tipo": "obiettivo_operativo",
+      "ordine": 2,
+      "pagina_pdf": 14,
+      "testo": "Promuovere la certificazione forestale e la tracciabilità delle produzioni sughericole."
+    },
+    {
+      "tipo": "obiettivo_operativo",
+      "ordine": 3,
+      "pagina_pdf": 14,
+      "testo": "Incentivare la creazione di Living Lab, lo sviluppo di reti d'impresa e modelli di governance unificati, ad esempio tramite l'ottimizzazione della Centrale Unica di Committenza."
+    },
+    {
+      "tipo": "obiettivo_operativo",
+      "ordine": 4,
+      "pagina_pdf": 14,
+      "testo": "Integrare i parametri demografici strutturali (coorti scolastiche, tassi di senescenza, scomposizione dei nuclei familiari) nei modelli decisionali locali, per una pianificazione evidence-based di servizi e infrastrutture verdi."
+    },
+    {
+      "tipo": "destinatario",
+      "pagina_pdf": 14,
+      "nome": "Amministrazioni locali dell'Unione dei Comuni dell'Alta Gallura",
+      "nota": "Destinatario primario dello strumento conoscitivo e programmatorio (pag. 14)."
+    },
+    {
+      "tipo": "destinatario",
+      "pagina_pdf": 14,
+      "nome": "Stakeholder territoriali",
+      "nota": "Citati genericamente a pag. 14; a pag. 15 la governance include tessuto imprenditoriale privato, agenzie scientifiche regionali e comunità locali."
+    },
+    {
+      "tipo": "componente_gruppo_di_lavoro",
+      "ordine": 1,
+      "pagina_pdf": 18,
+      "nome": "Fabrizio Mureddu",
+      "ruolo": "Avvocato libero professionista, Direttore di R.I.S.S.T.E.",
+      "competenze": "Diritto amministrativo, urbanistico e degli Enti Locali; consulente strategico e coordinatore amministrativo per programmi di sviluppo e interventi PNRR; gestione di progetti di ricerca, direzione di enti universitari e comitati scientifici, reti e partenariati pubblico-privati."
+    },
+    {
+      "tipo": "componente_gruppo_di_lavoro",
+      "ordine": 2,
+      "pagina_pdf": 19,
+      "nome": "Gianfranco Sanna",
+      "ruolo": "Presidente e co-founder di R.I.S.S.T.E.",
+      "competenze": "Government Affairs Manager e consulente aziendale strategico; direzione di distretti rurali e aree Natura 2000, progettazione europea, partenariati pubblico-privati."
+    },
+    {
+      "tipo": "componente_gruppo_di_lavoro",
+      "ordine": 3,
+      "pagina_pdf": 19,
+      "nome": "Maria Fais",
+      "ruolo": "Dottoressa di Ricerca in Biologia, esperta ambientale, componente esterna della Commissione Ambiente dell'Ordine Nazionale dei Biologi della Sardegna",
+      "competenze": "Consulente strategica ESG e QHSE; ecologia molecolare, DNA metabarcoding e bioinformatica per il monitoraggio di comunità complesse, piani di interpretazione territoriale, didattica innovativa."
+    },
+    {
+      "tipo": "componente_gruppo_di_lavoro",
+      "ordine": 4,
+      "pagina_pdf": 19,
+      "nome": "Nicola Garippa",
+      "ruolo": "Dottore in Scienze Agrarie, agronomo libero professionista",
+      "competenze": "Oltre venticinque anni di pianificazione agro-silvo-pastorale; direzione manageriale di studi di consulenza agraria, progetti agro-zootecnici, co-estensione di piani di gestione di siti d'interesse comunitario."
+    },
+    {
+      "tipo": "componente_gruppo_di_lavoro",
+      "ordine": 5,
+      "pagina_pdf": 19,
+      "nome": "Vincenzo Sechi",
+      "ruolo": "Dottore Agronomo, tecnico faunistico, specialista in pianificazione ambientale e adeguamento dei Piani Urbanistici Comunali",
+      "competenze": "Progettazione di infrastrutture verdi e agro-ecosistemi; redazione di VIncA, studi di VIA e VAS e piani di gestione per aree protette della Rete Natura 2000."
+    }
+  ]
+}

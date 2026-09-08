@@ -1,0 +1,131 @@
+{
+  "titolo": "Direttrici di innovazione della filiera del sughero (Tabella 1) con driver europei, evidenze, maturità e opportunità per la Sardegna",
+  "fonte": {
+    "documento": "parte2",
+    "capitolo": "Tabella 1 (pag. 40); par. 4.3 (pagg. 37-38); par. 3.3.2-3.3.3 (pagg. 30-33); Figura 6 (pag. 32)",
+    "pagine_pdf": [30, 31, 32, 33, 37, 38, 40],
+    "file_grezzo": "source/parte2-filiera-sughero-sardegna/tables/p040-t0.csv"
+  },
+  "note": [
+    "Le colonne originali della Tabella 1 sono: Ambito strategico | Driver europeo di riferimento | Evidenze emerse | Opportunità per la Sardegna. Sono mappate su: direttrice | driver_europeo | evidenze_emerse (= esempi/applicazioni) | opportunita_sardegna (= rilevanza per la Sardegna).",
+    "Il campo `descrizione` è una sintesi redazionale tratta dal par. 4.3 e dal par. 3.3.2, con pagina indicata; non è testo della tabella.",
+    "Il campo `maturita` riprende le indicazioni qualitative di pagg. 32-33 e 38 (TRL elevati per edilizia, compositi, isolamento, packaging, valorizzazione scarti; TRL iniziali/intermedi per biomedicale, biomateriali avanzati, manifattura additiva, tecnologie ambientali, alcune applicazioni aerospaziali); null dove il documento non si esprime.",
+    "`n_pubblicazioni_fig6` collega la direttrice agli ambiti della Figura 6 (totale 153, attribuzione multipla); null per le direttrici trasversali (TRL, ESG) e dove la corrispondenza non è univoca.",
+    "Le due ultime righe della Tabella 1 (TRL e trasferimento tecnologico; ESG e certificazioni ambientali) non sono ambiti applicativi ma direttrici trasversali."
+  ],
+  "dati": [
+    {
+      "id": 1,
+      "direttrice": "Materiali compositi e materiali innovativi",
+      "driver_europeo": "Green Deal – Bioeconomy Strategy",
+      "evidenze_emerse": "Biomateriali leggeri, multifunzionali e ad alte prestazioni",
+      "opportunita_sardegna": "Nuove filiere industriali basate su granulato, polveri e sottoprodotti del sughero",
+      "descrizione": "Principale ambito di sviluppo della ricerca: biocompositi, materiali multifunzionali e soluzioni avanzate ottenute integrando il sughero con matrici polimeriche, cementizie e bio-based (pag. 31, 37).",
+      "maturita": "Elevata: livelli di maturità generalmente elevati, prossimi alla diffusione industriale o già consolidati (pag. 38); presenti anche applicazioni TRL 7–9 (pag. 33).",
+      "n_pubblicazioni_fig6": 66,
+      "pct_fig6": 43.1,
+      "pagina_pdf": 40
+    },
+    {
+      "id": 2,
+      "direttrice": "Edilizia sostenibile",
+      "driver_europeo": "Renovation Wave; EPBD",
+      "evidenze_emerse": "Isolamento termo-acustico, bioedilizia ed efficienza energetica",
+      "opportunita_sardegna": "Materiali naturali per riqualificazione energetica e costruzioni sostenibili",
+      "descrizione": "Sughero come materiale isolante, componente strutturale leggero e soluzione per il miglioramento delle prestazioni energetiche e ambientali degli edifici (pag. 31).",
+      "maturita": "Elevata: applicazioni TRL 7–9 in edilizia sostenibile e isolamento termo-acustico (pag. 33); prossime alla diffusione industriale o consolidate (pag. 38).",
+      "n_pubblicazioni_fig6": 29,
+      "pct_fig6": 19.0,
+      "nota": "La Figura 6 conteggia separatamente 'Isolamento termo-acustico' (14 pubblicazioni, 9,2%), qui ricompreso nelle evidenze della direttrice.",
+      "pagina_pdf": 40
+    },
+    {
+      "id": 3,
+      "direttrice": "Biomedicale, cosmetico e bioattivi",
+      "driver_europeo": "EU Health & Bioeconomy Strategy",
+      "evidenze_emerse": "Molecole bioattive, biomateriali e applicazioni medicali",
+      "opportunita_sardegna": "Diversificazione verso mercati ad alto valore aggiunto",
+      "descrizione": "Impiego dei composti estratti dal sughero e dei suoi derivati in applicazioni ad elevato valore aggiunto (pag. 31).",
+      "maturita": "Iniziale/intermedia: TRL 1–3 per applicazioni biomedicali e cosmetiche (pag. 33); livelli intermedi con ampi margini per ricerca applicata e trasferimento (pag. 38).",
+      "n_pubblicazioni_fig6": 23,
+      "pct_fig6": 15.0,
+      "pagina_pdf": 40
+    },
+    {
+      "id": 4,
+      "direttrice": "Economia circolare e valorizzazione degli scarti",
+      "driver_europeo": "Circular Economy Action Plan",
+      "evidenze_emerse": "Recupero dei residui della lavorazione e nuovi prodotti bio-based",
+      "opportunita_sardegna": "Riduzione dei rifiuti e incremento del valore della filiera",
+      "descrizione": "Gli scarti di filiera diventano materia prima seconda per nuovi materiali, adsorbenti, biomateriali funzionali, composti bioattivi e componenti tecnici (pag. 37).",
+      "maturita": "Elevata per la valorizzazione degli scarti (TRL 7–9 citati a pag. 33).",
+      "n_pubblicazioni_fig6": 22,
+      "pct_fig6": 14.4,
+      "pagina_pdf": 40
+    },
+    {
+      "id": 5,
+      "direttrice": "Energia e tecnologie ambientali",
+      "driver_europeo": "REPowerEU – Climate Neutrality",
+      "evidenze_emerse": "Biochar, adsorbenti, materiali funzionali e tecnologie ambientali",
+      "opportunita_sardegna": "Nuovi impieghi energetici e ambientali del sughero",
+      "descrizione": "Comparti emergenti dell'energia e del trattamento delle acque, con interesse crescente verso applicazioni specialistiche (pagg. 32, 37).",
+      "maturita": "Iniziale/intermedia: TRL 1–3 per il trattamento delle acque (pag. 33); tecnologie ambientali prevalentemente a livelli intermedi (pag. 38).",
+      "n_pubblicazioni_fig6": 12,
+      "pct_fig6": null,
+      "nota": "Somma di 'Energia' (7; 4,6%) e 'Trattamento delle acque' (5; 3,3%) della Figura 6.",
+      "pagina_pdf": 40
+    },
+    {
+      "id": 6,
+      "direttrice": "Packaging sostenibile",
+      "driver_europeo": "EU Packaging Regulation",
+      "evidenze_emerse": "Soluzioni naturali, riciclabili e a ridotto impatto ambientale",
+      "opportunita_sardegna": "Innovazione nella filiera del tappo e del packaging alimentare",
+      "descrizione": "Packaging enologico e nuove soluzioni di chiusura (pag. 31).",
+      "maturita": "Elevata: TRL 7–9 nel packaging (pag. 33); maturità generalmente elevata (pag. 38).",
+      "n_pubblicazioni_fig6": 6,
+      "pct_fig6": 3.9,
+      "pagina_pdf": 40
+    },
+    {
+      "id": 7,
+      "direttrice": "Automotive e aerospaziale",
+      "driver_europeo": "Horizon Europe – Clean Industrial Deal",
+      "evidenze_emerse": "Materiali ultraleggeri e ad alte prestazioni",
+      "opportunita_sardegna": "Collaborazioni con comparti industriali avanzati",
+      "descrizione": "Sughero quale biomateriale leggero, resistente e sostenibile nei comparti automotive e aerospaziale (pagg. 31-32).",
+      "maturita": "Mista: alcune applicazioni aerospaziali a TRL 1–3 (pag. 33); nessuna indicazione specifica per l'automotive.",
+      "n_pubblicazioni_fig6": 12,
+      "pct_fig6": null,
+      "nota": "Somma di 'Automotive' (6; 3,9%) e 'Aerospaziale' (6; 3,9%) della Figura 6.",
+      "pagina_pdf": 40
+    },
+    {
+      "id": 8,
+      "direttrice": "TRL e trasferimento tecnologico",
+      "driver_europeo": "Horizon Europe – EIC",
+      "evidenze_emerse": "Coesistenza di tecnologie mature ed emergenti",
+      "opportunita_sardegna": "Living Lab, dimostratori tecnologici, spin-off e trasferimento alle imprese",
+      "descrizione": "Distribuzione equilibrata tra tecnologie consolidate e applicazioni emergenti; le future attività dovrebbero concentrarsi sul consolidamento delle tecnologie a maturità intermedia (pagg. 33, 38).",
+      "maturita": null,
+      "n_pubblicazioni_fig6": null,
+      "pct_fig6": null,
+      "nota": "Direttrice trasversale.",
+      "pagina_pdf": 40
+    },
+    {
+      "id": 9,
+      "direttrice": "ESG e certificazioni ambientali",
+      "driver_europeo": "CSRD – Tassonomia UE – Strategia Forestale 2030",
+      "evidenze_emerse": "Integrazione tra sostenibilità, tracciabilità e governance",
+      "opportunita_sardegna": "Rafforzamento della competitività internazionale della filiera",
+      "descrizione": "Criteri ESG, LCA, Carbon Footprint e Water Footprint assumono un ruolo crescente nella progettazione dei prodotti e nella competitività delle imprese (pag. 38).",
+      "maturita": null,
+      "n_pubblicazioni_fig6": null,
+      "pct_fig6": null,
+      "nota": "Direttrice trasversale; gli strumenti sono dettagliati in strumenti-certificazione.json.",
+      "pagina_pdf": 40
+    }
+  ]
+}

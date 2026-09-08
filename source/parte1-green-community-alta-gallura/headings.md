@@ -1,0 +1,521 @@
+# Outline rilevato – Parte1
+
+(livello, titolo, pagina PDF)
+
+      - [H4] Green community UCAG 193 — p.1
+      - [H4] Strategie territoriali integrate: gestione forestale e — p.1
+      - [H4] sviluppo sostenibile delle filiere locali — p.1
+      - [H4] Anno 2025 — p.1
+      - [H4] Green community UCAG 193 — p.3
+      - [H4] Strategie territoriali integrate: gestione forestale e — p.3
+      - [H4] sviluppo sostenibile delle filiere locali — p.3
+      - [H4] Anno 2025 — p.3
+- [H1] SOMMARIO FIGURE — p.8
+- [H1] SOMMARIO TABELLE — p.9
+- [H1] LISTA ABBREVIAZIONI — p.10
+- [H1] LISTA UNITA’ DI MISURA — p.11
+  - [H2] I. PREMESSA — p.13
+    - [H3] i. Introduzione — p.13
+    - [H3] ii. Finalità dello studio — p.14
+    - [H3] iii. Obiettivi strategici e operativi — p.14
+    - [H3] iv. Il ruolo dell’Alta Gallura nel sistema territoriale regionale — p.14
+    - [H3] v. Green communities, transizione ecologica e governance territoriale — p.15
+  - [H2] II. QUADRO METODOLOGICO — p.16
+    - [H3] i. Impostazione metodologica dello studio — p.16
+    - [H3] ii. Metodologia di indagine demografica ed economica delle fonti territoriali — p.16
+    - [H3] iii. Strumenti di analisi spaziale e biofisica del territorio — p.17
+    - [H3] iv. Analisi delle filiere locali, degli habitat e degli indicatori di sostenibilità — p.17
+    - [H3] v. Integrazione con la pianificazione forestale di dettaglio — p.18
+    - [H3] vi. Limiti metodologici e prospettive evolutive — p.18
+    - [H3] vii. Gruppo di lavoro — p.18
+- [H1] PRIMA PARTE – DEMOGRAFIA — p.21
+  - [H2] 1. Il contesto demografico dell’Unione dei Comuni dell’Alta Gallura — p.21
+    - [H3] 1.1. Dinamica ed Evoluzione della Popolazione Residente nell'Unione (2001-2025) — p.21
+    - [H3] 1.2. Il bilancio della dinamica demografica — p.22
+    - [H3] 1.3. Il comportamento delle famiglie e la frammentazione strutturale dei nuclei — p.23
+    - [H3] 1.4. La struttura della popolazione per classe di età — p.23
+    - [H3] 1.5. Focus popolazione straniera e utenza scolastica potenziale (2025) — p.24
+    - [H3] 1.6. Scenari demografici previsionali al 2035 — p.24
+    - [H3] 1.7. Analisi comparativa tra Fascia Costiera ed Entroterra — p.25
+      - [H4] 1.7.1. Dinamiche di popolazione: sviluppo attrattivo vs emorragia industriale — p.25
+      - [H4] 1.7.2. Dinamica di popolazione: i motori del movimento — p.26
+      - [H4] 1.7.3. Dinamica di popolazione: il tessuto sociale — p.26
+      - [H4] 1.7.4. Dinamica di popolazione: gli hub scolastici — p.26
+    - [H3] 1.8. Dinamica delle attività produttive: analisi demografico-economica — p.27
+    - [H3] 1.9. Consistenza e variazione delle Imprese nell'Unione Alta Gallura — p.28
+    - [H3] 1.10. Analisi Duale Strutturale: Fascia Costiera vs Entroterra dell’Unione — p.29
+    - [H3] 1.11. Proiezione economica e proiezioni del numero di imprese al 2035 — p.30
+      - [H4] Scenario 3 - Accentuato di Crisi (Invecchiamento Biologico Radicato)7: prevede un — p.31
+- [H1] SECONDA PARTE – AMBIENTE E TERRITORIO — p.33
+  - [H2] 2. Il contesto territoriale dell’Unione dei Comuni dell’Alta Gallura — p.33
+    - [H3] 2.1. Paesaggio e patrimonio culturale — p.33
+      - [H4] 2.1.1. Caratteri identitari del territorio — p.34
+      - [H4] 2.1.2. Paesaggio rurale e agroforestale — p.36
+      - [H4] 2.1.3. Patrimonio culturale materiale e immateriale — p.36
+      - [H4] 2.1.4. Sistemi insediativi e tradizioni locali — p.38
+    - [H3] 2.2. Ambiente e territorio — p.39
+      - [H4] 2.2.1. Assetto territoriale generale — p.39
+      - [H4] 2.2.2. Uso del suolo — p.41
+      - [H4] 2.2.3. Superfici agricole, pascolive e forestali — p.41
+      - [H4] 2.2.4. Sistema delle sugherete — p.41
+      - [H4] 2.2.5. Habitat e biodiversità — p.43
+      - [H4] 2.2.6. Aree Natura 2000 — p.43
+      - [H4] 2.2.7. Vincoli ambientali e territoriali — p.44
+      - [H4] 2.2.8. Vulnerabilità ambientali — p.45
+      - [H4] 2.2.9. Rischio incendio — p.45
+    - [H3] 2.3. Innovazione, ricerca e creatività — p.46
+      - [H4] 2.3.1. Innovazione territoriale — p.46
+      - [H4] 2.3.2. Living Lab territoriali — p.47
+      - [H4] 2.3.3. Ricerca applicata — p.47
+      - [H4] 2.3.4. Formazione specialistica — p.49
+      - [H4] 2.3.5. Nuove professionalità territoriali — p.49
+- [H1] TERZA PARTE – I COMUNI DELL’UNIONE — p.53
+  - [H2] 3. Quadro sinottico dei contesti locali — p.53
+    - [H3] 3.1. Comune di Aggius — p.53
+    - [H3] 3.2. Comune di Aglientu — p.56
+    - [H3] 3.3. Comune di Badesi — p.57
+    - [H3] 3.4. Comune di Bortigiadas — p.58
+    - [H3] 3.5. Comune di Calangianus — p.59
+    - [H3] 3.6. Comune di Luogosanto — p.60
+    - [H3] 3.7. Comune di Luras — p.62
+    - [H3] 3.8. Comune di Santa Teresa di Gallura — p.63
+    - [H3] 3.9. Comune di Tempio Pausania — p.64
+    - [H3] 3.10. Comuna di Trinità d’Agultu e Vignola — p.65
+    - [H3] 3.11. Comune di Viddalba — p.67
+- [H1] QUARTA PARTE – PROSPETTIVE GREEN COMMUNITIES — p.69
+  - [H2] 4. Green communities e sviluppo territoriale — p.69
+    - [H3] 4.1. Framework Green community Alta Gallura — p.69
+    - [H3] 4.2. Governance territoriale — p.69
+    - [H3] 4.3. Framework ESG territoriale — p.70
+      - [H4] 4.3.1. Indicatori di sostenibilità — p.72
+      - [H4] 4.3.2. Impronte ecologiche — p.73
+      - [H4] 4.3.3. Servizi ecosistemici e Carbon Farming — p.74
+    - [H3] 4.4. Strumenti di valorizzazione territoriale — p.75
+      - [H4] 4.4.1. Habitat, biodiversità e Rete Natura 2000 — p.75
+      - [H4] 4.4.2. Gestione vulnerabilità e rischio incendio — p.76
+      - [H4] 4.4.3. Uso del suolo e sistemi produttivi integrati — p.77
+    - [H3] 4.5. Valorizzazione filiere — p.78
+      - [H4] 4.5.1. Contratto di filiera — p.79
+      - [H4] 4.5.2. Filiera bosco-sughero — p.80
+        - [H5] 4.5.2.1. Sistema di monitoraggio e parametri ESG per la filiera del sughero — p.81
+        - [H5] 4.5.2.2. Applicazione del Water footprint per la filiera del sughero — p.82
+        - [H5] 4.5.2.3. Applicazione del Carbon footprint per la filiera del sughero — p.82
+        - [H5] 4.5.2.4. Implementazione dei modelli di Carbon Farming per la filiera del sughero — p.82
+      - [H4] 4.5.3. Filiera bovina estensiva — p.83
+        - [H5] 4.5.2.1. Sistema di monitoraggio e parametri ESG — p.84
+        - [H5] 4.5.2.2. Applicazione del Water footprint per la filiera bovina — p.85
+        - [H5] 4.5.2.3. Applicazione del Carbon footprint per la filiera bovina — p.85
+        - [H5] 4.5.2.4. Implementazione dei modelli di Carbon Farming per la filiera bovina — p.85
+      - [H4] 4.5.4. Filiera suinicola agroforestale controllata — p.86
+        - [H5] 4.5.2.1. Sistema di monitoraggio e parametri ESG per la filiera suinicola — p.86
+        - [H5] 4.5.2.2. Applicazione del Water footprint per la filiera suinicola — p.87
+        - [H5] 4.5.2.3. Applicazione del Carbon footprint per la filiera suinicola — p.88
+        - [H5] 4.5.2.4. Implementazione dei modelli di Carbon Farming per la filiera suinicola — p.88
+    - [H3] 4.6. Output ambientali e territoriali — p.89
+    - [H3] 4.7. Roadmap operativa e prospettive — p.89
+      - [H4] 4.7.1. Aree pilota e localizzazione degli interventi — p.89
+      - [H4] 4.7.2. Azioni prioritarie e consolidamento della baseline — p.90
+      - [H4] 4.7.3. Pianificazione della governance e strumenti di gestione futuri — p.91
+      - [H4] 4.7.4. Ulteriori contratti di filiera ed economia circolare d’area — p.91
+      - [H4] 4.7.5. Sviluppo progettualità replicabili e Living Lab territoriali — p.91
+- [H1] BIBLIOGRAFIA — p.93
+      - [H4] Normativa e strumenti di pianificazione territoriale e ambientale — p.93
+      - [H4] Strumenti urbanistici locali e documentazione territoriale — p.93
+      - [H4] Fonti statistiche ufficiali — p.93
+      - [H4] Fonti ambientali, economiche e imprenditoriali — p.94
+      - [H4] Letteratura scientifica e di settore — p.94
+      - [H4] Progettualità innovative e Contratti di Filiera — p.95
+      - [H4] Sitografia istituzionale e tematica — p.95
+- [H1] ALLEGATI — p.96
+      - [H4] Allegato I. Report demografico e socio-economico strutturale dei Comuni dell'Unione — p.97
+    - [H3] COMUNE DI AGGIUS — p.97
+      - [H4] La Popolazione Residente nel Comune di Aggius negli anni 2001-2011-2023 — p.97
+      - [H4] Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.97
+      - [H4] Il Saldo dei Movimenti Migratori Interni ed Esteri — p.97
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.98
+      - [H4] La Struttura della Popolazione per Classe di Età — p.98
+      - [H4] Gli Indici Strutturali ed Età Media — p.99
+      - [H4] Popolazione (0-14) + Popolazione (65+) — p.99
+      - [H4] Indice di Dipendenza = — p.99
+      - [H4] × 100 — p.99
+      - [H4] Popolazione (15-64) — p.99
+      - [H4] Popolazione (65+) — p.99
+      - [H4] Indice di Vecchiaia = — p.99
+      - [H4] × 100 — p.99
+      - [H4] Popolazione (0-14) — p.99
+      - [H4] L'Età Media della Popolazione — p.99
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.99
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.100
+    - [H3] COMUNE DI AGLIENTU — p.101
+      - [H4] La Popolazione Residente nel Comune di Aglientu negli anni 2001-2011-2023 — p.101
+      - [H4] Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.101
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.102
+      - [H4] La Struttura della Popolazione per Classe di Età — p.102
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.103
+      - [H4] Gli Indici Strutturali ed Età Media — p.103
+      - [H4] L'Età Media della Popolazione — p.103
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.103
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.104
+    - [H3] COMUNE DI BADESI — p.105
+      - [H4] La Popolazione Residente nel Comune di Badesi negli anni 2001-2011-2023 — p.105
+      - [H4] Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.105
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.106
+      - [H4] La Struttura della Popolazione per Classe di Età — p.106
+  - [H2] 2025 180 — p.107
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.107
+      - [H4] Gli Indici Strutturali ed Età Media — p.107
+      - [H4] L'Età Media della Popolazione — p.107
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.107
+      - [H4] Ciclo Scolastico (Fascia d'età) — p.107
+      - [H4] Alunni per Coorte — p.107
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.108
+    - [H3] COMUNE DI BORTIGIADAS — p.109
+      - [H4] La Popolazione Residente nel Comune di Bortigiadas negli anni 2001-2011-2023 — p.109
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.110
+      - [H4] La Struttura della Popolazione per Classe di Età — p.110
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.111
+      - [H4] Gli Indici Strutturali ed Età Media — p.111
+      - [H4] L'Età Media della Popolazione — p.111
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.111
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.112
+    - [H3] COMUNE DI CALANGIANUS — p.113
+      - [H4] La Popolazione Residente nel Comune di Calangianus negli anni 2001-2011-2023 — p.113
+      - [H4] La Popolazione Straniera Residente per Paese di Provenienza — p.114
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.114
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.115
+      - [H4] Gli Indici Strutturali ed Età Media — p.115
+      - [H4] L'Età Media della Popolazione — p.115
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.116
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.116
+    - [H3] COMUNE DI LUOGOSANTO — p.118
+      - [H4] La Popolazione Residente nel Comune di Luogosanto negli anni 2001-2011-2023 — p.118
+      - [H4] Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.118
+      - [H4] La Popolazione Straniera Residente per Cittadinanza — p.118
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.119
+      - [H4] La Struttura della Popolazione per Classe di Età — p.119
+  - [H2] 2025 181 — p.120
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.120
+      - [H4] Gli Indici Strutturali ed Età Media — p.120
+      - [H4] L'Età Media della Popolazione — p.120
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.121
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.122
+    - [H3] COMUNE DI LURAS — p.123
+      - [H4] La Popolazione Residente nel Comune di Luras negli anni 2001-2011-2023 — p.123
+      - [H4] Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.123
+      - [H4] La Popolazione Straniera Residente per Paese di Provenienza — p.124
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.124
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.125
+      - [H4] Gli Indici Strutturali ed Età Media — p.125
+      - [H4] L'Età Media della Popolazione — p.125
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.126
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.127
+    - [H3] COMUNE DI SANTA TERESA GALLURA — p.128
+      - [H4] La Popolazione Residente nel Comune di Santa Teresa Gallura negli anni 2001-2011-2023 — p.128
+      - [H4] 2.64) Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.128
+      - [H4] Incidenza Prevalente — p.128
+      - [H4] Totale (02-23) — p.128
+      - [H4] Santa Teresa — p.129
+      - [H4] La Popolazione Straniera Residente per Paese di Provenienza — p.129
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.129
+      - [H4] La Struttura della Popolazione per Classe di Età — p.129
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.130
+      - [H4] Gli Indici Strutturali ed Età Media — p.130
+      - [H4] L'Età Media della Popolazione — p.131
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.131
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.132
+    - [H3] COMUNE DI TEMPIO PAUSANIA — p.133
+      - [H4] La Popolazione Residente nel Comune di Tempio Pausania negli anni 2001-2011-2023 — p.133
+      - [H4] Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.133
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.134
+      - [H4] La Popolazione per Classe di Età e Struttura Anagrafica — p.135
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.135
+      - [H4] Gli Indici Strutturali ed Età Media — p.135
+      - [H4] L'Età Media della Popolazione — p.136
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.136
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.137
+    - [H3] COMUNE DI TRINITÀ D'AGULTU E VIGNOLA — p.138
+      - [H4] La Popolazione Residente nel Comune di Trinità d'Agultu e Vignola negli anni 2001-2011-2023 — p.138
+      - [H4] Il Saldo Naturale e il Saldo Migratorio Totale (2002-2023) — p.138
+      - [H4] La Popolazione Straniera Residente — p.139
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.139
+      - [H4] La Popolazione per Classe di Età e Struttura Anagrafica — p.140
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.140
+      - [H4] Gli Indici Strutturali ed Età Media — p.140
+      - [H4] L'Età Media della Popolazione — p.141
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.141
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.142
+    - [H3] COMUNE DI VIDDALBA — p.143
+      - [H4] La Popolazione Residente nel Comune di Viddalba negli anni 2001-2011-2023 — p.143
+      - [H4] Dinamiche di Movimento e Impatto dei Residenti Stranieri — p.143
+      - [H4] Le Famiglie e il Numero Medio dei Componenti — p.143
+      - [H4] La Struttura della Popolazione per Classe di Età — p.144
+      - [H4] La Classe di età della popolazione attiva e non attiva — p.145
+      - [H4] Gli Indici Strutturali ed Età Media — p.145
+      - [H4] L'Età Media della Popolazione — p.145
+      - [H4] La Popolazione in Età Scolastica al 1° Gennaio 2025 — p.145
+      - [H4] Stima sulla Evoluzione della Popolazione Residente al 2035 — p.146
+      - [H4] Allegato II: Sistema Informativo Territoriale (SIT), cartografia e analisi biofisica dello spazio — p.149
+      - [H4] Elaborazioni gis per la costruzione delle basi dati territoriali statistiche — p.149
+      - [H4] Materiali e metodi — p.149
+    - [H3] 2.1 Materiali utilizzati — p.149
+      - [H4] 2.1.1 Carta dell’Uso del Suolo 2008 — p.149
+      - [H4] 2.1.2 Carta dei Suoli della Sardegna — p.149
+      - [H4] 2.1.3 Layer dei limiti amministrativi comunali — p.150
+      - [H4] 2.1.4 Software QGIS — p.151
+    - [H3] 2.2 Metodi utilizzati — p.151
+      - [H4] 2.2.1 Preparazione dei dati — p.151
+      - [H4] 2.2.2 Intersezione spaziale dei layer — p.151
+      - [H4] 2.2.3 Calcolo delle superfici — p.152
+    - [H3] 3.1 Comuni intersezione UdS-Pedologia — p.153
+    - [H3] 3.2 Comuni intersezione UdS — p.153
+    - [H3] 3.3 Comuni intersezione Pedologia — p.154
+      - [H4] Considerazioni finali — p.155
+      - [H4] Schede comunali preliminari — p.156
+  - [H2] 1. Comune di Aggius — p.156
+    - [H3] 1.1 Inquadramento sintetico — p.156
+    - [H3] 1.2 Sintesi dell’uso del suolo — p.156
+    - [H3] 1.3 Sintesi pedologica — p.156
+    - [H3] 1.4 Lettura della matrice pedologia × uso del suolo — p.156
+    - [H3] 1.5 Implicazioni per la filiera bosco-sughero — p.157
+    - [H3] 1.6 Implicazioni per la filiera suinicola agroforestale — p.157
+    - [H3] 1.7 Criticità e condizioni di attenzione — p.157
+    - [H3] 1.8 Opportunità e approfondimenti successivi — p.157
+  - [H2] 2. Comune di Aglientu — p.158
+    - [H3] 2.1 Inquadramento sintetico — p.158
+    - [H3] 2.2 Sintesi dell’uso del suolo — p.158
+    - [H3] 2.3 Sintesi pedologica — p.158
+    - [H3] 2.4 Lettura della matrice pedologia × uso del suolo — p.158
+    - [H3] 2.5 Implicazioni per la filiera bosco-sughero — p.159
+    - [H3] 2.6 Implicazioni per la filiera suinicola agroforestale — p.159
+    - [H3] 2.7 Criticità e condizioni di attenzione — p.159
+    - [H3] 2.8 Opportunità e approfondimenti successivi — p.159
+  - [H2] 3. Comune di Badesi — p.159
+    - [H3] 3.1 Inquadramento sintetico — p.159
+    - [H3] 3.2 Sintesi dell’uso del suolo — p.159
+    - [H3] 3.3 Sintesi pedologica — p.160
+    - [H3] 3.4 Lettura della matrice pedologia × uso del suolo — p.160
+    - [H3] 3.5 Implicazioni per la filiera bosco-sughero — p.160
+    - [H3] 3.6 Implicazioni per la filiera suinicola agroforestale — p.160
+    - [H3] 3.7 Criticità e condizioni di attenzione — p.160
+    - [H3] 3.8 Opportunità e approfondimenti successivi — p.160
+  - [H2] 4. Comune di Bortigiadas — p.161
+    - [H3] 4.1 Inquadramento sintetico — p.161
+    - [H3] 4.2 Sintesi dell’uso del suolo — p.161
+    - [H3] 4.3 Sintesi pedologica — p.161
+    - [H3] 4.4 Lettura della matrice pedologia × uso del suolo — p.161
+    - [H3] 4.5 Implicazioni per la filiera bosco-sughero — p.161
+    - [H3] 4.6 Implicazioni per la filiera suinicola agroforestale — p.162
+    - [H3] 4.7 Criticità e condizioni di attenzione — p.162
+    - [H3] 4.8 Opportunità e approfondimenti successivi — p.162
+  - [H2] 5. Comune di Calangianus — p.162
+    - [H3] 5.1 Inquadramento sintetico — p.162
+    - [H3] 5.2 Sintesi dell’uso del suolo — p.162
+    - [H3] 5.3 Sintesi pedologica — p.162
+    - [H3] 5.4 Lettura della matrice pedologia × uso del suolo — p.163
+    - [H3] 5.5 Implicazioni per la filiera bosco-sughero — p.163
+    - [H3] 5.6 Implicazioni per la filiera suinicola agroforestale — p.163
+    - [H3] 5.7 Criticità e condizioni di attenzione — p.163
+    - [H3] 5.8 Opportunità e approfondimenti successivi — p.163
+  - [H2] 6. Comune di Luogosanto — p.163
+    - [H3] 6.1 Inquadramento sintetico — p.163
+    - [H3] 6.2 Sintesi dell’uso del suolo — p.163
+    - [H3] 6.3 Sintesi pedologica — p.164
+    - [H3] 6.4 Lettura della matrice pedologia × uso del suolo — p.164
+    - [H3] 6.5 Implicazioni per la filiera bosco-sughero — p.164
+    - [H3] 6.6 Implicazioni per la filiera suinicola agroforestale — p.164
+    - [H3] 6.7 Criticità e condizioni di attenzione — p.164
+    - [H3] 6.8 Opportunità e approfondimenti successivi — p.165
+  - [H2] 7. Comune di Luras — p.165
+    - [H3] 7.1 Inquadramento sintetico — p.165
+    - [H3] 7.2 Sintesi dell’uso del suolo — p.165
+    - [H3] 7.3 Sintesi pedologica — p.165
+      - [H4] Lettura della matrice pedologia × uso del suolo — p.165
+    - [H3] 7.5 Implicazioni per la filiera bosco-sughero — p.166
+    - [H3] 7.6 Implicazioni per la filiera suinicola agroforestale — p.166
+    - [H3] 7.7 Criticità e condizioni di attenzione — p.166
+    - [H3] 7.8 Opportunità e approfondimenti successivi — p.166
+  - [H2] 8. Comune di Santa Teresa Gallura — p.166
+    - [H3] 8.1 Inquadramento sintetico — p.166
+    - [H3] 8.2 Sintesi dell’uso del suolo — p.166
+    - [H3] 8.3 Sintesi pedologica — p.167
+    - [H3] 8.4 Lettura della matrice pedologia × uso del suolo — p.167
+    - [H3] 8.5 Implicazioni per la filiera bosco-sughero — p.167
+    - [H3] 8.6 Implicazioni per la filiera suinicola agroforestale — p.167
+    - [H3] 8.7 Criticità e condizioni di attenzione — p.167
+    - [H3] 8.8 Opportunità e approfondimenti successivi — p.167
+  - [H2] 9. Comune di Tempio Pausania — p.168
+    - [H3] 9.1 Inquadramento sintetico — p.168
+    - [H3] 9.2 Sintesi dell’uso del suolo — p.168
+    - [H3] 9.3 Sintesi pedologica — p.168
+    - [H3] 9.4 Lettura della matrice pedologia × uso del suolo — p.168
+    - [H3] 9.5 Implicazioni per la filiera bosco-sughero — p.168
+    - [H3] 9.6 Implicazioni per la filiera suinicola agroforestale — p.169
+    - [H3] 9.7 Criticità e condizioni di attenzione — p.169
+    - [H3] 9.8 Opportunità e approfondimenti successivi — p.169
+  - [H2] 10. Comune di Trinità d’Agultu e Vignola — p.169
+    - [H3] 10.1 Inquadramento sintetico — p.169
+    - [H3] 10.2 Sintesi dell’uso del suolo — p.169
+    - [H3] 10.3 Sintesi pedologica — p.169
+    - [H3] 10.4 Lettura della matrice pedologia × uso del suolo — p.169
+    - [H3] 10.5 Implicazioni per la filiera bosco-sughero — p.170
+    - [H3] 10.6 Implicazioni per la filiera suinicola agroforestale — p.170
+    - [H3] 10.7 Criticità e condizioni di attenzione — p.170
+    - [H3] 10.8 Opportunità e approfondimenti successivi — p.170
+  - [H2] 11. Comune di Viddalba — p.170
+    - [H3] 11.1 Inquadramento sintetico — p.170
+    - [H3] 11.2 Sintesi dell’uso del suolo — p.170
+    - [H3] 11.3 Sintesi pedologica — p.171
+    - [H3] 11.4 Lettura della matrice pedologia × uso del suolo — p.171
+    - [H3] 11.5 Implicazioni per la filiera bosco-sughero — p.171
+    - [H3] 11.6 Implicazioni per la filiera suinicola agroforestale — p.171
+    - [H3] 11.7 Criticità e condizioni di attenzione — p.171
+    - [H3] 11.8 Opportunità e approfondimenti successivi — p.171
+      - [H4] Sintesi comparativa preliminare — p.172
+      - [H4] Lettura conclusiva preliminare — p.172
+      - [H4] Sintesi delle principali vocazioni territoriali — p.173
+      - [H4] Premessa metodologica — p.173
+      - [H4] Vocazione forestale e sughericola — p.173
+      - [H4] Vocazione agro-silvo-pastorale — p.174
+      - [H4] Vocazione alla filiera suinicola agroforestale controllata — p.175
+      - [H4] Vocazione ambientale, paesaggistica e protettiva — p.176
+      - [H4] Vocazione turistico-commerciale e di mercato — p.176
+      - [H4] Vocazione alla governance territoriale e ai servizi di filiera — p.177
+      - [H4] Quadro sintetico delle vocazioni territoriali — p.178
+      - [H4] Lettura conclusiva — p.178
+      - [H4] Prima indicazione degli ambiti più coerenti con successive progettazioni di dettaglio — p.179
+      - [H4] Ambito 1 — Gestione sostenibile e valorizzazione delle sugherete — p.179
+      - [H4] Comuni prioritari — p.179
+      - [H4] Ambito 2 — Recupero e gestione multifunzionale del mosaico agroforestale — p.180
+      - [H4] Comuni prioritari — p.180
+      - [H4] Ambito 3 — Sperimentazione controllata della filiera suinicola agroforestale — p.182
+      - [H4] Comuni prioritari per approfondimento — p.182
+      - [H4] Comuni da valutare con maggiore cautela — p.182
+      - [H4] Comuni non prioritari per la fase pilota produttiva — p.182
+      - [H4] Ambito 4 — Prevenzione incendi e gestione della biomassa — p.183
+      - [H4] Comuni prioritari — p.183
+      - [H4] Ambito 5 — Tutela del suolo, contrasto all’erosione e gestione delle aree fragili — p.184
+      - [H4] Comuni prioritari — p.184
+      - [H4] Ambito 6 — Valorizzazione turistica e commerciale delle filiere territoriali — p.185
+      - [H4] Comuni prioritari — p.185
+      - [H4] Ambito 7 —Governance intercomunale e strumenti di filiera — p.187
+      - [H4] Comuni e soggetti prioritari — p.187
+      - [H4] Ambito 8 — Sistema conoscitivo, GIS territoriale e monitoraggio — p.188
+      - [H4] Comuni interessati — p.188
+      - [H4] Quadro sintetico degli ambiti coerenti con progettazioni di dettaglio — p.189
+      - [H4] Indicazione conclusiva — p.189
+      - [H4] Nota preliminare di posizionamento del contributo agro-forestale, pedologico e territoriale — p.190
+      - [H4] Finalità del contributo — p.190
+      - [H4] Perimetro territoriale e tecnico del lavoro — p.190
+      - [H4] Uso del suolo — p.190
+      - [H4] Matrice pedologia × uso del suolo — p.191
+      - [H4] Vocazionalità e compatibilità preliminare — p.191
+      - [H4] Ruolo della pedologia nella costruzione del quadro preliminare — p.191
+      - [H4] Ambiti potenzialmente favorevoli — p.192
+      - [H4] Ambiti con limitazioni — p.192
+      - [H4] Ambiti da trattare con prevalente funzione protettiva — p.192
+      - [H4] Contributo preliminare alla filiera bosco-sughero — p.192
+      - [H4] Contributo preliminare alla filiera suinicola agroforestale — p.193
+      - [H4] Ambiti potenzialmente approfondibili — p.194
+      - [H4] Ambiti utilizzabili solo con forti cautele — p.194
+      - [H4] Ambiti da escludere in via preliminare — p.194
+      - [H4] Output tecnico proposto per il gruppo di lavoro — p.194
+      - [H4] Nota metodologica — p.194
+      - [H4] Schede comunali preliminari — p.195
+      - [H4] Matrice preliminare di vocazionalità e compatibilità — p.195
+      - [H4] Linee di indirizzo per successive progettazioni — p.195
+      - [H4] Aspetti da approfondire nelle successive fasi progettuali — p.195
+      - [H4] Approfondimenti sulla filiera bosco-sughero — p.196
+      - [H4] Approfondimenti sulla filiera suinicola agroforestale — p.196
+      - [H4] Approfondimenti ambientali, faunistici e vincolistici — p.196
+      - [H4] Approfondimenti pedologici e agronomici a scala di dettaglio — p.197
+      - [H4] Approfondimenti socioeconomici e di governance — p.197
+      - [H4] Messaggio tecnico da portare al tavolo di lavoro — p.197
+      - [H4] Metodo per le schede comunali e matrice preliminare di valutazione — p.198
+      - [H4] Finalità del documento — p.198
+      - [H4] Fonti informative utilizzate — p.198
+      - [H4] Struttura standard della scheda comunale — p.199
+      - [H4] Identificazione del Comune — p.199
+      - [H4] Funzione della sezione — p.199
+      - [H4] Formula tipo — p.199
+      - [H4] Sintesi dell’uso del suolo — p.199
+    - [H3] 3.3 Sintesi delle principali unità pedologiche — p.200
+      - [H4] Lettura della matrice pedologia × uso del suolo — p.200
+      - [H4] Implicazioni preliminari per la filiera bosco-sughero — p.200
+      - [H4] Implicazioni preliminari per la filiera suinicola agroforestale — p.201
+      - [H4] Criticità e condizioni di attenzione — p.201
+      - [H4] Opportunità e indirizzi per successive fasi progettuali — p.202
+      - [H4] Modello sintetico di scheda comunale — p.202
+      - [H4] Scheda comunale preliminare — Comune di [Nome Comune] — p.202
+      - [H4] Inquadramento sintetico — p.202
+      - [H4] Sintesi dell’uso del suolo — p.202
+      - [H4] Sintesi pedologica — p.202
+      - [H4] Lettura della matrice pedologia × uso del suolo — p.202
+      - [H4] Implicazioni per la filiera bosco-sughero — p.203
+      - [H4] Implicazioni per la filiera suinicola agroforestale — p.203
+      - [H4] Criticità e condizioni di attenzione — p.203
+      - [H4] Opportunità e approfondimenti successivi — p.203
+      - [H4] Matrice preliminare di valutazione intercomunale — p.203
+      - [H4] Criteri proposti — p.203
+      - [H4] Scala di valutazione — p.204
+      - [H4] Da verificare — p.204
+      - [H4] Modello di matrice intercomunale — p.205
+      - [H4] Criteri interpretativi per filiera bosco-sughero — p.206
+      - [H4] Criteri interpretativi per filiera suinicola agroforestale — p.206
+      - [H4] Utilizzo operativo delle schede e della matrice — p.207
+      - [H4] Output atteso — p.207
+      - [H4] Prime linee operative su filiera sughero e filiera suinicola agroforestale — p.207
+      - [H4] Finalità del documento — p.207
+      - [H4] Parte I — Filiera bosco-sughero — p.208
+      - [H4] Significato strategico della filiera bosco-sughero — p.208
+      - [H4] Obiettivo operativo preliminare — p.208
+      - [H4] Comuni prioritari per la filiera bosco-sughero — p.208
+      - [H4] Linee operative preliminari per il sughero — p.209
+      - [H4] Mappatura aggiornata delle sugherete — p.209
+      - [H4] Attività preliminari — p.209
+      - [H4] Soggetti coinvolti — p.209
+      - [H4] Output atteso — p.209
+      - [H4] Classificazione funzionale delle sugherete — p.209
+      - [H4] Categorie preliminari proposte — p.209
+      - [H4] Output atteso — p.210
+      - [H4] Verifica dello stato vegetativo, fitosanitario e produttivo — p.210
+      - [H4] Aspetti da approfondire — p.210
+      - [H4] Output atteso — p.210
+      - [H4] Organizzazione degli attori della filiera — p.210
+      - [H4] Attori da censire — p.210
+      - [H4] Temi da verificare — p.210
+      - [H4] Output atteso — p.211
+      - [H4] Valorizzazione del sughero locale — p.211
+      - [H4] Ambiti di valorizzazione da approfondire — p.211
+      - [H4] Output atteso — p.211
+    - [H3] 5.6 Certificazioni, tracciabilità e marchio territoriale — p.211
+      - [H4] Temi da valutare — p.211
+      - [H4] Output atteso — p.211
+      - [H4] Filiera suinicola agroforestale — p.212
+      - [H4] Significato strategico della filiera suinicola agroforestale — p.212
+      - [H4] Obiettivo operativo preliminare — p.212
+      - [H4] Comuni prioritari per approfondimenti sulla filiera suinicola — p.212
+      - [H4] Linee operative preliminari per la filiera suinicola — p.212
+      - [H4] Studio di prefattibilità tecnico-territoriale — p.212
+      - [H4] Attività preliminari — p.213
+      - [H4] Output atteso — p.213
+      - [H4] Criteri minimi per le aree candidate — p.213
+      - [H4] Criteri preliminari di esclusione — p.213
+      - [H4] Modello gestionale da approfondire — p.214
+      - [H4] Biosicurezza, fauna e sanità animale — p.214
+      - [H4] Attività da sviluppare — p.214
+      - [H4] Soggetti coinvolti — p.214
+      - [H4] Output atteso — p.214
+      - [H4] Trasformazione e commercializzazione — p.214
+      - [H4] Temi da approfondire — p.214
+      - [H4] Output atteso — p.215
+      - [H4] Parte III — Sinergie tra filiera sughero e filiera suinicola — p.215
+      - [H4] Possibili sinergie operative — p.215
+      - [H4] Principio guida — p.215
+      - [H4] Parte IV — Roadmap operativa preliminare — p.216
+      - [H4] Azioni a breve termine — p.216
+      - [H4] Azioni a medio termine — p.216
+      - [H4] Azioni a lungo termine — p.217
+      - [H4] Indicatori preliminari di monitoraggio — p.217
+      - [H4] Indicatori per la filiera bosco-sughero — p.217
+      - [H4] Indicatori per la filiera suinicola agroforestale — p.217
+      - [H4] Sintesi conclusiva — p.218

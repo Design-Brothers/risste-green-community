@@ -1,0 +1,398 @@
+{
+  "titolo": "Siti Natura 2000 e altre aree tutelate, vincoli, vulnerabilità ambientali e rischio incendio nell'Unione Alta Gallura",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Seconda parte – Ambiente e territorio par. 2.2.1, 2.2.6-2.2.9 (pag. 39-46); Terza parte – I Comuni dell'Unione (pag. 56-68); Quarta parte par. 4.4.1-4.4.2 (pag. 75-77); Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale (pag. 197, 213)",
+    "pagine_pdf": [
+      39,
+      40,
+      43,
+      44,
+      45,
+      46,
+      56,
+      58,
+      64,
+      65,
+      66,
+      67,
+      75,
+      76,
+      77,
+      197,
+      213
+    ]
+  },
+  "note": [
+    "Il documento non riporta i codici ufficiali (ITB...) dei siti Natura 2000 né un elenco tabellare: i siti sono quelli citati nel testo, con la tipologia indicata dal documento (null se non specificata). L'unica superficie riportata è quella del Monte Limbara (16588 ha, pag. 44).",
+    "comuni_interessati: solo i Comuni esplicitamente associati al sito nel testo; [] se il documento non li indica (es. 'Isola Rossa – Costa Paradiso' citato a pag. 44 senza riferimento comunale).",
+    "Il documento indica a pag. 44 che i SIC sono 'divenuti ormai Zone Speciali di Conservazione (ZSC)'.",
+    "Rischio incendio: il documento non fornisce classi di rischio né statistiche di eventi per Comune; i soli dati numerici sono l'intensità di fuoco simulata (>1600 kW/m, pag. 40) e i parametri climatici del bilancio idrico (pag. 40 e 48). I 'Comuni prioritari per prevenzione incendi' provengono dall'Ambito 4 dell'Allegato II (pag. 183, 189).",
+    "I parametri climatici di pag. 48 sono riferiti alla stazione di Caddau (557 m s.l.m.), Unità Gestionale di Base Limbara Sud (comune di Berchidda, esterno all'Unione), usata come riferimento per il massiccio del Limbara."
+  ],
+  "dati": {
+    "siti_natura_2000": [
+      {
+        "nome": "Monte Limbara",
+        "tipologia": "ZSC",
+        "codice": null,
+        "superficie_ha": 16588,
+        "comuni_interessati": [
+          "tempio-pausania"
+        ],
+        "comuni_interessati_nomi": [
+          "Tempio Pausania"
+        ],
+        "descrizione": "Habitat forestali montani e formazioni granitiche di elevato pregio naturalistico; corridoio ecologico di rango regionale per numerose specie endemiche vegetali e animali; il massiccio ospita habitat prioritari 'inseriti in gran parte all'interno della relativa Zona Speciale di Conservazione'.",
+        "pagine_pdf": [
+          44,
+          65
+        ]
+      },
+      {
+        "nome": "Monte Russu",
+        "tipologia": "ZSC",
+        "codice": null,
+        "superficie_ha": null,
+        "comuni_interessati": [
+          "aglientu"
+        ],
+        "comuni_interessati_nomi": [
+          "Aglientu"
+        ],
+        "descrizione": "Habitat prioritari e sistemi psammofili (spiagge, dune, ginepreti, ambienti retrodunali) di eccezionale valore fitogeografico.",
+        "pagine_pdf": [
+          56
+        ]
+      },
+      {
+        "nome": "Foci del Coghinas",
+        "tipologia": null,
+        "codice": null,
+        "superficie_ha": null,
+        "comuni_interessati": [
+          "badesi",
+          "viddalba"
+        ],
+        "comuni_interessati_nomi": [
+          "Badesi",
+          "Viddalba"
+        ],
+        "descrizione": "Aree umide della foce del Coghinas; tutela habitat psammofili di interesse comunitario e comunità arbustive costiere. Il continuum costiero di Badesi è 'integralmente inserito' nel sito; la bassa valle del Coghinas in territorio di Viddalba 'ricade parzialmente' nel sito.",
+        "pagine_pdf": [
+          44,
+          58,
+          67
+        ]
+      },
+      {
+        "nome": "Capo Testa",
+        "tipologia": "ZSC",
+        "codice": null,
+        "superficie_ha": null,
+        "comuni_interessati": [
+          "santa-teresa-gallura"
+        ],
+        "comuni_interessati_nomi": [
+          "Santa Teresa Gallura"
+        ],
+        "descrizione": "Sistemi rocciosi granitici e tafoni di Capo Testa, geosistema di valore internazionale.",
+        "pagine_pdf": [
+          63,
+          64
+        ]
+      },
+      {
+        "nome": "Da Capo Testa all’Isola Rossa",
+        "tipologia": "ZPS",
+        "codice": null,
+        "superficie_ha": null,
+        "comuni_interessati": [
+          "trinita-d-agultu-e-vignola"
+        ],
+        "comuni_interessati_nomi": [
+          "Trinità d'Agultu e Vignola"
+        ],
+        "descrizione": "Area cardine per la salvaguardia dell'avifauna marina e l'integrità ecologica del litorale; spiagge e dune con habitat prioritari e praterie di Posidonia oceanica. Tutela 'in parte' gli ambienti costieri del Comune.",
+        "pagine_pdf": [
+          66
+        ]
+      },
+      {
+        "nome": "Isola Rossa – Costa Paradiso",
+        "tipologia": null,
+        "codice": null,
+        "superficie_ha": null,
+        "comuni_interessati": [],
+        "comuni_interessati_nomi": [],
+        "descrizione": "Sistemi costieri citati tra i siti della Rete Natura 2000 dell'Unione; il documento non ne specifica tipologia né Comuni.",
+        "pagine_pdf": [
+          44
+        ]
+      }
+    ],
+    "altre_aree_tutelate": [
+      {
+        "nome": "Area Marina Protetta Capo Testa – Punta Falcone",
+        "tipologia": "Area Marina Protetta",
+        "comuni_interessati": [
+          "santa-teresa-gallura"
+        ],
+        "comuni_interessati_nomi": [
+          "Santa Teresa Gallura"
+        ],
+        "descrizione": "Istituita per la salvaguardia di habitat prioritari quali il coralligeno e le praterie di Posidonia oceanica; nodo strategico per la tutela dell'avifauna e dei cetacei nel corridoio delle Bocche di Bonifacio.",
+        "pagine_pdf": [
+          64
+        ]
+      }
+    ],
+    "habitat_prioritari_citati": [
+      {
+        "habitat": "Sugherete a Quercus suber",
+        "pagine_pdf": [
+          44,
+          76
+        ]
+      },
+      {
+        "habitat": "Macchie mediterranee",
+        "pagine_pdf": [
+          44,
+          76
+        ]
+      },
+      {
+        "habitat": "Formazioni riparie",
+        "pagine_pdf": [
+          44
+        ]
+      },
+      {
+        "habitat": "Sistemi dunali costieri / habitat psammofili",
+        "pagine_pdf": [
+          44,
+          56,
+          58
+        ]
+      },
+      {
+        "habitat": "Ambienti rupicoli",
+        "pagine_pdf": [
+          76
+        ]
+      },
+      {
+        "habitat": "Zone umide temporanee",
+        "pagine_pdf": [
+          76
+        ]
+      },
+      {
+        "habitat": "Coralligeno e praterie di Posidonia oceanica (marini)",
+        "pagine_pdf": [
+          64,
+          66
+        ]
+      }
+    ],
+    "vincoli": [
+      {
+        "vincolo": "Disciplina paesaggistica regionale (Piano Paesaggistico Regionale – PPR; NTA artt. 5 e 9 sui caratteri identitari)",
+        "ambito": "intera Unione",
+        "pagine_pdf": [
+          34,
+          44
+        ]
+      },
+      {
+        "vincolo": "Tutela della fascia costiera dei 300 m",
+        "ambito": "Comuni costieri",
+        "pagine_pdf": [
+          44
+        ]
+      },
+      {
+        "vincolo": "Prescrizioni associate ai siti Natura 2000 (misure di conservazione; Valutazione di Incidenza Ambientale)",
+        "ambito": "siti elencati",
+        "pagine_pdf": [
+          18,
+          43,
+          44
+        ]
+      },
+      {
+        "vincolo": "Piano Stralcio per l'Assetto Idrogeologico (PAI): aree a pericolosità idraulica e geomorfologica",
+        "ambito": "intera Unione",
+        "pagine_pdf": [
+          44,
+          45
+        ]
+      },
+      {
+        "vincolo": "Piano di Gestione del Rischio Alluvioni (PGRA) e cartografie di pericolosità PAI per il monitoraggio del rischio",
+        "ambito": "intera Unione",
+        "pagine_pdf": [
+          45
+        ]
+      },
+      {
+        "vincolo": "Vincoli idraulici e paesaggistici degli ambienti retrodunali",
+        "ambito": "Aglientu (fascia costiera)",
+        "pagine_pdf": [
+          56
+        ]
+      },
+      {
+        "vincolo": "Vincoli idraulici e rischio di inondazione delle aree alluvionali della foce/valle del Coghinas",
+        "ambito": "Badesi, Viddalba",
+        "pagine_pdf": [
+          58,
+          67
+        ]
+      },
+      {
+        "vincolo": "Vincoli forestali, paesaggistici, idrogeologici, urbanistici e sanitari da verificare prima di progettazioni attuative",
+        "ambito": "intera Unione (indicazione metodologica)",
+        "pagine_pdf": [
+          197
+        ]
+      },
+      {
+        "vincolo": "Esclusione preliminare delle aree Natura 2000 senza verifica specifica per la sperimentazione suinicola",
+        "ambito": "filiera suinicola",
+        "pagine_pdf": [
+          213
+        ]
+      }
+    ],
+    "vulnerabilita": [
+      {
+        "vulnerabilita": "Erosione marina e regressione delle dune sabbiose; instabilità dei sistemi dunali e alterazione degli equilibri sedimentari, accentuate da pressione turistica stagionale ed eventi meteorologici estremi",
+        "ambito": "sistemi costieri, in particolare Badesi e Trinità d'Agultu e Vignola",
+        "pagine_pdf": [
+          45
+        ]
+      },
+      {
+        "vulnerabilita": "Versanti interni a matrice granitica con suoli poco profondi, elevata erodibilità e suscettibilità al dissesto superficiale; processi erosivi amplificati da perdita di copertura vegetale, sovraccarico di superfici pascolive e abbandono delle sistemazioni agrarie tradizionali",
+        "ambito": "entroterra",
+        "pagine_pdf": [
+          45
+        ]
+      },
+      {
+        "vulnerabilita": "Ruscellamento concentrato ed erosione superficiale da canalizzazione (pendenze, superficialità pedologica, eventi meteorici estremi)",
+        "ambito": "intera Unione",
+        "pagine_pdf": [
+          40
+        ]
+      },
+      {
+        "vulnerabilita": "Frammentazione degli ecotoni costieri e alterazione della vegetazione pioniera per calpestio e frequentazione estiva",
+        "ambito": "Aglientu, Badesi, Trinità d'Agultu e Vignola",
+        "pagine_pdf": [
+          56,
+          58,
+          66
+        ]
+      },
+      {
+        "vulnerabilita": "Deficit idrico estivo: riserva utile del suolo azzerata a settembre, periodo arido di circa 99 giorni cumulativi/anno",
+        "ambito": "intera Unione (clima)",
+        "pagine_pdf": [
+          40,
+          48
+        ]
+      }
+    ],
+    "rischio_incendio": {
+      "sintesi": "Il rischio incendio è definito 'la minaccia ambientale più immediata e sistemica' per il patrimonio dell'Alta Gallura; gli effetti citati sono perdita di biomassa, compromissione degli habitat, riduzione del sequestro di carbonio, incremento dell'erosione e danni alle filiere. Le sugherete sono asset strategico e vulnerabile: eventi ripetuti o intensi ne compromettono la capacità produttiva. La prevenzione proposta è la gestione attiva del combustibile e il presidio produttivo (manutenzione del sottobosco, fasce tagliafuoco, viabilità forestale, gestione delle interfacce urbano-rurali, monitoraggio) integrata con il pascolo controllato bovino e suinicolo, incluso il pascolo ghiandatico regolato nelle sugherete. L'Allegato II precisa che l'allevamento suino non va assunto automaticamente come soluzione al rischio incendio.",
+      "classi_rischio": null,
+      "dati_numerici": [
+        {
+          "indicatore": "Intensità lineare del fuoco simulata (modelli pirologici predittivi, FlamMap) in presenza di macchia alta e continua",
+          "valore": 1600,
+          "operatore": ">",
+          "unita": "kW/m",
+          "nota": "preclude l'attacco manuale diretto",
+          "pagina_pdf": 40
+        },
+        {
+          "indicatore": "Periodo arido cumulativo annuo (bilancio idrico di Thornthwaite)",
+          "valore": 99,
+          "operatore": "circa",
+          "unita": "giorni/anno",
+          "nota": "concentrati tra metà maggio e metà ottobre; riserva utile azzerata a settembre",
+          "pagina_pdf": 40
+        },
+        {
+          "indicatore": "Deficit idrico reale annuo",
+          "valore": 269,
+          "operatore": "=",
+          "unita": "mm",
+          "nota": "riserva utile standard del suolo 100 mm; stazione di Caddau (Limbara Sud)",
+          "pagina_pdf": 48
+        },
+        {
+          "indicatore": "Piovosità media annua (stazione di Caddau, 557 m s.l.m.)",
+          "valore": 954.1,
+          "operatore": "=",
+          "unita": "mm",
+          "nota": "massimo dicembre 135,9 mm; trimestre estivo 70,1 mm; minimo luglio 8,4 mm",
+          "pagina_pdf": 48
+        },
+        {
+          "indicatore": "Surplus idrico annuo",
+          "valore": 435,
+          "operatore": "=",
+          "unita": "mm",
+          "nota": null,
+          "pagina_pdf": 48
+        }
+      ],
+      "pratiche_prevenzione": [
+        "manutenzione del sottobosco",
+        "realizzazione e mantenimento di fasce tagliafuoco",
+        "miglioramento della viabilità forestale",
+        "gestione delle interfacce urbano-rurali",
+        "monitoraggio periodico delle aree maggiormente esposte",
+        "pascolo controllato bovino e suinicolo per la riduzione della biomassa combustibile fine",
+        "pascolo ghiandatico regolato nelle sugherete",
+        "selvicoltura preventiva"
+      ],
+      "comuni_prioritari_prevenzione_incendi": {
+        "slugs": [
+          "calangianus",
+          "tempio-pausania",
+          "luogosanto",
+          "aggius",
+          "luras",
+          "aglientu",
+          "trinita-d-agultu-e-vignola"
+        ],
+        "nomi": [
+          "Calangianus",
+          "Tempio Pausania",
+          "Luogosanto",
+          "Aggius",
+          "Luras",
+          "Aglientu",
+          "Trinità d'Agultu e Vignola"
+        ],
+        "livello_urgenza": "Alto",
+        "pagine_pdf": [
+          183,
+          189
+        ]
+      },
+      "pagine_pdf": [
+        40,
+        45,
+        46,
+        77,
+        183
+      ]
+    }
+  }
+}

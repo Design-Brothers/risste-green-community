@@ -1,0 +1,15 @@
+comune,slug,fascia,livello,saldo_naturale_2002_2023,saldo_migratorio_2002_2023,saldo_migratorio_estero_2004_2023,incidenza_prevalente
+Aggius,aggius,interna,comune,-278,-28,32,Negatività da Movimento Naturale
+Aglientu,aglientu,costiera,comune,-197,407,,Compensazione e crescita da Flusso Migratorio
+Badesi,badesi,costiera,comune,-218,276,,Compensazione e stabilità da Flusso Migratorio attivo
+Bortigiadas,bortigiadas,interna,comune,-195,13,,Forte recesso demografico causato da saldo naturale negativo non compensato
+Calangianus,calangianus,interna,comune,-423,-365,,Forte decrescita indotta dall'azione congiunta di deficit naturale e migratorio
+Luogosanto,luogosanto,interna,comune,-174,200,,Compensazione e stabilità guidata da flussi migratori attivi
+Luras,luras,interna,comune,-236,6,,Decrescita guidata da dinamiche biologiche naturali negative non compensate
+Santa Teresa Gallura,santa-teresa-gallura,costiera,comune,-263,1337,,Forte espansione e compensazione trainata da flussi migratori attivi stanziali
+Tempio Pausania,tempio-pausania,interna,comune,-1017,646,,Flessione demografica guidata da deficit naturale non compensato dai flussi migratori recenti
+Trinità d'Agultu e Vignola,trinita-d-agultu-e-vignola,costiera,comune,-183,518,,Espansione demografica strutturale guidata interamente da flussi migratori attivi in forte accelerazione
+Viddalba,viddalba,interna,comune,,,,
+Asse Costiero (4 Comuni),fascia-costiera,costiera,aggregato,-861,2538,,Forte espansione e attrazione demografica complessiva
+Asse Interno (7 Comuni),fascia-interna,interna,aggregato,-2541,748,,Spopolamento strutturale per deficit naturale non compensato
+TOTALE ALTA GALLURA,totale-alta-gallura,unione,aggregato,-3402,3286,,Sostanziale stabilità per compensazione migratoria macro-territoriale

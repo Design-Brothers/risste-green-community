@@ -1,0 +1,395 @@
+{
+  "titolo": "Scenari demografici e imprenditoriali al 2035 per l'Unione dei Comuni dell'Alta Gallura",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.6 e 1.11; Allegato I – Report demografico e socio-economico strutturale dei Comuni (stime comunali)",
+    "pagine_pdf": [
+      24,
+      25,
+      30,
+      31,
+      100,
+      104,
+      108,
+      112,
+      117,
+      122,
+      127,
+      132,
+      137,
+      142,
+      147
+    ]
+  },
+  "note": [
+    "Modello (nota 1, p.24): tasso medio annuo di variazione assoluta 2011-2023, r_com = (P2023 - P2011)/12; scenario lineare P2035 = P2025 + r_com x 10 (nota 3, p.25).",
+    "Proiezioni imprese (par. 1.11): popolazione dello scenario x densità imprenditoriale ipotizzata (2025: 136 imprese/1.000 ab. = 13,6%). Valori 'circa' come nel testo.",
+    "Le stime comunali dell'Allegato I usano scenari con nomi e ipotesi diversi comune per comune (mappati qui su attrattivo/lineare/crisi mantenendo il nome originale). Le somme dei valori comunali NON coincidono con gli scenari dell'Unione del par. 1.6: attrattivo 35197 vs 36.500; lineare 33473 vs 34.100; crisi 32086 vs 32.400.",
+    "Aglientu: il tasso base non è espresso esplicitamente come media 2011-2023 nel paragrafo scenari (che cita -11 naturale e +19 migratorio nel 2024); 0,92 residenti/anno è il valore indicato nel paragrafo 'Periodo 2011-2023' della scheda.",
+    "L'aritmetica delle proiezioni comunali non è sempre riproducibile (es. Aggius lineare 1.216 = 1.411 - 195, cioè 12 anni dal 2023, mentre il modello dichiarato applica 10 anni dal 2025): i valori sono riportati come scritti."
+  ],
+  "dati": [
+    {
+      "scenario": "attrattivo",
+      "nome": "Scenario Attrattivo ed Espansivo (Consolidamento Economico)",
+      "ipotesi": "Stabilizzazione occupazionale nei settori industriali dell'interno (sughero e granito) e potenziamento ricettivo e infrastrutturale della costa, con flussi migratori stanziali più intensi; riduzione o inversione dei trend passivi (nota 2).",
+      "popolazione_2035": 36500,
+      "densita_imprese_pct": 14.0,
+      "imprese_2035": 5110,
+      "var_imprese_pct_vs_2025": 6.6,
+      "ipotesi_imprese": "Consolidamento dei flussi migratori sulla costa, ripresa della natalità, rilancio occupazionale del distretto del sughero; densità in crescita al 14,0% per il terziario avanzato (nota 5)."
+    },
+    {
+      "scenario": "lineare",
+      "nome": "Scenario Lineare e Inerziale (Trend Reale Coerente)",
+      "ipotesi": "Riproduce la dinamica 2011-2023: espansione e compensazione della fascia costiera, declino e invecchiamento dei borghi interni. Proiezione P2035 = P2025 + r_com x 10, con r_com = (P2023 - P2011)/12 (note 1 e 3).",
+      "popolazione_2035": 34100,
+      "densita_imprese_pct": 13.6,
+      "imprese_2035": 4637,
+      "var_imprese_pct_vs_2025": -3.2,
+      "ipotesi_imprese": "Densità imprenditoriale costante al 13,6% (nota 6)."
+    },
+    {
+      "scenario": "crisi",
+      "nome": "Scenario Accentuato di Crisi (Invecchiamento Biologico Radicato)",
+      "ipotesi": "L'alta mortalità attesa nella componente over 65 (27,78% nel 2025) supera la capacità d'attrazione dei flussi migratori, con flessione simultanea di interno e costa (nota 4).",
+      "popolazione_2035": 32400,
+      "densita_imprese_pct": 12.8,
+      "imprese_2035": 4147,
+      "var_imprese_pct_vs_2025": -13.4,
+      "ipotesi_imprese": "Densità in contrazione al 12,8% per blocco del turnover aziendale e mancata trasmissione d'impresa (nota 7)."
+    }
+  ],
+  "dati_comuni": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "popolazione_2025": 1403,
+      "tasso_medio_annuo_2011_2023": -16.25,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario Auspicabile / Cauto",
+          "variazione_annua_residenti": -10,
+          "popolazione_2035": 1283
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -16.25,
+          "popolazione_2035": 1216
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario Accentuato di Crisi",
+          "variazione_annua_residenti": -22,
+          "popolazione_2035": 1149
+        }
+      ],
+      "pagine_pdf": [
+        100
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "popolazione_2025": 1195,
+      "tasso_medio_annuo_2011_2023": 0.92,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario di Sviluppo e Attrattività Turistica",
+          "variazione_annua_residenti": 5,
+          "popolazione_2035": 1245
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Continuativo / Stabile",
+          "variazione_annua_residenti": 1.5,
+          "popolazione_2035": 1210
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario di Flessione per Invecchiamento",
+          "variazione_annua_residenti": -3,
+          "popolazione_2035": 1165
+        }
+      ],
+      "pagine_pdf": [
+        104
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "popolazione_2025": 1832,
+      "tasso_medio_annuo_2011_2023": -4.75,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario Attrattivo / Espansivo",
+          "variazione_annua_residenti": 4,
+          "popolazione_2035": 1878
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -4.75,
+          "popolazione_2035": 1781
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario di Forte Invecchiamento",
+          "variazione_annua_residenti": -12,
+          "popolazione_2035": 1694
+        }
+      ],
+      "pagine_pdf": [
+        108
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "popolazione_2025": 700,
+      "tasso_medio_annuo_2011_2023": -7.25,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario di Stabilizzazione / Contenimento",
+          "variazione_annua_residenti": -3,
+          "popolazione_2035": 679
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -7.25,
+          "popolazione_2035": 622
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario Accentuato di Crisi",
+          "variazione_annua_residenti": -12,
+          "popolazione_2035": 569
+        }
+      ],
+      "pagine_pdf": [
+        112
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "popolazione_2025": 3726,
+      "tasso_medio_annuo_2011_2023": -39.33,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario di Ripresa / Contenimento",
+          "variazione_annua_residenti": -20,
+          "popolazione_2035": 3526
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -39.33,
+          "popolazione_2035": 3333
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario Accentuato di Crisi",
+          "variazione_annua_residenti": -55,
+          "popolazione_2035": 3176
+        }
+      ],
+      "pagine_pdf": [
+        117
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "popolazione_2025": 1815,
+      "tasso_medio_annuo_2011_2023": -8.08,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario Attrattivo / Consolidamento",
+          "variazione_annua_residenti": 3,
+          "popolazione_2035": 1845
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -8.08,
+          "popolazione_2035": 1721
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario Accentuato di Flessione",
+          "variazione_annua_residenti": -14,
+          "popolazione_2035": 1662
+        }
+      ],
+      "pagine_pdf": [
+        122
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "popolazione_2025": 2368,
+      "tasso_medio_annuo_2011_2023": -22.83,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario di Ripresa / Contenimento",
+          "variazione_annua_residenti": -10,
+          "popolazione_2035": 2268
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -22.83,
+          "popolazione_2035": 2140
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario Accentuato di Crisi",
+          "variazione_annua_residenti": -35,
+          "popolazione_2035": 2018
+        }
+      ],
+      "pagine_pdf": [
+        127
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "popolazione_2025": 5078,
+      "tasso_medio_annuo_2011_2023": 2.17,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario Attrattivo / Espansivo",
+          "variazione_annua_residenti": 25,
+          "popolazione_2035": 5328
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": 2.17,
+          "popolazione_2035": 5100
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario di Flessione per Invecchiamento",
+          "variazione_annua_residenti": -15,
+          "popolazione_2035": 4928
+        }
+      ],
+      "pagine_pdf": [
+        132
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "popolazione_2025": 13036,
+      "tasso_medio_annuo_2011_2023": -66.92,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario di Ripresa / Contenimento",
+          "variazione_annua_residenti": -30,
+          "popolazione_2035": 12736
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -66.92,
+          "popolazione_2035": 12333
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario Accentuato di Crisi",
+          "variazione_annua_residenti": -95,
+          "popolazione_2035": 11986
+        }
+      ],
+      "pagine_pdf": [
+        137
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "popolazione_2025": 2511,
+      "tasso_medio_annuo_2011_2023": 16.33,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario di Forte Attrazione e Sviluppo Costiero",
+          "variazione_annua_residenti": 35,
+          "popolazione_2035": 2861
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": 16.33,
+          "popolazione_2035": 2514
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario di Rallentamento / Stasi",
+          "variazione_annua_residenti": -5,
+          "popolazione_2035": 2301
+        }
+      ],
+      "pagine_pdf": [
+        142
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "popolazione_2025": 1578,
+      "tasso_medio_annuo_2011_2023": -7.75,
+      "scenari": [
+        {
+          "scenario": "attrattivo",
+          "nome": "Scenario di Contenimento / Attrazione",
+          "variazione_annua_residenti": -3,
+          "popolazione_2035": 1548
+        },
+        {
+          "scenario": "lineare",
+          "nome": "Scenario Lineare / Reale",
+          "variazione_annua_residenti": -7.75,
+          "popolazione_2035": 1503
+        },
+        {
+          "scenario": "crisi",
+          "nome": "Scenario Accentuato di Crisi",
+          "variazione_annua_residenti": -14,
+          "popolazione_2035": 1438
+        }
+      ],
+      "pagine_pdf": [
+        147
+      ]
+    }
+  ]
+}
