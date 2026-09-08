@@ -158,6 +158,61 @@ export function MessageSlide({ index, title, body, kpi, source, tone }: MessageP
 
 ---
 
+## 5b. `IntroChapters` – apertura a capitoli scroll-driven
+
+**Cosa fa.** Contenitore `sticky` a tutta altezza che mostra N capitoli (4-5) in sequenza mentre l'utente scorre: ogni capitolo ha frase, numero grande, contesto, fonte e una scena (orbi/anelli) che cambia. Indicatore di avanzamento, hint "scorri", pulsante "Salta l'introduzione". Con `prefers-reduced-motion` o viewport < 768 px rende i capitoli come card verticali. Contenuto dal blocco `{type=intro}` della pagina.
+**Dove.** `/`, `/alta-gallura`, `/sughero-sardegna`.
+**Props.** `chapters: Chapter[]`, `skipTo: string` (id dell'ancora), `tone`.
+
+```tsx
+import { motion, useMotionValueEvent, useReducedMotion, useScroll, useTransform } from "motion/react"
+import { useRef, useState } from "react"
+
+export type Chapter = { title: string; value: string; unit?: string; context: string; source: string; ghost: string; tone: "green" | "cyan" | "blue" | "cork" }
+const ORB: Record<Chapter["tone"], [string, string]> = { green: ["#7CFF3F", "#4E9A3F"], cyan: ["#3FE9FF", "#4E9A3F"], blue: ["#3FE9FF", "#2F6FB0"], cork: ["#E8C28E", "#C2603A"] }
+
+export function IntroChapters({ chapters, skipTo }: { chapters: Chapter[]; skipTo: string }) {
+  const reduce = useReducedMotion()
+  const isNarrow = typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches
+  if (reduce || isNarrow) return <ChapterCards chapters={chapters} />   // fallback: card verticali
+
+  const ref = useRef<HTMLDivElement>(null)
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] })
+  const [active, setActive] = useState(0)
+  useMotionValueEvent(scrollYProgress, "change", (v) => setActive(Math.min(chapters.length - 1, Math.floor(v * chapters.length))))
+  const orbScale = useTransform(scrollYProgress, [0, 1], [0.9, 1.25])
+  const c = chapters[active]
+
+  return (
+    <div ref={ref} style={{ height: `${chapters.length * 100}vh` }} className="relative">   {/* 1 schermata per capitolo */}
+      <div className="sticky top-0 flex h-screen items-center overflow-hidden bg-[var(--ice)]">
+        {/* scena */}
+        <motion.div aria-hidden style={{ scale: orbScale }} className="absolute right-[-10%] top-1/2 h-[70vmin] w-[70vmin] -translate-y-1/2 rounded-full blur-[60px] transition-colors duration-700"
+          animate={{ background: `radial-gradient(circle at 40% 40%, ${ORB[c.tone][0]}, ${ORB[c.tone][1]} 55%, transparent 75%)` }} />
+        <GhostWord text={c.ghost} />
+        {/* testo del capitolo */}
+        <motion.div key={active} initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="relative z-10 mx-auto grid w-full max-w-[1200px] gap-8 px-6 md:grid-cols-2">
+          <div>
+            <span className="text-[12px] uppercase tracking-[0.08em] text-[var(--ink-muted)]">0{active + 1} / 0{chapters.length}</span>
+            <h2 className="mt-3 text-4xl font-light leading-[1.05] md:text-6xl">{c.title}</h2>
+            <p className="mt-6 max-w-md text-lg text-[var(--ink-muted)]">{c.context}</p>
+            <p className="mt-4 text-[12px] text-[var(--ink-muted)]">Fonte: {c.source}</p>
+          </div>
+          <p className="self-center text-7xl font-medium tabular-nums md:text-9xl">{c.value}<span className="ml-2 text-3xl">{c.unit}</span></p>
+        </motion.div>
+        {/* indicatore + salta */}
+        <ol className="absolute left-6 top-1/2 -translate-y-1/2 space-y-3" aria-label="Avanzamento introduzione">
+          {chapters.map((_, i) => <li key={i} className={`h-2 w-2 rounded-full transition ${i === active ? "scale-150 bg-[var(--ink)]" : "bg-[var(--line)]"}`} />)}
+        </ol>
+        {active === 0 && <p className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce text-[12px] uppercase tracking-[0.08em] text-[var(--ink-muted)]">scorri</p>}
+        <a href={`#${skipTo}`} className="absolute right-6 top-6 z-20 rounded-full border border-[var(--line)] bg-white/80 px-4 py-2 text-sm backdrop-blur hover:bg-white">Salta l'introduzione</a>
+      </div>
+    </div>
+  )
+}
+```
+**Note.** Tastiera: il documento scorre normalmente (frecce, Pag↓), l'intro non intercetta gli eventi. Il pulsante "Salta" è il primo elemento focalizzabile. Lo `scroll-snap` si può aggiungere sul contenitore esterno (`scroll-snap-type: y proximity`), mai `mandatory`. Il numero usa `CountUp` al cambio di capitolo. Sotto l'intro, il contenuto tradizionale inizia con l'`id` passato in `skipTo` e con il sottomenu sticky.
+
 ## 6. `KpiRow` – numeri con etichetta e fonte
 
 **Dove.** Landing e apertura di ogni sezione. 3-4 card; su mobile 2 colonne.

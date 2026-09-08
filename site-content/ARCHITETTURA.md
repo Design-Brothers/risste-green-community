@@ -23,22 +23,25 @@ Navigazione: **Progetto · Alta Gallura · Sughero Sardegna**, con le due sottop
 2. Un'interazione per blocco dati (ordina, filtra, scegli il comune). Niente dashboard.
 3. Infografiche originali a piena larghezza con lightbox; i grafici ricostruiti dai dataset in `data/` (per la Sughereta **solo** dai dataset, vedi avvertenze nel brief).
 4. Ogni pagina è una sequenza di sezioni, ciascuna con un compito solo.
+5. Landing e pagine di sezione aprono con un'**intro a capitoli** (4-5 schermate scroll-driven con i numeri principali, saltabile), poi il layout torna tradizionale. Le altre tre pagine hanno un hero semplice.
 
 ## Pagine
 
-Notazione: `[dati]` file in `data/`, `[fig]` immagine in `source/*/images/`, `[testo]` file in `site-content/pagine/` da cui prendere i contenuti (i file restano granulari; si accorpano in build).
+Notazione: `[dati]` file in `data/`, `[fig]` immagine in `source/*/images/`, `[testo]` file di copy finale in `site-content/pagine/`. Qui sotto la struttura di massima dei blocchi dati; il testo è quello dei file pagina.
 
-### `/` Landing — `[testo] 00-home`
+### `/` Landing — `[testo] 00-landing`
 1. **Hero** immersivo (vedi brief §3): titolo, standfirst, due CTA. Sfere fluttuanti.
-2. **Il progetto in 60 parole** + 4 KPI: 11 comuni · 35.242 abitanti · >80 % del sughero italiano · 83.790,90 ha di sugherete. `[dati] alta-gallura/kpi-sintesi`, `sughero-sardegna/sintesi-regionale`.
+2. **Intro a capitoli** (`{type=intro}`): i cinque messaggi chiave, uno per schermata, con numero grande. Saltabile.
+3. **Il progetto in 60 parole** + 4 KPI: 11 comuni · 35.242 abitanti · >80 % del sughero italiano · 83.790,90 ha di sugherete. `[dati] alta-gallura/kpi-sintesi`, `sughero-sardegna/sintesi-regionale`.
 3. **Cinque messaggi chiave** come sequenza a scorrimento (una schermata ciascuno, sfondo che cambia colore): due velocità · il sughero come infrastruttura · suolo-fuoco-continuità · tre filiere ESG · roadmap e modello.
 4. **Due porte** (card) verso Alta Gallura e Sughero Sardegna.
 5. **Chi siamo**: RISSTE, Unione dei Comuni, CUP.
 
-### `/progetto` — `[testo] 01-progetto + 12-documenti`
+### `/progetto` — `[testo] 01-progetto`
 Cos'è la Green community (L. 221/2015, PNRR) · finalità e obiettivi · metodo a tre pilastri · perché due studi · gruppo di lavoro (5 profili) · **Documenti**: i due PDF, galleria 16 figure, dataset aperti, glossario, limiti, crediti e contatti. `[dati] obiettivi-studio`; `[fig] fig-2a`.
 
-### `/alta-gallura` — `[testo] 02-hub + 03-territorio + 04-comuni + 04b-template`
+### `/alta-gallura` — `[testo] 02-alta-gallura + 02b-pannello`
+0. **Intro a capitoli** (4): 35.242 abitanti · costa +16 % / interno −20 % · saldo naturale −3.402 vs migratorio +3.286 · 301 anziani ogni 100 giovani.
 1. Hero di sezione con `[fig] fig-3a` (mappa sinottica).
 2. **Popolazione 2001→2025**: slope/barre per comune, costa vs interno. `[dati] popolazione-storica`.
 3. **Saldi**: naturale −3.402 vs migratorio +3.286 per asse. `[dati] saldi-demografici`, `confronto-costa-entroterra`.
@@ -47,16 +50,17 @@ Cos'è la Green community (L. 221/2015, PNRR) · finalità e obiettivi · metodo
 6. **Ambiente**: sugherete e distretti forestali, uso del suolo per comune, Natura 2000, incendi. `[dati] uso-suolo-comuni`, `natura-2000-e-vincoli`.
 7. **Gli 11 comuni**: mappa SVG + griglia card, filtro costa/interno, click → **pannello scheda** (KPI, mini-grafico popolazione, uso suolo top 6, cosa dice lo studio, criticità e opportunità). `[dati] schede-comuni`, `sintesi-comparativa-comuni`, `pedologia-comuni`.
 
-### `/alta-gallura/strategia` — `[testo] 05-green-community + 06-roadmap`
+### `/alta-gallura/strategia` — `[testo] 03-alta-gallura-strategia`
 Framework e governance `[fig] fig-4a` · ESG in tre colonne `[dati] indicatori-esg` · servizi ecosistemici `[fig] fig-4b` · **tre filiere** in tab `[fig] fig-4c/4d/4e` `[dati] filiere` · contratto di filiera e strumenti · formazione · **Roadmap** timeline 4 fasi × 36 mesi `[fig] fig-4f` `[dati] roadmap` · aree pilota sulla mappa · Living Lab e replicabilità.
 
-### `/sughero-sardegna` — `[testo] 07-hub + 08-sughereta + 08b-template`
+### `/sughero-sardegna` — `[testo] 04-sughero-sardegna + 04b-pannello`
+0. **Intro a capitoli** (4): ≈90 % delle sugherete italiane · 83.790,90 ha in 30 comuni · 21 su 30 con suoli vocati · 16 con oltre il 90 % in pericolo alto.
 1. Hero: Sardegna ≈90 % delle sugherete italiane; 30 comuni = 83.790,90 ha. `[dati] contesto-sughero-sardegna`.
 2. **Tre indici** in tre card (domanda, scala, classi). `[dati] indici-definizioni`.
 3. **Esploratore 30 comuni**: barre ordinabili (ettari · IVP · % pericolo · ICR), filtro per classe, tabella compatta con badge; click → **pannello scheda** (indici, distribuzioni pedologica e incendio, continuità, profilo integrato, indicazioni operative). `[dati] comuni-sughereta`. `[fig] fig-2/3/4` solo in lightbox come elaborazione grafica.
 4. **Lettura integrata**: matrice IVP × incendio × ICR e profili. `[dati] sintesi-regionale`.
 
-### `/sughero-sardegna/innovazione` — `[testo] 09-innovazione + 10-framework`
+### `/sughero-sardegna/innovazione` — `[testo] 05-sughero-innovazione`
 Ricerca per Paese `[fig] fig-5` · ambiti `[fig] fig-6` · TRL a tre fasce · 9 direttrici (card) `[dati] direttrici-innovazione` · certificazioni (tabella leggera) `[dati] strumenti-certificazione` · **database bibliografico** 153 record con ricerca e 3 filtri `[dati] bibliografia-scientifica` · **S.U.G.H.E.R.A.** stepper 7 passi `[fig] fig-7` `[dati] framework-sughera` · conclusioni in 8 messaggi `[dati] conclusioni`.
 
 ## Componenti
@@ -66,7 +70,7 @@ Specifica e codice di esempio in [COMPONENTI.md](COMPONENTI.md).
 | Componente | Dove |
 |---|---|
 | `HeroOrbs`, `GhostWord`, `MicroLabel`, `DecorticaRings` | landing e hero di sezione |
-| `MessageSlide` | i cinque messaggi della landing |
+| `IntroChapters`, `MessageSlide` | intro a capitoli di `/`, `/alta-gallura`, `/sughero-sardegna` (i cinque messaggi in home) |
 | `KpiRow`, `StatArc` | apertura numerica di ogni pagina |
 | `FigureLightbox` | le 16 infografiche originali |
 | `BarRanking`, `SlopeChart`, `StackedBar100`, `ClassBadge` | blocchi dati |

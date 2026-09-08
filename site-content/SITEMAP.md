@@ -24,15 +24,15 @@ flowchart TD
   class D1,D2 gen;
 ```
 
-Mappa dei testi già scritti (`pagine/`) sulle 6 pagine:
+File di contenuto (`pagine/`):
 
-| Pagina | File di contenuto |
+| Pagina | File |
 |---|---|
-| `/` | `00-home.md` |
-| `/progetto` | `01-progetto.md` + `12-documenti.md` |
-| `/alta-gallura` | `02-alta-gallura-hub.md` + `03-alta-gallura-territorio.md` + `04-alta-gallura-comuni.md` + `04b-…-comune-template.md` (pannello) |
-| `/alta-gallura/strategia` | `05-alta-gallura-green-community.md` + `06-alta-gallura-roadmap.md` |
-| `/sughero-sardegna` | `07-sughero-hub.md` + `08-sughero-sughereta.md` + `08b-sughero-comune-template.md` (pannello) |
-| `/sughero-sardegna/innovazione` | `09-sughero-innovazione.md` + `10-sughero-framework.md` |
+| `/` | `00-landing.md` |
+| `/progetto` | `01-progetto.md` |
+| `/alta-gallura` | `02-alta-gallura.md` + pannello `02b-alta-gallura-pannello-comune.md` |
+| `/alta-gallura/strategia` | `03-alta-gallura-strategia.md` |
+| `/sughero-sardegna` | `04-sughero-sardegna.md` + pannello `04b-sughero-pannello-comune.md` |
+| `/sughero-sardegna/innovazione` | `05-sughero-innovazione.md` |
 
-`seo.md` elenca ancora le 12 pagine della prima versione: per le pagine accorpate valgono title e description della prima riga del gruppo.
+Title e description SEO sono nel frontmatter di ogni file. Versioni precedenti in `_archivio/`.

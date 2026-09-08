@@ -41,7 +41,15 @@ Istituzionale ma piano: frasi ≤ 22 parole, una idea per frase, titoli che affe
 - Le 16 infografiche originali sono le uniche "immagini": a piena larghezza, mai ritagliate, con didascalia, fonte e lightbox.
 - Ogni pagina: hero → KPI → sezioni con un messaggio ciascuna → una sola interazione → porte verso le altre pagine → note e fonti. Un sottomenu sticky con le ancore della pagina.
 
-**Landing, sequenza.** (1) Hero a piena altezza: orbi, parola-fantasma, titolo *Green community / Alta Gallura*, standfirst, due CTA, micro-etichette `RISSTE —`, `— UCAG 193`, `11 COMUNI`, `30 COMUNI`. (2) Il progetto in 60 parole e 4 KPI con `StatArc`. (3) Cinque schermate, un messaggio ciascuna: numero d'ordine, frase, KPI con conteggio; l'orbo cambia colore e forma (verde → ciano → blu → ambra → verde) e la parola-fantasma cambia. (4) Due porte verso le sezioni. (5) Chi siamo. La descrizione puntuale dell'illustrazione di ogni pagina è nel blocco `{type=visual}` dei file in `pagine/`.
+**Apertura a capitoli (intro immersiva).** Riferimento: le esperienze scroll-driven "a capitoli" (schermate a tutta altezza bloccate allo scroll, una scena e un numero per capitolo, indicatore di avanzamento, poi il sito prosegue in layout tradizionale). Lo adottiamo in tre pagine: **landing** (5 capitoli = i cinque messaggi), **`/alta-gallura`** e **`/sughero-sardegna`** (4 capitoli ciascuna con i numeri principali della sezione). Regole:
+- Ogni capitolo: una frase ≤ 12 parole, un numero grande con unità, una riga di contesto, la fonte in piccolo. La scena è fatta con orbi, anelli e parola-fantasma (nessun 3D/WebGL): cambia colore, dimensione e posizione tra un capitolo e l'altro.
+- Il contenitore è `sticky` a tutta altezza; lo scroll fa avanzare i capitoli (scroll-snap opzionale, mai obbligatorio). Indicatore verticale a puntini con numero `01 / 05`, hint "scorri" al primo capitolo, pulsante **"Salta l'introduzione"** sempre visibile che porta all'ancora del contenuto.
+- Durata: 5 capitoli ≈ 4 schermate di scroll; niente autoplay. Tastiera: frecce e Pag↓ avanzano; Tab salta ai controlli.
+- `prefers-reduced-motion` e mobile stretto: nessun pinning, i capitoli diventano card verticali con lo stesso contenuto.
+- Dopo l'ultimo capitolo il sito "atterra" sul layout tradizionale (KPI, sezioni, esploratore). Il passaggio è marcato da un titolo di sezione e dal sottomenu sticky che compare.
+- Le pagine `/progetto`, `/alta-gallura/strategia` e `/sughero-sardegna/innovazione` non hanno l'intro: hero semplice con un solo elemento animato.
+
+**Landing, sequenza.** (1) Hero a piena altezza: orbi, parola-fantasma, titolo *Green community / Alta Gallura*, standfirst, due CTA, micro-etichette `RISSTE —`, `— UCAG 193`, `11 COMUNI`, `30 COMUNI`. (2) Il progetto in 60 parole e 4 KPI con `StatArc`. (3) Intro a capitoli: cinque schermate, un messaggio ciascuna: numero d'ordine, frase, KPI con conteggio; l'orbo cambia colore e forma (verde → ciano → blu → ambra → verde) e la parola-fantasma cambia. (4) Due porte verso le sezioni. (5) Chi siamo. La descrizione dell'illustrazione di ogni pagina è nella riga `visual` del frontmatter dei file in `pagine/`; i capitoli di apertura sono la sezione "Capitoli di apertura" degli stessi file.
 
 ## 4. Identità visiva
 
@@ -94,7 +102,7 @@ site/
   src/lib/               ← format, glossario, url del pannello
 ```
 
-**Pipeline contenuti.** In build uno script (`npm run content`) legge i file `pagine/*.md`: il frontmatter diventa metadati e SEO della pagina; ogni blocco `## Titolo {type=…}` diventa un componente (`hero`→`SectionHero`, `kpi`→`KpiRow`, `chart`→grafico indicato nel blocco, `figure`→`FigureLightbox`, `cards`, `tabs`, `quote`, `message`→`MessageSlide`, `visual`→istruzioni per l'hero, `sources`→`MethodNotes`). I termini `[[IVP]]` diventano tooltip dal glossario. I segnaposto `{{campo}}` dei file pannello sono risolti dai JSON per ogni comune.
+**Pipeline contenuti.** I file `pagine/*.md` sono il copy finale: frontmatter (slug, title, description, visual) e sezioni Markdown. In build il frontmatter diventa metadati e SEO; le sezioni "Capitoli di apertura" alimentano `IntroChapters`; le righe "Numeri:" diventano `KpiRow`; il blocco "Approfondimenti" indica quali dataset rendere con `Explorer`, `DataTable` o grafici. I pannelli comune leggono i campi dei JSON indicati in `02b`/`04b`.
 
 **Pipeline dati.** `data/**/*.json` copiati in `src/data/`, ognuno con uno schema Zod scritto leggendo il rispettivo `.schema.md`; un test fa il parse di tutti i file: se un dato non valida, la build fallisce. Le classifiche e gli aggregati si calcolano in build o in `useMemo`, mai a mano nei testi.
 
