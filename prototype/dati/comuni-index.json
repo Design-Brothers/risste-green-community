@@ -1,0 +1,443 @@
+{
+  "titolo": "Indice trasversale dei comuni presenti nel sito",
+  "fonte": {
+    "documento": "parte1+parte2",
+    "capitolo": "derivato da popolazione-storica.json e comuni-sughereta.json",
+    "pagine_pdf": []
+  },
+  "note": [
+    "Chiave di join tra le due sezioni del sito: `slug`. `in_alta_gallura` = uno degli 11 comuni dell'Unione; `in_sughereta_30` = uno dei 30 comuni prioritari della Sughereta Sardegna.",
+    "Tempio Pausania e Calangianus compaiono in entrambe le sezioni: le due schede comune devono linkarsi a vicenda."
+  ],
+  "dati": [
+    {
+      "slug": "abbasanta",
+      "comune": "Abbasanta",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 22,
+      "sugherete_ha_sughereta": 1767.81,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/abbasanta"
+    },
+    {
+      "slug": "aggius",
+      "comune": "Aggius",
+      "in_alta_gallura": true,
+      "fascia": "interna",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/aggius",
+      "url_sughereta": null
+    },
+    {
+      "slug": "aglientu",
+      "comune": "Aglientu",
+      "in_alta_gallura": true,
+      "fascia": "costiera",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/aglientu",
+      "url_sughereta": null
+    },
+    {
+      "slug": "aidomaggiore",
+      "comune": "Aidomaggiore",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 27,
+      "sugherete_ha_sughereta": 1442.56,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/aidomaggiore"
+    },
+    {
+      "slug": "ala-dei-sardi",
+      "comune": "Ala' Dei Sardi",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 7,
+      "sugherete_ha_sughereta": 4132.02,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/ala-dei-sardi"
+    },
+    {
+      "slug": "ardara",
+      "comune": "Ardara",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 28,
+      "sugherete_ha_sughereta": 1413.35,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/ardara"
+    },
+    {
+      "slug": "badesi",
+      "comune": "Badesi",
+      "in_alta_gallura": true,
+      "fascia": "costiera",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/badesi",
+      "url_sughereta": null
+    },
+    {
+      "slug": "benetutti",
+      "comune": "Benetutti",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 21,
+      "sugherete_ha_sughereta": 1822.49,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/benetutti"
+    },
+    {
+      "slug": "berchidda",
+      "comune": "Berchidda",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 2,
+      "sugherete_ha_sughereta": 5480.0,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/berchidda"
+    },
+    {
+      "slug": "bitti",
+      "comune": "Bitti",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 1,
+      "sugherete_ha_sughereta": 5801.29,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/bitti"
+    },
+    {
+      "slug": "bono",
+      "comune": "Bono",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 26,
+      "sugherete_ha_sughereta": 1462.03,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/bono"
+    },
+    {
+      "slug": "bortigiadas",
+      "comune": "Bortigiadas",
+      "in_alta_gallura": true,
+      "fascia": "interna",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/bortigiadas",
+      "url_sughereta": null
+    },
+    {
+      "slug": "budduso",
+      "comune": "Budduso'",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 4,
+      "sugherete_ha_sughereta": 5185.05,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/budduso"
+    },
+    {
+      "slug": "bultei",
+      "comune": "Bultei",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 30,
+      "sugherete_ha_sughereta": 1342.27,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/bultei"
+    },
+    {
+      "slug": "calangianus",
+      "comune": "Calangianus",
+      "in_alta_gallura": true,
+      "fascia": "interna",
+      "in_sughereta_30": true,
+      "rank_sughereta": 13,
+      "sugherete_ha_sughereta": 2422.54,
+      "url_alta_gallura": "/alta-gallura/comuni/calangianus",
+      "url_sughereta": "/sughero-sardegna/comuni/calangianus"
+    },
+    {
+      "slug": "chiaramonti",
+      "comune": "Chiaramonti",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 15,
+      "sugherete_ha_sughereta": 2359.32,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/chiaramonti"
+    },
+    {
+      "slug": "iglesias",
+      "comune": "Iglesias",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 29,
+      "sugherete_ha_sughereta": 1372.51,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/iglesias"
+    },
+    {
+      "slug": "illorai",
+      "comune": "Illorai",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 17,
+      "sugherete_ha_sughereta": 2070.5,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/illorai"
+    },
+    {
+      "slug": "luogosanto",
+      "comune": "Luogosanto",
+      "in_alta_gallura": true,
+      "fascia": "interna",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/luogosanto",
+      "url_sughereta": null
+    },
+    {
+      "slug": "luras",
+      "comune": "Luras",
+      "in_alta_gallura": true,
+      "fascia": "interna",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/luras",
+      "url_sughereta": null
+    },
+    {
+      "slug": "monti",
+      "comune": "Monti",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 24,
+      "sugherete_ha_sughereta": 1637.71,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/monti"
+    },
+    {
+      "slug": "mores",
+      "comune": "Mores",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 14,
+      "sugherete_ha_sughereta": 2362.69,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/mores"
+    },
+    {
+      "slug": "nuoro",
+      "comune": "Nuoro",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 5,
+      "sugherete_ha_sughereta": 4413.55,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/nuoro"
+    },
+    {
+      "slug": "olbia",
+      "comune": "Olbia",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 18,
+      "sugherete_ha_sughereta": 1971.52,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/olbia"
+    },
+    {
+      "slug": "oliena",
+      "comune": "Oliena",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 19,
+      "sugherete_ha_sughereta": 1944.06,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/oliena"
+    },
+    {
+      "slug": "orani",
+      "comune": "Orani",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 10,
+      "sugherete_ha_sughereta": 3376.52,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/orani"
+    },
+    {
+      "slug": "orune",
+      "comune": "Orune",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 6,
+      "sugherete_ha_sughereta": 4201.12,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/orune"
+    },
+    {
+      "slug": "oschiri",
+      "comune": "Oschiri",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 3,
+      "sugherete_ha_sughereta": 5434.73,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/oschiri"
+    },
+    {
+      "slug": "ozieri",
+      "comune": "Ozieri",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 9,
+      "sugherete_ha_sughereta": 3513.27,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/ozieri"
+    },
+    {
+      "slug": "padru",
+      "comune": "Padru",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 16,
+      "sugherete_ha_sughereta": 2265.4,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/padru"
+    },
+    {
+      "slug": "pattada",
+      "comune": "Pattada",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 23,
+      "sugherete_ha_sughereta": 1761.94,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/pattada"
+    },
+    {
+      "slug": "ploaghe",
+      "comune": "Ploaghe",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 25,
+      "sugherete_ha_sughereta": 1561.48,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/ploaghe"
+    },
+    {
+      "slug": "pozzomaggiore",
+      "comune": "Pozzomaggiore",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 20,
+      "sugherete_ha_sughereta": 1837.12,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/pozzomaggiore"
+    },
+    {
+      "slug": "santa-teresa-gallura",
+      "comune": "Santa Teresa Gallura",
+      "in_alta_gallura": true,
+      "fascia": "costiera",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/santa-teresa-gallura",
+      "url_sughereta": null
+    },
+    {
+      "slug": "telti",
+      "comune": "Telti",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 12,
+      "sugherete_ha_sughereta": 2826.09,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/telti"
+    },
+    {
+      "slug": "tempio-pausania",
+      "comune": "Tempio Pausania",
+      "in_alta_gallura": true,
+      "fascia": "interna",
+      "in_sughereta_30": true,
+      "rank_sughereta": 11,
+      "sugherete_ha_sughereta": 2945.38,
+      "url_alta_gallura": "/alta-gallura/comuni/tempio-pausania",
+      "url_sughereta": "/sughero-sardegna/comuni/tempio-pausania"
+    },
+    {
+      "slug": "trinita-d-agultu-e-vignola",
+      "comune": "Trinità d'Agultu e Vignola",
+      "in_alta_gallura": true,
+      "fascia": "costiera",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/trinita-d-agultu-e-vignola",
+      "url_sughereta": null
+    },
+    {
+      "slug": "viddalba",
+      "comune": "Viddalba",
+      "in_alta_gallura": true,
+      "fascia": "interna",
+      "in_sughereta_30": false,
+      "rank_sughereta": null,
+      "sugherete_ha_sughereta": null,
+      "url_alta_gallura": "/alta-gallura/comuni/viddalba",
+      "url_sughereta": null
+    },
+    {
+      "slug": "villanova-monteleone",
+      "comune": "Villanova Monteleone",
+      "in_alta_gallura": false,
+      "fascia": null,
+      "in_sughereta_30": true,
+      "rank_sughereta": 8,
+      "sugherete_ha_sughereta": 3664.58,
+      "url_alta_gallura": null,
+      "url_sughereta": "/sughero-sardegna/comuni/villanova-monteleone"
+    }
+  ]
+}

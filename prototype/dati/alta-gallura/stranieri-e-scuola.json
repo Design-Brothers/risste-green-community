@@ -1,0 +1,1763 @@
+{
+  "titolo": "Popolazione straniera residente (1° gennaio 2025) e utenza scolastica potenziale 0-18 nei Comuni dell'Alta Gallura",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Allegato I – Report demografico e socio-economico strutturale dei Comuni; Prima parte – Demografia (cap. 1) – par. 1.5, 1.7.3, 1.7.4",
+    "pagine_pdf": [
+      24,
+      26,
+      27,
+      97,
+      101,
+      105,
+      109,
+      113,
+      118,
+      123,
+      128,
+      133,
+      138,
+      143
+    ]
+  },
+  "note": [
+    "Stranieri residenti al 1° gennaio 2025 e incidenza % sul totale dei residenti, come scritto nelle schede; le quote per continente e paese sono % sul totale degli stranieri del comune.",
+    "La somma degli stranieri comunali (2.151) coincide con il par. 1.5; costa 1.213 / entroterra 938 coincidono con il par. 1.7.3 (verificato).",
+    "Utenza scolastica potenziale = residenti 0-18 anni al 1° gennaio 2025 per ciclo scolastico e per singola età; 'stranieri_pct' per coorte riportata solo dove la tabella la indica ('di cui x% stranieri').",
+    "Calangianus: la tabella riporta un totale di 476 (cicli coerenti) mentre il testo (scheda, par. 1.5 e 1.7.4) dice 466; il totale Unione 4.295 torna solo con 466, qui adottato.",
+    "Santa Teresa Gallura: il ciclo primaria vale 166 in tabella ma le coorti 6-10 sommano a 164. Bortigiadas: il ciclo secondaria II grado vale 22 ma le coorti 14-18 sommano a 26.",
+    "Tabella 1c (p.26) attribuisce 1.177 ragazzi alla costa e 3.118 all'entroterra (somma 4.295); dalle schede risultano 1.167 e 3.128.",
+    "Il par. 1.5 parla di 'picchi superiori al 35% in età 1 e 2 anni a Tempio Pausania': la scheda riporta 37,0% (1 anno) e 34,4% (2 anni); il par. 1.7.3 dice 'oltre il 34%' per l'asilo nido."
+  ],
+  "dati": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "stranieri_2025": 22,
+      "stranieri_pct": 1.6,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 68.18,
+          "paesi": "Francia, Romania, Ucraina, Germania, Svizzera, Russia"
+        },
+        {
+          "area": "Africa",
+          "quota_pct": 31.82,
+          "paesi": "Marocco"
+        }
+      ],
+      "principali_paesi": [],
+      "note_stranieri": null,
+      "utenza_scolastica_0_18": 107,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 16
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 12
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 33
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 16
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 30
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 8
+        },
+        {
+          "eta": 1,
+          "alunni": 6
+        },
+        {
+          "eta": 2,
+          "alunni": 2
+        },
+        {
+          "eta": 3,
+          "alunni": 5
+        },
+        {
+          "eta": 4,
+          "alunni": 5
+        },
+        {
+          "eta": 5,
+          "alunni": 2
+        },
+        {
+          "eta": 6,
+          "alunni": 8
+        },
+        {
+          "eta": 7,
+          "alunni": 12
+        },
+        {
+          "eta": 8,
+          "alunni": 5
+        },
+        {
+          "eta": 9,
+          "alunni": 2
+        },
+        {
+          "eta": 10,
+          "alunni": 6
+        },
+        {
+          "eta": 11,
+          "alunni": 6
+        },
+        {
+          "eta": 12,
+          "alunni": 7
+        },
+        {
+          "eta": 13,
+          "alunni": 3
+        },
+        {
+          "eta": 14,
+          "alunni": 3
+        },
+        {
+          "eta": 15,
+          "alunni": 4
+        },
+        {
+          "eta": 16,
+          "alunni": 7
+        },
+        {
+          "eta": 17,
+          "alunni": 6
+        },
+        {
+          "eta": 18,
+          "alunni": 10
+        }
+      ],
+      "note_scuola": null,
+      "pagine_pdf": [
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "stranieri_2025": 121,
+      "stranieri_pct": 10.1,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 90.08
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 24.79
+        },
+        {
+          "paese": "Germania",
+          "quota_pct": 17.36
+        },
+        {
+          "paese": "Svizzera",
+          "quota_pct": 9.09
+        }
+      ],
+      "note_stranieri": null,
+      "utenza_scolastica_0_18": 147,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 27
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 23
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 32
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 28
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 37
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 13
+        },
+        {
+          "eta": 1,
+          "alunni": 7
+        },
+        {
+          "eta": 2,
+          "alunni": 7,
+          "stranieri_pct": 28.6
+        },
+        {
+          "eta": 3,
+          "alunni": 8
+        },
+        {
+          "eta": 4,
+          "alunni": 8
+        },
+        {
+          "eta": 5,
+          "alunni": 7
+        },
+        {
+          "eta": 6,
+          "alunni": 9
+        },
+        {
+          "eta": 7,
+          "alunni": 6
+        },
+        {
+          "eta": 8,
+          "alunni": 6
+        },
+        {
+          "eta": 9,
+          "alunni": 7
+        },
+        {
+          "eta": 10,
+          "alunni": 4
+        },
+        {
+          "eta": 11,
+          "alunni": 11
+        },
+        {
+          "eta": 12,
+          "alunni": 8
+        },
+        {
+          "eta": 13,
+          "alunni": 9
+        },
+        {
+          "eta": 14,
+          "alunni": 3
+        },
+        {
+          "eta": 15,
+          "alunni": 7
+        },
+        {
+          "eta": 16,
+          "alunni": 8
+        },
+        {
+          "eta": 17,
+          "alunni": 15
+        },
+        {
+          "eta": 18,
+          "alunni": 4
+        }
+      ],
+      "note_scuola": null,
+      "pagine_pdf": [
+        101,
+        103,
+        104
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "stranieri_2025": 79,
+      "stranieri_pct": 4.3,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 88.61
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 34.18
+        },
+        {
+          "paese": "Ucraina",
+          "quota_pct": 16.46
+        },
+        {
+          "paese": "Federazione Russa",
+          "quota_pct": 11.39
+        }
+      ],
+      "note_stranieri": null,
+      "utenza_scolastica_0_18": 159,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 15
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 21
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 44
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 27
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 52
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 6
+        },
+        {
+          "eta": 1,
+          "alunni": 3
+        },
+        {
+          "eta": 2,
+          "alunni": 6
+        },
+        {
+          "eta": 3,
+          "alunni": 9
+        },
+        {
+          "eta": 4,
+          "alunni": 9
+        },
+        {
+          "eta": 5,
+          "alunni": 3
+        },
+        {
+          "eta": 6,
+          "alunni": 5
+        },
+        {
+          "eta": 7,
+          "alunni": 8
+        },
+        {
+          "eta": 8,
+          "alunni": 11,
+          "stranieri_pct": 15.0
+        },
+        {
+          "eta": 9,
+          "alunni": 10
+        },
+        {
+          "eta": 10,
+          "alunni": 10
+        },
+        {
+          "eta": 11,
+          "alunni": 6
+        },
+        {
+          "eta": 12,
+          "alunni": 10
+        },
+        {
+          "eta": 13,
+          "alunni": 11,
+          "stranieri_pct": 31.6
+        },
+        {
+          "eta": 14,
+          "alunni": 18
+        },
+        {
+          "eta": 15,
+          "alunni": 12
+        },
+        {
+          "eta": 16,
+          "alunni": 12
+        },
+        {
+          "eta": 17,
+          "alunni": 5
+        },
+        {
+          "eta": 18,
+          "alunni": 5
+        }
+      ],
+      "note_scuola": null,
+      "pagine_pdf": [
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "stranieri_2025": 40,
+      "stranieri_pct": 5.7,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 92.5
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 35.0
+        },
+        {
+          "paese": "Germania",
+          "quota_pct": 20.0
+        },
+        {
+          "paese": "Belgio",
+          "quota_pct": 10.0
+        },
+        {
+          "paese": "Austria",
+          "quota_pct": 7.5
+        },
+        {
+          "paese": "Regno Unito",
+          "quota_pct": 7.5
+        }
+      ],
+      "note_stranieri": null,
+      "utenza_scolastica_0_18": 77,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 6
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 12
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 26
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 11
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 22
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 0
+        },
+        {
+          "eta": 1,
+          "alunni": 3
+        },
+        {
+          "eta": 2,
+          "alunni": 3
+        },
+        {
+          "eta": 3,
+          "alunni": 6
+        },
+        {
+          "eta": 4,
+          "alunni": 3,
+          "stranieri_pct": 50.0
+        },
+        {
+          "eta": 5,
+          "alunni": 3
+        },
+        {
+          "eta": 6,
+          "alunni": 5
+        },
+        {
+          "eta": 7,
+          "alunni": 5
+        },
+        {
+          "eta": 8,
+          "alunni": 4
+        },
+        {
+          "eta": 9,
+          "alunni": 5
+        },
+        {
+          "eta": 10,
+          "alunni": 7
+        },
+        {
+          "eta": 11,
+          "alunni": 3
+        },
+        {
+          "eta": 12,
+          "alunni": 4
+        },
+        {
+          "eta": 13,
+          "alunni": 4
+        },
+        {
+          "eta": 14,
+          "alunni": 8
+        },
+        {
+          "eta": 15,
+          "alunni": 5
+        },
+        {
+          "eta": 16,
+          "alunni": 6
+        },
+        {
+          "eta": 17,
+          "alunni": 3
+        },
+        {
+          "eta": 18,
+          "alunni": 4
+        }
+      ],
+      "note_scuola": "0 anni: 'assenza assoluta di nuovi nati'. Scuola secondaria II grado: totale ciclo 22 in tabella, ma le coorti 14-18 anni sommano a 26; il totale 0-18 (77) usa 22.",
+      "pagine_pdf": [
+        109,
+        111,
+        112
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "stranieri_2025": 155,
+      "stranieri_pct": 4.2,
+      "provenienza_continenti": [
+        {
+          "area": "Africa",
+          "quota_pct": 54.19
+        },
+        {
+          "area": "Europa",
+          "quota_pct": 35.48
+        },
+        {
+          "area": "America",
+          "quota_pct": 9.03
+        },
+        {
+          "area": "Asia",
+          "quota_pct": 1.29
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Marocco",
+          "quota_pct": 29.03
+        },
+        {
+          "paese": "Romania",
+          "quota_pct": 26.45
+        },
+        {
+          "paese": "Senegal",
+          "quota_pct": 12.26
+        },
+        {
+          "paese": "Argentina",
+          "quota_pct": 5.16
+        }
+      ],
+      "note_stranieri": null,
+      "utenza_scolastica_0_18": 466,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 76
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 61
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 138
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 66
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 135
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 17,
+          "stranieri_pct": 15.9
+        },
+        {
+          "eta": 1,
+          "alunni": 32,
+          "stranieri_pct": 21.4
+        },
+        {
+          "eta": 2,
+          "alunni": 27
+        },
+        {
+          "eta": 3,
+          "alunni": 21
+        },
+        {
+          "eta": 4,
+          "alunni": 24,
+          "stranieri_pct": 28.3
+        },
+        {
+          "eta": 5,
+          "alunni": 16
+        },
+        {
+          "eta": 6,
+          "alunni": 26
+        },
+        {
+          "eta": 7,
+          "alunni": 26
+        },
+        {
+          "eta": 8,
+          "alunni": 26
+        },
+        {
+          "eta": 9,
+          "alunni": 29
+        },
+        {
+          "eta": 10,
+          "alunni": 31
+        },
+        {
+          "eta": 11,
+          "alunni": 17
+        },
+        {
+          "eta": 12,
+          "alunni": 25
+        },
+        {
+          "eta": 13,
+          "alunni": 24,
+          "stranieri_pct": 28.3
+        },
+        {
+          "eta": 14,
+          "alunni": 24
+        },
+        {
+          "eta": 15,
+          "alunni": 24
+        },
+        {
+          "eta": 16,
+          "alunni": 18
+        },
+        {
+          "eta": 17,
+          "alunni": 33
+        },
+        {
+          "eta": 18,
+          "alunni": 36
+        }
+      ],
+      "note_scuola": "La tabella (p.116) riporta TOTALE 476 e i cicli sommano a 476, ma il testo della scheda, il par. 1.5 e il par. 1.7.4 indicano 466; il totale dell'Unione (4.295) è coerente solo con 466. Qui si usa 466 (valore testuale) e si segnala la discrepanza.",
+      "pagine_pdf": [
+        114,
+        116,
+        117
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "stranieri_2025": 101,
+      "stranieri_pct": 5.6,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 66.34
+        },
+        {
+          "area": "Africa",
+          "quota_pct": 21.78
+        },
+        {
+          "area": "America",
+          "quota_pct": 10.89
+        },
+        {
+          "area": "Asia",
+          "quota_pct": 1.0
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 24.75
+        },
+        {
+          "paese": "Germania",
+          "quota_pct": 22.77
+        },
+        {
+          "paese": "Senegal",
+          "quota_pct": 12.87
+        },
+        {
+          "paese": "Marocco",
+          "quota_pct": 6.93
+        }
+      ],
+      "note_stranieri": null,
+      "utenza_scolastica_0_18": 266,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 28
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 27
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 63
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 46
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 102
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 15
+        },
+        {
+          "eta": 1,
+          "alunni": 4
+        },
+        {
+          "eta": 2,
+          "alunni": 9
+        },
+        {
+          "eta": 3,
+          "alunni": 11
+        },
+        {
+          "eta": 4,
+          "alunni": 9,
+          "stranieri_pct": 11.1
+        },
+        {
+          "eta": 5,
+          "alunni": 7
+        },
+        {
+          "eta": 6,
+          "alunni": 11
+        },
+        {
+          "eta": 7,
+          "alunni": 14
+        },
+        {
+          "eta": 8,
+          "alunni": 15
+        },
+        {
+          "eta": 9,
+          "alunni": 9
+        },
+        {
+          "eta": 10,
+          "alunni": 14
+        },
+        {
+          "eta": 11,
+          "alunni": 20
+        },
+        {
+          "eta": 12,
+          "alunni": 8
+        },
+        {
+          "eta": 13,
+          "alunni": 18
+        },
+        {
+          "eta": 14,
+          "alunni": 17
+        },
+        {
+          "eta": 15,
+          "alunni": 25,
+          "stranieri_pct": 28.0
+        },
+        {
+          "eta": 16,
+          "alunni": 23
+        },
+        {
+          "eta": 17,
+          "alunni": 22,
+          "stranieri_pct": 29.1
+        },
+        {
+          "eta": 18,
+          "alunni": 15
+        }
+      ],
+      "note_scuola": "0 anni: 15 ('indicatore di ripresa della vitalità riproduttiva').",
+      "pagine_pdf": [
+        118,
+        121,
+        122
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "stranieri_2025": 96,
+      "stranieri_pct": 4.1,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 79.17
+        },
+        {
+          "area": "Africa",
+          "quota_pct": 13.54
+        },
+        {
+          "area": "America",
+          "quota_pct": 5.21
+        },
+        {
+          "area": "Asia",
+          "quota_pct": 2.08
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 59.38
+        },
+        {
+          "paese": "Marocco",
+          "quota_pct": 10.42
+        },
+        {
+          "paese": "Polonia",
+          "quota_pct": 8.33
+        }
+      ],
+      "note_stranieri": "Romania: 57 residenti.",
+      "utenza_scolastica_0_18": 357,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 55
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 49
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 77
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 56
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 120
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 22
+        },
+        {
+          "eta": 1,
+          "alunni": 16
+        },
+        {
+          "eta": 2,
+          "alunni": 17,
+          "stranieri_pct": 11.8
+        },
+        {
+          "eta": 3,
+          "alunni": 12
+        },
+        {
+          "eta": 4,
+          "alunni": 15
+        },
+        {
+          "eta": 5,
+          "alunni": 22
+        },
+        {
+          "eta": 6,
+          "alunni": 19,
+          "stranieri_pct": 5.3
+        },
+        {
+          "eta": 7,
+          "alunni": 19
+        },
+        {
+          "eta": 8,
+          "alunni": 13
+        },
+        {
+          "eta": 9,
+          "alunni": 14
+        },
+        {
+          "eta": 10,
+          "alunni": 12
+        },
+        {
+          "eta": 11,
+          "alunni": 20,
+          "stranieri_pct": 5.0
+        },
+        {
+          "eta": 12,
+          "alunni": 20
+        },
+        {
+          "eta": 13,
+          "alunni": 16
+        },
+        {
+          "eta": 14,
+          "alunni": 23
+        },
+        {
+          "eta": 15,
+          "alunni": 29
+        },
+        {
+          "eta": 16,
+          "alunni": 23
+        },
+        {
+          "eta": 17,
+          "alunni": 23
+        },
+        {
+          "eta": 18,
+          "alunni": 22
+        }
+      ],
+      "note_scuola": null,
+      "pagine_pdf": [
+        124,
+        126,
+        127
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "stranieri_2025": 540,
+      "stranieri_pct": 10.6,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 78.52
+        },
+        {
+          "area": "Africa",
+          "quota_pct": 10.74
+        },
+        {
+          "area": "Asia",
+          "quota_pct": 6.11
+        },
+        {
+          "area": "America",
+          "quota_pct": 4.44
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 53.33
+        },
+        {
+          "paese": "Ucraina",
+          "quota_pct": 5.74
+        },
+        {
+          "paese": "Germania",
+          "quota_pct": 4.26
+        },
+        {
+          "paese": "Cina",
+          "quota_pct": 3.33
+        },
+        {
+          "paese": "Senegal",
+          "quota_pct": 2.59
+        },
+        {
+          "paese": "Marocco",
+          "quota_pct": 2.22
+        },
+        {
+          "paese": "Brasile",
+          "quota_pct": 1.48
+        }
+      ],
+      "note_stranieri": "Romania: 288 residenti.",
+      "utenza_scolastica_0_18": 614,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 74
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 76
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 166
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 103
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 195
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 16,
+          "stranieri_pct": 12.5
+        },
+        {
+          "eta": 1,
+          "alunni": 36
+        },
+        {
+          "eta": 2,
+          "alunni": 22,
+          "stranieri_pct": 29.1
+        },
+        {
+          "eta": 3,
+          "alunni": 24
+        },
+        {
+          "eta": 4,
+          "alunni": 25,
+          "stranieri_pct": 28.0
+        },
+        {
+          "eta": 5,
+          "alunni": 27
+        },
+        {
+          "eta": 6,
+          "alunni": 28
+        },
+        {
+          "eta": 7,
+          "alunni": 38,
+          "stranieri_pct": 21.1
+        },
+        {
+          "eta": 8,
+          "alunni": 24
+        },
+        {
+          "eta": 9,
+          "alunni": 38
+        },
+        {
+          "eta": 10,
+          "alunni": 36
+        },
+        {
+          "eta": 11,
+          "alunni": 37
+        },
+        {
+          "eta": 12,
+          "alunni": 33
+        },
+        {
+          "eta": 13,
+          "alunni": 33
+        },
+        {
+          "eta": 14,
+          "alunni": 37
+        },
+        {
+          "eta": 15,
+          "alunni": 33
+        },
+        {
+          "eta": 16,
+          "alunni": 37
+        },
+        {
+          "eta": 17,
+          "alunni": 44
+        },
+        {
+          "eta": 18,
+          "alunni": 44,
+          "stranieri_pct": 36.8
+        }
+      ],
+      "note_scuola": "Scuola primaria: totale ciclo 166 in tabella, ma le coorti 6-10 anni sommano a 164; il totale 0-18 (614) usa 166.",
+      "pagine_pdf": [
+        129,
+        131,
+        132
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "stranieri_2025": 468,
+      "stranieri_pct": 3.6,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 54.06
+        },
+        {
+          "area": "Africa",
+          "quota_pct": 24.36
+        },
+        {
+          "area": "America",
+          "quota_pct": 12.18
+        },
+        {
+          "area": "Asia",
+          "quota_pct": 9.4
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 33.12
+        },
+        {
+          "paese": "Argentina",
+          "quota_pct": 7.91
+        },
+        {
+          "paese": "Marocco",
+          "quota_pct": 7.91
+        },
+        {
+          "paese": "Senegal",
+          "quota_pct": 7.05
+        },
+        {
+          "paese": "Cina",
+          "quota_pct": 6.2
+        }
+      ],
+      "note_stranieri": "Romania: 155 residenti.",
+      "utenza_scolastica_0_18": 1649,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 122
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 176
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 424
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 309
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 618
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 11,
+          "stranieri_pct": 12.2
+        },
+        {
+          "eta": 1,
+          "alunni": 43,
+          "stranieri_pct": 37.0
+        },
+        {
+          "eta": 2,
+          "alunni": 68,
+          "stranieri_pct": 34.4
+        },
+        {
+          "eta": 3,
+          "alunni": 64,
+          "stranieri_pct": 46.3
+        },
+        {
+          "eta": 4,
+          "alunni": 51,
+          "stranieri_pct": 35.9
+        },
+        {
+          "eta": 5,
+          "alunni": 61,
+          "stranieri_pct": 34.9
+        },
+        {
+          "eta": 6,
+          "alunni": 76
+        },
+        {
+          "eta": 7,
+          "alunni": 99
+        },
+        {
+          "eta": 8,
+          "alunni": 78
+        },
+        {
+          "eta": 9,
+          "alunni": 93
+        },
+        {
+          "eta": 10,
+          "alunni": 78
+        },
+        {
+          "eta": 11,
+          "alunni": 90
+        },
+        {
+          "eta": 12,
+          "alunni": 98
+        },
+        {
+          "eta": 13,
+          "alunni": 121
+        },
+        {
+          "eta": 14,
+          "alunni": 122
+        },
+        {
+          "eta": 15,
+          "alunni": 100
+        },
+        {
+          "eta": 16,
+          "alunni": 113
+        },
+        {
+          "eta": 17,
+          "alunni": 144
+        },
+        {
+          "eta": 18,
+          "alunni": 139
+        }
+      ],
+      "note_scuola": null,
+      "pagine_pdf": [
+        134,
+        136,
+        137
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "stranieri_2025": 473,
+      "stranieri_pct": 18.8,
+      "provenienza_continenti": [
+        {
+          "area": "Asia",
+          "quota_pct": 48.63
+        },
+        {
+          "area": "Africa",
+          "quota_pct": 25.79
+        },
+        {
+          "area": "Europa",
+          "quota_pct": 21.99
+        },
+        {
+          "area": "America",
+          "quota_pct": 3.38
+        },
+        {
+          "area": "Oceania",
+          "quota_pct": 0.21
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Pakistan",
+          "quota_pct": 34.88
+        },
+        {
+          "paese": "Bangladesh",
+          "quota_pct": 9.09
+        },
+        {
+          "paese": "Tunisia",
+          "quota_pct": 6.55
+        },
+        {
+          "paese": "Federazione Russa",
+          "quota_pct": 6.13
+        },
+        {
+          "paese": "Senegal",
+          "quota_pct": 4.02
+        },
+        {
+          "paese": "Romania",
+          "quota_pct": 4.02
+        }
+      ],
+      "note_stranieri": "Pakistan: 165 residenti. Tra gli stranieri 382 maschi e 91 femmine; sul totale dei residenti 55,0% maschi e 45,0% femmine. Incidenza stranieri più alta dell'Unione.",
+      "utenza_scolastica_0_18": 247,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 35
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 31
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 53
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 47
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 81
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 14,
+          "stranieri_pct": 28.6
+        },
+        {
+          "eta": 1,
+          "alunni": 12,
+          "stranieri_pct": 18.3
+        },
+        {
+          "eta": 2,
+          "alunni": 9
+        },
+        {
+          "eta": 3,
+          "alunni": 6
+        },
+        {
+          "eta": 4,
+          "alunni": 11,
+          "stranieri_pct": 27.3
+        },
+        {
+          "eta": 5,
+          "alunni": 14,
+          "stranieri_pct": 28.6
+        },
+        {
+          "eta": 6,
+          "alunni": 11
+        },
+        {
+          "eta": 7,
+          "alunni": 5
+        },
+        {
+          "eta": 8,
+          "alunni": 9
+        },
+        {
+          "eta": 9,
+          "alunni": 10
+        },
+        {
+          "eta": 10,
+          "alunni": 18,
+          "stranieri_pct": 22.2
+        },
+        {
+          "eta": 11,
+          "alunni": 16
+        },
+        {
+          "eta": 12,
+          "alunni": 11,
+          "stranieri_pct": 18.2
+        },
+        {
+          "eta": 13,
+          "alunni": 20
+        },
+        {
+          "eta": 14,
+          "alunni": 14
+        },
+        {
+          "eta": 15,
+          "alunni": 14
+        },
+        {
+          "eta": 16,
+          "alunni": 18
+        },
+        {
+          "eta": 17,
+          "alunni": 18
+        },
+        {
+          "eta": 18,
+          "alunni": 17
+        }
+      ],
+      "note_scuola": null,
+      "pagine_pdf": [
+        139,
+        141,
+        142
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "stranieri_2025": 56,
+      "stranieri_pct": 3.5,
+      "provenienza_continenti": [
+        {
+          "area": "Europa",
+          "quota_pct": 80.36
+        }
+      ],
+      "principali_paesi": [
+        {
+          "paese": "Romania",
+          "quota_pct": 42.86
+        },
+        {
+          "paese": "Slovacchia",
+          "quota_pct": 7.14
+        },
+        {
+          "paese": "Marocco",
+          "quota_pct": 7.14
+        },
+        {
+          "paese": "Francia",
+          "quota_pct": 5.36
+        },
+        {
+          "paese": "Repubblica Ceca",
+          "quota_pct": 5.36
+        },
+        {
+          "paese": "Cuba",
+          "quota_pct": 5.36
+        }
+      ],
+      "note_stranieri": "Romania: 24 residenti.",
+      "utenza_scolastica_0_18": 206,
+      "cicli_scolastici": [
+        {
+          "ciclo": "asilo_nido_0_2",
+          "etichetta": "Asilo Nido (0-2 anni)",
+          "alunni": 37
+        },
+        {
+          "ciclo": "infanzia_3_5",
+          "etichetta": "Scuola dell'Infanzia (3-5 anni)",
+          "alunni": 22
+        },
+        {
+          "ciclo": "primaria_6_10",
+          "etichetta": "Scuola Primaria (6-10 anni)",
+          "alunni": 48
+        },
+        {
+          "ciclo": "secondaria_i_11_13",
+          "etichetta": "Scuola Secondaria I Grado (11-13 anni)",
+          "alunni": 32
+        },
+        {
+          "ciclo": "secondaria_ii_14_18",
+          "etichetta": "Scuola Secondaria II Grado (14-18 anni)",
+          "alunni": 67
+        }
+      ],
+      "coorti_per_eta": [
+        {
+          "eta": 0,
+          "alunni": 12
+        },
+        {
+          "eta": 1,
+          "alunni": 15,
+          "stranieri_pct": 13.3
+        },
+        {
+          "eta": 2,
+          "alunni": 10,
+          "stranieri_pct": 20.0
+        },
+        {
+          "eta": 3,
+          "alunni": 6
+        },
+        {
+          "eta": 4,
+          "alunni": 8
+        },
+        {
+          "eta": 5,
+          "alunni": 8
+        },
+        {
+          "eta": 6,
+          "alunni": 14,
+          "stranieri_pct": 7.1
+        },
+        {
+          "eta": 7,
+          "alunni": 7
+        },
+        {
+          "eta": 8,
+          "alunni": 9
+        },
+        {
+          "eta": 9,
+          "alunni": 13,
+          "stranieri_pct": 15.4
+        },
+        {
+          "eta": 10,
+          "alunni": 5
+        },
+        {
+          "eta": 11,
+          "alunni": 7
+        },
+        {
+          "eta": 12,
+          "alunni": 13,
+          "stranieri_pct": 7.7
+        },
+        {
+          "eta": 13,
+          "alunni": 12
+        },
+        {
+          "eta": 14,
+          "alunni": 16,
+          "stranieri_pct": 12.5
+        },
+        {
+          "eta": 15,
+          "alunni": 9
+        },
+        {
+          "eta": 16,
+          "alunni": 10
+        },
+        {
+          "eta": 17,
+          "alunni": 20
+        },
+        {
+          "eta": 18,
+          "alunni": 12
+        }
+      ],
+      "note_scuola": null,
+      "pagine_pdf": [
+        143,
+        146,
+        147
+      ]
+    },
+    {
+      "comune": "TOTALE ALTA GALLURA",
+      "slug": "totale-alta-gallura",
+      "fascia": "unione",
+      "stranieri_2025": 2151,
+      "stranieri_pct": 6.1,
+      "provenienza_continenti": [],
+      "principali_paesi": [],
+      "note_stranieri": "Costa: 1.213 stranieri (11,4%); entroterra: 938 (3,8%) (par. 1.7.3).",
+      "utenza_scolastica_0_18": 4295,
+      "cicli_scolastici": [],
+      "coorti_per_eta": [],
+      "note_scuola": "Tempio Pausania = 38,4% del bacino; entroterra 3.118 (72,6%) e costa 1.177 secondo Tab. 1c, ma la somma delle schede dà 3.128 / 1.167.",
+      "pagine_pdf": [
+        24,
+        26,
+        27
+      ]
+    }
+  ]
+}

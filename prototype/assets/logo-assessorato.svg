@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-labelledby="assTitle">
+  <title id="assTitle">Assessorato dell'Agricoltura e riforma agro-pastorale</title>
+  <rect width="320" height="72" rx="6" fill="#fff"/>
+  <circle cx="32" cy="36" r="18" fill="#4E9A3F"/>
+  <path d="M32 22c6 8 8 12 8 16a8 8 0 1 1-16 0c0-4 2-8 8-16z" fill="#fff"/>
+  <text x="60" y="30" font-family="Georgia, serif" font-size="12" fill="#5B6B62">Assessorato</text>
+  <text x="60" y="46" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#132019">Agricoltura e riforma</text>
+  <text x="60" y="60" font-family="Georgia, serif" font-size="12" fill="#132019">agro-pastorale</text>
+</svg>

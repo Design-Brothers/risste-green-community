@@ -1,0 +1,338 @@
+{
+  "titolo": "Sintesi comparativa preliminare dei Comuni: vocazione sughericola, interesse suinicolo agroforestale, fragilità pedologica, priorità di approfondimento; gruppi funzionali e quadro delle vocazioni territoriali",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale – Sintesi comparativa preliminare, Lettura conclusiva preliminare, Quadro sintetico delle vocazioni territoriali",
+    "pagine_pdf": [
+      172,
+      178
+    ]
+  },
+  "note": [
+    "Categorie qualitative mantenute come nel documento; le forme spezzate dall'estrazione PDF ('Medio- bassa', 'Medio- alta') sono state ricomposte in 'Medio-bassa', 'Medio-alta'.",
+    "Nella tabella la fragilità pedologica di Badesi (Media), Santa Teresa Gallura (Medio-alta) e Trinità d'Agultu e Vignola (Medio-alta) compare solo qui: le relative schede comunali (pag. 160, 167, 170) non esplicitano un giudizio di fragilità nella valutazione preliminare.",
+    "gruppi_funzionali: i quattro gruppi della 'Lettura conclusiva preliminare' (pag. 172); un Comune può appartenere a più gruppi (Aggius a tre, Tempio Pausania e Calangianus a due, Luras a due). comuni_parziali indica i Comuni citati come 'in parte'/'parte di'.",
+    "quadro_vocazioni_territoriali: tabella di pag. 178 (8 vocazioni prevalenti) che riorganizza gli stessi giudizi; qui Luogosanto è incluso tra i Comuni 'sughericola integrata', mentre a pag. 172 il gruppo prioritario bosco-sughero cita 'Calangianus e Tempio Pausania, seguiti da Luras e Aggius' senza Luogosanto (che compare nell'Ambito 1 di pag. 179 con i 5 Comuni).",
+    "Il documento avverte che la matrice 'non deve essere interpretata come una graduatoria definitiva' e che per la filiera suinicola 'nessun Comune va dichiarato idoneo in modo definitivo in questa fase' (pag. 172)."
+  ],
+  "dati": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "vocazione_sughericola": "Medio-alta",
+      "interesse_suinicolo_agroforestale": "Medio, solo pilota",
+      "fragilita_pedologica": "Alta",
+      "priorita_approfondimento": "Alta"
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "vocazione_sughericola": "Medio-bassa",
+      "interesse_suinicolo_agroforestale": "Medio prudenziale",
+      "fragilita_pedologica": "Medio-alta",
+      "priorita_approfondimento": "Media"
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "vocazione_sughericola": "Bassa",
+      "interesse_suinicolo_agroforestale": "Medio-bassa",
+      "fragilita_pedologica": "Media",
+      "priorita_approfondimento": "Media"
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "vocazione_sughericola": "Medio-bassa",
+      "interesse_suinicolo_agroforestale": "Bassa/localizzata",
+      "fragilita_pedologica": "Alta",
+      "priorita_approfondimento": "Media"
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "vocazione_sughericola": "Alta",
+      "interesse_suinicolo_agroforestale": "Basso-medio controllato",
+      "fragilita_pedologica": "Alta",
+      "priorita_approfondimento": "Molto alta"
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "vocazione_sughericola": "Media",
+      "interesse_suinicolo_agroforestale": "Medio-alta da verificare",
+      "fragilita_pedologica": "Medio-alta",
+      "priorita_approfondimento": "Alta"
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "vocazione_sughericola": "Medio-alta",
+      "interesse_suinicolo_agroforestale": "Media",
+      "fragilita_pedologica": "Medio-alta",
+      "priorita_approfondimento": "Alta"
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "vocazione_sughericola": "Bassa",
+      "interesse_suinicolo_agroforestale": "Basso-medio",
+      "fragilita_pedologica": "Medio-alta",
+      "priorita_approfondimento": "Media, soprattutto commerciale"
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "vocazione_sughericola": "Alta",
+      "interesse_suinicolo_agroforestale": "Medio-alta da verificare",
+      "fragilita_pedologica": "Medio-alta",
+      "priorita_approfondimento": "Molto alta"
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "vocazione_sughericola": "Medio-bassa",
+      "interesse_suinicolo_agroforestale": "Medio prudenziale",
+      "fragilita_pedologica": "Medio-alta",
+      "priorita_approfondimento": "Media"
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "vocazione_sughericola": "Bassa",
+      "interesse_suinicolo_agroforestale": "Medio-bassa",
+      "fragilita_pedologica": "Media",
+      "priorita_approfondimento": "Media"
+    }
+  ],
+  "gruppi_funzionali": [
+    {
+      "gruppo": "Comuni prioritari per filiera bosco-sughero",
+      "comuni": [
+        "calangianus",
+        "tempio-pausania",
+        "luras",
+        "aggius"
+      ],
+      "comuni_parziali": [],
+      "descrizione": "Calangianus e Tempio Pausania, seguiti da Luras e Aggius. Qui la priorità è approfondire stato delle sugherete, gestione, decortica, proprietà, accessibilità e rapporto con trasformazione.",
+      "comuni_nomi": [
+        "Calangianus",
+        "Tempio Pausania",
+        "Luras",
+        "Aggius"
+      ],
+      "comuni_parziali_nomi": [],
+      "pagina_pdf": 172
+    },
+    {
+      "gruppo": "Comuni agroforestali integrabili",
+      "comuni": [
+        "luogosanto",
+        "aggius",
+        "luras"
+      ],
+      "comuni_parziali": [
+        "tempio-pausania"
+      ],
+      "descrizione": "Luogosanto, Aggius, Luras e in parte Tempio. Sono i territori dove verificare con maggiore attenzione eventuali progetti pilota integrati tra gestione forestale, superfici agro-silvopastorali e filiera suinicola controllata.",
+      "comuni_nomi": [
+        "Luogosanto",
+        "Aggius",
+        "Luras"
+      ],
+      "comuni_parziali_nomi": [
+        "Tempio Pausania"
+      ],
+      "pagina_pdf": 172
+    },
+    {
+      "gruppo": "Comuni con funzione ambientale, paesaggistica e commerciale",
+      "comuni": [
+        "aglientu",
+        "santa-teresa-gallura",
+        "trinita-d-agultu-e-vignola",
+        "badesi"
+      ],
+      "comuni_parziali": [],
+      "descrizione": "Aglientu, Santa Teresa Gallura, Trinità d'Agultu e Vignola, Badesi. Qui il contributo alla Green Community può essere forte sul piano turistico, commerciale, paesaggistico e di sbocco dei prodotti, più che sulla produzione primaria del sughero.",
+      "comuni_nomi": [
+        "Aglientu",
+        "Santa Teresa Gallura",
+        "Trinità d'Agultu e Vignola",
+        "Badesi"
+      ],
+      "comuni_parziali_nomi": [],
+      "pagina_pdf": 172
+    },
+    {
+      "gruppo": "Comuni a prevalente attenzione forestale/protettiva",
+      "comuni": [
+        "bortigiadas"
+      ],
+      "comuni_parziali": [
+        "calangianus",
+        "aggius",
+        "tempio-pausania"
+      ],
+      "descrizione": "Bortigiadas e parte di Calangianus, Aggius e Tempio, dove la presenza di C1 e coperture forestali su suoli fragili impone una gestione prudenziale.",
+      "comuni_nomi": [
+        "Bortigiadas"
+      ],
+      "comuni_parziali_nomi": [
+        "Calangianus",
+        "Aggius",
+        "Tempio Pausania"
+      ],
+      "pagina_pdf": 172
+    }
+  ],
+  "quadro_vocazioni_territoriali": [
+    {
+      "vocazione_prevalente": "Sughericola primaria",
+      "comuni_testo": "Calangianus, Tempio Pausania",
+      "comuni": [
+        "calangianus",
+        "tempio-pausania"
+      ],
+      "comuni_nomi": [
+        "Calangianus",
+        "Tempio Pausania"
+      ],
+      "ruolo_preliminare": "Poli principali per approfondire gestione, valorizzazione, filiera, certificazioni e governance del sughero.",
+      "pagina_pdf": 178
+    },
+    {
+      "vocazione_prevalente": "Sughericola integrata",
+      "comuni_testo": "Luras, Aggius, Luogosanto",
+      "comuni": [
+        "luras",
+        "aggius",
+        "luogosanto"
+      ],
+      "comuni_nomi": [
+        "Luras",
+        "Aggius",
+        "Luogosanto"
+      ],
+      "ruolo_preliminare": "Integrazione tra sugherete, mosaico agro-pastorale, gestione forestale, prevenzione incendi e filiere locali.",
+      "pagina_pdf": 178
+    },
+    {
+      "vocazione_prevalente": "Forestale protettiva",
+      "comuni_testo": "Bortigiadas, parti di Calangianus, Aggius, Tempio, Aglientu, Trinità, Viddalba",
+      "comuni": [
+        "bortigiadas",
+        "calangianus",
+        "aggius",
+        "tempio-pausania",
+        "aglientu",
+        "trinita-d-agultu-e-vignola",
+        "viddalba"
+      ],
+      "comuni_nomi": [
+        "Bortigiadas",
+        "Calangianus",
+        "Aggius",
+        "Tempio Pausania",
+        "Aglientu",
+        "Trinità d'Agultu e Vignola",
+        "Viddalba"
+      ],
+      "ruolo_preliminare": "Conservazione del suolo, tutela della vegetazione, prevenzione erosione, gestione prudenziale.",
+      "pagina_pdf": 178
+    },
+    {
+      "vocazione_prevalente": "Agro-silvo-pastorale",
+      "comuni_testo": "Luogosanto, Luras, Aggius, Tempio, Aglientu, Viddalba",
+      "comuni": [
+        "luogosanto",
+        "luras",
+        "aggius",
+        "tempio-pausania",
+        "aglientu",
+        "viddalba"
+      ],
+      "comuni_nomi": [
+        "Luogosanto",
+        "Luras",
+        "Aggius",
+        "Tempio Pausania",
+        "Aglientu",
+        "Viddalba"
+      ],
+      "ruolo_preliminare": "Possibile base per modelli rurali estensivi, gestione del paesaggio e progetti pilota controllati.",
+      "pagina_pdf": 178
+    },
+    {
+      "vocazione_prevalente": "Suinicola agroforestale sperimentale",
+      "comuni_testo": "Luogosanto, Tempio, Luras, Aggius",
+      "comuni": [
+        "luogosanto",
+        "tempio-pausania",
+        "luras",
+        "aggius"
+      ],
+      "comuni_nomi": [
+        "Luogosanto",
+        "Tempio Pausania",
+        "Luras",
+        "Aggius"
+      ],
+      "ruolo_preliminare": "Da valutare solo con studi aziendali, pedologici, sanitari, faunistici e ambientali.",
+      "pagina_pdf": 178
+    },
+    {
+      "vocazione_prevalente": "Turistico-commerciale",
+      "comuni_testo": "Santa Teresa Gallura, Badesi, Trinità d'Agultu e Vignola, Aglientu",
+      "comuni": [
+        "santa-teresa-gallura",
+        "badesi",
+        "trinita-d-agultu-e-vignola",
+        "aglientu"
+      ],
+      "comuni_nomi": [
+        "Santa Teresa Gallura",
+        "Badesi",
+        "Trinità d'Agultu e Vignola",
+        "Aglientu"
+      ],
+      "ruolo_preliminare": "Mercato di sbocco, ristorazione, turismo esperienziale, comunicazione, vendita e valorizzazione premium.",
+      "pagina_pdf": 178
+    },
+    {
+      "vocazione_prevalente": "Agricola e agroalimentare complementare",
+      "comuni_testo": "Badesi, Luras, Tempio, Luogosanto, Viddalba",
+      "comuni": [
+        "badesi",
+        "luras",
+        "tempio-pausania",
+        "luogosanto",
+        "viddalba"
+      ],
+      "comuni_nomi": [
+        "Badesi",
+        "Luras",
+        "Tempio Pausania",
+        "Luogosanto",
+        "Viddalba"
+      ],
+      "ruolo_preliminare": "Supporto a filiere locali, trasformazione, prodotti territoriali, integrazione con turismo.",
+      "pagina_pdf": 178
+    },
+    {
+      "vocazione_prevalente": "Governance e servizi di filiera",
+      "comuni_testo": "Tempio Pausania, Calangianus, con raccordo intercomunale",
+      "comuni": [
+        "tempio-pausania",
+        "calangianus"
+      ],
+      "comuni_nomi": [
+        "Tempio Pausania",
+        "Calangianus"
+      ],
+      "ruolo_preliminare": "Coordinamento, cabina di regia, servizi tecnici, raccordo con operatori, monitoraggio, progettazione successiva.",
+      "pagina_pdf": 178
+    }
+  ]
+}

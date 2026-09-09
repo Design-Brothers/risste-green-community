@@ -1,0 +1,94 @@
+{
+  "titolo": "Strumenti di valorizzazione territoriale della Green community Alta Gallura (habitat e Natura 2000, vulnerabilità e rischio incendio, uso del suolo e sistemi produttivi integrati)",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "4.4 Strumenti di valorizzazione territoriale (4.4.1, 4.4.2, 4.4.3)",
+    "pagine_pdf": [75, 76, 77, 78]
+  },
+  "note": [
+    "Il paragrafo 4.4 descrive gli strumenti in forma discorsiva: la ripartizione in obiettivi/azioni/strumenti è redazionale ma usa le formulazioni del testo.",
+    "Il paragrafo 2.2 (pag. 45-46) tratta la prevenzione incendi con contenuti analoghi (fasce tagliafuoco, viabilità, interfacce urbano-rurali, pascolo ghiandatico): qui si riporta solo 4.4.",
+    "Nessun dato numerico nel paragrafo 4.4."
+  ],
+  "dati": [
+    {
+      "ordine": 1,
+      "slug": "habitat-biodiversita-natura-2000",
+      "nome": "Habitat, biodiversità e Rete Natura 2000",
+      "paragrafo": "4.4.1",
+      "pagine_pdf": [75, 76],
+      "approccio": "Approccio ecosistemico e integrato: il patrimonio naturale è infrastruttura ecologica strategica per resilienza e competitività di lungo periodo, non elemento separato dai processi economici e sociali. I siti Natura 2000, le aree di pregio e i corridoi ecologici sono nodi di una rete funzionale agli equilibri ecologici, alla regolazione microclimatica e ai servizi ecosistemici.",
+      "obiettivi": [
+        "Gestione integrata degli habitat prioritari: sistemi forestali di quercia da sughero, macchia mediterranea, ambienti rupicoli, zone umide temporanee",
+        "Rafforzamento della connettività ecologica tra sistemi montani, vallivi e costieri (rilievi granitici, reticoli idrografici, aree forestali)",
+        "Biodiversità come indicatore sintetico di qualità territoriale e leva per certificazione ambientale, progettualità europee e remunerazione dei servizi ecosistemici",
+        "Posizionamento dell'Alta Gallura come destinazione di turismo naturalistico, scientifico ed esperienziale, con destagionalizzazione dei flussi"
+      ],
+      "azioni": [
+        "Gestione attiva, monitoraggio ecologico, restauro ambientale e riduzione delle pressioni antropiche incompatibili",
+        "Ripristino della funzionalità ecologica delle matrici degradate",
+        "Contenimento dei processi di frammentazione",
+        "Tutela delle aree di nidificazione e rifugio della fauna di interesse comunitario"
+      ],
+      "strumenti": [
+        "Rete Natura 2000 e piani di gestione dei siti",
+        "Certificazione ambientale",
+        "Progettualità europee di conservazione",
+        "Sistemi di remunerazione dei servizi ecosistemici"
+      ]
+    },
+    {
+      "ordine": 2,
+      "slug": "vulnerabilita-rischio-incendio",
+      "nome": "Gestione vulnerabilità e rischio incendio",
+      "paragrafo": "4.4.2",
+      "pagine_pdf": [76, 77],
+      "approccio": "Vincoli ambientali, paesaggistici e idrogeologici letti come quadro regolativo che orienta investimenti e pratiche, non come limite: governance preventiva per ridurre il rischio e i costi del degrado. Il substrato granitico della batolite sardo-corsa determina fragilità pedologica diffusa, ridotta profondità dei suoli e vulnerabilità ai processi erosivi.",
+      "obiettivi": [
+        "Mitigazione del rischio idrogeologico, contrasto all'erosione superficiale e stabilità idraulica dei versanti",
+        "Prevenzione integrata del rischio incendi a tutela di capitale naturale, filiere forestali, stock di carbonio, habitat e cicli idrologici",
+        "Riduzione della vulnerabilità economica, climatica e paesaggistica delle sugherete"
+      ],
+      "azioni": [
+        "Conservazione della copertura vegetale spontanea e mantenimento dei popolamenti forestali",
+        "Recupero delle sistemazioni idraulico-agrarie tradizionali: terrazzamenti, muretti a secco, canalizzazioni storiche, opere di difesa del suolo (funzione anti-dissesto e paesaggistica)",
+        "Regimazione sostenibile dei deflussi idrici",
+        "Manutenzione programmata delle sugherete e pulizia del sottobosco",
+        "Creazione di fasce tagliafuoco e razionalizzazione della viabilità forestale di servizio",
+        "Integrazione controllata del pascolo estensivo (carichi compatibili nei sistemi bosco-pascolo) per ridurre il combustibile fine e la continuità verticale del materiale infiammabile",
+        "Gestione produttiva delle sugherete come fattore di presidio, manutenzione e sorveglianza diffusa"
+      ],
+      "strumenti": [
+        "Strumenti di analisi spaziale per classificare le aree per fragilità, capacità d'uso e compatibilità gestionale",
+        "Principio DNSH (non arrecare danno significativo)",
+        "Modello di prevenzione integrata e controllo attivo del combustibile",
+        "Pascolo estensivo come pratica di biosicurezza territoriale"
+      ]
+    },
+    {
+      "ordine": 3,
+      "slug": "uso-suolo-sistemi-produttivi-integrati",
+      "nome": "Uso del suolo e sistemi produttivi integrati",
+      "paragrafo": "4.4.3",
+      "pagine_pdf": [77, 78],
+      "approccio": "La pianificazione dell'uso del suolo è lo strumento centrale di sintesi tra vocazione naturale, sostenibilità produttiva e stabilità di lungo periodo, fondata sulla lettura integrata di pedologia, geomorfologia, vegetazione e clima e sul principio di compatibilità pedo-ambientale.",
+      "obiettivi": [
+        "Orientare le destinazioni d'uso verso configurazioni compatibili con la capacità di carico ecosistemica",
+        "Bilanciare uso produttivo e conservazione del capitale naturale",
+        "Uso del suolo come dispositivo strategico di equilibrio tra produzione, tutela e resilienza"
+      ],
+      "azioni": [
+        "Superfici forestali e sugherete: classificazione funzionale in aree produttive, protettive e di recupero con modelli gestionali differenziati e standard di gestione sostenibile certificata",
+        "Sistemi agro-pascolivi: mantenimento dei mosaici agro-silvo-pastorali e del pascolo arborato (modello dello stazzo), controllo rigido delle cariche animali, tutela della rinnovazione delle querce, prevenzione del compattamento, fertilità biologica dei suoli",
+        "Contesti fragili (versanti acclivi, suoli sottili, alta erodibilità): approcci prudenziali con riduzione dei carichi, turnazioni rapide e pascolamento mobile",
+        "Contesti a maggiore profondità pedologica e stabilità: allevamento estensivo controllato, incluso il pascolo ghiandatico dei suini nelle sugherete, come gestione attiva multifunzionale"
+      ],
+      "strumenti": [
+        "Profili di analisi agro-forestale e territoriale comunale: strumenti tecnico-decisionali su pedologia e profondità utile dei suoli, suscettibilità erosiva, compatibilità zootecnica, potenzialità della filiera del sughero, vincoli ambientali",
+        "Classificazione funzionale delle sugherete (produttive / protettive / recupero)",
+        "Standard di gestione sostenibile certificata",
+        "Principio di compatibilità pedo-ambientale"
+      ]
+    }
+  ]
+}

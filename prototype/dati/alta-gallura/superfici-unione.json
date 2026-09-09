@@ -1,0 +1,170 @@
+{
+  "titolo": "Superfici e grandezze territoriali di scala sovracomunale riportate nello studio (Unione Alta Gallura, distretti forestali, Limbara)",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Seconda parte – Ambiente e territorio par. 2.2.1-2.2.6 (pag. 39-44), 2.3.3 (pag. 47-48)",
+    "pagine_pdf": [
+      39,
+      40,
+      41,
+      42,
+      44,
+      48
+    ]
+  },
+  "note": [
+    "Il documento NON riporta la superficie complessiva dell'Unione né totali di superfici agricole, pascolive, forestali o di sugherete a scala di Unione: i relativi indicatori sono presenti con valore null.",
+    "La somma dei valori comunali di sugherete pubblicati nelle schede (uso-suolo-comuni.json) è calcolabile ma non compare nel documento e quindi non è riportata come dato.",
+    "Il Distretto forestale 01 'Alta Gallura' (150.251 ha) non coincide con il territorio dell'Unione: i distretti 'non sempre coincidono con i confini amministrativi comunali' (pag. 42) e la porzione meridionale di Tempio Pausania (Limbara Sud) ricade nel Distretto 04.",
+    "I dati di Berchidda (UGB Limbara Sud, 3.630,1 ha; macchia evoluta 51%) e della stazione di Caddau riguardano un'area esterna all'Unione, usata dallo studio come riferimento per il massiccio del Limbara."
+  ],
+  "dati": [
+    {
+      "indicatore": "Superficie complessiva dell'Unione dei Comuni dell'Alta Gallura",
+      "valore": null,
+      "unita": "ha",
+      "ambito": "Unione",
+      "pagina_pdf": null,
+      "nota": "non riportata nel documento"
+    },
+    {
+      "indicatore": "Superficie agricola totale dell'Unione",
+      "valore": null,
+      "unita": "ha",
+      "ambito": "Unione",
+      "pagina_pdf": null,
+      "nota": "non riportata nel documento"
+    },
+    {
+      "indicatore": "Superficie pascoliva totale dell'Unione",
+      "valore": null,
+      "unita": "ha",
+      "ambito": "Unione",
+      "pagina_pdf": null,
+      "nota": "non riportata nel documento"
+    },
+    {
+      "indicatore": "Superficie forestale totale dell'Unione / quota boscata",
+      "valore": null,
+      "unita": "ha",
+      "ambito": "Unione",
+      "pagina_pdf": null,
+      "nota": "non riportata nel documento"
+    },
+    {
+      "indicatore": "Estensione complessiva delle sugherete dell'Unione",
+      "valore": null,
+      "unita": "ha",
+      "ambito": "Unione",
+      "pagina_pdf": null,
+      "nota": "non riportata; valori per Comune in uso-suolo-comuni.json (sugherete_per_comune)"
+    },
+    {
+      "indicatore": "Quota del sughero lavorato a livello nazionale presidiata/gestita dall'Alta Gallura",
+      "valore": 80,
+      "unita": "%",
+      "operatore": "oltre",
+      "ambito": "Alta Gallura",
+      "pagina_pdf": 42,
+      "nota": "ripetuto a pag. 43 ('Oltre l’80 % del sughero lavorato a livello nazionale deriva infatti da questo sistema territoriale')"
+    },
+    {
+      "indicatore": "Superficie del Distretto forestale 01 Alta Gallura",
+      "valore": 150251,
+      "unita": "ha",
+      "ambito": "Distretto forestale 01",
+      "pagina_pdf": 42,
+      "nota": "6,2 % della superficie regionale"
+    },
+    {
+      "indicatore": "Quota del Distretto forestale 01 sulla superficie regionale",
+      "valore": 6.2,
+      "unita": "%",
+      "ambito": "Distretto forestale 01",
+      "pagina_pdf": 42,
+      "nota": null
+    },
+    {
+      "indicatore": "Superficie del Distretto forestale 04 Coghinas-Limbara",
+      "valore": 123387,
+      "unita": "ha",
+      "ambito": "Distretto forestale 04",
+      "pagina_pdf": 42,
+      "nota": "5,1 % del territorio regionale; include il Limbara Sud (porzione meridionale di Tempio Pausania)"
+    },
+    {
+      "indicatore": "Quota del Distretto forestale 04 sulla superficie regionale",
+      "valore": 5.1,
+      "unita": "%",
+      "ambito": "Distretto forestale 04",
+      "pagina_pdf": 42,
+      "nota": null
+    },
+    {
+      "indicatore": "Superficie del sito Natura 2000 Monte Limbara",
+      "valore": 16588,
+      "unita": "ha",
+      "ambito": "Monte Limbara",
+      "pagina_pdf": 44,
+      "nota": null
+    },
+    {
+      "indicatore": "Quota altimetrica del Monte Limbara",
+      "valore": 1359,
+      "unita": "m s.l.m.",
+      "ambito": "Monte Limbara",
+      "pagina_pdf": 39,
+      "nota": "principale nodo morfologico dell'area"
+    },
+    {
+      "indicatore": "Superfici a elevata fertilità specifica nel Distretto di Calangianus",
+      "valore": 67,
+      "unita": "%",
+      "operatore": "oltre",
+      "ambito": "Distretto di Calangianus",
+      "pagina_pdf": 41,
+      "nota": "il documento non precisa la superficie di riferimento"
+    },
+    {
+      "indicatore": "Provvigione legnosa media delle leccete mature",
+      "valore": 145.96,
+      "unita": "m3/ha",
+      "ambito": "Limbara / complesso forestale",
+      "pagina_pdf": 40,
+      "nota": null
+    },
+    {
+      "indicatore": "Turno di estrazione del sughero",
+      "valore": 12,
+      "unita": "anni",
+      "ambito": "Alta Gallura",
+      "pagina_pdf": 42,
+      "nota": "'cicli di decortica decennali e turni di estrazione ottimizzati a dodici anni'"
+    },
+    {
+      "indicatore": "Lunghezza della fascia costiera di Aglientu",
+      "valore": 18,
+      "unita": "km",
+      "operatore": "circa",
+      "ambito": "Aglientu",
+      "pagina_pdf": 56,
+      "nota": null
+    },
+    {
+      "indicatore": "Superficie dell'Unità Gestionale di Base Limbara Sud (Forestas, comune di Berchidda)",
+      "valore": 3630.1,
+      "unita": "ha",
+      "ambito": "Limbara Sud (esterno all'Unione)",
+      "pagina_pdf": 48,
+      "nota": "macchia evoluta 51 % della superficie"
+    },
+    {
+      "indicatore": "Quota della macchia evoluta nell'UGB Limbara Sud",
+      "valore": 51,
+      "unita": "%",
+      "ambito": "Limbara Sud (esterno all'Unione)",
+      "pagina_pdf": 48,
+      "nota": "a pag. 40 il testo parla di 'oltre la metà del territorio demaniale'"
+    }
+  ]
+}

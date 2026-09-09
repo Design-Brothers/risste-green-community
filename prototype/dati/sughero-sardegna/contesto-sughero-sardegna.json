@@ -1,0 +1,191 @@
+{
+  "titolo": "Contesto regionale della filiera del sughero in Sardegna – numeri e riferimenti citati nello studio (Parte 2)",
+  "fonte": {
+    "documento": "parte2",
+    "capitolo": "Prima parte – Contesto strategico dello studio (par. 1, 1.1, 1.2); richiami da par. 2.2 e 3.1",
+    "pagine_pdf": [15, 16, 17, 18, 20, 27]
+  },
+  "note": [
+    "Lo studio (Parte 2) NON riporta dati quantitativi su produzione annua di sughero, numero di imprese, addetti, export o quota della Sardegna sulla produzione mondiale: gli indicatori corrispondenti sono valorizzati a null con spiegazione. Il documento descrive il distretto industriale e la filiera in termini qualitativi.",
+    "L'unico dato di quota è 'circa il 90% delle superfici italiane a sughereta' (pag. 16), senza anno di riferimento né fonte statistica.",
+    "Le superfici a sughereta si riferiscono ai 30 comuni prioritari ('Sughereta Sardegna') e non all'intera regione: 83.790,90 ha (pag. 27), arrotondati a 'circa 83.800 ettari' a pag. 20.",
+    "Le superfici comunali e gli indicatori territoriali completi (IVP, IPI, ICR) dei 30 comuni sono oggetto di dataset separati costruiti dall'Allegato I (pagg. 49-141); qui sono riportati solo i sette comuni citati nel testo di pag. 27.",
+    "Le informazioni qualitative (proprietà del materiale, settori applicativi, ruolo dell'Alta Gallura) sono riportate come nel testo per uso descrittivo."
+  ],
+  "dati": [
+    {
+      "chiave": "quota_superfici_italiane_sughereta_pct",
+      "descrizione": "Quota delle superfici italiane a sughereta ospitate in Sardegna",
+      "valore": 90,
+      "unita": "%",
+      "approssimazione": "circa",
+      "anno": null,
+      "pagina_pdf": 16,
+      "testo_fonte": "L'isola ospita circa il 90% delle superfici italiane a sughereta e costituisce uno dei principali territori europei per la produzione e la trasformazione del sughero",
+      "note": "Anno e fonte statistica non indicati nel documento."
+    },
+    {
+      "chiave": "quota_produzione_mondiale_pct",
+      "descrizione": "Quota della Sardegna sulla produzione mondiale di sughero",
+      "valore": null,
+      "unita": "%",
+      "anno": null,
+      "pagina_pdf": null,
+      "note": "Dato non presente nella Parte 2; il testo si limita a definire la Sardegna 'uno dei principali territori europei per estensione delle sugherete e qualità della produzione' (pag. 15)."
+    },
+    {
+      "chiave": "superficie_sugherete_30_comuni_ha",
+      "descrizione": "Superficie a sughereta complessiva dei 30 comuni prioritari (Sughereta Sardegna), da elaborazione GIS",
+      "valore": 83790.9,
+      "unita": "ha",
+      "anno": null,
+      "pagina_pdf": 27,
+      "testo_fonte": "tali territori comprendono 83.790,90 ettari di sugherete e costituiscono il nucleo principale della cosiddetta Sughereta Sardegna",
+      "note": "A pag. 20 lo stesso dato è arrotondato a 'circa 83.800 ettari'. Fonti cartografiche: PFAR, SITR, CTR, Carta Uso del Suolo, Corine Land Cover, DTM, cartografia pedologica regionale (pagg. 19-20); anno dei dati non indicato."
+    },
+    {
+      "chiave": "superficie_sugherete_30_comuni_ha_arrotondata",
+      "descrizione": "Stesso dato, versione arrotondata citata nella metodologia",
+      "valore": 83800,
+      "unita": "ha",
+      "approssimazione": "circa",
+      "anno": null,
+      "pagina_pdf": 20,
+      "testo_fonte": "Complessivamente, l'analisi ha interessato circa 83.800 ettari di sugherete"
+    },
+    {
+      "chiave": "superficie_sugherete_regionale_totale_ha",
+      "descrizione": "Superficie a sughereta dell'intera Sardegna",
+      "valore": null,
+      "unita": "ha",
+      "anno": null,
+      "pagina_pdf": null,
+      "note": "Non riportata nella Parte 2: l'analisi è stata condotta sull'intero territorio regionale (pag. 20) ma il documento quantifica solo i 30 comuni prioritari."
+    },
+    {
+      "chiave": "n_comuni_prioritari",
+      "descrizione": "Comuni con la maggiore estensione di sugherete selezionati come ambiti prioritari (Sughereta Sardegna)",
+      "valore": 30,
+      "unita": "comuni",
+      "anno": null,
+      "pagina_pdf": 20,
+      "testo_fonte": "sono stati selezionati i trenta comuni caratterizzati dalla maggiore disponibilità della risorsa, successivamente assunti quali ambiti prioritari di approfondimento"
+    },
+    {
+      "chiave": "comuni_maggiore_estensione_sughereta",
+      "descrizione": "Comuni con le maggiori superfici a sughereta citati nel testo (pag. 27)",
+      "unita": "ha",
+      "anno": null,
+      "pagina_pdf": 27,
+      "valore": [
+        {"comune": "Bitti", "slug": "bitti", "superficie_ha": 5801.29},
+        {"comune": "Berchidda", "slug": "berchidda", "superficie_ha": 5480.0},
+        {"comune": "Oschiri", "slug": "oschiri", "superficie_ha": 5434.73},
+        {"comune": "Buddusò", "slug": "budduso", "superficie_ha": 5185.05},
+        {"comune": "Nuoro", "slug": "nuoro", "superficie_ha": 4413.55},
+        {"comune": "Orune", "slug": "orune", "superficie_ha": 4201.12},
+        {"comune": "Alà dei Sardi", "slug": "ala-dei-sardi", "superficie_ha": 4132.02}
+      ],
+      "note": "Seguono Villanova Monteleone, Ozieri, Orani, Tempio Pausania e Telti, 'tutti caratterizzati da superfici superiori ai 2.800 ettari' (pag. 27); i valori puntuali di questi ultimi sono nell'Allegato I."
+    },
+    {
+      "chiave": "comprensori_principali",
+      "descrizione": "Comprensori storici di concentrazione della risorsa",
+      "valore": ["Gallura", "Monte Acuto", "Nuorese", "Goceano", "Marghine", "Logudoro", "Sulcis-Iglesiente"],
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": 27,
+      "testo_fonte": "Le maggiori superfici si localizzano prevalentemente nei territori della Gallura, del Monte Acuto, del Nuorese, del Goceano, del Marghine e del Logudoro, ai quali si affiancano nuclei significativi nel Sulcis-Iglesiente"
+    },
+    {
+      "chiave": "distretto_industriale",
+      "descrizione": "Ruolo dell'Alta Gallura / Gallura nella filiera industriale",
+      "valore": {
+        "territorio": "Alta Gallura",
+        "ruolo": "principale distretto industriale del sughero e naturale riferimento per ricerca applicata, sperimentazione e trasferimento tecnologico",
+        "origine_storica": "dal XVIII secolo, con l'espansione del commercio vinicolo europeo e la domanda di tappi naturali",
+        "posizionamento_nazionale": "principale distretto italiano della lavorazione del sughero"
+      },
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": [15, 16],
+      "note": "Il documento cita anche il 'Distretto del Sughero' come oggetto dell'analisi di filiera (pag. 21) senza fornirne dati quantitativi. I comuni di Calangianus e Tempio Pausania non sono nominati in questa sezione; Tempio Pausania compare tra i comuni con oltre 2.800 ha (pag. 27) e Calangianus nelle analisi IPI/ICR (pagg. 28-29)."
+    },
+    {
+      "chiave": "n_imprese_filiera",
+      "descrizione": "Numero di imprese della filiera del sughero in Sardegna",
+      "valore": null,
+      "unita": "imprese",
+      "anno": null,
+      "pagina_pdf": null,
+      "note": "Dato non presente nella Parte 2 (la ricerca di mercato sulle aziende agroforestali è citata nella Premessa, pag. 11, ma i risultati non sono in questo documento)."
+    },
+    {
+      "chiave": "n_addetti_filiera",
+      "descrizione": "Addetti della filiera del sughero in Sardegna",
+      "valore": null,
+      "unita": "addetti",
+      "anno": null,
+      "pagina_pdf": null,
+      "note": "Dato non presente nella Parte 2."
+    },
+    {
+      "chiave": "produzione_annua_sughero",
+      "descrizione": "Produzione annua di sughero grezzo in Sardegna",
+      "valore": null,
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": null,
+      "note": "Dato non presente nella Parte 2."
+    },
+    {
+      "chiave": "export_sughero",
+      "descrizione": "Valore o volume delle esportazioni di sughero/prodotti in sughero dalla Sardegna",
+      "valore": null,
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": null,
+      "note": "Dato non presente nella Parte 2."
+    },
+    {
+      "chiave": "specie",
+      "descrizione": "Specie forestale di riferimento",
+      "valore": "Quercus suber L., 1753 (quercia da sughero)",
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": 16
+    },
+    {
+      "chiave": "proprieta_sughero",
+      "descrizione": "Proprietà fisiche e meccaniche del sughero citate",
+      "valore": ["leggerezza", "elasticità", "impermeabilità", "resistenza alla compressione", "isolamento termo-acustico", "completa riciclabilità", "raccolta senza compromettere la vitalità della pianta"],
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": 17
+    },
+    {
+      "chiave": "settori_applicazione_citati",
+      "descrizione": "Settori di impiego del sughero oltre i tappi, citati nel contesto",
+      "valore": ["edilizia sostenibile", "materiali compositi", "automotive", "aerospazio", "design", "packaging", "biomateriali", "tecnologie ambientali"],
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": 17
+    },
+    {
+      "chiave": "servizi_ecosistemici_sughereta",
+      "descrizione": "Funzioni ecosistemiche della sughereta citate",
+      "valore": ["conservazione della biodiversità mediterranea", "protezione del suolo dall'erosione", "regolazione del ciclo idrologico", "sequestro del carbonio", "mitigazione dei cambiamenti climatici", "resistenza agli incendi grazie alla corteccia suberosa", "pascolo e prodotti del sottobosco nei sistemi agro-silvo-pastorali"],
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": 16
+    },
+    {
+      "chiave": "stato_filiera_regionale",
+      "descrizione": "Valutazione qualitativa dello stato della filiera regionale rispetto all'innovazione",
+      "valore": "La filiera sughericola della Sardegna risulta ancora prevalentemente orientata agli impieghi tradizionali, mentre il trasferimento delle innovazioni verso il sistema produttivo regionale procede con intensità differenti nei vari contesti territoriali.",
+      "unita": null,
+      "anno": null,
+      "pagina_pdf": 17
+    }
+  ]
+}

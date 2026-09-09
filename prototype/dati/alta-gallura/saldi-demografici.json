@@ -1,0 +1,241 @@
+{
+  "titolo": "Saldo naturale e saldo migratorio cumulati 2002-2023 nei Comuni dell'Alta Gallura",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.2, Tabella 1b; par. 1.7, Tabella 1c; Allegato I – Report demografico e socio-economico strutturale dei Comuni",
+    "pagine_pdf": [
+      22,
+      23,
+      25,
+      26,
+      97,
+      101,
+      105,
+      109,
+      113,
+      118,
+      123,
+      128,
+      133,
+      138,
+      143
+    ]
+  },
+  "note": [
+    "Saldo naturale = nati meno morti; saldo migratorio totale = iscritti meno cancellati anagrafici; entrambi cumulati 2002-2023 (schede Allegato I e Tabella 1b).",
+    "Il saldo migratorio con l'estero (cumulato 2004-2023) è riportato solo per Aggius (+32); per gli altri comuni è null.",
+    "Viddalba: la scheda (pp.143-147) non contiene la tabella dei saldi; i valori restano null. Per differenza rispetto ai totali di Tabella 1b risulterebbero -218 / +276, coerenti con la somma degli altri 10 comuni (-3.184 / +3.010) e i totali dell'Unione (-3.402 / +3.286).",
+    "Indicatori derivati citati nel testo (p.22-26): il saldo migratorio copre il 96,6% del deficit naturale dell'Unione; la costa catalizza il 77,2% del saldo migratorio attivo; nell'entroterra il saldo migratorio copre il 29,4% del deficit naturale.",
+    "La tabella dei saldi di Santa Teresa Gallura (pp.128-129) è stata estratta in modo frammentato dal PDF: i valori -263 / +1.337 sono confermati dal testo della scheda.",
+    "Le somme dei comuni noti per fascia coincidono con Tabella 1b (costa -861 / +2.538) una volta imputato Viddalba (verificato)."
+  ],
+  "dati": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -278,
+      "saldo_migratorio_2002_2023": -28,
+      "saldo_migratorio_estero_2004_2023": 32,
+      "incidenza_prevalente": "Negatività da Movimento Naturale",
+      "note": "Saldo migratorio positivo negli ultimi anni della serie: +16 (2021), +15 (2022), +14 (2023). Saldo migratorio con l'estero 2004-2023: +32 (unico comune per cui il dato è riportato).",
+      "pagine_pdf": [
+        97,
+        98
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -197,
+      "saldo_migratorio_2002_2023": 407,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Compensazione e crescita da Flusso Migratorio",
+      "note": "Nel 2024: saldo naturale -11, saldo migratorio ed estero +19 (par. 'Stima 2035', p.104).",
+      "pagine_pdf": [
+        101,
+        102
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -218,
+      "saldo_migratorio_2002_2023": 276,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Compensazione e stabilità da Flusso Migratorio attivo",
+      "note": "Saldo naturale -26 (2022) e -17 (2023); saldo migratorio totale +19 (2021), +11 (2022), +32 (2023), +16 (2024).",
+      "pagine_pdf": [
+        105,
+        106
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -195,
+      "saldo_migratorio_2002_2023": 13,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Forte recesso demografico causato da saldo naturale negativo non compensato",
+      "note": "Nel 2024: 0 nascite a fronte di 13 decessi (saldo naturale -13).",
+      "pagine_pdf": [
+        109,
+        110
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -423,
+      "saldo_migratorio_2002_2023": -365,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Forte decrescita indotta dall'azione congiunta di deficit naturale e migratorio",
+      "note": "Saldo naturale 2023: -42 (13 nascite, 55 decessi). Saldo migratorio +17 (2023), -20 (2024).",
+      "pagine_pdf": [
+        113,
+        114
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -174,
+      "saldo_migratorio_2002_2023": 200,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Compensazione e stabilità guidata da flussi migratori attivi",
+      "note": "Saldo naturale 2023: -18.",
+      "pagine_pdf": [
+        118,
+        119
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -236,
+      "saldo_migratorio_2002_2023": 6,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Decrescita guidata da dinamiche biologiche naturali negative non compensate",
+      "note": "Saldo naturale -18 (2020), -24 (2021), -27 (2022), -15 (2023); picco migratorio +78 nel 2007.",
+      "pagine_pdf": [
+        123,
+        124
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -263,
+      "saldo_migratorio_2002_2023": 1337,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Forte espansione e compensazione trainata da flussi migratori attivi stanziali",
+      "note": "Saldo naturale -32 (2020), -32 (2021), -35 (2022), -41 (2024); saldo migratorio 2024: +64. Tabella a p.128-129 estratta in modo frammentato: valori verificati nel testo.",
+      "pagine_pdf": [
+        128,
+        129
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -1017,
+      "saldo_migratorio_2002_2023": 646,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Flessione demografica guidata da deficit naturale non compensato dai flussi migratori recenti",
+      "note": "Saldo naturale -132 (2022), -100 (2023), -107 (2024); saldo migratorio +167 (2007), +434 (2013), -77 (2018), -67 (2020), -86 (2021), -3 (2023).",
+      "pagine_pdf": [
+        133,
+        134
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": -183,
+      "saldo_migratorio_2002_2023": 518,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Espansione demografica strutturale guidata interamente da flussi migratori attivi in forte accelerazione",
+      "note": "Saldo naturale cumulato -188 includendo il 2024; saldo migratorio +116 (2023) e +161 (2024).",
+      "pagine_pdf": [
+        138,
+        139
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "livello": "comune",
+      "saldo_naturale_2002_2023": null,
+      "saldo_migratorio_2002_2023": null,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": null,
+      "note": "La scheda di Viddalba (p.143) non riporta i saldi cumulati 2002-2023. Per differenza rispetto ai totali dell'Asse Interno (Tab. 1b) i valori impliciti sarebbero -218 (naturale) e +276 (migratorio); non essendo scritti nel documento restano null.",
+      "pagine_pdf": [
+        143,
+        144
+      ]
+    },
+    {
+      "comune": "Asse Costiero (4 Comuni)",
+      "slug": "fascia-costiera",
+      "fascia": "costiera",
+      "livello": "aggregato",
+      "saldo_naturale_2002_2023": -861,
+      "saldo_migratorio_2002_2023": 2538,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Forte espansione e attrazione demografica complessiva",
+      "note": null,
+      "pagine_pdf": [
+        23
+      ]
+    },
+    {
+      "comune": "Asse Interno (7 Comuni)",
+      "slug": "fascia-interna",
+      "fascia": "interna",
+      "livello": "aggregato",
+      "saldo_naturale_2002_2023": -2541,
+      "saldo_migratorio_2002_2023": 748,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Spopolamento strutturale per deficit naturale non compensato",
+      "note": null,
+      "pagine_pdf": [
+        23
+      ]
+    },
+    {
+      "comune": "TOTALE ALTA GALLURA",
+      "slug": "totale-alta-gallura",
+      "fascia": "unione",
+      "livello": "aggregato",
+      "saldo_naturale_2002_2023": -3402,
+      "saldo_migratorio_2002_2023": 3286,
+      "saldo_migratorio_estero_2004_2023": null,
+      "incidenza_prevalente": "Sostanziale stabilità per compensazione migratoria macro-territoriale",
+      "note": null,
+      "pagine_pdf": [
+        23
+      ]
+    }
+  ]
+}

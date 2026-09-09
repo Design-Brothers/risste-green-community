@@ -1,0 +1,75 @@
+﻿"comune";"slug";"classe_uso_suolo";"rango";"superficie_ha";"incidenza_pct";"origine";"pagina_pdf";"nota"
+"Aggius";"aggius";"Prati artificiali";"1";"1415";"17";"tabella";"156";
+"Aggius";"aggius";"Macchia mediterranea";"2";"1258";"15.1";"tabella";"156";
+"Aggius";"aggius";"Bosco di latifoglie";"3";"958";"11.5";"tabella";"156";
+"Aggius";"aggius";"Gariga";"4";"895";"10.7";"tabella";"156";
+"Aggius";"aggius";"Sugherete";"5";"574";"6.9";"tabella";"156";
+"Aggius";"aggius";"Aree a pascolo naturale";"6";"535";"6.4";"tabella";"156";
+"Aglientu";"aglientu";"Macchia mediterranea";"1";"3214";"21.7";"tabella";"158";
+"Aglientu";"aglientu";"Gariga";"2";"3166";"21.3";"tabella";"158";
+"Aglientu";"aglientu";"Prati artificiali";"3";"2494";"16.8";"tabella";"158";
+"Aglientu";"aglientu";"Bosco di latifoglie";"4";"1120";"7.6";"tabella";"158";
+"Aglientu";"aglientu";"Aree a pascolo naturale";"5";"951";"6.4";"tabella";"158";
+"Aglientu";"aglientu";"Aree a ricolonizzazione naturale";"6";"770";"5.2";"tabella";"158";
+"Aglientu";"aglientu";"Sugherete";;"321";;"testo";"159";"Le sugherete risultano presenti ma limitate, circa 321 ha."
+"Badesi";"badesi";"Seminativi semplici e colture orticole";"1";"437";"14.2";"tabella";"159";
+"Badesi";"badesi";"Macchia mediterranea";"2";"417";"13.6";"tabella";"159";
+"Badesi";"badesi";"Gariga";"3";"373";"12.1";"tabella";"159";
+"Badesi";"badesi";"Vigneti";"4";"357";"11.6";"tabella";"159";
+"Badesi";"badesi";"Bosco di latifoglie";"5";"262";"8.5";"tabella";"159";
+"Badesi";"badesi";"Prati artificiali";"6";"209";"6.8";"tabella";"159";
+"Badesi";"badesi";"Sugherete";;"0";;"testo";"159";"Valore 0: assenza di sugherete rilevata nelle tabelle (pag. 159); 'Le tabelle non evidenziano sugherete' (pag. 160)"
+"Bortigiadas";"bortigiadas";"Bosco di latifoglie";"1";"2204";"28.9";"tabella";"161";
+"Bortigiadas";"bortigiadas";"Macchia mediterranea";"2";"1114";"14.6";"tabella";"161";
+"Bortigiadas";"bortigiadas";"Gariga";"3";"878";"11.5";"tabella";"161";
+"Bortigiadas";"bortigiadas";"Prati artificiali";"4";"652";"8.5";"tabella";"161";
+"Bortigiadas";"bortigiadas";"Boschi misti di conifere e latifoglie";"5";"498";"6.5";"tabella";"161";
+"Bortigiadas";"bortigiadas";"Seminativi semplici e colture orticole";"6";"459";"6";"tabella";"161";
+"Bortigiadas";"bortigiadas";"Sugherete";;"116";;"testo";"161";"Le sugherete ammontano a circa 116 ha."
+"Calangianus";"calangianus";"Bosco di latifoglie";"1";"2745";"21.7";"tabella";"162";
+"Calangianus";"calangianus";"Macchia mediterranea";"2";"2070";"16.4";"tabella";"162";
+"Calangianus";"calangianus";"Sugherete";"3";"2014";"15.9";"tabella";"162";
+"Calangianus";"calangianus";"Gariga";"4";"1412";"11.2";"tabella";"162";
+"Calangianus";"calangianus";"Vegetazione rada";"5";"1290";"10.2";"tabella";"162";
+"Calangianus";"calangianus";"Seminativi in aree non irrigue";"6";"663";"5.2";"tabella";"162";
+"Luogosanto";"luogosanto";"Macchia mediterranea";"1";"3487";"25.8";"tabella";"163";
+"Luogosanto";"luogosanto";"Prati artificiali";"2";"2310";"17.1";"tabella";"163";
+"Luogosanto";"luogosanto";"Bosco di latifoglie";"3";"2253";"16.7";"tabella";"163";
+"Luogosanto";"luogosanto";"Gariga";"4";"1252";"9.3";"tabella";"164";
+"Luogosanto";"luogosanto";"Aree agroforestali";"5";"914";"6.8";"tabella";"164";
+"Luogosanto";"luogosanto";"Aree a pascolo naturale";"6";"562";"4.2";"tabella";"164";
+"Luogosanto";"luogosanto";"Sugherete";;"449";;"testo";"164";"Le sugherete risultano presenti per circa 449 ha."
+"Luras";"luras";"Seminativi in aree non irrigue";"1";"1340";"15.3";"tabella";"165";
+"Luras";"luras";"Macchia mediterranea";"2";"1271";"14.5";"tabella";"165";
+"Luras";"luras";"Gariga";"3";"1119";"12.8";"tabella";"165";
+"Luras";"luras";"Prati artificiali";"4";"940";"10.7";"tabella";"165";
+"Luras";"luras";"Bosco di latifoglie";"5";"865";"9.9";"tabella";"165";
+"Luras";"luras";"Aree a pascolo naturale";"6";"854";"9.8";"tabella";"165";
+"Luras";"luras";"Sugherete";;"645";;"testo";"165";"Le sugherete ammontano a circa 645 ha, valore significativo nel quadro comunale."
+"Santa Teresa Gallura";"santa-teresa-gallura";"Gariga";"1";"2568";"25.3";"tabella";"166";
+"Santa Teresa Gallura";"santa-teresa-gallura";"Macchia mediterranea";"2";"2315";"22.8";"tabella";"166";
+"Santa Teresa Gallura";"santa-teresa-gallura";"Prati artificiali";"3";"1765";"17.4";"tabella";"166";
+"Santa Teresa Gallura";"santa-teresa-gallura";"Aree a ricolonizzazione naturale";"4";"872";"8.6";"tabella";"166";
+"Santa Teresa Gallura";"santa-teresa-gallura";"Aree agricole con spazi naturali importanti";"5";"457";"4.5";"tabella";"166";
+"Santa Teresa Gallura";"santa-teresa-gallura";"Aree agroforestali";"6";"274";"2.7";"tabella";"166";
+"Santa Teresa Gallura";"santa-teresa-gallura";"Sugherete";;"0";;"testo";"167";"Valore 0: 'Le tabelle non riportano sugherete' (pag. 166); 'Non risultano sugherete nei dati comunali analizzati' (pag. 167)"
+"Tempio Pausania";"tempio-pausania";"Macchia mediterranea";"1";"3475";"16.4";"tabella";"168";
+"Tempio Pausania";"tempio-pausania";"Bosco di latifoglie";"2";"3350";"15.8";"tabella";"168";
+"Tempio Pausania";"tempio-pausania";"Prati artificiali";"3";"2496";"11.8";"tabella";"168";
+"Tempio Pausania";"tempio-pausania";"Sugherete";"4";"1937";"9.1";"tabella";"168";
+"Tempio Pausania";"tempio-pausania";"Gariga";"5";"1564";"7.4";"tabella";"168";
+"Tempio Pausania";"tempio-pausania";"Seminativi non irrigui";"6";"1507";"7.1";"tabella";"168";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"Macchia mediterranea";"1";"3646";"26.6";"tabella";"169";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"Gariga";"2";"3561";"26";"tabella";"169";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"Prati artificiali";"3";"1804";"13.2";"tabella";"169";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"Bosco di latifoglie";"4";"1340";"9.8";"tabella";"169";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"Aree a pascolo naturale";"5";"699";"5.1";"tabella";"169";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"Vegetazione rada";"6";"491";"3.6";"tabella";"169";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"Sugherete";;"211";;"testo";"169";"Le sugherete ammontano a circa 211 ha."
+"Viddalba";"viddalba";"Gariga";"1";"1111";"22.4";"tabella";"170";
+"Viddalba";"viddalba";"Macchia mediterranea";"2";"1055";"21.3";"tabella";"170";
+"Viddalba";"viddalba";"Bosco di latifoglie";"3";"587";"11.9";"tabella";"170";
+"Viddalba";"viddalba";"Prati artificiali";"4";"422";"8.5";"tabella";"170";
+"Viddalba";"viddalba";"Aree a pascolo naturale";"5";"346";"7";"tabella";"170";
+"Viddalba";"viddalba";"Aree a ricolonizzazione artificiale";"6";"291";"5.9";"tabella";"171";
+"Viddalba";"viddalba";"Sugherete";;"52";;"testo";"171";"Le sugherete risultano pari a circa 52 ha."

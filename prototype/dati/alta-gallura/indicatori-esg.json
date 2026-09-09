@@ -1,0 +1,588 @@
+{
+  "titolo": "Indicatori di sostenibilità (KPI ESG) trasversali e per filiera della Green community Alta Gallura",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "4.3.1 Indicatori di sostenibilità; 4.5 (set integrato); 4.5.2.1 (sughero), 4.5.3 par. monitoraggio (bovina), 4.5.4 par. monitoraggio (suinicola); Figura 4a",
+    "pagine_pdf": [
+      72,
+      73,
+      79,
+      81,
+      82,
+      84,
+      85,
+      87,
+      88,
+      90
+    ]
+  },
+  "note": [
+    "Il documento presenta il sistema KPI come 'framework preliminare di monitoraggio' (pag. 73): gli indicatori sono descritti in modo qualitativo, senza valori target, unità formali o fonti dato codificate. `unita` e `fonte_dato` sono quindi `null` salvo dove il testo li suggerisce esplicitamente (es. 'tonnellate di CO2 equivalente per unità di prodotto finito', 'percentuale di aziende').",
+    "Il campo `filiera` vale: `trasversale` (4.3.1 e 4.5), `sughero` (4.5.2.1), `bovina` (4.5.3), `suinicola` (4.5.4).",
+    "La fase iniziale prevista è di baseline e mappatura; l'espansione delle filiere zootecniche è subordinata all'esito positivo di progetti pilota monitorati sotto il profilo sanitario, pedologico e ambientale (pag. 73).",
+    "I nomi degli indicatori sono redazionali (il documento li descrive in frasi); il campo `cosa_misura` riporta la formulazione del testo.",
+    "Nel documento i sottoparagrafi di monitoraggio delle filiere bovina e suinicola sono numerati erroneamente 4.5.2.1 (duplicati): si cita la pagina."
+  ],
+  "dati": [
+    {
+      "id": "E-T01",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Impatti climalteranti lungo il ciclo di vita",
+      "cosa_misura": "Quantificazione degli impatti climalteranti generati lungo i cicli di vita dei prodotti (Carbon Footprint).",
+      "unita": "t CO2 eq",
+      "fonte_dato": null,
+      "pagina_pdf": 72
+    },
+    {
+      "id": "E-T02",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Utilizzo e alterazione delle risorse idriche locali",
+      "cosa_misura": "Livello di utilizzo e alterazione delle risorse idriche locali (Water Footprint blu, verde, grigia).",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 72
+    },
+    {
+      "id": "E-T03",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Stock di carbonio forestale e agroforestale",
+      "cosa_misura": "Monitoraggio dello stock di carbonio associato ai sistemi forestali e agroforestali e della capacità di assorbimento forestale.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 72
+    },
+    {
+      "id": "E-T04",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Tasso di circolarità dei processi",
+      "cosa_misura": "Tasso di circolarità dei processi e recupero dei sottoprodotti energetici; circolarità dei sottoprodotti.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 72
+    },
+    {
+      "id": "E-T05",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Compattamento pedologico",
+      "cosa_misura": "Monitoraggio dei processi di compattamento pedologico, metrica di pressione locale sul suolo critica per la stabilità delle sugherete e la compatibilità delle attività zootecniche.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 72
+    },
+    {
+      "id": "E-T06",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Erosione superficiale da canalizzazione",
+      "cosa_misura": "Monitoraggio dell'erosione superficiale da canalizzazione; nella baseline (4.7.2) 'tassi reali di erosione idrica'.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 72
+    },
+    {
+      "id": "E-T07",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Gestione sostenibile delle risorse",
+      "cosa_misura": "Metrica del set integrato 4.5: gestione sostenibile delle risorse.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 79
+    },
+    {
+      "id": "E-T08",
+      "dimensione": "E",
+      "filiera": "trasversale",
+      "nome": "Stato di salute delle sugherete e indice di rinnovazione naturale delle querce",
+      "cosa_misura": "Parametri del cruscotto di baseline (4.7.2): stato di salute delle sugherete, indice di rinnovazione naturale delle querce, biodiversità.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 90
+    },
+    {
+      "id": "S-T01",
+      "dimensione": "S",
+      "filiera": "trasversale",
+      "nome": "Sicurezza sul lavoro",
+      "cosa_misura": "Indicatori legati alla sicurezza sul lavoro nelle filiere.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "S-T02",
+      "dimensione": "S",
+      "filiera": "trasversale",
+      "nome": "Benessere animale",
+      "cosa_misura": "Indicatori di benessere animale nelle filiere zootecniche.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "S-T03",
+      "dimensione": "S",
+      "filiera": "trasversale",
+      "nome": "Qualità occupazionale",
+      "cosa_misura": "Qualità occupazionale e livelli occupazionali attivati (baseline 4.7.2); contributo delle filiere alla coesione territoriale e vitalità economica.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "S-T04",
+      "dimensione": "S",
+      "filiera": "trasversale",
+      "nome": "Tracciabilità delle produzioni",
+      "cosa_misura": "Tracciabilità delle produzioni e di filiera.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "S-T05",
+      "dimensione": "S",
+      "filiera": "trasversale",
+      "nome": "Inclusione di categorie vulnerabili",
+      "cosa_misura": "Inclusione di categorie vulnerabili (giovani NEET, disoccupati under 40, donne, lavoratori in transizione, over 60 attivi).",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "S-T06",
+      "dimensione": "S",
+      "filiera": "trasversale",
+      "nome": "Rafforzamento delle competenze locali",
+      "cosa_misura": "Rafforzamento delle competenze locali (formazione tecnica, upskilling, reskilling).",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "S-T07",
+      "dimensione": "S",
+      "filiera": "trasversale",
+      "nome": "Biosicurezza e rischio epidemiologico",
+      "cosa_misura": "Parametri relativi alla biosicurezza e alla gestione del rischio epidemiologico, pilastri per la stabilità delle filiere agroforestali e la tutela della salute pubblica e del patrimonio zootecnico.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "G-T01",
+      "dimensione": "G",
+      "filiera": "trasversale",
+      "nome": "Trasparenza organizzativa",
+      "cosa_misura": "Valutazione della trasparenza organizzativa delle filiere.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "G-T02",
+      "dimensione": "G",
+      "filiera": "trasversale",
+      "nome": "Capacità di monitoraggio e reporting",
+      "cosa_misura": "Capacità di monitoraggio e reporting; strutturazione di bilanci ESG e accountability territoriale (Fig. 4a).",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "G-T03",
+      "dimensione": "G",
+      "filiera": "trasversale",
+      "nome": "Integrazione tra attori territoriali",
+      "cosa_misura": "Livello di integrazione tra attori territoriali.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "G-T04",
+      "dimensione": "G",
+      "filiera": "trasversale",
+      "nome": "Adozione di criteri ESG lungo la catena del valore",
+      "cosa_misura": "Adozione di criteri ESG lungo la catena del valore; maturità organizzativa delle filiere.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "G-T05",
+      "dimensione": "G",
+      "filiera": "trasversale",
+      "nome": "Capacità di gestire fasi pilota controllate",
+      "cosa_misura": "Capacità di gestire fasi pilota controllate in cui la raccolta dati precede la definizione di carichi gestionali definitivi e obiettivi di produzione su larga scala.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 73
+    },
+    {
+      "id": "G-T06",
+      "dimensione": "G",
+      "filiera": "trasversale",
+      "nome": "Interoperabilità dati",
+      "cosa_misura": "Fusione di record alfanumerici e vettoriali tra UCAG, AGRIS e Forestas (Fig. 4a).",
+      "unita": null,
+      "fonte_dato": "UCAG, AGRIS, Forestas (Fig. 4a)",
+      "pagina_pdf": 72
+    },
+    {
+      "id": "E-S01",
+      "dimensione": "E",
+      "filiera": "sughero",
+      "nome": "Stato fitosanitario delle sugherete",
+      "cosa_misura": "Monitoraggio dello stato fitosanitario per rilevare tempestivamente attacchi parassitari o diffusione di organismi nocivi fungini.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 81
+    },
+    {
+      "id": "E-S02",
+      "dimensione": "E",
+      "filiera": "sughero",
+      "nome": "Quota di popolamenti certificati",
+      "cosa_misura": "Quota di popolamenti forestali condotti in conformità agli standard di certificazione della gestione sostenibile (FSC/PEFC).",
+      "unita": "quota/percentuale di superficie (non specificata)",
+      "fonte_dato": null,
+      "pagina_pdf": 81
+    },
+    {
+      "id": "E-S03",
+      "dimensione": "E",
+      "filiera": "sughero",
+      "nome": "Scarti di sugherificio riutilizzati",
+      "cosa_misura": "Quantificazione volumetrica degli scarti di sugherificio riutilizzati nei cicli secondari di economia circolare.",
+      "unita": "volume (non specificata)",
+      "fonte_dato": null,
+      "pagina_pdf": 81
+    },
+    {
+      "id": "E-S04",
+      "dimensione": "E",
+      "filiera": "sughero",
+      "nome": "Prelievi idrici per bollitura del sughero",
+      "cosa_misura": "Volumi di risorsa idrica sotterranea o di rete prelevati per la bollitura del sughero plancia (pulizia, sanificazione, elasticizzazione) nei poli di Calangianus e Tempio Pausania; efficienza dei sistemi di depurazione e riciclo delle acque di processo, con recupero delle frazioni fenoliche ed estrattive.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 82
+    },
+    {
+      "id": "E-S05",
+      "dimensione": "E",
+      "filiera": "sughero",
+      "nome": "Bilancio emissivo per unità di prodotto",
+      "cosa_misura": "Emissioni da carburanti nei cantieri (decortica, primo trasporto), logistica stradale e consumi energetici di stagionatura, taglio, finitura e packaging dei tappi, parametrate per unità di prodotto finito e messe in relazione con la capacità di assorbimento della sughereta.",
+      "unita": "t CO2 eq per unità di prodotto finito",
+      "fonte_dato": null,
+      "pagina_pdf": 82
+    },
+    {
+      "id": "S-S01",
+      "dimensione": "S",
+      "filiera": "sughero",
+      "nome": "Sicurezza sul lavoro in decortica ed esbosco",
+      "cosa_misura": "Tassi di sicurezza sul lavoro specifici per le attività di decortica e per i cantieri di esbosco.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 81
+    },
+    {
+      "id": "S-S02",
+      "dimensione": "S",
+      "filiera": "sughero",
+      "nome": "Scorzini e operatori in aggiornamento tecnico",
+      "cosa_misura": "Numero di scorzini e operatori inseriti in programmi di aggiornamento tecnico.",
+      "unita": "numero",
+      "fonte_dato": null,
+      "pagina_pdf": 81
+    },
+    {
+      "id": "S-S03",
+      "dimensione": "S",
+      "filiera": "sughero",
+      "nome": "Contratti di lavoro qualificati",
+      "cosa_misura": "Capacità del comparto di generare contratti di lavoro qualificati per contrastare lo spopolamento; impatto occupazionale nelle aree interne montane.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 82
+    },
+    {
+      "id": "G-S01",
+      "dimensione": "G",
+      "filiera": "sughero",
+      "nome": "Adesione a gestione associata/consorzi forestali",
+      "cosa_misura": "Adesione dei proprietari privati a forme di gestione associata o consorzi forestali (superamento della frammentazione fondiaria).",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 82
+    },
+    {
+      "id": "G-S02",
+      "dimensione": "G",
+      "filiera": "sughero",
+      "nome": "Aziende con piani di assestamento aggiornati",
+      "cosa_misura": "Percentuale di aziende dotate di piani di assestamento aggiornati.",
+      "unita": "%",
+      "fonte_dato": null,
+      "pagina_pdf": 82
+    },
+    {
+      "id": "G-S03",
+      "dimensione": "G",
+      "filiera": "sughero",
+      "nome": "Tracciabilità digitale della materia prima",
+      "cosa_misura": "Adozione di sistemi digitali di tracciabilità del sughero dal cantiere di scortecciatura all'ingresso negli stabilimenti del distretto.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 82
+    },
+    {
+      "id": "E-B01",
+      "dimensione": "E",
+      "filiera": "bovina",
+      "nome": "Emissioni specifiche della catena carne",
+      "cosa_misura": "Emissioni calcolate lungo la catena di produzione della carne (metano enterico, reflui, mangimi, logistica, macellazione), in t CO2 eq per unità di prodotto finito.",
+      "unita": "t CO2 eq per unità di prodotto finito",
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "E-B02",
+      "dimensione": "E",
+      "filiera": "bovina",
+      "nome": "Degradazione e capacità rigenerativa dei prati-pascoli",
+      "cosa_misura": "Indici di degradazione e capacità rigenerativa dei prati-pascoli.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "E-B03",
+      "dimensione": "E",
+      "filiera": "bovina",
+      "nome": "Conservazione del suolo",
+      "cosa_misura": "Verifica delle tecniche di conservazione del suolo per il contrasto all'erosione idrica superficiale.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "E-B04",
+      "dimensione": "E",
+      "filiera": "bovina",
+      "nome": "Prelievi idrici diretti e indiretti",
+      "cosa_misura": "Prelievi per abbeveraggio e lavaggio/sanificazione delle strutture; consumi indiretti per prati artificiali e mangimi complementari; monitoraggio dei punti di approvvigionamento rispetto al deficit idrico estivo.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 85
+    },
+    {
+      "id": "S-B01",
+      "dimensione": "S",
+      "filiera": "bovina",
+      "nome": "Benessere animale certificato",
+      "cosa_misura": "Livello di benessere animale tramite protocolli certificati in azienda.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "S-B02",
+      "dimensione": "S",
+      "filiera": "bovina",
+      "nome": "Sicurezza sul lavoro nelle strutture zootecniche",
+      "cosa_misura": "Indici di sicurezza sul lavoro nelle strutture zootecniche.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "S-B03",
+      "dimensione": "S",
+      "filiera": "bovina",
+      "nome": "Addetti in aggiornamento agronomico",
+      "cosa_misura": "Numero di addetti inseriti in percorsi di aggiornamento agronomico.",
+      "unita": "numero",
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "S-B04",
+      "dimensione": "S",
+      "filiera": "bovina",
+      "nome": "Stabilità occupazionale",
+      "cosa_misura": "Stabilità occupazionale generata per contrastare lo spopolamento.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "G-B01",
+      "dimensione": "G",
+      "filiera": "bovina",
+      "nome": "Tracciabilità e digitalizzazione registri",
+      "cosa_misura": "Diffusione di sistemi informatici per la tracciabilità e digitalizzazione dei registri aziendali.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "G-B02",
+      "dimensione": "G",
+      "filiera": "bovina",
+      "nome": "Adesione a marchi di qualità d'area",
+      "cosa_misura": "Grado di adesione dei produttori a marchi di qualità d'area (es. disciplinare Mangio Sano grass-fed).",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "G-B03",
+      "dimensione": "G",
+      "filiera": "bovina",
+      "nome": "Integrazione di filiera",
+      "cosa_misura": "Integrazione operativa tra allevatori, stabilimenti di trasformazione locale e reti commerciali della Green community.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 84
+    },
+    {
+      "id": "E-P01",
+      "dimensione": "E",
+      "filiera": "suinicola",
+      "nome": "Emissioni climalteranti per unità di salume",
+      "cosa_misura": "Emissioni climalteranti per unità di salume prodotto (allevamento, reflui, mangimi, trasporti, macellazione, refrigerazione, stagionatura).",
+      "unita": "t CO2 eq per unità di prodotto finito",
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "E-P02",
+      "dimensione": "E",
+      "filiera": "suinicola",
+      "nome": "Impatto di grufolamento e calpestio sul sottobosco",
+      "cosa_misura": "Valutazione dell'impatto del grugnito [sic, grufolamento] e del calpestio sulla biodiversità floristica del sottobosco.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "E-P03",
+      "dimensione": "E",
+      "filiera": "suinicola",
+      "nome": "Pressione zootecnica vs capacità di carico stazionale",
+      "cosa_misura": "Bilancio tra pressione zootecnica reale e capacità di carico stazionale.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "E-P04",
+      "dimensione": "E",
+      "filiera": "suinicola",
+      "nome": "Gestione dei reflui aziendali",
+      "cosa_misura": "Gestione sostenibile dei reflui per prevenire l'eutrofizzazione delle matrici idriche.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "E-P05",
+      "dimensione": "E",
+      "filiera": "suinicola",
+      "nome": "Prelievi idrici diretti e indiretti",
+      "cosa_misura": "Prelievi per abbeveraggio e lavaggio/sanificazione di strutture e laboratori di trasformazione; consumi indiretti per mangimi complementari, contenuti dall'uso di risorse alimentari naturali del bosco.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 88
+    },
+    {
+      "id": "S-P01",
+      "dimensione": "S",
+      "filiera": "suinicola",
+      "nome": "Benessere animale sul campo",
+      "cosa_misura": "Standard di benessere animale sul campo (riduzione dello stress da confinamento).",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "S-P02",
+      "dimensione": "S",
+      "filiera": "suinicola",
+      "nome": "Riduzione uso di antimicrobici",
+      "cosa_misura": "Progressiva riduzione dell'uso di antimicrobici negli allevamenti all'aperto.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "S-P03",
+      "dimensione": "S",
+      "filiera": "suinicola",
+      "nome": "Sicurezza e salute dei lavoratori",
+      "cosa_misura": "Condizioni di sicurezza e salute dei lavoratori nelle strutture.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "S-P04",
+      "dimensione": "S",
+      "filiera": "suinicola",
+      "nome": "Valorizzazione competenze di norcineria tradizionale",
+      "cosa_misura": "Capacità della filiera di valorizzare e tramandare competenze artigianali e pratiche di norcineria tradizionali.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "G-P01",
+      "dimensione": "G",
+      "filiera": "suinicola",
+      "nome": "Tracciabilità digitale della catena del valore",
+      "cosa_misura": "Adozione di sistemi informatici di tracciabilità digitale lungo la catena del valore.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "G-P02",
+      "dimensione": "G",
+      "filiera": "suinicola",
+      "nome": "Conformità alle ordinanze di biosicurezza",
+      "cosa_misura": "Conformità sanitaria alle ordinanze di biosicurezza territoriale.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "G-P03",
+      "dimensione": "G",
+      "filiera": "suinicola",
+      "nome": "Coordinamento allevatori-trasformatori",
+      "cosa_misura": "Livello di coordinamento operativo tra allevatori e stabilimenti di trasformazione artigianale.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    },
+    {
+      "id": "G-P04",
+      "dimensione": "G",
+      "filiera": "suinicola",
+      "nome": "Integrazione qualità certificata e commercializzazione",
+      "cosa_misura": "Capacità di integrare la qualità certificata con strategie di commercializzazione nei canali turistici e della ristorazione d'area.",
+      "unita": null,
+      "fonte_dato": null,
+      "pagina_pdf": 87
+    }
+  ]
+}

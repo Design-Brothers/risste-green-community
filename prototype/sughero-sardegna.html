@@ -3,36 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>La Sughereta Sardegna — 30 comuni, tre indici</title>
-<meta name="description" content="Trenta comuni, 83.790 ettari di sugherete, tre indici per capire dove il sughero ha futuro: suolo, fuoco, continuità. Esplora i dati comune per comune.">
+<title>Atlante del sughero sardo — Risorsa, territorio e gestione sostenibile</title>
+<meta name="description" content="Trenta comuni, 83.790,90 ettari, tre indici e una mappa interattiva della Sughereta Sardegna. CUP E77G24000450002.">
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 <a class="skip-link" href="#contenuto">Salta al contenuto</a>
 
 <svg class="grain" aria-hidden="true"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(#grain)"/></svg>
 
-<nav class="nav" aria-label="Navigazione principale">
+<nav class="nav" aria-label="Navigazione principale" data-active="atlante" data-cta="sughero-sardegna.html#mappa" data-cta-label="Apri la mappa">
   <div class="nav-inner">
-    <a href="index.html" aria-label="Home — Green community Alta Gallura"><img class="nav-logo" src="assets/logo-risste-orizzontale.png" alt="RISSTE"></a>
-    <div class="nav-links">
-      <a href="progetto.html">Progetto</a>
-      <a href="alta-gallura.html">Alta Gallura</a>
-      <a class="active" href="sughero-sardegna.html">Sughero Sardegna</a>
-      <a class="nav-cta" href="#esploratore">Esplora i 30 comuni</a>
-    </div>
+    <a href="index.html" aria-label="Home — Sughero Sardegna"><img class="nav-logo" src="assets/logo-risste-orizzontale.png" alt="RISSTE"></a>
+    <div class="nav-links"></div>
   </div>
 </nav>
 
 <header class="page-hero" id="top">
   <div class="ghost" aria-hidden="true" style="left:-2vw">SUGHERETA</div>
-  <span class="hero-corner tl micro left">Sezione 03 — Sughero Sardegna · Studio 2</span>
+  <span class="hero-corner tl micro left">Atlante del sughero sardo · Studio 2</span>
   <span class="hero-corner bl micro left">30 comuni · 83.790,90 ha</span>
 
   <div class="hero-content container" style="position:relative;z-index:3">
-    <p class="micro left">Sughero Sardegna · Studio 2</p>
+    <p class="micro left">La Sughereta Sardegna</p>
     <h1 style="margin-top:24px">La Sughereta<br><em style="color:var(--cork)">Sardegna</em></h1>
-    <p class="standfirst">Il sughero non è solo quanti ettari hai. È su che suolo cresce, quanto rischia di bruciare, quanto è frammentato. Trenta comuni, tre indici.</p>
+    <p class="standfirst">Trenta comuni, tre indicatori, un sistema regionale. Il sughero non è solo quanti ettari hai: è su che suolo cresce, quanto rischia di bruciare, quanto è frammentato.</p>
   </div>
   <p class="scroll-hint" aria-hidden="true">Scorri<span>↓</span></p>
 </header>
@@ -42,6 +38,7 @@
 <nav class="subnav" aria-label="In questa pagina">
   <div class="subnav-inner">
     <a href="#indici">I tre indici</a>
+    <a href="#mappa">Mappa</a>
     <a href="#risorsa">Dove sta la risorsa</a>
     <a href="#esploratore">Esplora i 30 comuni</a>
     <a href="#insieme">Leggere insieme</a>
@@ -59,6 +56,30 @@
       <p class="section-lead">Ogni comune della Sughereta è letto con tre indici costruiti su cartografia e pedologia: dove la sughera cresce meglio, quanto rischia il fuoco, quanto il bosco è compatto.</p>
     </div>
     <div class="indici-grid reveal" id="indici-cards"></div>
+  </div>
+</section>
+
+<section class="section" id="mappa">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Database geografico</p>
+      <h2 class="section-title">I trenta comuni sulla Sardegna.</h2>
+      <p class="section-lead">Posizione, confini amministrativi sul fondo cartografico, superficie delle sugherete, livelli IVP, incendio e ICR. Clicca un comune per aprire la scheda.</p>
+    </div>
+    <div class="atlante-map-wrap reveal">
+      <div id="map-atlante" class="atlante-map" role="region" aria-label="Mappa interattiva dei 30 comuni sughericoli"></div>
+      <aside class="map-legend">
+        <h4>Indicatore</h4>
+        <button type="button" class="active" data-mode="ivp"><i style="background:#2E7D32"></i>IVP</button>
+        <button type="button" data-mode="incendio"><i style="background:#D84315"></i>Incendio</button>
+        <button type="button" data-mode="icr"><i style="background:#2F6FB0"></i>ICR</button>
+        <h4 style="margin-top:18px">Legenda</h4>
+        <p><i style="background:#2E7D32"></i>Alta / pericolo basso</p>
+        <p><i style="background:#F0B800"></i>Media / medio</p>
+        <p><i style="background:#D84315"></i>Bassa / pericolo alto</p>
+        <p style="margin-top:12px;color:var(--ink-muted)">Dimensione del punto = ettari di sughereta. I confini comunali si leggono sulla carta.</p>
+      </aside>
+    </div>
   </div>
 </section>
 
@@ -137,7 +158,7 @@
     </div>
 
     <div class="kpi-row reveal" style="margin-top:24px" id="conteggi-kpi"></div>
-    <p class="chart-source reveal" style="margin-top:14px">Conteggi calcolati dal dataset dei 30 dossier: IVP alta in 21 comuni (il testo ne cita 22), ICR alta in 9. Fonte: Studio 2, par. 3.2 e Allegato I.</p>
+    <p class="note-box reveal">Nota metodologica. I conteggi del sito usano il database validato: IVP alta in 21 comuni, ICR alta in 9. Il testo del par. 3.2 cita 22 e 8: in caso di scostamento vale il database.</p>
   </div>
 </section>
 
@@ -159,7 +180,7 @@
 </section>
 
 <div class="container">
-  <p class="sources-line">Fonti: Studio <em>Valorizzazione della filiera del sughero in Sardegna</em> (RISSTE, 2025), Terza e Quarta parte; Allegato I (dossier dei 30 comuni).</p>
+  <p class="sources-line">Fonti: Studio 2 — <em>Patrimonio sughericolo, innovazione tecnologica e gestione sostenibile in Sardegna</em> (Centro Studi R.I.S.S.T.E., 2025). I dati del sito derivano dal database validato. CUP E77G24000450002.</p>
 </div>
 </main>
 
@@ -184,8 +205,8 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>RISSTE · Due studi, un territorio · 2025</span>
-      <span>CUP E77G24000450002 · Unione dei Comuni Alta Gallura</span>
+      <span>Centro Studi R.I.S.S.T.E. APS</span>
+      <span>CUP E77G24000450002</span>
     </div>
   </div>
 </footer>
@@ -212,8 +233,10 @@
   </div>
 </aside>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="assets/data-sughero.js"></script>
 <script src="assets/site.js"></script>
+<script src="assets/map-atlante.js"></script>
 <script>
 const SG = window.RISSTE_SUGHERO;
 const C = SG.comuni;
@@ -375,7 +398,7 @@ renderExplorer();
 
       ${(c.slug === "calangianus" || c.slug === "tempio-pausania") ? `
       <a class="cross-link" href="alta-gallura.html?comune=${c.slug}">
-        <span aria-hidden="true">◍</span> Vedi questo comune nell'Alta Gallura →
+        <span aria-hidden="true">◍</span> Vedi questo comune nel Focus Gallura →
       </a>` : ""}
 
       <div class="drawer-nav">
@@ -422,7 +445,17 @@ renderExplorer();
   addEventListener("keydown", (e) => e.key === "Escape" && close());
   const slug = new URLSearchParams(location.search).get("comune");
   if (slug && bySlug30[slug]) open(slug, false);
+  window.openSugheroComune = open;
 })();
+
+const mapCtl = initAtlanteMap(document.getElementById("map-atlante"), C, {
+  onOpen: (slug) => window.openSugheroComune?.(slug),
+});
+document.querySelectorAll("#mappa [data-mode]").forEach((btn) => btn.addEventListener("click", () => {
+  document.querySelectorAll("#mappa [data-mode]").forEach((b) => b.classList.remove("active"));
+  btn.classList.add("active");
+  mapCtl?.setMode(btn.dataset.mode);
+}));
 
 /* ---- approfondimenti ---- */
 const table = (cols, rows) => `<table class="data"><thead><tr>${cols.map((c) => `<th scope="col">${c.h}</th>`).join("")}</tr></thead>
@@ -444,7 +477,7 @@ document.getElementById("tbl-indici").innerHTML = table([
     { h: "Indice", v: (r) => r.indice },
     { h: "Classe", v: (r) => badge(r.classe) },
     { h: "N. comuni", v: (r) => fmt.int(r.n) },
-  ], rows) + `<p class="chart-source" style="padding:12px 16px">Conteggi ricalcolati dai 30 dossier (Allegato I). Il testo del par. 3.2 cita 22 comuni IVP alta e 8 ICR alta; i dossier ne danno 21 e 9.</p>`;
+  ], rows) + `<p class="chart-source" style="padding:12px 16px">Conteggi dal database validato (Allegato I): 21 comuni IVP alta, 9 ICR alta.</p>`;
 })();
 </script>
 </body>
