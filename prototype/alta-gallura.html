@@ -6,6 +6,7 @@
 <title>Un territorio a due velocità — Alta Gallura</title>
 <meta name="description" content="Undici comuni tra costa e Limbara. La costa cresce, l'interno invecchia, il sughero tiene insieme il territorio. I numeri dello studio e la scheda di ogni comune.">
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/nature.css">
 </head>
 <body>
 <a class="skip-link" href="#contenuto">Salta al contenuto</a>
@@ -25,7 +26,8 @@
 </nav>
 
 <!-- ============ HERO DI SEZIONE ============ -->
-<header class="page-hero" id="top">
+<header class="page-hero people-hero" id="top">
+  <div class="community-field" aria-hidden="true"></div>
   <div class="ghost" aria-hidden="true" style="left:-3vw">DUE&nbsp;VELOCITÀ</div>
   <span class="hero-corner tl micro left">Sezione 01 — Alta Gallura</span>
   <span class="hero-corner bl micro left">Studio 1 — Green community UCAG 193</span>
@@ -356,15 +358,16 @@
 
 <script src="assets/data.js"></script>
 <script src="assets/site.js"></script>
+<script src="assets/nature.js"></script>
 <script>
 const D = window.RISSTE_DATA;
 const byName = (a, b) => a.comune.localeCompare(b.comune, "it");
 const comuni = [...D.comuni].sort((x, y) => y.abitanti_2025 - x.abitanti_2025);
 
-initOrbs(document.querySelector(".page-hero"), ORB_PALETTES["alta-gallura-hero"]);
+initCommunityField(document.querySelector(".community-field"), D.comuni);
 
 /* capitoli della sezione */
-initChapters(document.getElementById("capitoli"), [
+initPopulationStory(document.getElementById("capitoli"), [
   {
     title: "Quattro comuni sulla costa, sette nell'interno.",
     context: "Trentacinquemila abitanti nel 2025: un solo sistema di comunità, ambiente ed economia.",
