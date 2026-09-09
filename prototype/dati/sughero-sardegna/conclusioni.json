@@ -1,0 +1,40 @@
+{
+  "titolo": "Conclusioni e prospettive dello studio (Quinta parte) – messaggi chiave e raccomandazioni",
+  "fonte": {
+    "documento": "parte2",
+    "capitolo": "Quinta parte – Conclusioni e prospettive (par. 5); raccomandazioni integrate da par. 3.3.3, 3.4.2 e 4.4",
+    "pagine_pdf": [45, 46]
+  },
+  "note": [
+    "I messaggi chiave sono frasi tratte fedelmente dal testo delle pagg. 45-46 (una frase ciascuno, eventualmente abbreviata con '…' senza alterarne il senso).",
+    "Le raccomandazioni operative esplicite nella Quinta parte sono poche; sono state integrate con le indicazioni prescrittive presenti nelle pagg. 33, 34 e 41 (indicate con la pagina).",
+    "La Quinta parte non contiene numeri: il file è interamente qualitativo."
+  ],
+  "dati": {
+    "messaggi_chiave": [
+      {"id": 1, "tema": "approccio", "testo": "Il presente studio ha consentito di sviluppare un quadro conoscitivo integrato della filiera sughericola della Sardegna, combinando analisi territoriale, revisione della letteratura scientifica, Technology Scouting e approfondimenti sui principali strumenti di gestione forestale sostenibile e certificazione.", "pagina_pdf": 45},
+      {"id": 2, "tema": "indicatori territoriali", "testo": "L'elaborazione degli indicatori territoriali ha permesso di definire un sistema multidimensionale di valutazione delle sugherete regionali, evidenziando come la disponibilità della risorsa rappresenti soltanto uno dei fattori che determinano il potenziale di sviluppo della filiera.", "pagina_pdf": 45},
+      {"id": 3, "tema": "vocazioni differenziate", "testo": "La valutazione congiunta della vocazionalità pedologica (IVP), della pericolosità da incendio (IPI) e della continuità della risorsa (ICR) ha infatti dimostrato come i diversi comprensori presentino differenti condizioni ecologiche, strutturali e gestionali, rendendo necessario un approccio di pianificazione capace di valorizzarne le specifiche vocazioni e di orientare gli interventi secondo criteri di resilienza e sostenibilità.", "pagina_pdf": 45},
+      {"id": 4, "tema": "innovazione", "testo": "L'attività di Technology Scouting ha confermato la profonda evoluzione della filiera del sughero a livello internazionale, evidenziando una progressiva diversificazione delle applicazioni verso i materiali compositi, l'edilizia sostenibile, i biomateriali, il settore biomedicale, l'economia circolare e altri comparti industriali ad elevato contenuto tecnologico.", "pagina_pdf": 45},
+      {"id": 5, "tema": "competitività", "testo": "L'analisi della letteratura dedicata alla gestione forestale e ai sistemi di certificazione ha mostrato come la competitività della filiera dipenda sempre più dalla capacità di integrare gestione sostenibile delle foreste, innovazione, tracciabilità, qualità dei processi e governance territoriale.", "pagina_pdf": 45},
+      {"id": 6, "tema": "certificazioni", "testo": "Le evidenze raccolte indicano come schemi quali FSC, PEFC e il recente PEFC Italia - Gestione Sostenibile dei Sistemi Agroforestali rappresentino strumenti particolarmente coerenti con le caratteristiche delle sugherete mediterranee, soprattutto se inseriti all'interno di modelli di gestione associata, pianificazione territoriale e governance condivisa.", "pagina_pdf": 45},
+      {"id": 7, "tema": "criticità", "testo": "La ricerca evidenzia la necessità di affrontare le criticità legate alla frammentazione fondiaria, alla limitata dimensione delle proprietà forestali e alla complessità organizzativa che caratterizza una parte significativa del patrimonio sughericolo regionale.", "pagina_pdf": 45},
+      {"id": 8, "tema": "framework", "testo": "Uno dei principali risultati del lavoro è rappresentato dalla definizione del framework S.U.G.H.E.R.A. (Strategic Unified Governance, Habitat Evaluation and Regional Assessment), concepito come modello metodologico per integrare analisi territoriale, gestione forestale, innovazione tecnologica, sistemi di certificazione e governance in un unico quadro di supporto alle decisioni.", "pagina_pdf": 45},
+      {"id": 9, "tema": "DSS", "testo": "L'integrazione degli indicatori territoriali con sistemi informativi geografici (GIS), strumenti di certificazione, metodologie di valutazione ambientale (Carbon Footprint, Water Footprint e Life Cycle Assessment) e attività di Technology Scouting potrà costituire il nucleo di un Decision Support System (DSS) a supporto delle amministrazioni pubbliche, degli enti gestori, delle imprese e dei soggetti della ricerca.", "pagina_pdf": [45, 46]},
+      {"id": 10, "tema": "visione", "testo": "Il patrimonio sughericolo della Sardegna non rappresenta soltanto una risorsa forestale di rilevanza economica, ma un'infrastruttura naturale strategica per la transizione ecologica, capace di generare valore ambientale, economico e sociale attraverso la produzione sostenibile di materia prima, la conservazione della biodiversità, il sequestro del carbonio, la valorizzazione dei servizi ecosistemici e lo sviluppo di nuove filiere industriali.", "pagina_pdf": 46}
+    ],
+    "raccomandazioni": [
+      {"id": 1, "destinatari": "ricerca e trasferimento tecnologico", "testo": "Concentrare le future attività di ricerca sul consolidamento delle tecnologie a maturità intermedia, favorendo percorsi di validazione industriale, dimostrazione su scala reale e trasferimento verso il sistema produttivo.", "pagina_pdf": 33},
+      {"id": 2, "destinatari": "imprese forestali, enti gestori", "testo": "Promuovere modelli di certificazione collettiva, forme di aggregazione territoriale e strumenti di supporto tecnico-amministrativo in grado di favorire una più ampia adesione delle imprese forestali ai sistemi di certificazione.", "pagina_pdf": 34},
+      {"id": 3, "destinatari": "governance territoriale", "testo": "Adottare la certificazione di gruppo, forme di gestione associata e il rafforzamento della governance territoriale per ridurre i costi di adesione, uniformare le pratiche gestionali e incrementare la competitività complessiva della filiera.", "pagina_pdf": 41},
+      {"id": 4, "destinatari": "pianificazione regionale", "testo": "Fondare la valorizzazione della filiera su un modello di governance integrata nel quale gestione forestale, pianificazione territoriale, innovazione tecnologica e sistemi di certificazione operino in maniera coordinata.", "pagina_pdf": 41},
+      {"id": 5, "destinatari": "amministrazioni pubbliche, enti gestori, imprese, ricerca", "testo": "Sviluppare il framework S.U.G.H.E.R.A. in un Decision Support System integrando indicatori territoriali, GIS, certificazioni, Carbon/Water Footprint, LCA e Technology Scouting.", "pagina_pdf": [44, 46]},
+      {"id": 6, "destinatari": "pianificazione forestale e programmazione", "testo": "Sfruttare la struttura modulare del modello per aggiornare progressivamente informazioni territoriali, evidenze scientifiche e innovazioni tecnologiche, applicandolo sia nella pianificazione forestale sia nella programmazione di interventi di sviluppo della filiera.", "pagina_pdf": 45},
+      {"id": 7, "destinatari": "sistema regionale dell'innovazione", "testo": "Valorizzare l'Alta Gallura come polo regionale per il trasferimento tecnologico e l'innovazione, integrando le specifiche vocazioni degli altri comprensori in una rete regionale dell'innovazione.", "pagina_pdf": [42, 44]}
+    ],
+    "prospettiva_finale": {
+      "testo": "Il modello proposto costituisce pertanto uno strumento operativo per trasformare la conoscenza scientifica in strategie di pianificazione territoriale e di sviluppo sostenibile, contribuendo a rafforzare la competitività della filiera del sughero e il ruolo della Sardegna quale riferimento nazionale e internazionale per l'innovazione nel settore.",
+      "pagina_pdf": 46
+    }
+  }
+}

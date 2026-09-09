@@ -1,0 +1,19 @@
+﻿"indicatore";"valore";"unita";"ambito";"pagina_pdf";"nota";"operatore"
+"Superficie complessiva dell'Unione dei Comuni dell'Alta Gallura";;"ha";"Unione";;"non riportata nel documento";
+"Superficie agricola totale dell'Unione";;"ha";"Unione";;"non riportata nel documento";
+"Superficie pascoliva totale dell'Unione";;"ha";"Unione";;"non riportata nel documento";
+"Superficie forestale totale dell'Unione / quota boscata";;"ha";"Unione";;"non riportata nel documento";
+"Estensione complessiva delle sugherete dell'Unione";;"ha";"Unione";;"non riportata; valori per Comune in uso-suolo-comuni.json (sugherete_per_comune)";
+"Quota del sughero lavorato a livello nazionale presidiata/gestita dall'Alta Gallura";"80";"%";"Alta Gallura";"42";"ripetuto a pag. 43 ('Oltre l’80 % del sughero lavorato a livello nazionale deriva infatti da questo sistema territoriale')";"oltre"
+"Superficie del Distretto forestale 01 Alta Gallura";"150251";"ha";"Distretto forestale 01";"42";"6,2 % della superficie regionale";
+"Quota del Distretto forestale 01 sulla superficie regionale";"6.2";"%";"Distretto forestale 01";"42";;
+"Superficie del Distretto forestale 04 Coghinas-Limbara";"123387";"ha";"Distretto forestale 04";"42";"5,1 % del territorio regionale; include il Limbara Sud (porzione meridionale di Tempio Pausania)";
+"Quota del Distretto forestale 04 sulla superficie regionale";"5.1";"%";"Distretto forestale 04";"42";;
+"Superficie del sito Natura 2000 Monte Limbara";"16588";"ha";"Monte Limbara";"44";;
+"Quota altimetrica del Monte Limbara";"1359";"m s.l.m.";"Monte Limbara";"39";"principale nodo morfologico dell'area";
+"Superfici a elevata fertilità specifica nel Distretto di Calangianus";"67";"%";"Distretto di Calangianus";"41";"il documento non precisa la superficie di riferimento";"oltre"
+"Provvigione legnosa media delle leccete mature";"145.96";"m3/ha";"Limbara / complesso forestale";"40";;
+"Turno di estrazione del sughero";"12";"anni";"Alta Gallura";"42";"'cicli di decortica decennali e turni di estrazione ottimizzati a dodici anni'";
+"Lunghezza della fascia costiera di Aglientu";"18";"km";"Aglientu";"56";;"circa"
+"Superficie dell'Unità Gestionale di Base Limbara Sud (Forestas, comune di Berchidda)";"3630.1";"ha";"Limbara Sud (esterno all'Unione)";"48";"macchia evoluta 51 % della superficie";
+"Quota della macchia evoluta nell'UGB Limbara Sud";"51";"%";"Limbara Sud (esterno all'Unione)";"48";"a pag. 40 il testo parla di 'oltre la metà del territorio demaniale'";

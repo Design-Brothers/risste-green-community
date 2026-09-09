@@ -1,9 +1,107 @@
-/* Green community Alta Gallura — prototipo v1: interazioni condivise */
+/* Sughero Sardegna — interazioni condivise */
 (() => {
   "use strict";
 
   const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const NARROW = () => matchMedia("(max-width: 767px)").matches;
+
+  const CHROME = {
+    brand: "Sughero Sardegna",
+    title: "Sughero Sardegna — Ricerca, innovazione e gestione sostenibile",
+    description: "Progetto di ricerca e sviluppo, valorizzazione del sughero sardo e innovazione tecnologica. CUP E77G24000450002. Centro Studi R.I.S.S.T.E. APS.",
+    cup: "CUP E77G24000450002",
+    links: [
+      { href: "index.html", id: "home", label: "Home" },
+      { href: "progetto.html", id: "progetto", label: "Il progetto" },
+      { href: "ricerca-mercato.html", id: "ricerca", label: "Ricerca e mercato" },
+      { href: "sughero-sardegna.html", id: "atlante", label: "Atlante del sughero" },
+      { href: "innovazione.html", id: "innovazione", label: "Innovazione e certificazioni" },
+      { href: "alta-gallura.html", id: "gallura", label: "Focus Gallura" },
+      { href: "database.html", id: "database", label: "Database" },
+      { href: "documenti.html", id: "documenti", label: "Documenti" },
+    ],
+  };
+
+  const paintChrome = () => {
+    const nav = document.querySelector("nav.nav");
+    if (nav) {
+      const active = nav.dataset.active || "";
+      const ctaHref = nav.dataset.cta || "database.html#censimento";
+      const ctaLabel = nav.dataset.ctaLabel || "Partecipa al censimento";
+      const home = nav.querySelector("a[href='index.html']");
+      if (home) home.setAttribute("aria-label", "Home — Sughero Sardegna");
+      const links = nav.querySelector(".nav-links");
+      if (links) {
+        links.innerHTML = CHROME.links.map((l) =>
+          `<a href="${l.href}" class="${l.id === active ? "active" : ""}">${l.label}</a>`
+        ).join("") + `<a class="nav-cta" href="${ctaHref}">${ctaLabel}</a>`;
+      }
+    }
+
+    document.querySelectorAll("footer.footer").forEach((footer) => {
+      footer.innerHTML = `
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <img src="assets/logo-risste-orizzontale.png" alt="Centro Studi R.I.S.S.T.E. APS">
+        <p>Centro Studi R.I.S.S.T.E. APS — soggetto attuatore del progetto regionale di ricerca e sviluppo sul sughero sardo.</p>
+        <p class="footer-legal">Progetto di ricerca e sviluppo, valorizzazione del sughero sardo e innovazione tecnologica<br>${CHROME.cup}</p>
+      </div>
+      <div>
+        <h5>Il sito</h5>
+        <a href="index.html">Home</a>
+        <a href="progetto.html">Il progetto</a>
+        <a href="ricerca-mercato.html">Ricerca e mercato</a>
+        <a href="sughero-sardegna.html">Atlante del sughero</a>
+        <a href="innovazione.html">Innovazione e certificazioni</a>
+        <a href="alta-gallura.html">Focus Gallura</a>
+        <a href="database.html">Database</a>
+        <a href="documenti.html">Documenti</a>
+      </div>
+      <div>
+        <h5>Documenti e dati</h5>
+        <a href="pdf/RISSTE_CUP_E77G24000450002_Parte1_signed.pdf" target="_blank" rel="noopener">Studio 1 — Quadro territoriale della filiera in Gallura (PDF)</a>
+        <a href="pdf/RISSTE_CUP_E77G24000450002_Parte2_signed.pdf" target="_blank" rel="noopener">Studio 2 — Patrimonio sughericolo e innovazione in Sardegna (PDF)</a>
+        <a href="documenti.html#dataset">Dataset aperti JSON e CSV</a>
+        <a href="database.html#censimento">Partecipa al censimento</a>
+      </div>
+    </div>
+    <div class="footer-institutional">
+      <div class="inst-lockup" aria-label="Finanziamento regionale">
+        <img src="assets/logo-ras.svg" alt="Regione Autonoma della Sardegna">
+        <img src="assets/logo-assessorato.svg" alt="Assessorato dell'Agricoltura e riforma agro-pastorale">
+      </div>
+      <p>Progetto finanziato dalla Regione Autonoma della Sardegna – Assessorato dell’Agricoltura e riforma agro-pastorale.</p>
+    </div>
+    <div class="footer-social" id="canali">
+      <span>Canali del progetto</span>
+      <a href="mailto:centrostudirisste@pec.it" aria-label="PEC del Centro Studi R.I.S.S.T.E.">PEC</a>
+      <a href="https://www.facebook.com/search/top?q=Centro%20Studi%20RISSTE%20sughero%20Sardegna" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/explore/tags/sugherosardegna/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.linkedin.com/search/results/all/?keywords=Centro%20Studi%20RISSTE" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="footer-bottom">
+      <span>Centro Studi R.I.S.S.T.E. APS</span>
+      <span>Progetto di ricerca e sviluppo, valorizzazione del sughero sardo e innovazione tecnologica · ${CHROME.cup}</span>
+    </div>
+  </div>`;
+    });
+
+    if (!document.querySelector('meta[property="og:title"]')) {
+      const add = (attr, key, val) => {
+        const m = document.createElement("meta");
+        m.setAttribute(attr, key);
+        m.setAttribute("content", val);
+        document.head.appendChild(m);
+      };
+      add("property", "og:title", document.title || CHROME.title);
+      add("property", "og:description", document.querySelector('meta[name="description"]')?.content || CHROME.description);
+      add("property", "og:type", "website");
+      add("property", "og:locale", "it_IT");
+      add("name", "twitter:card", "summary");
+    }
+  };
+  paintChrome();
 
   /* ---------- formato italiano ---------- */
   const nfInt = new Intl.NumberFormat("it-IT");
@@ -415,7 +513,7 @@
       $(".drawer-funzione", drawer).textContent = c.funzione;
       $(".drawer-funzione", drawer).className = "drawer-funzione" + (c.fascia === "costiera" ? " costa" : "");
       $(".drawer-eyebrow.fascia-tag", drawer).innerHTML =
-        `<i style="width:8px;height:8px;border-radius:50%;background:${fasciaColor};display:inline-block"></i> ${fasciaLabel} — Alta Gallura`;
+        `<i style="width:8px;height:8px;border-radius:50%;background:${fasciaColor};display:inline-block"></i> ${fasciaLabel} — Focus Gallura`;
 
       body.innerHTML = `
         <div class="drawer-kpis">
@@ -446,15 +544,15 @@
         <div class="identita-tags">${c.identita.map((x) => `<span>${x}</span>`).join("")}</div>
 
         ${crossLink && (c.slug === "calangianus" || c.slug === "tempio-pausania") ? `
-        <a class="cross-link" href="#" onclick="return false" title="Pagina in arrivo nel prototipo finale">
-          <span aria-hidden="true">◍</span> Vedi questo comune nella Sughereta Sardegna →
+        <a class="cross-link" href="sughero-sardegna.html?comune=${c.slug}">
+          <span aria-hidden="true">◍</span> Vedi questo comune nell'Atlante del sughero →
         </a>` : ""}
 
         <div class="drawer-nav">
           <button data-prev>← Comune precedente</button>
           <button data-next>Comune successivo →</button>
         </div>
-        <p class="muted" style="margin-top:26px;font-size:12px">Fonte: Studio Green community UCAG 193 — Allegato II, scheda comunale; Tab. 1a-1c, 2a.</p>`;
+        <p class="muted" style="margin-top:26px;font-size:12px">Fonte: Studio 1 — approfondimento territoriale sulla Gallura, Allegato II, scheda comunale; Tab. 1a-1c, 2a. I dati del sito derivano dal database validato del progetto regionale.</p>`;
 
       landStack($("[data-landstack]", body), c.uso_suolo);
       const i = order.indexOf(c.slug);

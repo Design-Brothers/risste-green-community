@@ -1,0 +1,190 @@
+{
+  "titolo": "Strumenti di gestione sostenibile e certificazione per la filiera del sughero (Tabella 2 e par. 3.4.2 / 4.4)",
+  "fonte": {
+    "documento": "parte2",
+    "capitolo": "Tabella 2 (pag. 41); par. 2.4 (pag. 22); par. 2.5 (pag. 23); par. 3.4.2 (pag. 34); par. 4.4 (pagg. 38-41); Conclusioni (pag. 45); Figura 1 (pag. 26)",
+    "pagine_pdf": [22, 23, 26, 34, 38, 39, 41, 45],
+    "file_grezzo": "source/parte2-filiera-sughero-sardegna/tables/p041-t0.csv"
+  },
+  "note": [
+    "Le colonne originali della Tabella 2 sono: Strumento | Finalità principale | Contributo alla filiera del sughero. Sono mappate su `strumento`, `cosa_certifica` (finalità) e `rilevanza_filiera` (contributo).",
+    "Il campo `tipo` classifica ogni strumento secondo le categorie usate dal documento stesso (pag. 23: 'sistemi di certificazione forestale, agroforestale, ambientale, gestionale e di prodotto'; pag. 34: schemi forestali FSC/PEFC, sistemi di gestione qualità/ambiente ISO 9001/ISO 14001/EMAS, standard per trasformazione e packaging BRCGS/IFS PACsecure/SYSTECODE, strumenti di valutazione ambientale LCA/Carbon Footprint/Water Footprint/ESG).",
+    "Gli strumenti con `in_tabella_2 = false` (Water Footprint, criteri ESG, standard FSC italiano FSC-STD-ITA-02-2024, certificazioni di prodotto es. biologico) sono citati nel testo o nella Figura 1 ma non compaiono nella Tabella 2.",
+    "Il documento non riporta dati quantitativi (superfici certificate, numero di aziende certificate, costi): la sezione `criticita_e_raccomandazioni` è qualitativa.",
+    "Denominazioni dello standard agroforestale nel documento: 'PEFC Agroforestale' (Tabella 2), 'PEFC – Gestione Sostenibile dei Sistemi Agroforestali' (pag. 39), 'PEFC Italia - Gestione Sostenibile dei Sistemi Agroforestali' (pagg. 11, 45), 'nuovo standard PEFC per la certificazione dei sistemi agroforestali' (pag. 22)."
+  ],
+  "dati": [
+    {
+      "id": 1,
+      "strumento": "FSC",
+      "nome_completo": "Forest Stewardship Council – certificazione di gestione forestale e catena di custodia",
+      "tipo": "certificazione forestale",
+      "cosa_certifica": "Gestione forestale sostenibile",
+      "rilevanza_filiera": "Conservazione della biodiversità, tracciabilità e accesso ai mercati",
+      "in_tabella_2": true,
+      "note": "Il documento cita 'il recente aggiornamento dello standard italiano FSC per la gestione forestale' (pag. 22); la Figura 1 indica 'FSC (incluso FSC-STD-ITA-02-2024)' (pag. 26).",
+      "pagina_pdf": [22, 26, 34, 39, 41]
+    },
+    {
+      "id": 2,
+      "strumento": "PEFC",
+      "nome_completo": "Programme for the Endorsement of Forest Certification – gestione forestale sostenibile",
+      "tipo": "certificazione forestale",
+      "cosa_certifica": "Gestione forestale sostenibile",
+      "rilevanza_filiera": "Valorizzazione delle produzioni forestali e gestione di gruppo",
+      "in_tabella_2": true,
+      "note": null,
+      "pagina_pdf": [34, 39, 41]
+    },
+    {
+      "id": 3,
+      "strumento": "PEFC Agroforestale",
+      "nome_completo": "PEFC Italia – Gestione Sostenibile dei Sistemi Agroforestali",
+      "tipo": "certificazione agroforestale",
+      "cosa_certifica": "Gestione sostenibile dei sistemi agroforestali",
+      "rilevanza_filiera": "Integrazione tra produzione forestale, pascolo e servizi ecosistemici",
+      "in_tabella_2": true,
+      "note": "Definito 'particolarmente coerente con la natura multifunzionale delle sugherete mediterranee' (pag. 39) e 'recente' (pagg. 22, 45); lo studio ne ha approfondito applicabilità, opportunità e criticità nel contesto sardo (pag. 12).",
+      "pagina_pdf": [12, 22, 39, 41, 45]
+    },
+    {
+      "id": 4,
+      "strumento": "ISO 9001",
+      "nome_completo": "ISO 9001 – Sistema di gestione della qualità",
+      "tipo": "sistema di gestione aziendale",
+      "cosa_certifica": "Sistema di gestione della qualità",
+      "rilevanza_filiera": "Miglioramento dei processi aziendali",
+      "in_tabella_2": true,
+      "note": null,
+      "pagina_pdf": [34, 39, 41]
+    },
+    {
+      "id": 5,
+      "strumento": "ISO 14001",
+      "nome_completo": "ISO 14001 – Sistema di gestione ambientale",
+      "tipo": "sistema di gestione ambientale",
+      "cosa_certifica": "Sistema di gestione ambientale",
+      "rilevanza_filiera": "Riduzione degli impatti ambientali",
+      "in_tabella_2": true,
+      "note": null,
+      "pagina_pdf": [34, 39, 41]
+    },
+    {
+      "id": 6,
+      "strumento": "EMAS",
+      "nome_completo": "Eco-Management and Audit Scheme (UE)",
+      "tipo": "sistema di gestione ambientale",
+      "cosa_certifica": "Eccellenza ambientale",
+      "rilevanza_filiera": "Trasparenza e miglioramento continuo",
+      "in_tabella_2": true,
+      "note": null,
+      "pagina_pdf": [34, 39, 41]
+    },
+    {
+      "id": 7,
+      "strumento": "BRCGS Packaging",
+      "nome_completo": "BRCGS Packaging Materials",
+      "tipo": "standard di prodotto / packaging",
+      "cosa_certifica": "Sicurezza e qualità del packaging",
+      "rilevanza_filiera": "Qualificazione dei processi produttivi",
+      "in_tabella_2": true,
+      "note": "A pag. 41 citato come 'BRCGS Packaging Materials'.",
+      "pagina_pdf": [34, 41]
+    },
+    {
+      "id": 8,
+      "strumento": "IFS PACsecure",
+      "nome_completo": "IFS PACsecure – standard per la sicurezza degli imballaggi",
+      "tipo": "standard di prodotto / packaging",
+      "cosa_certifica": "Sicurezza degli imballaggi",
+      "rilevanza_filiera": "Affidabilità della filiera di trasformazione",
+      "in_tabella_2": true,
+      "note": null,
+      "pagina_pdf": [34, 41]
+    },
+    {
+      "id": 9,
+      "strumento": "SYSTECODE",
+      "nome_completo": "SYSTECODE – codice di buone pratiche e tracciabilità per i tappi di sughero",
+      "tipo": "tracciabilità di filiera / standard di settore",
+      "cosa_certifica": "Tracciabilità del sughero",
+      "rilevanza_filiera": "Garanzia di origine e controllo della filiera",
+      "in_tabella_2": true,
+      "note": "'specificamente sviluppato per la filiera del sughero' (pag. 34).",
+      "pagina_pdf": [34, 41]
+    },
+    {
+      "id": 10,
+      "strumento": "Carbon Footprint (ISO 14067)",
+      "nome_completo": "Carbon Footprint di prodotto – ISO 14067",
+      "tipo": "strumento di valutazione ambientale",
+      "cosa_certifica": "Quantificazione delle emissioni climalteranti",
+      "rilevanza_filiera": "Valorizzazione del carbonio incorporato nei prodotti e supporto al Carbon Farming",
+      "in_tabella_2": true,
+      "note": "Il carbon farming e i pagamenti per servizi ecosistemici (PES) sono citati a pag. 34 come strumenti innovativi di valorizzazione.",
+      "pagina_pdf": [34, 38, 41]
+    },
+    {
+      "id": 11,
+      "strumento": "LCA - ISO 14040/44",
+      "nome_completo": "Life Cycle Assessment – ISO 14040/14044",
+      "tipo": "strumento di valutazione ambientale",
+      "cosa_certifica": "Valutazione del ciclo di vita",
+      "rilevanza_filiera": "Misurazione degli impatti ambientali e supporto all'eco-progettazione",
+      "in_tabella_2": true,
+      "note": null,
+      "pagina_pdf": [34, 38, 41, 46]
+    },
+    {
+      "id": 12,
+      "strumento": "Water Footprint",
+      "nome_completo": "Water Footprint",
+      "tipo": "strumento di valutazione ambientale",
+      "cosa_certifica": null,
+      "rilevanza_filiera": "Indicatore ambientale citato insieme a Carbon Footprint e LCA per la competitività della filiera e come componente del sistema di supporto alle decisioni",
+      "in_tabella_2": false,
+      "note": "Non in Tabella 2; citato a pagg. 34, 38, 41, 46.",
+      "pagina_pdf": [34, 38, 41, 46]
+    },
+    {
+      "id": 13,
+      "strumento": "Criteri ESG",
+      "nome_completo": "Environmental, Social and Governance",
+      "tipo": "quadro di rendicontazione della sostenibilità",
+      "cosa_certifica": null,
+      "rilevanza_filiera": "Principale riferimento europeo per la valutazione della sostenibilità di imprese e filiere; le certificazioni sono strumenti di verifica e rendicontazione degli obiettivi ESG",
+      "in_tabella_2": false,
+      "note": "Non in Tabella 2 (compare in Tabella 1 come direttrice 'ESG e certificazioni ambientali' con driver CSRD – Tassonomia UE – Strategia Forestale 2030); citato a pagg. 15, 34, 38, 41.",
+      "pagina_pdf": [34, 38, 40, 41]
+    },
+    {
+      "id": 14,
+      "strumento": "Certificazioni di prodotto (es. biologico)",
+      "nome_completo": null,
+      "tipo": "certificazione di prodotto",
+      "cosa_certifica": null,
+      "rilevanza_filiera": null,
+      "in_tabella_2": false,
+      "note": "Citate solo nella Figura 1 (pag. 26: 'Certificazioni di prodotto (es. biologico)') e genericamente a pag. 23; nessun dettaglio nel testo.",
+      "pagina_pdf": [23, 26]
+    }
+  ],
+  "criticita_e_raccomandazioni": {
+    "benefici_citati": [
+      {"testo": "migliorare l'organizzazione aziendale e la conformità normativa, accrescere il valore commerciale dei prodotti, facilitare l'accesso ai mercati internazionali e rispondere alla crescente domanda di materiali certificati e sostenibili", "pagina_pdf": 34},
+      {"testo": "i sistemi certificati sono generalmente associati a una maggiore strutturazione della pianificazione forestale, a programmi di monitoraggio più efficaci, a migliori condizioni di conservazione degli habitat e a una maggiore attenzione verso la rigenerazione naturale delle sugherete (esperienze di Portogallo, Spagna e Italia)", "pagina_pdf": 38}
+    ],
+    "criticita": [
+      {"testo": "frammentazione fondiaria", "pagina_pdf": 34},
+      {"testo": "ridotta dimensione delle aziende forestali", "pagina_pdf": 34},
+      {"testo": "costi di certificazione", "pagina_pdf": 34},
+      {"testo": "complessità amministrativa delle procedure", "pagina_pdf": 34},
+      {"testo": "limitata capacità organizzativa nei comprensori mediterranei con piccole proprietà forestali", "pagina_pdf": 41}
+    ],
+    "raccomandazioni": [
+      {"testo": "promuovere modelli di certificazione collettiva, forme di aggregazione territoriale e strumenti di supporto tecnico-amministrativo", "pagina_pdf": 34},
+      {"testo": "certificazione di gruppo, gestione associata e rafforzamento della governance territoriale per ridurre i costi di adesione, uniformare le pratiche gestionali e incrementare la competitività", "pagina_pdf": 41},
+      {"testo": "modello di governance integrata in cui gestione forestale, pianificazione territoriale, innovazione tecnologica e sistemi di certificazione operino in maniera coordinata; indicatori territoriali + GIS + certificazioni + Carbon/Water Footprint e servizi ecosistemici come base di un sistema di supporto alle decisioni", "pagina_pdf": 41}
+    ]
+  }
+}

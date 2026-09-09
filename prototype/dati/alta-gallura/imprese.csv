@@ -1,0 +1,15 @@
+﻿"comune";"slug";"fascia";"livello";"imprese_2021";"imprese_2023";"imprese_2025";"var_pct_2021_2025";"servizi_2025";"servizi_2025_pct";"agricoltura_2025";"agricoltura_2025_pct";"costruzioni_2025";"costruzioni_2025_pct";"commercio_2025";"commercio_2025_pct";"industria_2025";"industria_2025_pct";"note";"pagine_pdf";"densita_imprese_per_1000_ab_2025"
+"Aggius";"aggius";"interna";"comune";"219";;"212";"-3.2";;;"87";"41.04";"69";"32.55";"5";;;;;"[27,28]";
+"Aglientu";"aglientu";"costiera";"comune";"194";;"189";"-2.58";"43";;"95";"50.26";;;"17";;"3";;;"[27,28]";
+"Badesi";"badesi";"costiera";"comune";"267";;"256";"-4.12";"104";"40.63";"39";"15.23";"55";;"38";;;;;"[27,28]";
+"Bortigiadas";"bortigiadas";"interna";"comune";"100";;"93";"-7";"12";;"40";"43.01";"8";;"28";"30.11";;;;"[27,28]";
+"Calangianus";"calangianus";"interna";"comune";"517";;"511";"-1.16";"136";;"87";;;;"101";;"101";"19.77";"Incidenza dell'Industria (19,77%) più alta dell'Unione, legata alla filiera del sughero.";"[27,28]";
+"Luogosanto";"luogosanto";"interna";"comune";"200";;"212";"6";"59";"27.83";"63";"29.72";"52";"24.53";;;;;;"[27,28]";
+"Luras";"luras";"interna";"comune";"231";;"257";"11.26";"80";"31.13";"81";"31.52";"52";;;;;;;"[27,28]";
+"Santa Teresa Gallura";"santa-teresa-gallura";"costiera";"comune";"717";;"731";"1.95";"408";"55.81";"53";;;;"124";"16.96";"51";;;"[27,28]";
+"Tempio Pausania";"tempio-pausania";"interna";"comune";"1652";;"1614";"-2.3";"549";"34.01";"244";"15.12";"251";"15.55";"288";"17.84";"174";;"Concentra il 33,68% delle imprese dell'Unione (2025).";"[27,28]";
+"Trinità d'Agultu e Vignola";"trinita-d-agultu-e-vignola";"costiera";"comune";"382";;"385";"0.79";"123";"31.95";"85";"22.08";"84";"21.82";"55";;;;;"[27,28]";
+"Viddalba";"viddalba";"interna";"comune";;;"332";"3.11";"51";;"106";"31.93";"130";"39.16";;;;;"Il testo (p.28) riporta solo il valore 2025 (332) e la variazione +3,11%: il 2021 non è scritto (implicito 322, coerente con il totale Unione 4.801).";"[27,28]";
+"Fascia Costiera (4 Comuni)";"fascia-costiera";"costiera";"aggregato";;;"1561";"0.06";"678";"43.43";;;;;;"14.99";"87";"5.57";"Par. 1.10 (p.29): servizi 678 (43,43%), commercio 14,99% (numero non scritto), industria 87 (5,57%). Imprese 2021 non riportate (somma dei comuni: 1.560).";"[29,30]";
+"Entroterra (7 Comuni)";"fascia-interna";"interna";"aggregato";;;"3231";"-0.31";;"28.51";"708";"21.91";"626";"19.37";;;"336";"10.4";"Par. 1.10 (pp.29-30): agricoltura 708 (21,91%), costruzioni 626 (19,37%), industria 336 (10,40%), servizi 28,51% (numero non scritto). Imprese 2021 non riportate (somma dei comuni con Viddalba implicito: 3.241).";"[29,30]";
+"TOTALE IMPRESE UNIONE ALTA GALLURA";"totale-alta-gallura";"unione";"aggregato";"4801";"4822";"4792";"-0.19";"1599";"33.37";"980";"20.45";"839";"17.51";"714";"14.9";"423";"8.83";"Tabella 1d (p.30); imprese 2023: 4.822 (+0,44% sul 2021). Densità imprenditoriale 2025: 136 imprese attive ogni 1.000 abitanti (13,6%), par. 1.11 p.30.";"[29,30]";"136"

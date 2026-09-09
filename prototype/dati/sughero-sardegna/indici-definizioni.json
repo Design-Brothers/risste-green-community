@@ -1,0 +1,995 @@
+{
+  "titolo": "Definizione degli indici territoriali IVP, IPI e ICR e legenda dei profili integrati",
+  "fonte": {
+    "documento": "parte2",
+    "capitolo": "Par. 2.2 Analisi territoriale (pag. 19-21); par. 3.2 (pag. 27-29); par. 4.1-4.2 (pag. 35-37); Allegato I nota metodologica (pag. 50) e schede comunali (pag. 52-141); Figure 2-4 (pag. 28-30)",
+    "pagine_pdf": [
+      19,
+      20,
+      21,
+      27,
+      28,
+      29,
+      30,
+      35,
+      36,
+      37,
+      50,
+      51,
+      141
+    ]
+  },
+  "note": [
+    "Il documento NON esplicita le soglie numeriche delle classi né nel par. 2.2 né nell'Allegato I. Le uniche soglie scritte sono nelle legende delle Figure 2 e 4, ma non sono coerenti con la classificazione adottata nei dossier (es. Bitti IVP 3,317 è 'Alta' nel dossier, mentre la legenda di Fig. 2 richiede IVP ≥ 3,50; Bitti quota nucleo 74,37% è 'Media' nel dossier, mentre la legenda di Fig. 4 assegna 'Alta' a ICR ≥ 70). Per ogni indice riportiamo quindi: (a) le soglie di legenda delle figure, con avvertenza; (b) gli intervalli empirici min-max osservati nei 30 dossier per ciascuna classe (`intervalli_osservati`), che sono ciò su cui il sito può fare affidamento.",
+    "Il pericolo incendio non ha un nome esplicito nell'Allegato I ('Indice incendio ponderato', 'Pericolo incendio'); nel corpo del rapporto (par. 2.2, 3.2.2, 4.1.2) è l'Indice di Pericolosità da Incendio (IPI). La classe comunale nei dossier si chiama 'Classe incendio' e le classi elementari della carta regionale sono Basso, Mediobasso, Medio, Medioalto, Alto.",
+    "Profili integrati: il documento non fornisce una tabella di legenda; le combinazioni sotto riportate sono ricavate dalle 30 matrici integrate (17 combinazioni distinte osservate → 7 profili). Le combinazioni non osservate non hanno profilo assegnato.",
+    "`profili_ivp_x_incendio` è il profilo a due fattori riportato nel quadro sintetico di ogni scheda ('Profilo IVP x incendio'), distinto dal profilo integrato a tre fattori.",
+    "Le unità pedologiche (B2, C2, …) sono quelle della Carta dei suoli della Sardegna (Aru, Baldaccini, Vacca) riclassificate dallo studio con un punteggio 1-4 (Molto bassa=1, Bassa=2, Media=3, Alta=4); nei 30 dossier non compare alcun punteggio 5, benché la Fig. 2 indichi una scala 'da 1 a 5'."
+  ],
+  "dati": {
+    "indici": [
+      {
+        "sigla": "IVP",
+        "nome": "Indice di Vocazionalità Pedologica",
+        "domanda": "Su quali suoli insiste la sughereta?",
+        "definizione": "Esprime il grado di idoneità dei suoli alla presenza e allo sviluppo della quercia da sughero. Costruito mediante la riclassificazione delle unità pedologiche in funzione delle principali caratteristiche fisiche e morfologiche dei suoli, successivamente sintetizzate in un valore ponderato riferito a ciascun territorio comunale (par. 2.2). Nel par. 4.1.1 è interpretato come misura della 'resilienza potenziale del sito'.",
+        "metodo": "Ogni unità pedologica presente sotto sughereta riceve una classe (Molto bassa/Bassa/Media/Alta) e un punteggio (1-4); l'IVP comunale è la media dei punteggi ponderata per la superficie a sughera di ciascuna unità. Il ricalcolo dalle tabelle dei dossier riproduce il valore dichiarato al millesimo per 29 comuni su 30 (eccezione: Bultei).",
+        "scala": "indice da 1 a 4 nei dossier (la Fig. 2 indica 'da 1 a 5')",
+        "classi": [
+          "Alta",
+          "Media",
+          "Bassa",
+          "Molto bassa"
+        ],
+        "soglie_dichiarate": {
+          "fonte": "Legenda Figura 2, pag. 28 (non coerente con i dossier, vedi note)",
+          "Alta": "IVP ≥ 3,50",
+          "Media": "2,50 ≤ IVP < 3,50",
+          "Bassa": "IVP < 2,50"
+        },
+        "intervalli_osservati": {
+          "Alta": {
+            "min": 3.257,
+            "max": 3.987,
+            "n_comuni": 21
+          },
+          "Media": {
+            "min": 2.569,
+            "max": 2.988,
+            "n_comuni": 4
+          },
+          "Bassa": {
+            "min": 2.0,
+            "max": 2.48,
+            "n_comuni": 5
+          }
+        },
+        "punteggi_unita": {
+          "Media": [
+            3
+          ],
+          "Alta": [
+            4
+          ],
+          "Bassa": [
+            2
+          ],
+          "Molto bassa": [
+            1
+          ]
+        },
+        "lettura_classi": {
+          "Alta": "La risorsa mostra una buona coerenza pedologica complessiva con la sughereta, pur con limitazioni locali legate alle unità pedologiche specifiche.",
+          "Media": "La risorsa è pedologicamente compatibile, ma presenta limitazioni che richiedono attenzione nella gestione e nella selezione di aree pilota.",
+          "Bassa": "La vocazionalità pedologica appare più limitante e suggerisce un approccio selettivo agli investimenti e agli interventi di valorizzazione."
+        },
+        "output": "indice ponderato e classe Alta/Media/Bassa/Molto bassa",
+        "pagine_fonte": [
+          20,
+          27,
+          28,
+          35,
+          36,
+          50
+        ]
+      },
+      {
+        "sigla": "IPI",
+        "nome": "Indice di Pericolosità da Incendio",
+        "domanda": "Quanto è esposta al fuoco la risorsa?",
+        "definizione": "Elaborato mediante l'intersezione tra le superfici a sughereta e la cartografia regionale del pericolo di incendio (Piano regionale di previsione, prevenzione e lotta attiva contro gli incendi boschivi 2023-2025, Allegato 5), consente di stimare il livello di esposizione della risorsa forestale e di individuare i territori maggiormente vulnerabili (par. 2.2). Nel par. 4.1.2 è il 'principale fattore di pressione'.",
+        "metodo": "Le sugherete comunali sono ripartite nelle cinque classi di pericolosità della carta regionale (Basso, Mediobasso, Medio, Medioalto, Alto), ciascuna con un indice di pericolosità di classe; l'indice incendio ponderato comunale è la media di tali indici pesata per le superfici. Il ricalcolo dalle tabelle riproduce il valore dichiarato per tutti i 30 comuni. Accanto all'indice, ogni scheda riporta la quota di superficie nelle classi Medioalto+Alto.",
+        "scala": "indice 0-100 (valori di classe osservati da 11,24 a 50,34; valori comunali da 25,02 a 48,02)",
+        "classi": [
+          "Basso",
+          "Mediobasso",
+          "Medio",
+          "Medioalto",
+          "Alto"
+        ],
+        "soglie_dichiarate": {
+          "fonte": "nessuna soglia esplicitata nel documento",
+          "nota": "Dalla distribuzione degli indici di classe nei dossier, le classi elementari cadono in fasce di circa 10 punti (Basso ≈ 11-15, Mediobasso ≈ 22-25, Medio ≈ 29-32, Medioalto ≈ 38-40, Alto ≈ 48-50)."
+        },
+        "intervalli_osservati": {
+          "indice_ponderato_comunale": {
+            "Medio": {
+              "min": 27.93,
+              "max": 30.67,
+              "n_comuni": 3
+            },
+            "Alto": {
+              "min": 45.54,
+              "max": 48.02,
+              "n_comuni": 6
+            },
+            "Medioalto": {
+              "min": 40.3,
+              "max": 44.34,
+              "n_comuni": 20
+            },
+            "Mediobasso": {
+              "min": 25.02,
+              "max": 25.02,
+              "n_comuni": 1
+            }
+          },
+          "quota_medioalto_alto_pct": {
+            "Medio": {
+              "min": 13.43,
+              "max": 28.91,
+              "n_comuni": 3
+            },
+            "Alto": {
+              "min": 92.91,
+              "max": 98.28,
+              "n_comuni": 6
+            },
+            "Medioalto": {
+              "min": 72.3,
+              "max": 97.46,
+              "n_comuni": 20
+            },
+            "Mediobasso": {
+              "min": 3.58,
+              "max": 3.58,
+              "n_comuni": 1
+            }
+          },
+          "indice_di_classe_nelle_tabelle": {
+            "Basso": {
+              "min": 11.24,
+              "max": 16.72,
+              "n_occorrenze": 9
+            },
+            "Mediobasso": {
+              "min": 19.26,
+              "max": 24.64,
+              "n_occorrenze": 29
+            },
+            "Medio": {
+              "min": 29.26,
+              "max": 32.56,
+              "n_occorrenze": 30
+            },
+            "Medioalto": {
+              "min": 37.63,
+              "max": 41.28,
+              "n_occorrenze": 30
+            },
+            "Alto": {
+              "min": 46.82,
+              "max": 51.27,
+              "n_occorrenze": 30
+            }
+          }
+        },
+        "lettura_classi": {
+          "Mediobasso": "Il profilo incendio ponderato ricade in classe Mediobasso. La quota Medioalto+Alto […] indica criticità localizzate più che diffuse.",
+          "Medio": "Il profilo incendio ponderato ricade in classe Medio; la quota Medioalto+Alto indica criticità localizzate più che diffuse (Bitti, Buddusò) oppure, se non trascurabile, richiede una selezione puntuale delle aree più esposte (Orune).",
+          "Medioalto": "Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Medioalto e la maggior parte delle superfici ricade nelle classi Medioalto e Alto. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva.",
+          "Alto": "Il profilo incendio evidenzia una criticità elevata: la classe ponderata è Alto […]. Queste superfici richiedono priorità nella pianificazione antincendio e nella gestione attiva."
+        },
+        "output": "indice ponderato, classe e quota Medioalto+Alto",
+        "pagine_fonte": [
+          20,
+          28,
+          29,
+          36,
+          50
+        ]
+      },
+      {
+        "sigla": "ICR",
+        "nome": "Indice di Continuità della Risorsa",
+        "domanda": "Quanto è continua o frammentata la sughereta?",
+        "definizione": "Descrive il grado di continuità spaziale delle superfici a sughereta attraverso la valutazione della frammentazione del paesaggio forestale e della presenza di nuclei maggiormente accorpati (par. 2.2). Nel par. 4.1.3 la continuità è rilevante sia ecologicamente sia per la possibilità di pianificare interventi coordinati.",
+        "metodo": "Per ogni comune si individuano i complessi (patch) sughericoli e si calcolano: numero di complessi, superficie e quota del complesso maggiore, superficie media per complesso (= sugherete_ha / n_complessi), densità di frammentazione (= n_complessi / 100 ha). La classe ICR dei dossier è associata alla quota del complesso maggiore; la densità ha una propria classe (Bassa/Media/Alta/Molto alta).",
+        "scala": "Fig. 4: 'da 0 a 100'; nei dossier l'indicatore numerico è la quota % del complesso maggiore",
+        "classi": [
+          "Alta",
+          "Media",
+          "Bassa",
+          "Molto bassa"
+        ],
+        "soglie_dichiarate": {
+          "fonte": "Legenda Figura 4, pag. 30 (non coerente con i dossier, vedi note)",
+          "Alta": "ICR ≥ 70",
+          "Media": "50 ≤ ICR < 70",
+          "Bassa": "30 ≤ ICR < 50",
+          "Molto bassa": "ICR < 30"
+        },
+        "intervalli_osservati": {
+          "quota_complesso_maggiore_pct": {
+            "Media": {
+              "min": 61.21,
+              "max": 78.05,
+              "n_comuni": 6
+            },
+            "Alta": {
+              "min": 80.43,
+              "max": 97.02,
+              "n_comuni": 9
+            },
+            "Molto bassa": {
+              "min": 28.2,
+              "max": 37.35,
+              "n_comuni": 7
+            },
+            "Bassa": {
+              "min": 42.61,
+              "max": 58.64,
+              "n_comuni": 8
+            }
+          },
+          "n_complessi": {
+            "Media": {
+              "min": 17,
+              "max": 38,
+              "n_comuni": 6
+            },
+            "Alta": {
+              "min": 5,
+              "max": 27,
+              "n_comuni": 9
+            },
+            "Molto bassa": {
+              "min": 26,
+              "max": 80,
+              "n_comuni": 7
+            },
+            "Bassa": {
+              "min": 15,
+              "max": 56,
+              "n_comuni": 8
+            }
+          },
+          "densita_frammentazione_per_classe_densita": {
+            "Bassa": {
+              "min": 0.21,
+              "max": 0.43,
+              "n_comuni": 6
+            },
+            "Media": {
+              "min": 0.51,
+              "max": 1.47,
+              "n_comuni": 16
+            },
+            "Alta": {
+              "min": 1.54,
+              "max": 2.63,
+              "n_comuni": 6
+            },
+            "Molto alta": {
+              "min": 3.18,
+              "max": 3.96,
+              "n_comuni": 2
+            }
+          }
+        },
+        "lettura_classi": {
+          "Media": "La gestione può concentrarsi sul nucleo principale, senza trascurare le aree minori.",
+          "Alta": "La risorsa risulta fortemente accorpata e potenzialmente più governabile per interventi coordinati.",
+          "Molto bassa": "La sughereta è fortemente dispersa e richiede maggiore coordinamento gestionale e selezione di ambiti prioritari.",
+          "Bassa": "La sughereta è policentrica o frammentata e richiede una gestione a mosaico."
+        },
+        "output": "numero complessi, nucleo maggiore, densità e classe ICR",
+        "pagine_fonte": [
+          20,
+          28,
+          29,
+          30,
+          36,
+          50
+        ]
+      }
+    ],
+    "profili_ivp_x_incendio": [
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Alto",
+        "profilo": "Risorsa strategica vulnerabile",
+        "comuni": [
+          "berchidda",
+          "calangianus",
+          "illorai",
+          "bono",
+          "bultei"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medio",
+        "profilo": "Risorsa vocata con criticità localizzate",
+        "comuni": [
+          "bitti",
+          "budduso",
+          "orune"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medioalto",
+        "profilo": "Risorsa strategica vulnerabile",
+        "comuni": [
+          "oschiri",
+          "nuoro",
+          "ozieri",
+          "orani",
+          "tempio-pausania",
+          "telti",
+          "padru",
+          "olbia",
+          "oliena",
+          "benetutti",
+          "pattada",
+          "monti"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Mediobasso",
+        "profilo": "Risorsa vocata e relativamente meno esposta",
+        "comuni": [
+          "ala-dei-sardi"
+        ]
+      },
+      {
+        "classe_ivp": "Bassa",
+        "classe_incendio": "Medioalto",
+        "profilo": "Area critica o marginale esposta",
+        "comuni": [
+          "mores",
+          "pozzomaggiore",
+          "abbasanta",
+          "aidomaggiore",
+          "ardara"
+        ]
+      },
+      {
+        "classe_ivp": "Media",
+        "classe_incendio": "Alto",
+        "profilo": "Risorsa compatibile ma fragile",
+        "comuni": [
+          "iglesias"
+        ]
+      },
+      {
+        "classe_ivp": "Media",
+        "classe_incendio": "Medioalto",
+        "profilo": "Risorsa compatibile ma fragile",
+        "comuni": [
+          "villanova-monteleone",
+          "chiaramonti",
+          "ploaghe"
+        ]
+      }
+    ],
+    "profili_integrati": [
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Alto",
+        "classe_icr": "Alta",
+        "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+        "comuni": [
+          "berchidda",
+          "illorai"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Alto",
+        "classe_icr": "Media",
+        "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+        "comuni": [
+          "bono",
+          "bultei"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Alto",
+        "classe_icr": "Molto bassa",
+        "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+        "comuni": [
+          "calangianus"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medio",
+        "classe_icr": "Alta",
+        "profilo_integrato": "Area vocata e relativamente governabile",
+        "comuni": [
+          "budduso"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medio",
+        "classe_icr": "Bassa",
+        "profilo_integrato": "Area vocata, con gestione a mosaico",
+        "comuni": [
+          "orune"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medio",
+        "classe_icr": "Media",
+        "profilo_integrato": "Area vocata e relativamente governabile",
+        "comuni": [
+          "bitti"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Alta",
+        "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+        "comuni": [
+          "telti"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Bassa",
+        "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+        "comuni": [
+          "orani",
+          "padru",
+          "pattada",
+          "monti"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Media",
+        "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+        "comuni": [
+          "oschiri",
+          "tempio-pausania",
+          "oliena"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Molto bassa",
+        "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+        "comuni": [
+          "nuoro",
+          "ozieri",
+          "olbia",
+          "benetutti"
+        ]
+      },
+      {
+        "classe_ivp": "Alta",
+        "classe_incendio": "Mediobasso",
+        "classe_icr": "Alta",
+        "profilo_integrato": "Area vocata e relativamente governabile",
+        "comuni": [
+          "ala-dei-sardi"
+        ]
+      },
+      {
+        "classe_ivp": "Bassa",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Alta",
+        "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+        "comuni": [
+          "pozzomaggiore",
+          "abbasanta",
+          "aidomaggiore"
+        ]
+      },
+      {
+        "classe_ivp": "Bassa",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Bassa",
+        "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+        "comuni": [
+          "ardara"
+        ]
+      },
+      {
+        "classe_ivp": "Bassa",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Molto bassa",
+        "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+        "comuni": [
+          "mores"
+        ]
+      },
+      {
+        "classe_ivp": "Media",
+        "classe_incendio": "Alto",
+        "classe_icr": "Alta",
+        "profilo_integrato": "Risorsa compatibile, esposta e gestibile con interventi coordinati",
+        "comuni": [
+          "iglesias"
+        ]
+      },
+      {
+        "classe_ivp": "Media",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Bassa",
+        "profilo_integrato": "Risorsa compatibile ma fragile e frammentata",
+        "comuni": [
+          "chiaramonti",
+          "ploaghe"
+        ]
+      },
+      {
+        "classe_ivp": "Media",
+        "classe_incendio": "Medioalto",
+        "classe_icr": "Molto bassa",
+        "profilo_integrato": "Risorsa compatibile ma fragile e frammentata",
+        "comuni": [
+          "villanova-monteleone"
+        ]
+      }
+    ],
+    "profili_integrati_distinti": [
+      {
+        "profilo_integrato": "Priorità alta ma gestione complessa: risorsa vocata, esposta e frammentata",
+        "n_comuni": 9,
+        "comuni": [
+          "nuoro",
+          "ozieri",
+          "orani",
+          "calangianus",
+          "padru",
+          "olbia",
+          "benetutti",
+          "pattada",
+          "monti"
+        ]
+      },
+      {
+        "profilo_integrato": "Priorità alta: risorsa vocata, esposta e territorialmente governabile",
+        "n_comuni": 8,
+        "comuni": [
+          "berchidda",
+          "oschiri",
+          "tempio-pausania",
+          "telti",
+          "illorai",
+          "oliena",
+          "bono",
+          "bultei"
+        ]
+      },
+      {
+        "profilo_integrato": "Area critica/marginale esposta: priorità selettiva",
+        "n_comuni": 5,
+        "comuni": [
+          "mores",
+          "pozzomaggiore",
+          "abbasanta",
+          "aidomaggiore",
+          "ardara"
+        ]
+      },
+      {
+        "profilo_integrato": "Area vocata e relativamente governabile",
+        "n_comuni": 3,
+        "comuni": [
+          "bitti",
+          "budduso",
+          "ala-dei-sardi"
+        ]
+      },
+      {
+        "profilo_integrato": "Risorsa compatibile ma fragile e frammentata",
+        "n_comuni": 3,
+        "comuni": [
+          "villanova-monteleone",
+          "chiaramonti",
+          "ploaghe"
+        ]
+      },
+      {
+        "profilo_integrato": "Area vocata, con gestione a mosaico",
+        "n_comuni": 1,
+        "comuni": [
+          "orune"
+        ]
+      },
+      {
+        "profilo_integrato": "Risorsa compatibile, esposta e gestibile con interventi coordinati",
+        "n_comuni": 1,
+        "comuni": [
+          "iglesias"
+        ]
+      }
+    ],
+    "indicazioni_operative_ricorrenti": [
+      {
+        "testo": "integrare i risultati con verifiche locali su proprietà, accessibilità, stato selvicolturale e continuità del combustibile",
+        "n_comuni": 30
+      },
+      {
+        "testo": "attribuire priorità agli interventi di prevenzione incendi, riduzione del combustibile e presidio delle aree in classi Medioalto e Alto",
+        "n_comuni": 26
+      },
+      {
+        "testo": "valorizzare la buona vocazionalità pedologica come base per progetti pilota, certificazione e gestione forestale attiva",
+        "n_comuni": 21
+      },
+      {
+        "testo": "utilizzare il complesso principale come ambito preferenziale per interventi coordinati e monitoraggio",
+        "n_comuni": 15
+      },
+      {
+        "testo": "impostare una gestione a mosaico, con accordi territoriali e selezione di nuclei prioritari",
+        "n_comuni": 15
+      },
+      {
+        "testo": "selezionare con attenzione le aree pilota, privilegiando i nuclei con condizioni pedologiche più favorevoli",
+        "n_comuni": 9
+      },
+      {
+        "testo": "mantenere un presidio antincendio mirato sulle porzioni in pericolo Medioalto e Alto, evitando una lettura esclusivamente comunale",
+        "n_comuni": 4
+      }
+    ],
+    "unita_pedologiche": [
+      {
+        "unita_pedologica": "C2",
+        "classe_ivp": [
+          "Alta"
+        ],
+        "punteggio_ivp": [
+          4
+        ],
+        "classe_capacita_uso": [
+          "VII - VI - IV"
+        ],
+        "n_comuni": 21,
+        "superficie_ha_30_comuni": 40242.8
+      },
+      {
+        "unita_pedologica": "C1",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VIII"
+        ],
+        "n_comuni": 19,
+        "superficie_ha_30_comuni": 10496.99
+      },
+      {
+        "unita_pedologica": "D3",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VI - VII - VIII"
+        ],
+        "n_comuni": 10,
+        "superficie_ha_30_comuni": 8758.91
+      },
+      {
+        "unita_pedologica": "B2",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VII - VI"
+        ],
+        "n_comuni": 14,
+        "superficie_ha_30_comuni": 7578.26
+      },
+      {
+        "unita_pedologica": "I1",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "III - IV"
+        ],
+        "n_comuni": 15,
+        "superficie_ha_30_comuni": 4051.46
+      },
+      {
+        "unita_pedologica": "E1",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "VII - VII"
+        ],
+        "n_comuni": 7,
+        "superficie_ha_30_comuni": 4019.21
+      },
+      {
+        "unita_pedologica": "D2",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "II"
+        ],
+        "n_comuni": 2,
+        "superficie_ha_30_comuni": 1660.72
+      },
+      {
+        "unita_pedologica": "G1",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "VI - VII"
+        ],
+        "n_comuni": 7,
+        "superficie_ha_30_comuni": 1374.34
+      },
+      {
+        "unita_pedologica": "F1",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "VII - VIII"
+        ],
+        "n_comuni": 5,
+        "superficie_ha_30_comuni": 1255.82
+      },
+      {
+        "unita_pedologica": "B4",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VII"
+        ],
+        "n_comuni": 5,
+        "superficie_ha_30_comuni": 831.64
+      },
+      {
+        "unita_pedologica": "D1",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "VIII"
+        ],
+        "n_comuni": 5,
+        "superficie_ha_30_comuni": 725.74
+      },
+      {
+        "unita_pedologica": "D4",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VII - V - IV"
+        ],
+        "n_comuni": 11,
+        "superficie_ha_30_comuni": 621.75
+      },
+      {
+        "unita_pedologica": "G2",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "I - II - III"
+        ],
+        "n_comuni": 3,
+        "superficie_ha_30_comuni": 462.51
+      },
+      {
+        "unita_pedologica": "C3",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VII - VI - IV"
+        ],
+        "n_comuni": 5,
+        "superficie_ha_30_comuni": 453.18
+      },
+      {
+        "unita_pedologica": "L1",
+        "classe_ivp": [
+          "Molto bassa"
+        ],
+        "punteggio_ivp": [
+          1
+        ],
+        "classe_capacita_uso": [
+          "I - II - III"
+        ],
+        "n_comuni": 13,
+        "superficie_ha_30_comuni": 337.29
+      },
+      {
+        "unita_pedologica": "F2",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VI - IV - III"
+        ],
+        "n_comuni": 5,
+        "superficie_ha_30_comuni": 318.11
+      },
+      {
+        "unita_pedologica": "C4",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VII - VI"
+        ],
+        "n_comuni": 2,
+        "superficie_ha_30_comuni": 276.69
+      },
+      {
+        "unita_pedologica": "B3",
+        "classe_ivp": [
+          "Media"
+        ],
+        "punteggio_ivp": [
+          3
+        ],
+        "classe_capacita_uso": [
+          "VI - VII"
+        ],
+        "n_comuni": 6,
+        "superficie_ha_30_comuni": 170.31
+      },
+      {
+        "unita_pedologica": "L2",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "II - III"
+        ],
+        "n_comuni": 4,
+        "superficie_ha_30_comuni": 84.61
+      },
+      {
+        "unita_pedologica": "SP",
+        "classe_ivp": [
+          "Molto bassa"
+        ],
+        "punteggio_ivp": [
+          1
+        ],
+        "classe_capacita_uso": [],
+        "n_comuni": 2,
+        "superficie_ha_30_comuni": 34.76
+      },
+      {
+        "unita_pedologica": "O",
+        "classe_ivp": [
+          "Molto bassa"
+        ],
+        "punteggio_ivp": [
+          1
+        ],
+        "classe_capacita_uso": [],
+        "n_comuni": 11,
+        "superficie_ha_30_comuni": 15.82
+      },
+      {
+        "unita_pedologica": "A1",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "VIII - VII"
+        ],
+        "n_comuni": 1,
+        "superficie_ha_30_comuni": 12.14
+      },
+      {
+        "unita_pedologica": "A2",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "VII - IV"
+        ],
+        "n_comuni": 1,
+        "superficie_ha_30_comuni": 6.36
+      },
+      {
+        "unita_pedologica": "B1",
+        "classe_ivp": [
+          "Bassa"
+        ],
+        "punteggio_ivp": [
+          2
+        ],
+        "classe_capacita_uso": [
+          "VII - VII"
+        ],
+        "n_comuni": 2,
+        "superficie_ha_30_comuni": 1.47
+      }
+    ]
+  }
+}

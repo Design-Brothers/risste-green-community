@@ -1,0 +1,657 @@
+{
+  "titolo": "Unità pedologiche per Comune dell'Unione Alta Gallura (Carta dei Suoli della Sardegna 1:250.000)",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale – Schede comunali preliminari, par. 'Sintesi pedologica'",
+    "pagine_pdf": [
+      156,
+      158,
+      160,
+      161,
+      162,
+      164,
+      165,
+      167,
+      168,
+      169,
+      171
+    ]
+  },
+  "note": [
+    "Le schede riportano le 'principali unità pedologiche' (4-5 per Comune). La somma delle incidenze per Comune è compresa tra il 95,1% e il 100,0%: Aggius 99.8%; Aglientu 99.9%; Badesi 100.0%; Bortigiadas 96.3%; Calangianus 99.6%; Luogosanto 99.9%; Luras 99.7%; Santa Teresa Gallura 97.6%; Tempio Pausania 97.9%; Trinità d'Agultu e Vignola 98.2%; Viddalba 95.1%. La quota residua non è dettagliata nel documento.",
+    "I codici unità (C1, C2, B2, M1...) sono quelli della Carta dei Suoli della Sardegna (Aru, Baldaccini, Vacca, 1991; pag. 150). Il documento non riporta la legenda ufficiale: le descrizioni in unita_pedologiche sono ricavate dai commenti delle schede (pagine indicate) e per B3, G1, I1 il documento non fornisce una descrizione specifica.",
+    "commenti_per_comune riporta il testo interpretativo della scheda sul quadro pedologico comunale.",
+    "Superficie di riferimento: vedi note di uso-suolo-comuni.json (intersezione GIS, pag. 151-152)."
+  ],
+  "dati": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 4732,
+      "incidenza_pct": 56.7,
+      "pagina_pdf": 156
+    },
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "unita_pedologica": "C1",
+      "rango": 2,
+      "superficie_ha": 1941,
+      "incidenza_pct": 23.3,
+      "pagina_pdf": 156
+    },
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "unita_pedologica": "B2",
+      "rango": 3,
+      "superficie_ha": 1565,
+      "incidenza_pct": 18.8,
+      "pagina_pdf": 156
+    },
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "unita_pedologica": "B3",
+      "rango": 4,
+      "superficie_ha": 82,
+      "incidenza_pct": 1.0,
+      "pagina_pdf": 156
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 10902,
+      "incidenza_pct": 73.5,
+      "pagina_pdf": 158
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "unita_pedologica": "C1",
+      "rango": 2,
+      "superficie_ha": 2550,
+      "incidenza_pct": 17.2,
+      "pagina_pdf": 158
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "unita_pedologica": "M1",
+      "rango": 3,
+      "superficie_ha": 564,
+      "incidenza_pct": 3.8,
+      "pagina_pdf": 158
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "unita_pedologica": "I1",
+      "rango": 4,
+      "superficie_ha": 425,
+      "incidenza_pct": 2.9,
+      "pagina_pdf": 158
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "unita_pedologica": "L1",
+      "rango": 5,
+      "superficie_ha": 368,
+      "incidenza_pct": 2.5,
+      "pagina_pdf": 158
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "unita_pedologica": "M1",
+      "rango": 1,
+      "superficie_ha": 1538,
+      "incidenza_pct": 50.1,
+      "pagina_pdf": 160
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "unita_pedologica": "C2",
+      "rango": 2,
+      "superficie_ha": 1202,
+      "incidenza_pct": 39.1,
+      "pagina_pdf": 160
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "unita_pedologica": "L1",
+      "rango": 3,
+      "superficie_ha": 260,
+      "incidenza_pct": 8.5,
+      "pagina_pdf": 160
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "unita_pedologica": "L2",
+      "rango": 4,
+      "superficie_ha": 70,
+      "incidenza_pct": 2.3,
+      "pagina_pdf": 160
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "unita_pedologica": "C1",
+      "rango": 1,
+      "superficie_ha": 4430,
+      "incidenza_pct": 58.1,
+      "pagina_pdf": 161
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "unita_pedologica": "C2",
+      "rango": 2,
+      "superficie_ha": 1971,
+      "incidenza_pct": 25.8,
+      "pagina_pdf": 161
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "unita_pedologica": "I1",
+      "rango": 3,
+      "superficie_ha": 426,
+      "incidenza_pct": 5.6,
+      "pagina_pdf": 161
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "unita_pedologica": "G1",
+      "rango": 4,
+      "superficie_ha": 356,
+      "incidenza_pct": 4.7,
+      "pagina_pdf": 161
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "unita_pedologica": "B1",
+      "rango": 5,
+      "superficie_ha": 161,
+      "incidenza_pct": 2.1,
+      "pagina_pdf": 161
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "unita_pedologica": "C1",
+      "rango": 1,
+      "superficie_ha": 8076,
+      "incidenza_pct": 63.8,
+      "pagina_pdf": 162
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "unita_pedologica": "C2",
+      "rango": 2,
+      "superficie_ha": 3471,
+      "incidenza_pct": 27.4,
+      "pagina_pdf": 162
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "unita_pedologica": "C5",
+      "rango": 3,
+      "superficie_ha": 710,
+      "incidenza_pct": 5.6,
+      "pagina_pdf": 162
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "unita_pedologica": "C3",
+      "rango": 4,
+      "superficie_ha": 351,
+      "incidenza_pct": 2.8,
+      "pagina_pdf": 162
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 11359,
+      "incidenza_pct": 84.1,
+      "pagina_pdf": 164
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "unita_pedologica": "C1",
+      "rango": 2,
+      "superficie_ha": 1982,
+      "incidenza_pct": 14.7,
+      "pagina_pdf": 164
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "unita_pedologica": "B2",
+      "rango": 3,
+      "superficie_ha": 79,
+      "incidenza_pct": 0.6,
+      "pagina_pdf": 164
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "unita_pedologica": "L1",
+      "rango": 4,
+      "superficie_ha": 72,
+      "incidenza_pct": 0.5,
+      "pagina_pdf": 164
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 6590,
+      "incidenza_pct": 75.3,
+      "pagina_pdf": 165
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "unita_pedologica": "C1",
+      "rango": 2,
+      "superficie_ha": 1089,
+      "incidenza_pct": 12.5,
+      "pagina_pdf": 165
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "unita_pedologica": "B2",
+      "rango": 3,
+      "superficie_ha": 622,
+      "incidenza_pct": 7.1,
+      "pagina_pdf": 165
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "unita_pedologica": "C3",
+      "rango": 4,
+      "superficie_ha": 358,
+      "incidenza_pct": 4.1,
+      "pagina_pdf": 165
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "unita_pedologica": "L1",
+      "rango": 5,
+      "superficie_ha": 59,
+      "incidenza_pct": 0.7,
+      "pagina_pdf": 165
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 5656,
+      "incidenza_pct": 55.6,
+      "pagina_pdf": 167
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "unita_pedologica": "C1",
+      "rango": 2,
+      "superficie_ha": 3513,
+      "incidenza_pct": 34.5,
+      "pagina_pdf": 167
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "unita_pedologica": "B2",
+      "rango": 3,
+      "superficie_ha": 331,
+      "incidenza_pct": 3.3,
+      "pagina_pdf": 167
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "unita_pedologica": "M1",
+      "rango": 4,
+      "superficie_ha": 282,
+      "incidenza_pct": 2.8,
+      "pagina_pdf": 167
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "unita_pedologica": "L1",
+      "rango": 5,
+      "superficie_ha": 139,
+      "incidenza_pct": 1.4,
+      "pagina_pdf": 167
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 11026,
+      "incidenza_pct": 51.9,
+      "pagina_pdf": 168
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "unita_pedologica": "C1",
+      "rango": 2,
+      "superficie_ha": 6546,
+      "incidenza_pct": 30.8,
+      "pagina_pdf": 168
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "unita_pedologica": "C5",
+      "rango": 3,
+      "superficie_ha": 1447,
+      "incidenza_pct": 6.8,
+      "pagina_pdf": 168
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "unita_pedologica": "C3",
+      "rango": 4,
+      "superficie_ha": 1275,
+      "incidenza_pct": 6.0,
+      "pagina_pdf": 168
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "unita_pedologica": "B2",
+      "rango": 5,
+      "superficie_ha": 502,
+      "incidenza_pct": 2.4,
+      "pagina_pdf": 168
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 6397,
+      "incidenza_pct": 46.7,
+      "pagina_pdf": 169
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "unita_pedologica": "C1",
+      "rango": 2,
+      "superficie_ha": 4477,
+      "incidenza_pct": 32.7,
+      "pagina_pdf": 169
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "unita_pedologica": "B2",
+      "rango": 3,
+      "superficie_ha": 1016,
+      "incidenza_pct": 7.4,
+      "pagina_pdf": 169
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "unita_pedologica": "I1",
+      "rango": 4,
+      "superficie_ha": 903,
+      "incidenza_pct": 6.6,
+      "pagina_pdf": 169
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "unita_pedologica": "M1",
+      "rango": 5,
+      "superficie_ha": 660,
+      "incidenza_pct": 4.8,
+      "pagina_pdf": 169
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "unita_pedologica": "C2",
+      "rango": 1,
+      "superficie_ha": 2329,
+      "incidenza_pct": 47.1,
+      "pagina_pdf": 171
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "unita_pedologica": "B2",
+      "rango": 2,
+      "superficie_ha": 1129,
+      "incidenza_pct": 22.8,
+      "pagina_pdf": 171
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "unita_pedologica": "C1",
+      "rango": 3,
+      "superficie_ha": 626,
+      "incidenza_pct": 12.6,
+      "pagina_pdf": 171
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "unita_pedologica": "M1",
+      "rango": 4,
+      "superficie_ha": 418,
+      "incidenza_pct": 8.5,
+      "pagina_pdf": 171
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "unita_pedologica": "L1",
+      "rango": 5,
+      "superficie_ha": 203,
+      "incidenza_pct": 4.1,
+      "pagina_pdf": 171
+    }
+  ],
+  "unita_pedologiche": {
+    "C1": {
+      "descrizione": "Suoli su rocce intrusive (graniti) delle aree più aspre: pendenze elevate, rocciosità, pietrosità, scarsa profondità e forte pericolo di erosione; unità a prevalente funzione protettiva, che richiama la conservazione della vegetazione naturale e la riduzione o eliminazione del pascolamento nei contesti più fragili.",
+      "pagine_pdf": [
+        156,
+        158,
+        161,
+        162
+      ],
+      "substrato": "rocce intrusive"
+    },
+    "C2": {
+      "descrizione": "Suoli su rocce intrusive, da poco a mediamente profondi, permeabili, con rocciosità, pietrosità, eccesso di scheletro e forte pericolo di erosione a tratti; unità dominante nella maggior parte dei Comuni.",
+      "pagine_pdf": [
+        156,
+        158,
+        164,
+        165
+      ],
+      "substrato": "rocce intrusive"
+    },
+    "C3": {
+      "descrizione": "Unità su rocce intrusive citata come ambito da approfondire per un uso più razionale della vegetazione naturale, infittimento/forestazione e pascolo regimato.",
+      "pagine_pdf": [
+        162,
+        165,
+        168
+      ],
+      "substrato": "rocce intrusive"
+    },
+    "C5": {
+      "descrizione": "Unità su rocce intrusive citata, insieme a C3, come ambito dove approfondire forestazione, infittimento e gestione razionale della vegetazione naturale.",
+      "pagine_pdf": [
+        162,
+        168
+      ],
+      "substrato": "rocce intrusive"
+    },
+    "B1": {
+      "descrizione": "Suoli su metamorfiti paleozoiche con limitazioni analoghe a C1 (pendenze, rocciosità, pietrosità, scarsa profondità, erosione).",
+      "pagine_pdf": [
+        161
+      ],
+      "substrato": "metamorfiti paleozoiche"
+    },
+    "B2": {
+      "descrizione": "Suoli su metamorfiti paleozoiche, poco o mediamente profondi, con rischio erosivo; richiama conservazione della vegetazione naturale e riduzione del pascolamento nei contesti più fragili.",
+      "pagine_pdf": [
+        156,
+        171
+      ],
+      "substrato": "metamorfiti paleozoiche"
+    },
+    "B3": {
+      "descrizione": "Unità su metamorfiti paleozoiche presente solo ad Aggius (82 ha); il documento non ne fornisce una descrizione specifica.",
+      "pagine_pdf": [
+        156
+      ],
+      "substrato": "metamorfiti paleozoiche"
+    },
+    "M1": {
+      "descrizione": "Suoli su sabbie eoliche, profondi ma con drenaggio eccessivo e forte pericolo di erosione (ambiti sabbiosi costieri).",
+      "pagine_pdf": [
+        158,
+        160,
+        167
+      ],
+      "substrato": "sabbie eoliche"
+    },
+    "L1": {
+      "descrizione": "Aree pianeggianti/alluvionali con possibile attitudine agricola ma limiti legati a drenaggio o inondazione.",
+      "pagine_pdf": [
+        158,
+        160,
+        167
+      ],
+      "substrato": "alluvioni / aree pianeggianti"
+    },
+    "L2": {
+      "descrizione": "Come L1: aree pianeggianti/alluvionali con possibile attitudine agricola e limiti di drenaggio o inondazione; presente solo a Badesi (70 ha).",
+      "pagine_pdf": [
+        160
+      ],
+      "substrato": "alluvioni / aree pianeggianti"
+    },
+    "I1": {
+      "descrizione": "Unità citata insieme a M1 e L1 come 'situazioni più specifiche: sabbie eoliche, alluvioni o aree pianeggianti, da valutare separatamente' e come condizione 'più specifica, non dominante'; il documento non la descrive singolarmente.",
+      "pagine_pdf": [
+        158,
+        161,
+        169
+      ],
+      "substrato": null
+    },
+    "G1": {
+      "descrizione": "Unità citata solo a Bortigiadas come condizione 'più specifica, ma non dominante'; il documento non ne fornisce una descrizione.",
+      "pagine_pdf": [
+        161
+      ],
+      "substrato": null
+    }
+  },
+  "commenti_per_comune": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "pagina_pdf": 156,
+      "testo": "Prevalgono suoli su rocce intrusive e metamorfiti paleozoiche, spesso poco o mediamente profondi, con rocciosità, pietrosità, eccesso di scheletro e forte pericolo di erosione. Le unità C1 e B2 richiamano in particolare la necessità di conservazione della vegetazione naturale e riduzione o eliminazione del pascolamento nei contesti più fragili."
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "pagina_pdf": 158,
+      "testo": "La grande prevalenza di C2 segnala suoli su rocce intrusive, da poco a mediamente profondi, con rocciosità, pietrosità e forte pericolo di erosione. La presenza di C1 aumenta la quota di aree a funzione protettiva. M1, I1 e L1 indicano situazioni più specifiche: sabbie eoliche, alluvioni o aree pianeggianti, da valutare separatamente."
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "pagina_pdf": 160,
+      "testo": "La prevalenza di M1 indica suoli su sabbie eoliche, profondi ma con drenaggio eccessivo e forte pericolo di erosione. C2 introduce le limitazioni tipiche delle rocce intrusive. L1 e L2 individuano aree più pianeggianti/alluvionali, con possibile attitudine agricola ma anche limiti legati a drenaggio o inondazione."
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "pagina_pdf": 161,
+      "testo": "La forte incidenza di C1 segnala un territorio pedologicamente fragile, con aree aspre, pendenze elevate, rocciosità, pietrosità, scarsa profondità e forte pericolo di erosione. B1 presenta analoghe limitazioni su metamorfiti. I1 e G1 introducono condizioni più specifiche, ma non dominanti."
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "pagina_pdf": 162,
+      "testo": "La prevalenza di C1 indica ampie superfici con forti limitazioni: pendenze, rocciosità, pietrosità, scarsa profondità, erosione. C5 e C3 possono indicare ambiti dove approfondire forestazione, infittimento e gestione razionale della vegetazione naturale."
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "pagina_pdf": 164,
+      "testo": "Prevale nettamente C2, con suoli su rocce intrusive, da poco a mediamente profondi, permeabili, ma con rocciosità, pietrosità, scheletro e forte pericolo di erosione a tratti. La quota C1 rappresenta gli ambiti più fragili."
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "pagina_pdf": 165,
+      "testo": "Prevale C2, con limitazioni ricorrenti legate a pietrosità, rocciosità, scarsa profondità e pericolo di erosione. C3 può rappresentare ambiti da approfondire per uso più razionale della vegetazione naturale e pascolo regimato."
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "pagina_pdf": 167,
+      "testo": "La presenza rilevante di C1 e C2 suggerisce condizioni di fragilità diffuse. Le unità M1 e L1 sono minoritarie ma importanti per ambiti sabbiosi o alluvionali."
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "pagina_pdf": 168,
+      "testo": "Prevalgono C2 e C1, quindi suoli su rocce intrusive con limitazioni diffuse. C5 e C3 possono offrire ambiti da approfondire per gestione forestale razionale, infittimento e pascolo regolato."
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "pagina_pdf": 169,
+      "testo": "Il quadro pedologico è articolato, ma dominato da C2 e C1. Sono presenti anche B2, I1 e M1, che richiedono letture specifiche a scala di dettaglio."
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "pagina_pdf": 171,
+      "testo": "Il quadro pedologico è più diversificato rispetto ad altri Comuni, con C2 prevalente, B2 significativa, C1 meno dominante, e presenza di M1/L1."
+    }
+  ]
+}

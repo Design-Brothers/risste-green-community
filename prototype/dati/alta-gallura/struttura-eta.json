@@ -1,0 +1,933 @@
+{
+  "titolo": "Struttura della popolazione per classi di età (2002, 2011, 2023, 2025) nei Comuni dell'Alta Gallura",
+  "fonte": {
+    "documento": "parte1",
+    "capitolo": "Allegato I – Report demografico e socio-economico strutturale dei Comuni; Prima parte – Demografia (cap. 1) – par. 1.4",
+    "pagine_pdf": [
+      23,
+      24,
+      97,
+      101,
+      105,
+      109,
+      113,
+      118,
+      123,
+      128,
+      133,
+      138,
+      143
+    ]
+  },
+  "note": [
+    "Dati al 1° gennaio di ciascun anno (tabelle 'Anno (1° Gen)' delle schede comunali). Per questo i totali 2011 e 2023 NON coincidono con la Tabella 1a (censimento 2011 e residenti al 31/12/2023): es. Tempio Pausania 14.290 vs 13.936 (2011) e 13.238 vs 13.133 (2023); Santa Teresa 5.225 vs 5.018; Trinità d'Agultu 2.239 vs 2.351 (2023). I totali 2025 coincidono con la Tabella 1a.",
+    "Indicatori derivati (quote %, indice di vecchiaia, indice di dipendenza, età media) riportati SOLO dove il testo li cita per quell'anno; altrove null. Luras: età media 2010 (42,8) e Trinità: indice di vecchiaia 2010 (197,9) e 2024 per Aglientu (386,0) non sono inseriti perché riferiti ad anni fuori griglia.",
+    "Indice di vecchiaia = 65+ / 0-14 x 100; indice di dipendenza = (0-14 + 65+) / 15-64 x 100 (definizioni del testo). Gli indici 2025 di tutti i comuni sono riproducibili dalle classi (verificato).",
+    "Il par. 1.4 (p.23) indica come punte massime dell'indice di vecchiaia Bortigiadas (342) e Aggius/Aglientu (333), ma la scheda di Trinità d'Agultu riporta 368,3 nel 2025, valore più alto dell'Unione.",
+    "La riga TOTALE ALTA GALLURA 2025 riporta i valori aggregati del par. 1.4 (3.247 / 22.204 / 9.791; 9,21% / 63,00% / 27,78%; IV 301,54; ID 58,72; età media 49,6): la somma delle 11 righe comunali 2025 coincide (verificato).",
+    "Aggius: la scheda scrive che l'indice di dipendenza 'è salito costantemente da 52,5 (2002) a 52,1 (2011)': tra i due anni il valore in realtà diminuisce.",
+    "Le righe 2025 di Badesi e Luogosanto sono spezzate nel Markdown (cambio pagina) e sono state ricomposte dal testo (180 / 1.141 / 511 / 1.832 e 181 / 1.151 / 483 / 1.815)."
+  ],
+  "dati": [
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "anno": 2002,
+      "classe_0_14": 207,
+      "classe_15_64": 1105,
+      "classe_65_piu": 373,
+      "totale": 1685,
+      "quota_0_14_pct": 12.3,
+      "quota_15_64_pct": 65.6,
+      "quota_65_piu_pct": 22.1,
+      "indice_vecchiaia": 180.2,
+      "indice_dipendenza": 52.5,
+      "eta_media": 44.1,
+      "pagine_pdf": [
+        98,
+        100
+      ]
+    },
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "anno": 2011,
+      "classe_0_14": 191,
+      "classe_15_64": 1072,
+      "classe_65_piu": 368,
+      "totale": 1631,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 192.7,
+      "indice_dipendenza": 52.1,
+      "eta_media": 45.4,
+      "pagine_pdf": [
+        98,
+        100
+      ]
+    },
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "anno": 2023,
+      "classe_0_14": 127,
+      "classe_15_64": 852,
+      "classe_65_piu": 432,
+      "totale": 1411,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 340.2,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        98,
+        100
+      ]
+    },
+    {
+      "comune": "Aggius",
+      "slug": "aggius",
+      "fascia": "interna",
+      "anno": 2025,
+      "classe_0_14": 130,
+      "classe_15_64": 839,
+      "classe_65_piu": 434,
+      "totale": 1403,
+      "quota_0_14_pct": 9.3,
+      "quota_15_64_pct": 59.8,
+      "quota_65_piu_pct": 30.9,
+      "indice_vecchiaia": 333.8,
+      "indice_dipendenza": 67.2,
+      "eta_media": 50.2,
+      "pagine_pdf": [
+        98,
+        100
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "anno": 2002,
+      "classe_0_14": 117,
+      "classe_15_64": 685,
+      "classe_65_piu": 291,
+      "totale": 1093,
+      "quota_0_14_pct": 10.7,
+      "quota_15_64_pct": 62.7,
+      "quota_65_piu_pct": 26.6,
+      "indice_vecchiaia": 248.7,
+      "indice_dipendenza": 59.6,
+      "eta_media": 47.3,
+      "pagine_pdf": [
+        102,
+        104
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "anno": 2011,
+      "classe_0_14": 102,
+      "classe_15_64": 777,
+      "classe_65_piu": 334,
+      "totale": 1213,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 327.5,
+      "indice_dipendenza": 56.1,
+      "eta_media": 49.7,
+      "pagine_pdf": [
+        102,
+        104
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "anno": 2023,
+      "classe_0_14": 103,
+      "classe_15_64": 696,
+      "classe_65_piu": 369,
+      "totale": 1168,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        102,
+        104
+      ]
+    },
+    {
+      "comune": "Aglientu",
+      "slug": "aglientu",
+      "fascia": "costiera",
+      "anno": 2025,
+      "classe_0_14": 113,
+      "classe_15_64": 705,
+      "classe_65_piu": 377,
+      "totale": 1195,
+      "quota_0_14_pct": 9.5,
+      "quota_15_64_pct": 59.0,
+      "quota_65_piu_pct": 31.5,
+      "indice_vecchiaia": 333.6,
+      "indice_dipendenza": 69.5,
+      "eta_media": 52.0,
+      "pagine_pdf": [
+        102,
+        104
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "anno": 2002,
+      "classe_0_14": 265,
+      "classe_15_64": 1202,
+      "classe_65_piu": 376,
+      "totale": 1843,
+      "quota_0_14_pct": 14.4,
+      "quota_15_64_pct": 65.2,
+      "quota_65_piu_pct": 20.4,
+      "indice_vecchiaia": 141.9,
+      "indice_dipendenza": 53.3,
+      "eta_media": 42.5,
+      "pagine_pdf": [
+        106,
+        108
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "anno": 2011,
+      "classe_0_14": 215,
+      "classe_15_64": 1253,
+      "classe_65_piu": 441,
+      "totale": 1909,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 205.1,
+      "indice_dipendenza": 52.4,
+      "eta_media": 45.5,
+      "pagine_pdf": [
+        106,
+        108
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "anno": 2023,
+      "classe_0_14": 190,
+      "classe_15_64": 1145,
+      "classe_65_piu": 487,
+      "totale": 1822,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        106,
+        108
+      ]
+    },
+    {
+      "comune": "Badesi",
+      "slug": "badesi",
+      "fascia": "costiera",
+      "anno": 2025,
+      "classe_0_14": 180,
+      "classe_15_64": 1141,
+      "classe_65_piu": 511,
+      "totale": 1832,
+      "quota_0_14_pct": 9.8,
+      "quota_15_64_pct": 62.3,
+      "quota_65_piu_pct": 27.9,
+      "indice_vecchiaia": 283.9,
+      "indice_dipendenza": 60.6,
+      "eta_media": 49.5,
+      "pagine_pdf": [
+        106,
+        108
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "anno": 2002,
+      "classe_0_14": 97,
+      "classe_15_64": 531,
+      "classe_65_piu": 263,
+      "totale": 891,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 271.1,
+      "indice_dipendenza": 67.8,
+      "eta_media": 48.5,
+      "pagine_pdf": [
+        110,
+        112
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "anno": 2011,
+      "classe_0_14": 66,
+      "classe_15_64": 476,
+      "classe_65_piu": 262,
+      "totale": 804,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 366.2,
+      "indice_dipendenza": null,
+      "eta_media": 49.9,
+      "pagine_pdf": [
+        110,
+        112
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "anno": 2023,
+      "classe_0_14": 78,
+      "classe_15_64": 404,
+      "classe_65_piu": 232,
+      "totale": 714,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        110,
+        112
+      ]
+    },
+    {
+      "comune": "Bortigiadas",
+      "slug": "bortigiadas",
+      "fascia": "interna",
+      "anno": 2025,
+      "classe_0_14": 69,
+      "classe_15_64": 395,
+      "classe_65_piu": 236,
+      "totale": 700,
+      "quota_0_14_pct": 9.9,
+      "quota_15_64_pct": 56.4,
+      "quota_65_piu_pct": 33.7,
+      "indice_vecchiaia": 342.0,
+      "indice_dipendenza": 77.2,
+      "eta_media": 52.6,
+      "pagine_pdf": [
+        110,
+        112
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "anno": 2002,
+      "classe_0_14": 657,
+      "classe_15_64": 3159,
+      "classe_65_piu": 819,
+      "totale": 4635,
+      "quota_0_14_pct": 14.2,
+      "quota_15_64_pct": 68.2,
+      "quota_65_piu_pct": 17.7,
+      "indice_vecchiaia": 124.7,
+      "indice_dipendenza": 46.7,
+      "eta_media": 41.2,
+      "pagine_pdf": [
+        114,
+        116
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "anno": 2011,
+      "classe_0_14": 483,
+      "classe_15_64": 2938,
+      "classe_65_piu": 916,
+      "totale": 4337,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 189.6,
+      "indice_dipendenza": null,
+      "eta_media": 44.3,
+      "pagine_pdf": [
+        114,
+        116
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "anno": 2023,
+      "classe_0_14": 347,
+      "classe_15_64": 2377,
+      "classe_65_piu": 1091,
+      "totale": 3815,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        114,
+        116
+      ]
+    },
+    {
+      "comune": "Calangianus",
+      "slug": "calangianus",
+      "fascia": "interna",
+      "anno": 2025,
+      "classe_0_14": 342,
+      "classe_15_64": 2282,
+      "classe_65_piu": 1102,
+      "totale": 3726,
+      "quota_0_14_pct": 9.2,
+      "quota_15_64_pct": 61.2,
+      "quota_65_piu_pct": 29.6,
+      "indice_vecchiaia": 322.2,
+      "indice_dipendenza": 63.3,
+      "eta_media": 50.1,
+      "pagine_pdf": [
+        114,
+        116
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "anno": 2002,
+      "classe_0_14": 231,
+      "classe_15_64": 1204,
+      "classe_65_piu": 390,
+      "totale": 1825,
+      "quota_0_14_pct": 12.7,
+      "quota_15_64_pct": 66.0,
+      "quota_65_piu_pct": 21.4,
+      "indice_vecchiaia": 168.8,
+      "indice_dipendenza": 51.6,
+      "eta_media": 43.8,
+      "pagine_pdf": [
+        119,
+        121
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "anno": 2011,
+      "classe_0_14": 257,
+      "classe_15_64": 1212,
+      "classe_65_piu": 433,
+      "totale": 1902,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 168.5,
+      "indice_dipendenza": 56.9,
+      "eta_media": 45.0,
+      "pagine_pdf": [
+        119,
+        121
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "anno": 2023,
+      "classe_0_14": 220,
+      "classe_15_64": 1136,
+      "classe_65_piu": 469,
+      "totale": 1825,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        119,
+        121
+      ]
+    },
+    {
+      "comune": "Luogosanto",
+      "slug": "luogosanto",
+      "fascia": "interna",
+      "anno": 2025,
+      "classe_0_14": 181,
+      "classe_15_64": 1151,
+      "classe_65_piu": 483,
+      "totale": 1815,
+      "quota_0_14_pct": 10.0,
+      "quota_15_64_pct": 63.4,
+      "quota_65_piu_pct": 26.6,
+      "indice_vecchiaia": 266.9,
+      "indice_dipendenza": 57.7,
+      "eta_media": 48.8,
+      "pagine_pdf": [
+        119,
+        121
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "anno": 2002,
+      "classe_0_14": 373,
+      "classe_15_64": 1818,
+      "classe_65_piu": 464,
+      "totale": 2655,
+      "quota_0_14_pct": 14.0,
+      "quota_15_64_pct": 68.5,
+      "quota_65_piu_pct": 17.5,
+      "indice_vecchiaia": 124.4,
+      "indice_dipendenza": 46.0,
+      "eta_media": 40.9,
+      "pagine_pdf": [
+        124,
+        126
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "anno": 2011,
+      "classe_0_14": 359,
+      "classe_15_64": 1808,
+      "classe_65_piu": 553,
+      "totale": 2720,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 153.6,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        124,
+        126
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "anno": 2023,
+      "classe_0_14": 278,
+      "classe_15_64": 1559,
+      "classe_65_piu": 592,
+      "totale": 2429,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        124,
+        126
+      ]
+    },
+    {
+      "comune": "Luras",
+      "slug": "luras",
+      "fascia": "interna",
+      "anno": 2025,
+      "classe_0_14": 255,
+      "classe_15_64": 1525,
+      "classe_65_piu": 588,
+      "totale": 2368,
+      "quota_0_14_pct": 10.8,
+      "quota_15_64_pct": 64.4,
+      "quota_65_piu_pct": 24.8,
+      "indice_vecchiaia": 230.6,
+      "indice_dipendenza": 55.3,
+      "eta_media": 47.5,
+      "pagine_pdf": [
+        124,
+        126
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "anno": 2002,
+      "classe_0_14": 522,
+      "classe_15_64": 3050,
+      "classe_65_piu": 771,
+      "totale": 4343,
+      "quota_0_14_pct": 12.0,
+      "quota_15_64_pct": 70.2,
+      "quota_65_piu_pct": 17.8,
+      "indice_vecchiaia": 147.7,
+      "indice_dipendenza": 42.4,
+      "eta_media": 42.8,
+      "pagine_pdf": [
+        129,
+        131
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "anno": 2011,
+      "classe_0_14": 584,
+      "classe_15_64": 3582,
+      "classe_65_piu": 1059,
+      "totale": 5225,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 181.3,
+      "indice_dipendenza": 45.9,
+      "eta_media": 45.0,
+      "pagine_pdf": [
+        129,
+        131
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "anno": 2023,
+      "classe_0_14": 470,
+      "classe_15_64": 3213,
+      "classe_65_piu": 1353,
+      "totale": 5036,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        129,
+        131
+      ]
+    },
+    {
+      "comune": "Santa Teresa Gallura",
+      "slug": "santa-teresa-gallura",
+      "fascia": "costiera",
+      "anno": 2025,
+      "classe_0_14": 454,
+      "classe_15_64": 3193,
+      "classe_65_piu": 1431,
+      "totale": 5078,
+      "quota_0_14_pct": 8.9,
+      "quota_15_64_pct": 62.9,
+      "quota_65_piu_pct": 28.2,
+      "indice_vecchiaia": 315.2,
+      "indice_dipendenza": 59.0,
+      "eta_media": 49.9,
+      "pagine_pdf": [
+        129,
+        131
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "anno": 2002,
+      "classe_0_14": 1921,
+      "classe_15_64": 9741,
+      "classe_65_piu": 2320,
+      "totale": 13982,
+      "quota_0_14_pct": 13.7,
+      "quota_15_64_pct": 69.7,
+      "quota_65_piu_pct": 16.6,
+      "indice_vecchiaia": 120.8,
+      "indice_dipendenza": 43.5,
+      "eta_media": 40.9,
+      "pagine_pdf": [
+        134,
+        136
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "anno": 2011,
+      "classe_0_14": 1791,
+      "classe_15_64": 9653,
+      "classe_65_piu": 2846,
+      "totale": 14290,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 158.9,
+      "indice_dipendenza": 48.0,
+      "eta_media": 43.8,
+      "pagine_pdf": [
+        134,
+        136
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "anno": 2023,
+      "classe_0_14": 1288,
+      "classe_15_64": 8523,
+      "classe_65_piu": 3427,
+      "totale": 13238,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        134,
+        136
+      ]
+    },
+    {
+      "comune": "Tempio Pausania",
+      "slug": "tempio-pausania",
+      "fascia": "interna",
+      "anno": 2025,
+      "classe_0_14": 1188,
+      "classe_15_64": 8317,
+      "classe_65_piu": 3531,
+      "totale": 13036,
+      "quota_0_14_pct": 9.1,
+      "quota_15_64_pct": 63.8,
+      "quota_65_piu_pct": 27.1,
+      "indice_vecchiaia": 297.2,
+      "indice_dipendenza": 56.7,
+      "eta_media": 49.6,
+      "pagine_pdf": [
+        134,
+        136
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "anno": 2002,
+      "classe_0_14": 270,
+      "classe_15_64": 1393,
+      "classe_65_piu": 366,
+      "totale": 2029,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 135.6,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        139,
+        141
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "anno": 2011,
+      "classe_0_14": 233,
+      "classe_15_64": 1463,
+      "classe_65_piu": 461,
+      "totale": 2157,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        139,
+        141
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "anno": 2023,
+      "classe_0_14": 196,
+      "classe_15_64": 1431,
+      "classe_65_piu": 612,
+      "totale": 2239,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 357.1,
+      "indice_dipendenza": 55.6,
+      "eta_media": 49.5,
+      "pagine_pdf": [
+        139,
+        141
+      ]
+    },
+    {
+      "comune": "Trinità d'Agultu e Vignola",
+      "slug": "trinita-d-agultu-e-vignola",
+      "fascia": "costiera",
+      "anno": 2025,
+      "classe_0_14": 180,
+      "classe_15_64": 1668,
+      "classe_65_piu": 663,
+      "totale": 2511,
+      "quota_0_14_pct": 7.2,
+      "quota_15_64_pct": 66.4,
+      "quota_65_piu_pct": 26.4,
+      "indice_vecchiaia": 368.3,
+      "indice_dipendenza": 50.5,
+      "eta_media": 48.2,
+      "pagine_pdf": [
+        139,
+        141
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "anno": 2002,
+      "classe_0_14": 233,
+      "classe_15_64": 1173,
+      "classe_65_piu": 307,
+      "totale": 1713,
+      "quota_0_14_pct": 13.6,
+      "quota_15_64_pct": 68.5,
+      "quota_65_piu_pct": 17.9,
+      "indice_vecchiaia": 131.8,
+      "indice_dipendenza": 46.0,
+      "eta_media": 41.4,
+      "pagine_pdf": [
+        144,
+        146
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "anno": 2011,
+      "classe_0_14": 198,
+      "classe_15_64": 1121,
+      "classe_65_piu": 389,
+      "totale": 1708,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": 196.5,
+      "indice_dipendenza": 52.4,
+      "eta_media": 44.9,
+      "pagine_pdf": [
+        144,
+        146
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "anno": 2023,
+      "classe_0_14": 143,
+      "classe_15_64": 1022,
+      "classe_65_piu": 431,
+      "totale": 1596,
+      "quota_0_14_pct": null,
+      "quota_15_64_pct": null,
+      "quota_65_piu_pct": null,
+      "indice_vecchiaia": null,
+      "indice_dipendenza": null,
+      "eta_media": null,
+      "pagine_pdf": [
+        144,
+        146
+      ]
+    },
+    {
+      "comune": "Viddalba",
+      "slug": "viddalba",
+      "fascia": "interna",
+      "anno": 2025,
+      "classe_0_14": 155,
+      "classe_15_64": 988,
+      "classe_65_piu": 435,
+      "totale": 1578,
+      "quota_0_14_pct": 9.8,
+      "quota_15_64_pct": 62.6,
+      "quota_65_piu_pct": 27.6,
+      "indice_vecchiaia": 280.6,
+      "indice_dipendenza": 59.7,
+      "eta_media": 49.4,
+      "pagine_pdf": [
+        144,
+        146
+      ]
+    },
+    {
+      "comune": "TOTALE ALTA GALLURA",
+      "slug": "totale-alta-gallura",
+      "fascia": "unione",
+      "anno": 2025,
+      "classe_0_14": 3247,
+      "classe_15_64": 22204,
+      "classe_65_piu": 9791,
+      "totale": 35242,
+      "quota_0_14_pct": 9.21,
+      "quota_15_64_pct": 63.0,
+      "quota_65_piu_pct": 27.78,
+      "indice_vecchiaia": 301.54,
+      "indice_dipendenza": 58.72,
+      "eta_media": 49.6,
+      "pagine_pdf": [
+        23,
+        24
+      ]
+    }
+  ]
+}

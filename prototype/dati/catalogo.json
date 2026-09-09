@@ -1,0 +1,1001 @@
+{
+  "titolo": "Catalogo dei dataset aperti — Sughero Sardegna",
+  "cup": "CUP E77G24000450002",
+  "soggetto": "Centro Studi R.I.S.S.T.E. APS",
+  "n": 36,
+  "note": "I dati del sito derivano dal database validato. I file identificativi delle imprese non sono pubblicati.",
+  "dataset": [
+    {
+      "id": "alta-gallura/confronto-costa-entroterra",
+      "titolo": "Confronto fascia costiera vs entroterra dell'Unione Alta Gallura (Tabella 1c e par. 1.7)",
+      "json": "dati/alta-gallura/confronto-costa-entroterra.json",
+      "csv": "dati/alta-gallura/confronto-costa-entroterra.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.7 (Tabella 1c), 1.7.1-1.7.4, 1.10",
+        "pagine_pdf": [
+          25,
+          26,
+          27,
+          29,
+          30
+        ]
+      },
+      "note": "Fascia costiera = Aglientu, Badesi, Santa Teresa Gallura, Trinità d'Agultu e Vignola (4 comuni); entroterra = Aggius, Bortigiadas, Calangianus, Luogosanto, Luras, Tempio Pausania, Viddalba (7 comuni).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/famiglie",
+      "titolo": "Famiglie e numero medio di componenti nei Comuni dell'Alta Gallura (2003, 2011, 2023, 2024)",
+      "json": "dati/alta-gallura/famiglie.json",
+      "csv": "dati/alta-gallura/famiglie.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Allegato I – Report demografico e socio-economico strutturale dei Comuni; Prima parte – Demografia (cap. 1) – par. 1.3 e 1.7.3",
+        "pagine_pdf": [
+          23,
+          26,
+          97,
+          101,
+          105,
+          109,
+          113,
+          118,
+          123,
+          128,
+          133,
+          138,
+          143
+        ]
+      },
+      "note": "Valori 2003/2011/2023 dalle tabelle delle schede comunali; 2024 dal testo delle schede (dove citato).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/filiere",
+      "titolo": "Le tre filiere della Green community Alta Gallura (bosco-sughero, bovina estensiva, suinicola agroforestale controllata) e il Contratto di Filiera",
+      "json": "dati/alta-gallura/filiere.json",
+      "csv": "dati/alta-gallura/filiere.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "4.5 Valorizzazione filiere; 4.5.1 Contratto di filiera; 4.5.2 Filiera bosco-sughero; 4.5.3 Filiera bovina estensiva; 4.5.4 Filiera suinicola agroforestale controllata; Figure 4c, 4d, 4e",
+        "pagine_pdf": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          91
+        ]
+      },
+      "note": "Gli 'attori/segmenti' delle filiere non sono elencati in una tabella: sono ricavati dal testo e dalle infografiche 4c-4e (catena bosco → decortica → trasformazione → prodotti; pascoli arborati → razze → carne certificata; bosco → semibrado → salumi).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/formazione-e-professioni",
+      "titolo": "Formazione specialistica, profili di qualificazione professionale (Tabella 2b), nuove professionalità territoriali, Living Lab e ricerca applicata in Alta Gallura",
+      "json": "dati/alta-gallura/formazione-e-professioni.json",
+      "csv": "dati/alta-gallura/formazione-e-professioni.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "2.3 Innovazione, ricerca e creatività (2.3.2 Living Lab territoriali, 2.3.3 Ricerca applicata, 2.3.4 Formazione specialistica, 2.3.5 Nuove professionalità territoriali); Tabella 2b (pag. 51, CSV tables/p051-t0.csv)",
+        "pagine_pdf": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      },
+      "note": "La Tabella 2b non riporta ore di formazione: il campo `ore` è null per tutti i profili. Riporta invece livello EQF e codice del Repertorio Regionale dei Profili di Qualificazione (Regione Sardegna).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/framework-green-community",
+      "titolo": "Framework Green community Alta Gallura: pilastri del modello territoriale integrato e modello di governance",
+      "json": "dati/alta-gallura/framework-green-community.json",
+      "csv": "dati/alta-gallura/framework-green-community.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "4.1 Framework Green community Alta Gallura; 4.2 Governance territoriale; 4.7.3 e 4.7.5 (organi futuri); Figura 2a (pag. 35) e Figura 4a (pag. 72)",
+        "pagine_pdf": [
+          14,
+          35,
+          47,
+          69,
+          70,
+          71,
+          72,
+          78,
+          79,
+          80,
+          81,
+          90,
+          91,
+          92
+        ]
+      },
+      "note": "I pilastri del framework territoriale (record `tipo` = `pilastro`) derivano dall'infografica di Figura 2a 'Schema concettuale: il modello territoriale integrato dell'Alta Gallura' (pag. 35), che li nomina esplicitamente; il testo di 4.1 li descrive in forma discorsiva.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/imprese",
+      "titolo": "Imprese attive nei Comuni dell'Alta Gallura 2021-2025 e macro-settori economici",
+      "json": "dati/alta-gallura/imprese.json",
+      "csv": "dati/alta-gallura/imprese.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.8, 1.9, 1.10, Tabella 1d, Figura 1a",
+        "pagine_pdf": [
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      "note": "Fonte dei dati imprese: Registro Imprese CCIAA e Registro ASIA-ISTAT 2021-2025 (nota 1, p.24).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/indicatori-esg",
+      "titolo": "Indicatori di sostenibilità (KPI ESG) trasversali e per filiera della Green community Alta Gallura",
+      "json": "dati/alta-gallura/indicatori-esg.json",
+      "csv": "dati/alta-gallura/indicatori-esg.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "4.3.1 Indicatori di sostenibilità; 4.5 (set integrato); 4.5.2.1 (sughero), 4.5.3 par. monitoraggio (bovina), 4.5.4 par. monitoraggio (suinicola); Figura 4a",
+        "pagine_pdf": [
+          72,
+          73,
+          79,
+          81,
+          82,
+          84,
+          85,
+          87,
+          88,
+          90
+        ]
+      },
+      "note": "Il documento presenta il sistema KPI come 'framework preliminare di monitoraggio' (pag. 73): gli indicatori sono descritti in modo qualitativo, senza valori target, unità formali o fonti dato codificate. `unita` e `fonte_dato` sono quindi `null` salvo dove il testo li suggerisce esplicitamente (es. 'tonnellate di CO2 equivalente per unità di prodotto finito', 'percentuale di aziende').",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/kpi-sintesi",
+      "titolo": "KPI di sintesi demografico-economica dell'Unione dei Comuni dell'Alta Gallura",
+      "json": "dati/alta-gallura/kpi-sintesi.json",
+      "csv": "dati/alta-gallura/kpi-sintesi.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Prima parte – Demografia (cap. 1)",
+        "pagine_pdf": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          28,
+          30
+        ]
+      },
+      "note": "Selezione di 16 indicatori 'da titolo' per la landing page, tutti a livello di Unione (o di fascia dove indicato); valori come scritti nel cap. 1.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/matrice-pedologia-uso-suolo",
+      "titolo": "Matrice pedologia × uso del suolo: principali combinazioni per Comune (Alta Gallura)",
+      "json": "dati/alta-gallura/matrice-pedologia-uso-suolo.json",
+      "csv": "dati/alta-gallura/matrice-pedologia-uso-suolo.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale – Schede comunali preliminari, par. 'Lettura della matrice pedologia × uso del suolo'",
+        "pagine_pdf": [
+          156,
+          158,
+          160,
+          161,
+          163,
+          164,
+          165,
+          167,
+          168,
+          170,
+          171
+        ]
+      },
+      "note": "Per ogni Comune il documento pubblica solo le 5 combinazioni principali (classe di uso del suolo su unità pedologica) con superficie in ha e incidenza % sul territorio comunale; la matrice completa (tabella 'Comuni intersezione UdS-Pedologia', pag. 153) non è riprodotta nel documento.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/natura-2000-e-vincoli",
+      "titolo": "Siti Natura 2000 e altre aree tutelate, vincoli, vulnerabilità ambientali e rischio incendio nell'Unione Alta Gallura",
+      "json": "dati/alta-gallura/natura-2000-e-vincoli.json",
+      "csv": "dati/alta-gallura/natura-2000-e-vincoli.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Seconda parte – Ambiente e territorio par. 2.2.1, 2.2.6-2.2.9 (pag. 39-46); Terza parte – I Comuni dell'Unione (pag. 56-68); Quarta parte par. 4.4.1-4.4.2 (pag. 75-77); Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale (pag. 197, 213)",
+        "pagine_pdf": [
+          39,
+          40,
+          43,
+          44,
+          45,
+          46,
+          56,
+          58,
+          64,
+          65,
+          66,
+          67,
+          75,
+          76,
+          77,
+          197,
+          213
+        ]
+      },
+      "note": "Il documento non riporta i codici ufficiali (ITB...) dei siti Natura 2000 né un elenco tabellare: i siti sono quelli citati nel testo, con la tipologia indicata dal documento (null se non specificata). L'unica superficie riportata è quella del Monte Limbara (16588 ha, pag. 44).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/obiettivi-studio",
+      "titolo": "Finalità, obiettivi strategici e operativi, destinatari e gruppo di lavoro dello studio regionale sul sughero sardo",
+      "json": "dati/alta-gallura/obiettivi-studio.json",
+      "csv": "dati/alta-gallura/obiettivi-studio.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "I. Premessa (par. i-v) e II. Quadro metodologico (par. vii Gruppo di lavoro)",
+        "pagine_pdf": [
+          13,
+          14,
+          15,
+          18,
+          19
+        ]
+      },
+      "note": "Testo sintetizzato in modo fedele dai paragrafi ii (Finalità), iii (Obiettivi strategici e operativi) e vii (Gruppo di lavoro); la suddivisione in punti degli obiettivi è redazionale, il documento li espone in forma discorsiva.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/output-attesi",
+      "titolo": "Output ambientali e territoriali attesi della Green community Alta Gallura",
+      "json": "dati/alta-gallura/output-attesi.json",
+      "csv": "dati/alta-gallura/output-attesi.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "4.6 Output ambientali e territoriali; output citati in 4.4.3, 4.5, 4.7 e Figura 4a",
+        "pagine_pdf": [
+          72,
+          73,
+          77,
+          78,
+          79,
+          80,
+          83,
+          86,
+          89,
+          90,
+          91,
+          92
+        ]
+      },
+      "note": "Il paragrafo 4.6 è breve e descrive un solo output formale: il Sistema Informativo Territoriale (GIS) dedicato alla Green community, rimandando all'Allegato II per architettura e atlante cartografico. È l'unico record con `da_paragrafo_4_6` = true.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/pedologia-comuni",
+      "titolo": "Unità pedologiche per Comune dell'Unione Alta Gallura (Carta dei Suoli della Sardegna 1:250.000)",
+      "json": "dati/alta-gallura/pedologia-comuni.json",
+      "csv": "dati/alta-gallura/pedologia-comuni.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale – Schede comunali preliminari, par. 'Sintesi pedologica'",
+        "pagine_pdf": [
+          156,
+          158,
+          160,
+          161,
+          162,
+          164,
+          165,
+          167,
+          168,
+          169,
+          171
+        ]
+      },
+      "note": "Le schede riportano le 'principali unità pedologiche' (4-5 per Comune). La somma delle incidenze per Comune è compresa tra il 95,1% e il 100,0%: Aggius 99.8%; Aglientu 99.9%; Badesi 100.0%; Bortigiadas 96.3%; Calangianus 99.6%; Luogosanto 99.9%; Luras 99.7%; Santa Teresa Gallura 97.6%; Tempio Pausania 97.9%; Trinità d'Agultu e Vignola 98.2%; Viddalba 95.1%. La quota residua non è dettagliata nel documento.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/popolazione-storica",
+      "titolo": "Popolazione residente nei Comuni dell'Alta Gallura 2001-2025",
+      "json": "dati/alta-gallura/popolazione-storica.json",
+      "csv": "dati/alta-gallura/popolazione-storica.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.1, Tabella 1a; par. 1.7, Tabella 1c; Allegato I – Report demografico e socio-economico strutturale dei Comuni",
+        "pagine_pdf": [
+          21,
+          22,
+          25,
+          97,
+          101,
+          105,
+          109,
+          113,
+          118,
+          123,
+          128,
+          133,
+          138,
+          143
+        ]
+      },
+      "note": "Abitanti 2001 e 2011: censimenti ISTAT; 2023: residenti al 31 dicembre 2023; 2025: residenti al 1° gennaio 2025 (le schede dell'Allegato I chiamano lo stesso dato 'popolazione 2024').",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/roadmap",
+      "titolo": "Roadmap operativa 36 mesi del focus Gallura: fasi, azioni numerate, aree pilota, governance futura, ulteriori contratti di filiera e Living Lab",
+      "json": "dati/alta-gallura/roadmap.json",
+      "csv": "dati/alta-gallura/roadmap.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "4.7 Roadmap operativa e prospettive (4.7.1-4.7.5) e Figura 4f (pag. 90)",
+        "pagine_pdf": [
+          80,
+          83,
+          89,
+          90,
+          91,
+          92
+        ]
+      },
+      "note": "Fasi, numerazione delle azioni e finestre temporali (M = mese) sono leggibili SOLO nell'infografica Figura 4f: il testo di 4.7 non riporta mesi né numeri d'azione. I titoli delle azioni sono trascritti come compaiono nell'infografica.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/saldi-demografici",
+      "titolo": "Saldo naturale e saldo migratorio cumulati 2002-2023 nei Comuni dell'Alta Gallura",
+      "json": "dati/alta-gallura/saldi-demografici.json",
+      "csv": "dati/alta-gallura/saldi-demografici.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.2, Tabella 1b; par. 1.7, Tabella 1c; Allegato I – Report demografico e socio-economico strutturale dei Comuni",
+        "pagine_pdf": [
+          22,
+          23,
+          25,
+          26,
+          97,
+          101,
+          105,
+          109,
+          113,
+          118,
+          123,
+          128,
+          133,
+          138,
+          143
+        ]
+      },
+      "note": "Saldo naturale = nati meno morti; saldo migratorio totale = iscritti meno cancellati anagrafici; entrambi cumulati 2002-2023 (schede Allegato I e Tabella 1b).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/scenari-2035",
+      "titolo": "Scenari demografici e imprenditoriali al 2035 per l'Unione dei Comuni dell'Alta Gallura",
+      "json": "dati/alta-gallura/scenari-2035.json",
+      "csv": "dati/alta-gallura/scenari-2035.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Prima parte – Demografia (cap. 1) – par. 1.6 e 1.11; Allegato I – Report demografico e socio-economico strutturale dei Comuni (stime comunali)",
+        "pagine_pdf": [
+          24,
+          25,
+          30,
+          31,
+          100,
+          104,
+          108,
+          112,
+          117,
+          122,
+          127,
+          132,
+          137,
+          142,
+          147
+        ]
+      },
+      "note": "Modello (nota 1, p.24): tasso medio annuo di variazione assoluta 2011-2023, r_com = (P2023 - P2011)/12; scenario lineare P2035 = P2025 + r_com x 10 (nota 3, p.25).",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/schede-comuni",
+      "titolo": "Schede territoriali dei Comuni dell'Unione Alta Gallura (funzione territoriale, inquadramento, implicazioni per le filiere, criticità, opportunità, elementi identitari)",
+      "json": "dati/alta-gallura/schede-comuni.json",
+      "csv": "dati/alta-gallura/schede-comuni.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Seconda parte – Ambiente e territorio (Tab. 2a, pag. 37); Terza parte – I Comuni dell'Unione (pag. 53-68); Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale – Schede comunali preliminari (pag. 156-172)",
+        "pagine_pdf": [
+          37,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172
+        ]
+      },
+      "note": "fascia: costiera (Aglientu, Badesi, Santa Teresa Gallura, Trinità d'Agultu e Vignola) / interna (gli altri 7 Comuni), coerente con la classificazione costa/entroterra usata dallo studio e dagli altri dataset della cartella. posizione_parte3 riporta la lettura del quadro sinottico (pag. 53), che colloca Viddalba 'in posizione di cerniera idrografica e di transizione' tra le due macro-aree.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/servizi-ecosistemici-carbon-farming",
+      "titolo": "Servizi ecosistemici, impronte ecologiche (Water e Carbon Footprint) e Carbon Farming nella Green community Alta Gallura",
+      "json": "dati/alta-gallura/servizi-ecosistemici-carbon-farming.json",
+      "csv": "dati/alta-gallura/servizi-ecosistemici-carbon-farming.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "4.3.2 Impronte ecologiche; 4.3.3 Servizi ecosistemici e Carbon Farming; applicazioni per filiera 4.5.2.2-4.5.2.4 (sughero, bovina, suinicola); 4.7.3; Figura 4b",
+        "pagine_pdf": [
+          73,
+          74,
+          75,
+          80,
+          82,
+          83,
+          85,
+          88,
+          91
+        ]
+      },
+      "note": "Il documento introduce servizi ecosistemici, impronte e Carbon Farming 'in via preliminare come framework metodologico': non contiene alcuna quantificazione biofisica o economica (nessun valore di t CO2/ha, m3 di acqua, euro/credito). I record `tipo` = `valore_numerico` riportano gli unici numeri presenti nel testo.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/sintesi-comparativa-comuni",
+      "titolo": "Sintesi comparativa preliminare dei Comuni: vocazione sughericola, interesse suinicolo agroforestale, fragilità pedologica, priorità di approfondimento; gruppi funzionali e quadro delle vocazioni territoriali",
+      "json": "dati/alta-gallura/sintesi-comparativa-comuni.json",
+      "csv": "dati/alta-gallura/sintesi-comparativa-comuni.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale – Sintesi comparativa preliminare, Lettura conclusiva preliminare, Quadro sintetico delle vocazioni territoriali",
+        "pagine_pdf": [
+          172,
+          178
+        ]
+      },
+      "note": "Categorie qualitative mantenute come nel documento; le forme spezzate dall'estrazione PDF ('Medio- bassa', 'Medio- alta') sono state ricomposte in 'Medio-bassa', 'Medio-alta'.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/stranieri-e-scuola",
+      "titolo": "Popolazione straniera residente (1° gennaio 2025) e utenza scolastica potenziale 0-18 nei Comuni dell'Alta Gallura",
+      "json": "dati/alta-gallura/stranieri-e-scuola.json",
+      "csv": "dati/alta-gallura/stranieri-e-scuola.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Allegato I – Report demografico e socio-economico strutturale dei Comuni; Prima parte – Demografia (cap. 1) – par. 1.5, 1.7.3, 1.7.4",
+        "pagine_pdf": [
+          24,
+          26,
+          27,
+          97,
+          101,
+          105,
+          109,
+          113,
+          118,
+          123,
+          128,
+          133,
+          138,
+          143
+        ]
+      },
+      "note": "Stranieri residenti al 1° gennaio 2025 e incidenza % sul totale dei residenti, come scritto nelle schede; le quote per continente e paese sono % sul totale degli stranieri del comune.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/strumenti-valorizzazione",
+      "titolo": "Strumenti di valorizzazione territoriale della Green community Alta Gallura (habitat e Natura 2000, vulnerabilità e rischio incendio, uso del suolo e sistemi produttivi integrati)",
+      "json": "dati/alta-gallura/strumenti-valorizzazione.json",
+      "csv": "dati/alta-gallura/strumenti-valorizzazione.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "4.4 Strumenti di valorizzazione territoriale (4.4.1, 4.4.2, 4.4.3)",
+        "pagine_pdf": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      "note": "Il paragrafo 4.4 descrive gli strumenti in forma discorsiva: la ripartizione in obiettivi/azioni/strumenti è redazionale ma usa le formulazioni del testo.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/struttura-eta",
+      "titolo": "Struttura della popolazione per classi di età (2002, 2011, 2023, 2025) nei Comuni dell'Alta Gallura",
+      "json": "dati/alta-gallura/struttura-eta.json",
+      "csv": "dati/alta-gallura/struttura-eta.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Allegato I – Report demografico e socio-economico strutturale dei Comuni; Prima parte – Demografia (cap. 1) – par. 1.4",
+        "pagine_pdf": [
+          23,
+          24,
+          97,
+          101,
+          105,
+          109,
+          113,
+          118,
+          123,
+          128,
+          133,
+          138,
+          143
+        ]
+      },
+      "note": "Dati al 1° gennaio di ciascun anno (tabelle 'Anno (1° Gen)' delle schede comunali). Per questo i totali 2011 e 2023 NON coincidono con la Tabella 1a (censimento 2011 e residenti al 31/12/2023): es. Tempio Pausania 14.290 vs 13.936 (2011) e 13.238 vs 13.133 (2023); Santa Teresa 5.225 vs 5.018; Trinità d'Agultu 2.239 vs 2.351 (2023). I totali 2025 coincidono con la Tabella 1a.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/superfici-unione",
+      "titolo": "Superfici e grandezze territoriali di scala sovracomunale riportate nello studio (Unione Alta Gallura, distretti forestali, Limbara)",
+      "json": "dati/alta-gallura/superfici-unione.json",
+      "csv": "dati/alta-gallura/superfici-unione.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Seconda parte – Ambiente e territorio par. 2.2.1-2.2.6 (pag. 39-44), 2.3.3 (pag. 47-48)",
+        "pagine_pdf": [
+          39,
+          40,
+          41,
+          42,
+          44,
+          48
+        ]
+      },
+      "note": "Il documento NON riporta la superficie complessiva dell'Unione né totali di superfici agricole, pascolive, forestali o di sugherete a scala di Unione: i relativi indicatori sono presenti con valore null.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "alta-gallura/uso-suolo-comuni",
+      "titolo": "Uso del suolo per Comune dell'Unione Alta Gallura (principali classi CORINE, Carta dell'Uso del Suolo 2008) e superficie delle sugherete",
+      "json": "dati/alta-gallura/uso-suolo-comuni.json",
+      "csv": "dati/alta-gallura/uso-suolo-comuni.csv",
+      "fonte": {
+        "documento": "parte1",
+        "capitolo": "Allegato II – Sistema Informativo Territoriale, cartografia e analisi biofisica dello spazio rurale – Schede comunali preliminari, par. 'Sintesi dell’uso del suolo'",
+        "pagine_pdf": [
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ]
+      },
+      "note": "Le schede riportano solo le prime 6 classi di uso del suolo per Comune (le 'principali classi'); l'elenco completo per Comune non è pubblicato nel documento (le tabelle finali pag. 173-219 contengono vocazioni, ambiti e roadmap, non tabelle estese di uso del suolo). Le percentuali quindi non sommano a 100.",
+      "area": "Focus Gallura"
+    },
+    {
+      "id": "comuni-index",
+      "titolo": "Indice trasversale dei comuni presenti nel sito",
+      "json": "dati/comuni-index.json",
+      "csv": "dati/comuni-index.csv",
+      "fonte": {
+        "documento": "parte1+parte2",
+        "capitolo": "derivato da popolazione-storica.json e comuni-sughereta.json",
+        "pagine_pdf": []
+      },
+      "note": "Chiave di join tra le due sezioni del sito: `slug`. `in_alta_gallura` = uno degli 11 comuni dell'Unione; `in_sughereta_30` = uno dei 30 comuni prioritari della Sughereta Sardegna.",
+      "area": "Trasversale"
+    },
+    {
+      "id": "sughero-sardegna/bibliografia-scientifica",
+      "titolo": "Database bibliografico del Technology Scouting sul sughero (Allegato II) – 153 record, 2015-2026",
+      "json": "dati/sughero-sardegna/bibliografia-scientifica.json",
+      "csv": "dati/sughero-sardegna/bibliografia-scientifica.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Allegato II – Database bibliografia scientifica",
+        "pagine_pdf": [
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194
+        ],
+        "file_grezzi": "source/parte2-filiera-sughero-sardegna/tables/p142-t0.csv … p194-t0.csv",
+        "script": "data/sughero-sardegna/parse_bibliografia.py"
+      },
+      "note": "Record contati nel database: 153 (il testo a pag. 29 e 32 parla di 166 pubblicazioni, la Figura 5 e la Figura 6 di 153: vedi bibliografia-scientifica.schema.md).",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/comuni-sughereta",
+      "titolo": "Sughereta Sardegna – i 30 comuni prioritari con IVP, pericolo incendio (IPI) e ICR",
+      "json": "dati/sughero-sardegna/comuni-sughereta.json",
+      "csv": "dati/sughero-sardegna/comuni-sughereta.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Allegato I – Studio tecnico sugherete: dossier comunale integrato (quadro sinottico pag. 50-51; schede comunali 01-30 pag. 52-141)",
+        "pagine_pdf": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141
+        ],
+        "file": [
+          "source/parte2-filiera-sughero-sardegna/capitoli/08-allegato1-studio-tecnico-sugherete.md",
+          "source/parte2-filiera-sughero-sardegna/tables/p050-t1.csv … p140-t2.csv",
+          "source/parte2-filiera-sughero-sardegna/images/fig-2-ivp-ranking-30-comuni.jpeg",
+          "source/parte2-filiera-sughero-sardegna/images/fig-3-ipi-pericolosita-incendio-30-comuni.jpeg",
+          "source/parte2-filiera-sughero-sardegna/images/fig-4-icr-continuita-risorsa-30-comuni.jpeg"
+        ]
+      },
+      "note": "Un record per comune (30). Tutti i valori scalari provengono dal quadro sintetico in testa a ciascuna scheda comunale e sono stati verificati contro la sintesi esecutiva, le tabelle interne (pedologica, incendio, ICR, matrice) e il quadro sinottico di pag. 50-51: nessuna differenza tra sinottico e schede.",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/conclusioni",
+      "titolo": "Conclusioni e prospettive dello studio (Quinta parte) – messaggi chiave e raccomandazioni",
+      "json": "dati/sughero-sardegna/conclusioni.json",
+      "csv": "dati/sughero-sardegna/conclusioni.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Quinta parte – Conclusioni e prospettive (par. 5); raccomandazioni integrate da par. 3.3.3, 3.4.2 e 4.4",
+        "pagine_pdf": [
+          45,
+          46
+        ]
+      },
+      "note": "I messaggi chiave sono frasi tratte fedelmente dal testo delle pagg. 45-46 (una frase ciascuno, eventualmente abbreviata con '…' senza alterarne il senso).",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/contesto-sughero-sardegna",
+      "titolo": "Contesto regionale della filiera del sughero in Sardegna – numeri e riferimenti citati nello studio (Parte 2)",
+      "json": "dati/sughero-sardegna/contesto-sughero-sardegna.json",
+      "csv": "dati/sughero-sardegna/contesto-sughero-sardegna.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Prima parte – Contesto strategico dello studio (par. 1, 1.1, 1.2); richiami da par. 2.2 e 3.1",
+        "pagine_pdf": [
+          15,
+          16,
+          17,
+          18,
+          20,
+          27
+        ]
+      },
+      "note": "Lo studio (Parte 2) NON riporta dati quantitativi su produzione annua di sughero, numero di imprese, addetti, export o quota della Sardegna sulla produzione mondiale: gli indicatori corrispondenti sono valorizzati a null con spiegazione. Il documento descrive il distretto industriale e la filiera in termini qualitativi.",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/direttrici-innovazione",
+      "titolo": "Direttrici di innovazione della filiera del sughero (Tabella 1) con driver europei, evidenze, maturità e opportunità per la Sardegna",
+      "json": "dati/sughero-sardegna/direttrici-innovazione.json",
+      "csv": "dati/sughero-sardegna/direttrici-innovazione.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Tabella 1 (pag. 40); par. 4.3 (pagg. 37-38); par. 3.3.2-3.3.3 (pagg. 30-33); Figura 6 (pag. 32)",
+        "pagine_pdf": [
+          30,
+          31,
+          32,
+          33,
+          37,
+          38,
+          40
+        ],
+        "file_grezzo": "source/parte2-filiera-sughero-sardegna/tables/p040-t0.csv"
+      },
+      "note": "Le colonne originali della Tabella 1 sono: Ambito strategico | Driver europeo di riferimento | Evidenze emerse | Opportunità per la Sardegna. Sono mappate su: direttrice | driver_europeo | evidenze_emerse (= esempi/applicazioni) | opportunita_sardegna (= rilevanza per la Sardegna).",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/framework-sughera",
+      "titolo": "Framework S.U.G.H.E.R.A. – modello integrato per la valorizzazione della Sughereta Sardegna",
+      "json": "dati/sughero-sardegna/framework-sughera.json",
+      "csv": "dati/sughero-sardegna/framework-sughera.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "par. 4.5 (pagg. 41-44); Figura 7 (pag. 43); Lista abbreviazioni (pag. 9); Conclusioni (pag. 45); profili integrati dall'Allegato I (pagg. 49-141)",
+        "pagine_pdf": [
+          9,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "immagine": "source/parte2-filiera-sughero-sardegna/images/fig-7-framework-sughera.jpeg"
+      },
+      "note": "L'acronimo compare in due versioni: inglese 'Strategic Unified Governance, Habitat Evaluation and Regional Assessment' (pagg. 42, 43, 45 e Figura 7) e italiana 'Sistema Unificato di Gestione, Habitat, Ecosistemi, Resilienza e Analisi' (Lista abbreviazioni, pag. 9, tabella p009-t0.csv, con la dicitura 'acronimo proposto nel presente studio').",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/indici-definizioni",
+      "titolo": "Definizione degli indici territoriali IVP, IPI e ICR e legenda dei profili integrati",
+      "json": "dati/sughero-sardegna/indici-definizioni.json",
+      "csv": "dati/sughero-sardegna/indici-definizioni.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Par. 2.2 Analisi territoriale (pag. 19-21); par. 3.2 (pag. 27-29); par. 4.1-4.2 (pag. 35-37); Allegato I nota metodologica (pag. 50) e schede comunali (pag. 52-141); Figure 2-4 (pag. 28-30)",
+        "pagine_pdf": [
+          19,
+          20,
+          21,
+          27,
+          28,
+          29,
+          30,
+          35,
+          36,
+          37,
+          50,
+          51,
+          141
+        ]
+      },
+      "note": "Il documento NON esplicita le soglie numeriche delle classi né nel par. 2.2 né nell'Allegato I. Le uniche soglie scritte sono nelle legende delle Figure 2 e 4, ma non sono coerenti con la classificazione adottata nei dossier (es. Bitti IVP 3,317 è 'Alta' nel dossier, mentre la legenda di Fig. 2 richiede IVP ≥ 3,50; Bitti quota nucleo 74,37% è 'Media' nel dossier, mentre la legenda di Fig. 4 assegna 'Alta' a ICR ≥ 70). Per ogni indice riportiamo quindi: (a) le soglie di legenda delle figure, con avvertenza; (b) gli intervalli empirici min-max osservati nei 30 dossier per ciascuna classe (`intervalli_osservati`), che sono ciò su cui il sito può fare affidamento.",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/sintesi-regionale",
+      "titolo": "Sughereta Sardegna – sintesi regionale dei 30 comuni prioritari",
+      "json": "dati/sughero-sardegna/sintesi-regionale.json",
+      "csv": "dati/sughero-sardegna/sintesi-regionale.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Par. 2.2 (pag. 20), par. 3.1-3.2 (pag. 27-29), Allegato I (pag. 50-141); conteggi ricalcolati da comuni-sughereta.json",
+        "pagine_pdf": [
+          20,
+          27,
+          28,
+          29,
+          50,
+          51
+        ]
+      },
+      "note": "I conteggi per classe sono calcolati dal dataset dei 30 dossier e confrontati con quanto scrive il testo (par. 3.2). Differenze: IVP – testo '22 Alta, 4 Media, 4 Bassa' vs dossier 21/4/5 (il testo stesso elenca cinque comuni a vocazionalità inferiore: Abbasanta, Pozzomaggiore, Aidomaggiore, Mores e Ardara, che nei dossier sono tutti 'Bassa'); ICR – testo '8 comuni a continuità elevata' (Berchidda, Buddusò, Alà dei Sardi, Telti, Illorai, Pozzomaggiore, Abbasanta, Iglesias) vs dossier 9 (in più Aidomaggiore, ICR Alta con quota del complesso maggiore 93,42%). Per il pericolo incendio il testo non dà conteggi.",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/strumenti-certificazione",
+      "titolo": "Strumenti di gestione sostenibile e certificazione per la filiera del sughero (Tabella 2 e par. 3.4.2 / 4.4)",
+      "json": "dati/sughero-sardegna/strumenti-certificazione.json",
+      "csv": "dati/sughero-sardegna/strumenti-certificazione.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "Tabella 2 (pag. 41); par. 2.4 (pag. 22); par. 2.5 (pag. 23); par. 3.4.2 (pag. 34); par. 4.4 (pagg. 38-41); Conclusioni (pag. 45); Figura 1 (pag. 26)",
+        "pagine_pdf": [
+          22,
+          23,
+          26,
+          34,
+          38,
+          39,
+          41,
+          45
+        ],
+        "file_grezzo": "source/parte2-filiera-sughero-sardegna/tables/p041-t0.csv"
+      },
+      "note": "Le colonne originali della Tabella 2 sono: Strumento | Finalità principale | Contributo alla filiera del sughero. Sono mappate su `strumento`, `cosa_certifica` (finalità) e `rilevanza_filiera` (contributo).",
+      "area": "Sughero Sardegna"
+    },
+    {
+      "id": "sughero-sardegna/technology-scouting",
+      "titolo": "Technology Scouting sul sughero – metodologia, distribuzione geografica, ambiti di innovazione e maturità tecnologica",
+      "json": "dati/sughero-sardegna/technology-scouting.json",
+      "csv": "dati/sughero-sardegna/technology-scouting.csv",
+      "fonte": {
+        "documento": "parte2",
+        "capitolo": "par. 2.4-2.6 (metodologia, pagg. 21-24); par. 3.3 (risultati, pagg. 29-33); Figura 5 (pag. 31) e Figura 6 (pag. 32)",
+        "pagine_pdf": [
+          21,
+          22,
+          23,
+          24,
+          29,
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "note": "Numero di pubblicazioni: il testo dice '166 pubblicazioni' (pag. 29, par. 3.3) e 'Distribuzione delle 166 pubblicazioni' (didascalia Figura 6, pag. 32), ma parla anche di '153 pubblicazioni selezionate' (pag. 30, par. 3.3.2) e la Figura 5 e la Figura 6 riportano totale 153. Il database dell'Allegato II contiene 153 record: il numero 153 è quello coerente con le figure e con i dati; 166 è verosimilmente il numero di pubblicazioni prima della selezione/validazione, ma il documento non lo spiega.",
+      "area": "Sughero Sardegna"
+    }
+  ]
+}
