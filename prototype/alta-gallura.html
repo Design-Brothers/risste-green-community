@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Un territorio a due velocità — Alta Gallura</title>
+<meta name="description" content="Undici comuni tra costa e Limbara. La costa cresce, l'interno invecchia, il sughero tiene insieme il territorio. I numeri dello studio e la scheda di ogni comune.">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip-link" href="#contenuto">Salta al contenuto</a>
+
+<svg class="grain" aria-hidden="true"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(#grain)"/></svg>
+
+<nav class="nav" aria-label="Navigazione principale">
+  <div class="nav-inner">
+    <a href="index.html" aria-label="Home — Green community Alta Gallura"><img class="nav-logo" src="assets/logo-risste-orizzontale.png" alt="RISSTE"></a>
+    <div class="nav-links">
+      <a href="index.html#progetto">Progetto</a>
+      <a class="active" href="alta-gallura.html">Alta Gallura</a>
+      <a href="#" onclick="return false" title="In arrivo nel prototipo finale">Sughero Sardegna</a>
+      <a class="nav-cta" href="#comuni">Gli 11 comuni</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO DI SEZIONE ============ -->
+<header class="page-hero" id="top">
+  <div class="ghost" aria-hidden="true" style="left:-3vw">DUE&nbsp;VELOCITÀ</div>
+  <span class="hero-corner tl micro left">Sezione 01 — Alta Gallura</span>
+  <span class="hero-corner bl micro left">Studio 1 — Green community UCAG 193</span>
+
+  <div class="hero-content container">
+    <p class="micro left">Demografia · Ambiente · 11 comuni</p>
+    <h1 style="margin-top:24px">Un territorio<br>a <em style="color:var(--green)">due velocità</em></h1>
+    <p class="standfirst">La costa attrae, l'entroterra invecchia. L'Alta Gallura tiene insieme grazie a chi arriva e a ciò che la lega: il sughero.</p>
+  </div>
+  <p class="scroll-hint" aria-hidden="true">Scorri<span>↓</span></p>
+</header>
+
+<!-- ============ INTRO A CAPITOLI ============ -->
+<div id="capitoli" aria-label="I numeri principali della sezione"></div>
+
+<!-- ============ SOTTOMENU ============ -->
+<nav class="subnav" aria-label="In questa pagina">
+  <div class="subnav-inner">
+    <a href="#popolazione">Popolazione</a>
+    <a href="#saldi">Nascite e arrivi</a>
+    <a href="#eta">Età e famiglie</a>
+    <a href="#economia">Economia e scenari</a>
+    <a href="#ambiente">Il sughero</a>
+    <a href="#comuni">Gli 11 comuni</a>
+    <a href="#approfondimenti">Approfondimenti</a>
+  </div>
+</nav>
+
+<main id="contenuto">
+
+<!-- ============ 1. POPOLAZIONE ============ -->
+<section class="section" id="popolazione">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">2001 → 2025</p>
+      <h2 class="section-title">La costa cresce, l'interno si spopola.</h2>
+      <p class="section-lead">Dal 2001 l'Unione ha perso il 4 % dei residenti, ma il dato nasconde due traiettorie. Santa Teresa Gallura, Trinità d'Agultu e Aglientu crescono tra il 7 e il 16 %; Bortigiadas, Calangianus e Aggius perdono tra il 16 e il 20 %. Tempio Pausania, il centro maggiore, scende del 6 %.</p>
+    </div>
+
+    <div class="kpi-row cols-3 reveal">
+      <div class="kpi-card">
+        <div class="kpi-value positive">+<span data-count="14" data-dec="1">0</span><span class="unit">%</span></div>
+        <div class="kpi-label">Fascia costiera, 2001-2025</div>
+        <div class="kpi-hint">Da 9.308 a 10.616 residenti nei quattro comuni sul mare.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, Tab. 1c, p. 25</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value negative">−<span data-count="10.1" data-dec="1">0</span><span class="unit">%</span></div>
+        <div class="kpi-label">Entroterra, 2001-2025</div>
+        <div class="kpi-hint">Da 27.386 a 24.626 residenti nei sette comuni interni.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, Tab. 1c, p. 25</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">−<span data-count="4" data-dec="1">0</span><span class="unit">%</span></div>
+        <div class="kpi-label">Unione, 2001-2023</div>
+        <div class="kpi-hint">Il saldo complessivo nasconde le due velocità.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, Tab. 1a, p. 21</span></div>
+      </div>
+    </div>
+
+    <div class="chart-block reveal">
+      <h3 class="chart-title">Ogni comune sulla sua traiettoria</h3>
+      <p class="chart-sub">Residenti 2001 e 2025, variazione % 2001-2023 · blu = costa, verde = interno</p>
+      <div class="chart-body" id="slope-pop"></div>
+      <div class="chart-legend"><span><i style="background:var(--blue)"></i>Asse costiero (4 comuni)</span><span><i style="background:var(--green)"></i>Asse interno (7 comuni)</span></div>
+      <p class="chart-source">Fonte: Studio 1, cap. 1, Tab. 1a, p. 22 · ISTAT, censimenti e anagrafe.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. SALDI ============ -->
+<section class="section" id="saldi">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">2002 → 2023</p>
+      <h2 class="section-title">Meno nascite, più arrivi: il territorio si regge sulla compensazione.</h2>
+      <p class="section-lead">In tutti gli undici comuni muoiono più persone di quante ne nascano. I nuovi arrivi, per tre quarti sulla costa, coprono quasi tutto il deficit naturale.</p>
+    </div>
+
+    <div class="chart-block reveal">
+      <h3 class="chart-title">Saldo naturale e saldo migratorio cumulati</h3>
+      <p class="chart-sub">Nati meno morti (sinistra) e iscritti meno cancellati (destra), 2002-2023 · persone</p>
+      <div class="chart-body" id="diverge-saldi" style="margin-top:30px"></div>
+      <div class="chart-legend">
+        <span><i style="background:rgba(224,89,42,.5)"></i>Saldo naturale</span>
+        <span><i style="background:rgba(78,154,63,.5)"></i>Saldo migratorio</span>
+      </div>
+      <p class="chart-source">Fonte: Studio 1, cap. 1, Tab. 1b-1c, p. 22-25. I flussi migratori coprono il 96,6 % del deficit naturale; la costa ne cattura il 77,2 %.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. ETÀ E FAMIGLIE ============ -->
+<section class="section" id="eta">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Struttura della popolazione</p>
+      <h2 class="section-title">Più anziani, famiglie più piccole.</h2>
+      <p class="section-lead">Le famiglie aumentano del 19 % ma si restringono: 2,1 componenti in media, molti anziani soli. Il ricambio generazionale è il nodo da sciogliere.</p>
+    </div>
+    <div class="kpi-row reveal">
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="27.8" data-dec="1">0</span><span class="unit">%</span></div>
+        <div class="kpi-label">Over 65 sul totale (2025)</div>
+        <div class="kpi-hint">9.791 anziani contro 3.247 under 15.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, par. 1.4, p. 23</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="9.2" data-dec="1">0</span><span class="unit">%</span></div>
+        <div class="kpi-label">Under 15 sul totale (2025)</div>
+        <div class="kpi-hint">La base di ricambio generazionale è ridotta.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, par. 1.4, p. 23</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="49.6" data-dec="1">0</span><span class="unit">anni</span></div>
+        <div class="kpi-label">Età media (2025)</div>
+        <div class="kpi-hint">Da 52,6 a Bortigiadas a 48,2 a Trinità d'Agultu.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, par. 1.4, p. 24</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="2.12" data-dec="2">0</span></div>
+        <div class="kpi-label">Componenti medi per famiglia (2023)</div>
+        <div class="kpi-hint">Famiglie +19,4 % in vent'anni, ma sempre più piccole.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, par. 1.3, p. 23</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. ECONOMIA E SCENARI ============ -->
+<section class="section" id="economia">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Imprese e futuro</p>
+      <h2 class="section-title">L'economia tiene, e cambia pelle.</h2>
+      <p class="section-lead">Le imprese sono stabili — 4.792 nel 2025 — ma si spostano verso i servizi. Commercio e industria perdono terreno, anche nel distretto del sughero.</p>
+    </div>
+
+    <div class="kpi-row cols-3 reveal">
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="4792">0</span></div>
+        <div class="kpi-label">Imprese attive (2025)</div>
+        <div class="kpi-hint">Stabili rispetto alle 4.801 del 2021 (−0,19 %).</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, par. 1.9, p. 28</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value positive">+<span data-count="6.7" data-dec="1">0</span><span class="unit">%</span></div>
+        <div class="kpi-label">Imprese dei servizi, 2021-2025</div>
+        <div class="kpi-hint">Commercio −8,9 % e industria −11,7 % nello stesso periodo.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, Tab. 1d, p. 30</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="136">0</span></div>
+        <div class="kpi-label">Imprese ogni 1.000 abitanti</div>
+        <div class="kpi-hint">La densità imprenditoriale usata per le proiezioni al 2035.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, par. 1.11, p. 30</span></div>
+      </div>
+    </div>
+
+    <h3 class="chart-title reveal" style="margin-top:64px">Tre scenari al 2035</h3>
+    <p class="chart-sub reveal">Popolazione attesa secondo tre ipotesi dello studio</p>
+    <div class="scenari reveal" id="scenari"></div>
+    <p class="chart-source reveal">Fonte: Studio 1, cap. 1, par. 1.7 e schede Allegato I, p. 25.</p>
+
+    <figure class="infografica reveal">
+      <button onclick="openLightbox('lb-fig1a')" aria-label="Ingrandisci: analisi demografico-economica e imprese">
+        <img src="assets/figure/fig-1a-analisi-demografico-economica-imprese.png" alt="Infografica dello studio: analisi demografico-economica e imprese dell'Alta Gallura" loading="lazy">
+      </button>
+      <figcaption>Figura 1a — Analisi demografico-economica e imprese. <span style="margin-left:8px">Fonte: Studio 1, p. 27-28.</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 5. AMBIENTE / SUGHERO ============ -->
+<section class="section" id="ambiente">
+  <div class="container">
+    <div style="position:relative">
+      <div class="about-rings" data-rings="cork" data-size="520" data-spin="1" style="right:-160px;opacity:.5"></div>
+      <div class="section-head reveal">
+        <p class="section-eyebrow">Ambiente e boschi</p>
+        <h2 class="section-title">Il sughero tiene insieme il territorio.</h2>
+        <p class="section-lead">Dall'Alta Gallura passa oltre l'80 % del sughero lavorato in Italia. Le sugherete di Calangianus e Tempio Pausania sono la spina dorsale del distretto e allo stesso tempo boschi che proteggono il suolo, trattengono carbonio e resistono al fuoco.</p>
+      </div>
+    </div>
+
+    <div class="kpi-row cols-3 reveal">
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="2014">0</span><span class="unit">ha</span></div>
+        <div class="kpi-label">Sugherete a Calangianus</div>
+        <div class="kpi-hint">Il 15,9 % del territorio comunale.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, All. II, p. 160</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="1937">0</span><span class="unit">ha</span></div>
+        <div class="kpi-label">Sugherete a Tempio Pausania</div>
+        <div class="kpi-hint">Il 9,1 % del territorio comunale.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, All. II, p. 168</span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value"><span data-count="16588">0</span><span class="unit">ha</span></div>
+        <div class="kpi-label">ZSC Monte Limbara</div>
+        <div class="kpi-hint">La rete Natura 2000 tutela il massiccio e le sue sorgenti.</div>
+        <div class="kpi-source"><span class="pill-source">Fonte: Studio 1, Seconda parte</span></div>
+      </div>
+    </div>
+
+    <figure class="infografica reveal">
+      <button onclick="openLightbox('lb-fig3a')" aria-label="Ingrandisci: quadro sinottico dei comuni">
+        <img src="assets/figure/fig-3a-quadro-sinottico-comuni.jpeg" alt="Mappa sinottica degli undici comuni dell'Alta Gallura con gli ambiti territoriali dello studio" loading="lazy">
+      </button>
+      <figcaption>Figura 3a — Quadro sinottico dei comuni e degli ambiti territoriali. <span style="margin-left:8px">Fonte: Studio 1, Terza parte, p. 53.</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 6. GLI 11 COMUNI ============ -->
+<section class="section" id="comuni">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Schede comunali</p>
+      <h2 class="section-title">Undici comuni, undici ruoli.</h2>
+      <p class="section-lead">Calangianus e Tempio Pausania sono i poli del sughero; Luras, Aggius e Luogosanto il cuore agroforestale; Santa Teresa, Aglientu, Badesi e Trinità le porte sul mare; Bortigiadas e Viddalba i territori da proteggere. Apri la scheda di un comune.</p>
+    </div>
+
+    <div class="filter-bar reveal">
+      <button class="chip active" data-fascia="">Tutti</button>
+      <button class="chip" data-fascia="costiera"><span class="dot" style="background:var(--blue)"></span>Costa</button>
+      <button class="chip" data-fascia="interna"><span class="dot" style="background:var(--green)"></span>Interno</button>
+      <span class="filter-count">11 comuni</span>
+    </div>
+
+    <div class="comuni-grid reveal" id="comuni-grid"></div>
+  </div>
+</section>
+
+<!-- ============ 7. APPROFONDIMENTI ============ -->
+<section class="section" id="approfondimenti">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Approfondimenti</p>
+      <h2 class="section-title">I dati, tabella per tabella.</h2>
+      <p class="section-lead">Tutte le serie dello studio, aperte su richiesta. Ogni tabella riporta la fonte e la pagina del PDF.</p>
+    </div>
+
+    <details class="deep-dive reveal">
+      <summary>Popolazione 2001-2025 per comune <span class="n">11 righe</span><span class="chev">▾</span></summary>
+      <div class="table-wrap" id="tbl-pop"></div>
+    </details>
+    <details class="deep-dive reveal">
+      <summary>Saldo naturale e migratorio per comune, 2002-2023 <span class="n">11 righe</span><span class="chev">▾</span></summary>
+      <div class="table-wrap" id="tbl-saldi"></div>
+    </details>
+    <details class="deep-dive reveal">
+      <summary>Struttura per età e indici, 2025 <span class="n">11 righe</span><span class="chev">▾</span></summary>
+      <div class="table-wrap" id="tbl-eta"></div>
+    </details>
+    <details class="deep-dive reveal">
+      <summary>Imprese attive per comune, 2025 <span class="n">11 righe</span><span class="chev">▾</span></summary>
+      <div class="table-wrap" id="tbl-imprese"></div>
+    </details>
+    <details class="deep-dive reveal">
+      <summary>Uso del suolo: sei classi principali per comune <span class="n">66 righe</span><span class="chev">▾</span></summary>
+      <div class="table-wrap" id="tbl-uso"></div>
+    </details>
+  </div>
+</section>
+
+<div class="container">
+  <p class="sources-line">Fonti: Studio <em>Green community UCAG 193</em> (RISSTE, 2025) — Prima, Seconda e Terza parte; Allegati I e II. Ogni blocco riporta la pagina del PDF.</p>
+</div>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <img src="assets/logo-risste-orizzontale.png" alt="RISSTE">
+        <p>Centro Studi per la Ricerca, l'Innovazione, lo Sviluppo Sostenibile e la Transizione Energetica — Olbia.</p>
+      </div>
+      <div>
+        <h5>Alta Gallura</h5>
+        <a href="#popolazione">Popolazione</a>
+        <a href="#comuni">Gli 11 comuni</a>
+        <a href="#" onclick="return false">La strategia (in arrivo)</a>
+      </div>
+      <div>
+        <h5>Il sito</h5>
+        <a href="index.html">Home</a>
+        <a href="#" onclick="return false">Sughero Sardegna</a>
+        <a href="#" onclick="return false">Progetto e documenti</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Prototipo di design — v1 · 2025</span>
+      <span>CUP E77G24000450002 · Unione dei Comuni Alta Gallura</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<dialog class="lightbox" id="lb-fig1a">
+  <img src="assets/figure/fig-1a-analisi-demografico-economica-imprese.png" alt="Infografica: analisi demografico-economica e imprese">
+  <div class="lb-bar"><a href="assets/figure/fig-1a-analisi-demografico-economica-imprese.png" download>Scarica</a><button onclick="this.closest('dialog').close()">Chiudi</button></div>
+</dialog>
+<dialog class="lightbox" id="lb-fig3a">
+  <img src="assets/figure/fig-3a-quadro-sinottico-comuni.jpeg" alt="Quadro sinottico dei comuni">
+  <div class="lb-bar"><a href="assets/figure/fig-3a-quadro-sinottico-comuni.jpeg" download>Scarica</a><button onclick="this.closest('dialog').close()">Chiudi</button></div>
+</dialog>
+
+<!-- ============ DRAWER COMUNE ============ -->
+<div class="drawer-overlay"></div>
+<aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+  <div class="drawer-head">
+    <button class="drawer-btn" data-close aria-label="Chiudi il pannello">✕</button>
+    <span class="drawer-eyebrow micro left fascia-tag" style="font-size:11px"></span>
+    <span class="spacer"></span>
+    <button class="drawer-btn text" data-copy>Copia link</button>
+  </div>
+  <div class="drawer-body-wrap">
+    <div style="padding:28px 26px 0">
+      <h2 class="drawer-title" id="drawer-title" tabindex="-1" style="outline:none"></h2>
+      <p class="drawer-funzione"></p>
+    </div>
+    <div class="drawer-body"></div>
+  </div>
+</aside>
+
+<script src="assets/data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+const D = window.RISSTE_DATA;
+const byName = (a, b) => a.comune.localeCompare(b.comune, "it");
+const comuni = [...D.comuni].sort((x, y) => y.abitanti_2025 - x.abitanti_2025);
+
+initOrbs(document.querySelector(".page-hero"), ORB_PALETTES["alta-gallura-hero"]);
+
+/* capitoli della sezione */
+initChapters(document.getElementById("capitoli"), [
+  {
+    title: "Quattro comuni sulla costa, sette nell'interno.",
+    context: "Trentacinquemila abitanti nel 2025: un solo sistema di comunità, ambiente ed economia.",
+    value: 35242, unit: "abitanti", valueLabel: "Residenti nell'Unione, 1° gennaio 2025",
+    source: "Studio 1, cap. 1, Tab. 1a, p. 22",
+    ghost: "COMUNI", tone: "green", orbPos: { x: 68, y: 48, s: 60 },
+  },
+  {
+    title: "Stessa Unione, due destini.",
+    context: "Santa Teresa Gallura cresce del 16 %, Bortigiadas perde il 20 %. In mezzo, sette traiettorie diverse.",
+    value: 16, prefix: "+", unit: "%", valueLabel: "Santa Teresa Gallura 2001-2023 · Bortigiadas −20 %",
+    source: "Studio 1, cap. 1, Tab. 1a, p. 22",
+    ghost: "DUE VELOCITÀ", tone: "blue", orbPos: { x: 26, y: 52, s: 66 },
+  },
+  {
+    title: "Il territorio si regge su chi arriva.",
+    context: "Meno 3.402 nati-meno-morti in vent'anni, più 3.286 arrivi: la compensazione migratoria copre il 96,6 % del deficit.",
+    value: 3402, prefix: "−", unit: "", valueLabel: "Saldo naturale 2002-2023 · migratorio +3.286",
+    source: "Studio 1, cap. 1, Tab. 1b, p. 22",
+    ghost: "SALDI", tone: "cork", orbPos: { x: 66, y: 40, s: 56 },
+  },
+  {
+    title: "Un ricambio generazionale da ricostruire.",
+    context: "Oltre trecento anziani ogni cento giovani: ripartire da scuola, lavoro e servizi per le nuove generazioni.",
+    value: 301, unit: "", valueLabel: "Anziani ogni 100 giovani, 2025",
+    source: "Studio 1, cap. 1, par. 1.4, p. 23",
+    ghost: "FUTURO", tone: "green", orbPos: { x: 62, y: 60, s: 64 },
+  },
+], "contenuto");
+
+initSubnav(document.querySelector(".subnav"), document.querySelector(".page-hero"));
+
+/* slope chart popolazione */
+slopeRows(document.getElementById("slope-pop"),
+  comuni.map((c) => ({ nome: c.comune, fascia: c.fascia, da: c.abitanti_2001, a: c.abitanti_2025, var: c.var_pct_2001_2023 }))
+    .sort((a, b) => b.var - a.var)
+);
+
+/* saldi divergenti per fascia + Unione */
+divergeRows(document.getElementById("diverge-saldi"),
+  [...D.saldiFasce].sort((a, b) => (a.slug === "totale-alta-gallura" ? 1 : 0) - (b.slug === "totale-alta-gallura" ? 1 : 0))
+    .map((r) => ({ nome: r.comune.replace(" (4 Comuni)", "").replace(" (7 Comuni)", "").replace("TOTALE ALTA GALLURA", "Unione (11 comuni)"), neg: r.naturale, pos: r.migratorio }))
+);
+
+/* scenari 2035 */
+const SC_COLORS = { attrattivo: "var(--green)", lineare: "var(--blue)", crisi: "var(--fire)" };
+const SC_TAGS = { attrattivo: "Scenario alto", lineare: "Scenario inerziale", crisi: "Scenario basso" };
+document.getElementById("scenari").innerHTML = D.scenari.map((s) => `
+  <div class="scenario" style="--sc-color:${SC_COLORS[s.scenario]}">
+    <span class="tag">${SC_TAGS[s.scenario]}</span>
+    <h4>${s.nome.split("(")[0].trim()}</h4>
+    <div class="pop">${fmt.int(s.popolazione_2035)} <small>abitanti al 2035</small></div>
+    <p>${s.ipotesi}</p>
+  </div>`).join("");
+
+/* griglia comuni + drawer */
+initComuniGrid(document.getElementById("comuni-grid"), [...D.comuni].sort(byName));
+initComuneDrawer(D.comuni);
+
+/* tabelle di approfondimento */
+const table = (cols, rows) => `<table class="data"><thead><tr>${cols.map((c) => `<th scope="col" class="${c.num ? "num" : ""}">${c.h}</th>`).join("")}</tr></thead>
+<tbody>${rows.map((r) => `<tr>${cols.map((c) => `<td class="${c.num ? "num" : ""} ${c.cls ? c.cls(r) : ""}">${c.v(r)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+const signed = (v) => (v < 0 ? "neg" : v > 0 ? "pos" : "");
+
+document.getElementById("tbl-pop").innerHTML = table([
+  { h: "Comune", v: (r) => r.comune },
+  { h: "Fascia", v: (r) => (r.fascia === "costiera" ? "Costa" : "Interno") },
+  { h: "2001", num: 1, v: (r) => fmt.int(r.abitanti_2001) },
+  { h: "2011", num: 1, v: (r) => fmt.int(r.abitanti_2011) },
+  { h: "2023", num: 1, v: (r) => fmt.int(r.abitanti_2023) },
+  { h: "2025", num: 1, v: (r) => fmt.int(r.abitanti_2025) },
+  { h: "Var. % 2001-2023", num: 1, v: (r) => fmt.pct(r.var_pct_2001_2023, true), cls: (r) => signed(r.var_pct_2001_2023) },
+], [...D.comuni].sort(byName)) + `<p class="chart-source" style="padding:12px 16px">Fonte: Studio 1, Tab. 1a, p. 22 · ISTAT.</p>`;
+
+document.getElementById("tbl-saldi").innerHTML = table([
+  { h: "Comune", v: (r) => r.comune },
+  { h: "Saldo naturale 2002-2023", num: 1, v: (r) => (r.saldo_naturale == null ? "Non riportato" : fmt.int(r.saldo_naturale)), cls: (r) => (r.saldo_naturale < 0 ? "neg" : "") },
+  { h: "Saldo migratorio 2002-2023", num: 1, v: (r) => (r.saldo_migratorio == null ? "Non riportato" : (r.saldo_migratorio > 0 ? "+" : "") + fmt.int(r.saldo_migratorio)), cls: (r) => signed(r.saldo_migratorio) },
+], [...D.comuni].sort(byName)) + `<p class="chart-source" style="padding:12px 16px">Fonte: Studio 1, Tab. 1b, p. 22-23 e schede Allegato I. Viddalba: tabella assente nella scheda.</p>`;
+
+document.getElementById("tbl-eta").innerHTML = table([
+  { h: "Comune", v: (r) => r.comune },
+  { h: "Under 15 %", num: 1, v: (r) => fmt.pct(r.under15_pct) },
+  { h: "Over 65 %", num: 1, v: (r) => fmt.pct(r.over65_pct) },
+  { h: "Indice di vecchiaia", num: 1, v: (r) => fmt.dec(r.indice_vecchiaia, 1) },
+  { h: "Età media", num: 1, v: (r) => fmt.dec(r.eta_media, 1) },
+], [...D.comuni].sort(byName)) + `<p class="chart-source" style="padding:12px 16px">Fonte: Studio 1, Allegato I, tabelle al 1° gennaio 2025.</p>`;
+
+document.getElementById("tbl-imprese").innerHTML = table([
+  { h: "Comune", v: (r) => r.comune },
+  { h: "Imprese 2025", num: 1, v: (r) => fmt.int(r.imprese_2025) },
+  { h: "Var. % 2021-2025", num: 1, v: (r) => fmt.pct(r.imprese_var_pct, true), cls: (r) => signed(r.imprese_var_pct) },
+], [...D.comuni].sort((a, b) => b.imprese_2025 - a.imprese_2025)) + `<p class="chart-source" style="padding:12px 16px">Fonte: Studio 1, par. 1.8, p. 27-28 · CCIAA / ASIA-ISTAT.</p>`;
+
+document.getElementById("tbl-uso").innerHTML = table([
+  { h: "Comune", v: (r) => r.comune },
+  { h: "Classe di uso del suolo", v: (r) => r.classe },
+  { h: "Superficie (ha)", num: 1, v: (r) => fmt.int(r.ha) },
+  { h: "Incidenza %", num: 1, v: (r) => (r.pct == null ? "—" : fmt.pct(r.pct)) },
+], [...D.comuni].sort(byName).flatMap((c) => c.uso_suolo.map((u) => ({ comune: c.comune, ...u })))) + `<p class="chart-source" style="padding:12px 16px">Fonte: Studio 1, Allegato II, schede comunali, p. 156-171 · Carta dell'Uso del Suolo della Sardegna 2008. Le righe senza % provengono dal testo delle schede.</p>`;
+</script>
+</body>
+</html>
