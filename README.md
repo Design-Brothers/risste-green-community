@@ -8,7 +8,7 @@ La Gallura è presentata come principale sistema territoriale e produttivo della
 
 | | |
 |---|---|
-| **Sito live** | **https://risste-green-community.vercel.app** (alias previsto: risste-sughero-sardegna.vercel.app) |
+| **Sito live** | **https://risste-sughero-sardegna.vercel.app** (resta attivo anche https://risste-green-community.vercel.app) |
 | Repo | https://github.com/Design-Brothers/risste-green-community |
 | Hosting | Vercel (cartella `prototype/`) |
 
