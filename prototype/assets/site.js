@@ -256,11 +256,21 @@
   window.initSubnav = (navEl, afterEl) => {
     if (!navEl) return;
     const links = $$("a[href^='#']", navEl);
+    const strip = $(".subnav-inner", navEl);
     const sections = links.map((a) => $(a.getAttribute("href"))).filter(Boolean);
     const spy = new IntersectionObserver((entries) => {
       entries.forEach((e) => {
         if (!e.isIntersecting) return;
-        links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#" + e.target.id));
+        links.forEach((a) => {
+          const on = a.getAttribute("href") === "#" + e.target.id;
+          if (on === a.classList.contains("active")) return;
+          a.classList.toggle("active", on);
+          // la tab attiva resta visibile: la striscia la segue da sola
+          if (on && strip) {
+            const left = a.offsetLeft - strip.clientWidth / 2 + a.clientWidth / 2;
+            strip.scrollTo({ left, behavior: REDUCED ? "auto" : "smooth" });
+          }
+        });
       });
     }, { rootMargin: "-30% 0px -55% 0px" });
     sections.forEach((s) => spy.observe(s));
@@ -269,6 +279,46 @@
       vis.observe(afterEl);
     } else navEl.classList.add("visible");
   };
+
+  /* ---------- menu mobile ---------- */
+  const initMobileNav = () => {
+    const nav = $(".nav");
+    if (!nav || $(".burger", nav)) return;
+    const inner = $(".nav-inner", nav);
+    const linksSrc = $(".nav-links", nav);
+
+    const burger = document.createElement("button");
+    burger.className = "burger";
+    burger.setAttribute("aria-label", "Apri il menu");
+    burger.setAttribute("aria-expanded", "false");
+    burger.innerHTML = "<span></span><span></span><span></span>";
+    inner.appendChild(burger);
+
+    const menu = document.createElement("div");
+    menu.className = "mobile-menu";
+    menu.setAttribute("role", "dialog");
+    menu.setAttribute("aria-label", "Menu del sito");
+    const linksHtml = linksSrc ? $$("a", linksSrc).map((a) =>
+      `<a href="${a.getAttribute("href")}" class="${a.classList.contains("active") ? "active" : ""}">${a.textContent}</a>`).join("") : "";
+    const sub = $(".subnav");
+    const subHtml = sub ? $$("a", sub).map((a) =>
+      `<a href="${a.getAttribute("href")}" class="${a.classList.contains("active") ? "active" : ""}">${a.textContent}</a>`).join("") : "";
+    menu.innerHTML = linksHtml + (subHtml ? `<div class="mm-sub"><span class="mm-label">In questa pagina</span>${subHtml}</div>` : "");
+    document.body.appendChild(menu);
+
+    const setOpen = (open) => {
+      burger.classList.toggle("open", open);
+      menu.classList.toggle("open", open);
+      burger.setAttribute("aria-expanded", String(open));
+      burger.setAttribute("aria-label", open ? "Chiudi il menu" : "Apri il menu");
+      document.body.style.overflow = open ? "hidden" : "";
+    };
+    burger.addEventListener("click", () => setOpen(!menu.classList.contains("open")));
+    menu.addEventListener("click", (e) => { if (e.target.closest("a")) setOpen(false); });
+    addEventListener("keydown", (e) => { if (e.key === "Escape") setOpen(false); });
+    matchMedia("(min-width: 768px)").addEventListener("change", (e) => { if (e.matches) setOpen(false); });
+  };
+  initMobileNav();
 
   /* ---------- slope rows (popolazione 2001 → 2025) ---------- */
   window.slopeRows = (container, rows) => {
