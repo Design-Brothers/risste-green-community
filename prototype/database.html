@@ -78,9 +78,12 @@
         <p><i style="background:#2E7D32"></i>Alta / Basso</p>
         <p><i style="background:#F0B800"></i>Media / Medio</p>
         <p><i style="background:#D84315"></i>Bassa / Alto</p>
-        <p style="margin-top:12px;color:var(--ink-muted)">Il fondo cartografico mostra i confini amministrativi. Superficie = dimensione del punto.</p>
+        <p style="margin-top:12px;color:var(--ink-muted)">Fondo OpenStreetMap. Passa sul punto per il nome, clicca per la scheda. Superficie = dimensione del punto.</p>
       </aside>
     </div>
+    <h3 class="chart-title reveal" style="margin-top:36px">Le schede dei trenta comuni</h3>
+    <p class="section-lead reveal" style="margin-top:8px;margin-bottom:20px">Card cliccabili: aprono il dossier nell'atlante.</p>
+    <div class="comuni-grid reveal" id="cards-30"></div>
   </div>
 </section>
 
@@ -164,6 +167,9 @@ initOrbs(document.querySelector(".page-hero"), [
 ]);
 const ctl = initAtlanteMap(document.getElementById("map-db"), RISSTE_SUGHERO.comuni, {
   onOpen: (slug) => { location.href = `sughero-sardegna.html?comune=${slug}`; },
+});
+renderAtlanteCards(document.getElementById("cards-30"), RISSTE_SUGHERO.comuni, {
+  hrefFor: (c) => `sughero-sardegna.html?comune=${c.slug}`,
 });
 document.querySelectorAll(".map-legend [data-mode]").forEach((btn) => btn.addEventListener("click", () => {
   document.querySelectorAll(".map-legend [data-mode]").forEach((b) => b.classList.remove("active"));

@@ -57,10 +57,9 @@
   window.initAtlanteMap = (el, comuni, { onOpen } = {}) => {
     if (!el || !window.L || !comuni?.length) return null;
     const map = L.map(el, { scrollWheelZoom: false, zoomControl: true }).setView([40.15, 9.0], 7);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      attribution: "&copy; OpenStreetMap &copy; CARTO",
-      subdomains: "abcd",
-      maxZoom: 18,
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
     }).addTo(map);
     L.geoJSON(SARDEGNA, {
       style: { color: "#4E9A3F", weight: 1.4, fillColor: "#4E9A3F", fillOpacity: 0.06 },
@@ -90,21 +89,18 @@
           fillColor: CLASS_COLOR[cls] || "#999",
           fillOpacity: 0.82,
         });
-        marker.bindPopup(`<div class="map-popup">
-          <h3>${c.comune}</h3>
-          <p>${fmt.dec(c.sugherete_ha, 0)} ha · IVP ${c.classe_ivp} · incendio ${c.classe_incendio} · ICR ${c.classe_icr}</p>
-          <p><button type="button" data-open30="${c.slug}">Apri la scheda</button></p>
-        </div>`);
+        marker.bindTooltip(c.comune, {
+          direction: "top",
+          offset: [0, -Math.round(r)],
+          opacity: 0.96,
+          className: "map-name-tip",
+        });
         marker.on("click", () => onOpen?.(c.slug));
         marker.addTo(layer);
       });
     };
 
     paint();
-    el.addEventListener("click", (e) => {
-      const t = e.target.closest("[data-open30]");
-      if (t) onOpen?.(t.dataset.open30);
-    });
 
     return {
       map,
@@ -113,5 +109,29 @@
         paint();
       },
     };
+  };
+
+  window.renderAtlanteCards = (el, comuni, { hrefFor } = {}) => {
+    if (!el || !comuni?.length) return;
+    const sorted = [...comuni].sort((a, b) => a.comune.localeCompare(b.comune, "it"));
+    el.innerHTML = sorted.map((c) => {
+      const ha = window.fmt ? fmt.dec(c.sugherete_ha, 0) : Math.round(c.sugherete_ha);
+      const color = CLASS_COLOR[c.classe_ivp] || "#999";
+      const inner = `
+        <span class="fascia-tag"><i style="background:${color}"></i>IVP ${c.classe_ivp}</span>
+        <span class="open-hint" aria-hidden="true">↗</span>
+        <h3>${c.comune}</h3>
+        <p class="funzione">Rank ${c.rank} su 30 · ${ha} ha di sughereta</p>
+        <div class="nums">
+          <div><div class="v">${ha}</div><div class="l">ha sugherete</div></div>
+          <div><div class="v">${c.classe_incendio}</div><div class="l">incendio</div></div>
+          <div><div class="v">${c.classe_icr}</div><div class="l">ICR</div></div>
+        </div>
+        <span class="card-orb" style="background:radial-gradient(circle at 40% 40%, ${color}, transparent 70%)"></span>`;
+      if (hrefFor) {
+        return `<a class="comune-card" href="${hrefFor(c)}" title="${c.comune}" aria-label="Apri la scheda di ${c.comune}">${inner}</a>`;
+      }
+      return `<button class="comune-card" type="button" data-open30="${c.slug}" title="${c.comune}" aria-label="Apri la scheda di ${c.comune}">${inner}</button>`;
+    }).join("");
   };
 })();

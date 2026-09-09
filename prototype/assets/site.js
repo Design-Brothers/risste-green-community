@@ -10,37 +10,70 @@
     title: "Sughero Sardegna — Ricerca, innovazione e gestione sostenibile",
     description: "Progetto di ricerca e sviluppo, valorizzazione del sughero sardo e innovazione tecnologica. CUP E77G24000450002. Centro Studi R.I.S.S.T.E. APS.",
     cup: "CUP E77G24000450002",
-    links: [
+    menu: [
       { href: "index.html", id: "home", label: "Home" },
-      { href: "progetto.html", id: "progetto", label: "Il progetto" },
-      { href: "ricerca-mercato.html", id: "ricerca", label: "Ricerca e mercato" },
-      { href: "sughero-sardegna.html", id: "atlante", label: "Atlante del sughero" },
-      { href: "innovazione.html", id: "innovazione", label: "Innovazione e certificazioni" },
-      { href: "alta-gallura.html", id: "gallura", label: "Focus Gallura" },
-      { href: "database.html", id: "database", label: "Database" },
-      { href: "documenti.html", id: "documenti", label: "Documenti" },
+      {
+        href: "progetto.html",
+        id: "progetto",
+        label: "Il progetto",
+        children: [
+          { href: "progetto.html", id: "progetto", label: "Il progetto" },
+          { href: "ricerca-mercato.html", id: "ricerca", label: "Ricerca e mercato" },
+          { href: "documenti.html", id: "documenti", label: "Documenti" },
+        ],
+      },
+      {
+        href: "sughero-sardegna.html",
+        id: "atlante",
+        label: "Atlante",
+        children: [
+          { href: "sughero-sardegna.html", id: "atlante", label: "Atlante del sughero" },
+          { href: "database.html", id: "database", label: "Database" },
+          { href: "alta-gallura.html", id: "gallura", label: "Focus Gallura" },
+        ],
+      },
+      { href: "innovazione.html", id: "innovazione", label: "Innovazione" },
     ],
   };
+
+  const menuActive = (item, active) =>
+    item.id === active || (item.children || []).some((c) => c.id === active);
 
   const paintChrome = () => {
     const nav = document.querySelector("nav.nav");
     if (nav) {
       const active = nav.dataset.active || "";
-      const ctaHref = nav.dataset.cta || "database.html#censimento";
-      const ctaLabel = nav.dataset.ctaLabel || "Partecipa al censimento";
       const home = nav.querySelector("a[href='index.html']");
       if (home) home.setAttribute("aria-label", "Home — Sughero Sardegna");
       const links = nav.querySelector(".nav-links");
       if (links) {
-        links.innerHTML = CHROME.links.map((l) =>
-          `<a href="${l.href}" class="${l.id === active ? "active" : ""}">${l.label}</a>`
-        ).join("") + `<a class="nav-cta" href="${ctaHref}">${ctaLabel}</a>`;
+        links.innerHTML = CHROME.menu.map((item) => {
+          const on = menuActive(item, active);
+          if (!item.children) {
+            return `<a href="${item.href}" class="${on ? "active" : ""}">${item.label}</a>`;
+          }
+          return `<div class="nav-item">
+            <a href="${item.href}" class="${on ? "active" : ""}" aria-haspopup="true">${item.label}</a>
+            <div class="nav-dd" role="menu">
+              ${item.children.map((c) =>
+                `<a href="${c.href}" role="menuitem" class="${c.id === active ? "active" : ""}">${c.label}</a>`
+              ).join("")}
+            </div>
+          </div>`;
+        }).join("");
       }
     }
 
     document.querySelectorAll("footer.footer").forEach((footer) => {
       footer.innerHTML = `
   <div class="footer-inner">
+    <div class="footer-cta">
+      <div>
+        <h5>Censimento della filiera</h5>
+        <p>Le aziende possono comunicare denominazione, attività, prodotti e interesse alle certificazioni. I dati non vengono pubblicati automaticamente: restano in validazione.</p>
+      </div>
+      <a class="btn btn-solid footer-cta-btn" href="database.html#censimento">Partecipa al censimento <span class="arrow">→</span></a>
+    </div>
     <div class="footer-top">
       <div>
         <img src="assets/logo-risste-orizzontale.png" alt="Centro Studi R.I.S.S.T.E. APS">
@@ -53,7 +86,7 @@
         <a href="progetto.html">Il progetto</a>
         <a href="ricerca-mercato.html">Ricerca e mercato</a>
         <a href="sughero-sardegna.html">Atlante del sughero</a>
-        <a href="innovazione.html">Innovazione e certificazioni</a>
+        <a href="innovazione.html">Innovazione</a>
         <a href="alta-gallura.html">Focus Gallura</a>
         <a href="database.html">Database</a>
         <a href="documenti.html">Documenti</a>
@@ -63,7 +96,6 @@
         <a href="pdf/RISSTE_CUP_E77G24000450002_Parte1_signed.pdf" target="_blank" rel="noopener">Studio 1 — Quadro territoriale della filiera in Gallura (PDF)</a>
         <a href="pdf/RISSTE_CUP_E77G24000450002_Parte2_signed.pdf" target="_blank" rel="noopener">Studio 2 — Patrimonio sughericolo e innovazione in Sardegna (PDF)</a>
         <a href="documenti.html#dataset">Dataset aperti JSON e CSV</a>
-        <a href="database.html#censimento">Partecipa al censimento</a>
       </div>
     </div>
     <div class="footer-institutional">
@@ -383,7 +415,6 @@
     const nav = $(".nav");
     if (!nav || $(".burger", nav)) return;
     const inner = $(".nav-inner", nav);
-    const linksSrc = $(".nav-links", nav);
 
     const burger = document.createElement("button");
     burger.className = "burger";
@@ -396,12 +427,24 @@
     menu.className = "mobile-menu";
     menu.setAttribute("role", "dialog");
     menu.setAttribute("aria-label", "Menu del sito");
-    const linksHtml = linksSrc ? $$("a", linksSrc).map((a) =>
-      `<a href="${a.getAttribute("href")}" class="${a.classList.contains("active") ? "active" : ""}">${a.textContent}</a>`).join("") : "";
+    const active = nav.dataset.active || "";
+    const groups = CHROME.menu.map((item) => {
+      if (!item.children) {
+        return `<a href="${item.href}" class="${menuActive(item, active) ? "active" : ""}">${item.label}</a>`;
+      }
+      return `<div class="mm-group">
+        <span class="mm-label">${item.label}</span>
+        ${item.children.map((c) =>
+          `<a href="${c.href}" class="${c.id === active ? "active" : ""}">${c.label}</a>`
+        ).join("")}
+      </div>`;
+    }).join("");
     const sub = $(".subnav");
     const subHtml = sub ? $$("a", sub).map((a) =>
       `<a href="${a.getAttribute("href")}" class="${a.classList.contains("active") ? "active" : ""}">${a.textContent}</a>`).join("") : "";
-    menu.innerHTML = linksHtml + (subHtml ? `<div class="mm-sub"><span class="mm-label">In questa pagina</span>${subHtml}</div>` : "");
+    menu.innerHTML = groups
+      + (subHtml ? `<div class="mm-sub"><span class="mm-label">In questa pagina</span>${subHtml}</div>` : "")
+      + `<a class="mm-cta" href="database.html#censimento">Partecipa al censimento</a>`;
     document.body.appendChild(menu);
 
     const setOpen = (open) => {
@@ -552,7 +595,7 @@
           <button data-prev>← Comune precedente</button>
           <button data-next>Comune successivo →</button>
         </div>
-        <p class="muted" style="margin-top:26px;font-size:12px">Fonte: Studio 1 — approfondimento territoriale sulla Gallura, Allegato II, scheda comunale; Tab. 1a-1c, 2a. I dati del sito derivano dal database validato del progetto regionale.</p>`;
+        <p class="muted" style="margin-top:26px;font-size:12px">Fonte: Studio 1 — approfondimento territoriale sulla Gallura, Allegato II, scheda comunale; Tab. 1a-1c, 2a.</p>`;
 
       landStack($("[data-landstack]", body), c.uso_suolo);
       const i = order.indexOf(c.slug);

@@ -77,9 +77,12 @@
         <p><i style="background:#2E7D32"></i>Alta / pericolo basso</p>
         <p><i style="background:#F0B800"></i>Media / medio</p>
         <p><i style="background:#D84315"></i>Bassa / pericolo alto</p>
-        <p style="margin-top:12px;color:var(--ink-muted)">Dimensione del punto = ettari di sughereta. I confini comunali si leggono sulla carta.</p>
+        <p style="margin-top:12px;color:var(--ink-muted)">Fondo OpenStreetMap. Passa sul punto per il nome, clicca per la scheda. Dimensione = ettari di sughereta.</p>
       </aside>
     </div>
+    <h3 class="chart-title reveal" style="margin-top:36px">Le schede dei trenta comuni</h3>
+    <p class="section-lead reveal" style="margin-top:8px;margin-bottom:20px">Stesso elenco della mappa, in card: clicca per aprire il dossier.</p>
+    <div class="comuni-grid reveal" id="cards-30"></div>
   </div>
 </section>
 
@@ -154,11 +157,10 @@
       <h3 class="chart-title">La sughereta per classe di pericolo incendio</h3>
       <p class="chart-sub">Distribuzione della superficie totale (83.790,90 ha) · ettari e %</p>
       <div class="chart-body"><div id="stack-incendio"></div></div>
-      <p class="chart-source">Fonte: Studio 2, par. 3.1-3.2, conteggi ricalcolati dai dossier dei 30 comuni.</p>
+      <p class="chart-source">Fonte: Studio 2, par. 3.1-3.2 e dossier dei 30 comuni.</p>
     </div>
 
     <div class="kpi-row reveal" style="margin-top:24px" id="conteggi-kpi"></div>
-    <p class="note-box reveal">Nota metodologica. I conteggi del sito usano il database validato: IVP alta in 21 comuni, ICR alta in 9. Il testo del par. 3.2 cita 22 e 8: in caso di scostamento vale il database.</p>
   </div>
 </section>
 
@@ -180,7 +182,7 @@
 </section>
 
 <div class="container">
-  <p class="sources-line">Fonti: Studio 2 — <em>Patrimonio sughericolo, innovazione tecnologica e gestione sostenibile in Sardegna</em> (Centro Studi R.I.S.S.T.E., 2025). I dati del sito derivano dal database validato. CUP E77G24000450002.</p>
+  <p class="sources-line">Fonti: Studio 2 — <em>Patrimonio sughericolo, innovazione tecnologica e gestione sostenibile in Sardegna</em> (Centro Studi R.I.S.S.T.E., 2025). CUP E77G24000450002.</p>
 </div>
 </main>
 
@@ -451,6 +453,7 @@ renderExplorer();
 const mapCtl = initAtlanteMap(document.getElementById("map-atlante"), C, {
   onOpen: (slug) => window.openSugheroComune?.(slug),
 });
+renderAtlanteCards(document.getElementById("cards-30"), C);
 document.querySelectorAll("#mappa [data-mode]").forEach((btn) => btn.addEventListener("click", () => {
   document.querySelectorAll("#mappa [data-mode]").forEach((b) => b.classList.remove("active"));
   btn.classList.add("active");
@@ -477,7 +480,7 @@ document.getElementById("tbl-indici").innerHTML = table([
     { h: "Indice", v: (r) => r.indice },
     { h: "Classe", v: (r) => badge(r.classe) },
     { h: "N. comuni", v: (r) => fmt.int(r.n) },
-  ], rows) + `<p class="chart-source" style="padding:12px 16px">Conteggi dal database validato (Allegato I): 21 comuni IVP alta, 9 ICR alta.</p>`;
+  ], rows) + `<p class="chart-source" style="padding:12px 16px">Fonte: Studio 2, Allegato I. 21 comuni con IVP alta, 9 con ICR alta.</p>`;
 })();
 </script>
 </body>

@@ -69,7 +69,7 @@ writeFileSync(join(dest, "catalogo.json"), JSON.stringify({
   cup: "CUP E77G24000450002",
   soggetto: "Centro Studi R.I.S.S.T.E. APS",
   n: catalog.length,
-  note: "I dati del sito derivano dal database validato. I file identificativi delle imprese non sono pubblicati.",
+  note: "I file identificativi delle imprese non sono pubblicati.",
   dataset: catalog,
 }, null, 2));
 

@@ -45,7 +45,7 @@ def cover(path, title, subtitle, accent):
     c.setFillColor(MUTED)
     c.drawString(48, 88, "Progetto finanziato dalla Regione Autonoma della Sardegna")
     c.drawString(48, 74, "Assessorato dell'Agricoltura e riforma agro-pastorale")
-    c.drawString(48, 50, "I dati pubblicati sul sito derivano dal database validato del progetto.")
+    c.drawString(48, 50, "Centro Studi R.I.S.S.T.E. APS — soggetto attuatore")
     c.showPage()
 
     c.setFillColor(HexColor("#F4FBFA"))
@@ -63,7 +63,6 @@ def cover(path, title, subtitle, accent):
         "",
         "La Gallura e' trattata come principale territorio della filiera, area di concentrazione di imprese e competenze, e caso di studio utile alla lettura del comparto regionale. Non costituisce l'ambito esclusivo del progetto.",
         "",
-        "I titoli e la cornice istituzionale di questa edizione sono allineati al progetto regionale. Il contenuto scientifico resta quello validato dagli autori.",
     ]:
         text.textLine(para)
     c.drawText(text)
