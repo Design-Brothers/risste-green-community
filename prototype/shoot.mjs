@@ -65,6 +65,65 @@ await shoot(lm, `file://${process.cwd()}/index.html`, "landing-m", { width: 390,
   { tag: "01-hero" },
   { scrollTo: 1000, tag: "02-cards" },
 ]});
+await lm.close();
+
+/* ---- pagine nuove ---- */
+async function shootPage(file, base, actions, mobile) {
+  const page = await browser.newPage();
+  page.on("console", (m) => m.type() === "error" && errors.push(`${base}: ${m.text()}`));
+  page.on("pageerror", (e) => errors.push(`${base}: PAGEERROR ${e.message}`));
+  await shoot(page, `file://${process.cwd()}/${file}`, `${base}-d`, { actions });
+  if (mobile) await shoot(page, `file://${process.cwd()}/${file}`, `${base}-m`, { width: 390, height: 844, actions: mobile });
+  await page.close();
+}
+
+await shootPage("progetto.html", "progetto", [
+  { tag: "01-hero" },
+  { eval: () => document.getElementById("metodo").scrollIntoView({ behavior: "instant" }), tag: "02-metodo" },
+  { eval: () => document.getElementById("gruppo").scrollIntoView({ behavior: "instant" }), tag: "03-gruppo" },
+  { eval: () => document.getElementById("documenti").scrollIntoView({ behavior: "instant" }), tag: "04-doc" },
+], [
+  { tag: "01-hero" },
+  { eval: () => document.getElementById("documenti").scrollIntoView({ behavior: "instant" }), tag: "02-doc" },
+]);
+
+await shootPage("strategia.html", "strategia", [
+  { tag: "01-hero" },
+  { eval: () => document.getElementById("filiere").scrollIntoView({ behavior: "instant" }), tag: "02-filiere" },
+  { eval: () => document.getElementById("roadmap").scrollIntoView({ behavior: "instant" }), tag: "03-roadmap" },
+  { eval: () => document.querySelector(".tl-pill").click(), tag: "04-pill", wait: 1000 },
+  { eval: () => document.getElementById("approfondimenti")?.scrollIntoView({ behavior: "instant" }), tag: "05-approf", wait: 400 },
+], [
+  { tag: "01-hero" },
+  { eval: () => document.getElementById("roadmap").scrollIntoView({ behavior: "instant" }), tag: "02-roadmap" },
+]);
+
+await shootPage("sughero-sardegna.html", "sughero", [
+  { tag: "01-hero" },
+  { scrollTo: 1800, tag: "02-cap" },
+  { eval: () => document.getElementById("risorsa").scrollIntoView({ behavior: "instant" }), tag: "03-risorsa" },
+  { eval: () => document.getElementById("esploratore").scrollIntoView({ behavior: "instant" }), tag: "04-esploratore" },
+  { eval: () => document.querySelector("[data-open30]").click(), tag: "05-drawer", wait: 1100 },
+  { eval: () => { document.querySelector(".drawer-overlay")?.click(); }, tag: "06-drawer-chiuso", wait: 500 },
+  { eval: () => document.getElementById("approfondimenti").scrollIntoView({ behavior: "instant" }), tag: "07-approf", wait: 400 },
+], [
+  { tag: "01-hero" },
+  { eval: () => document.getElementById("esploratore").scrollIntoView({ behavior: "instant" }), tag: "02-esploratore" },
+  { eval: () => document.querySelector("[data-open30]").click(), tag: "03-drawer", wait: 1100 },
+]);
+
+await shootPage("innovazione.html", "innovazione", [
+  { tag: "01-hero" },
+  { eval: () => document.getElementById("ricerca").scrollIntoView({ behavior: "instant" }), tag: "02-ricerca" },
+  { eval: () => document.getElementById("direttrici").scrollIntoView({ behavior: "instant" }), tag: "03-direz" },
+  { eval: () => document.getElementById("framework").scrollIntoView({ behavior: "instant" }), tag: "04-framework" },
+  { eval: () => document.getElementById("sintesi").scrollIntoView({ behavior: "instant" }), tag: "05-sintesi" },
+  { eval: () => document.getElementById("biblioteca").scrollIntoView({ behavior: "instant" }), tag: "06-biblio" },
+  { eval: () => { const i = document.getElementById("b-q"); i.value = "compositi"; i.dispatchEvent(new Event("input")); }, tag: "07-ricerca-compositi", wait: 800 },
+], [
+  { tag: "01-hero" },
+  { eval: () => document.getElementById("biblioteca").scrollIntoView({ behavior: "instant" }), tag: "02-biblio" },
+]);
 
 console.log(errors.length ? `\nERRORI:\n${errors.join("\n")}` : "\nNessun errore console.");
 await browser.close();

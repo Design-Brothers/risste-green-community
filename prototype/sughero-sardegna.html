@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Sughereta Sardegna — 30 comuni, tre indici</title>
+<meta name="description" content="Trenta comuni, 83.790 ettari di sugherete, tre indici per capire dove il sughero ha futuro: suolo, fuoco, continuità. Esplora i dati comune per comune.">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip-link" href="#contenuto">Salta al contenuto</a>
+
+<svg class="grain" aria-hidden="true"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(#grain)"/></svg>
+
+<nav class="nav" aria-label="Navigazione principale">
+  <div class="nav-inner">
+    <a href="index.html" aria-label="Home — Green community Alta Gallura"><img class="nav-logo" src="assets/logo-risste-orizzontale.png" alt="RISSTE"></a>
+    <div class="nav-links">
+      <a href="progetto.html">Progetto</a>
+      <a href="alta-gallura.html">Alta Gallura</a>
+      <a class="active" href="sughero-sardegna.html">Sughero Sardegna</a>
+      <a class="nav-cta" href="#esploratore">Esplora i 30 comuni</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero" id="top">
+  <div class="ghost" aria-hidden="true" style="left:-2vw">SUGHERETA</div>
+  <span class="hero-corner tl micro left">Sezione 03 — Sughero Sardegna · Studio 2</span>
+  <span class="hero-corner bl micro left">30 comuni · 83.790,90 ha</span>
+
+  <div class="hero-content container" style="position:relative;z-index:3">
+    <p class="micro left">Sughero Sardegna · Studio 2</p>
+    <h1 style="margin-top:24px">La Sughereta<br><em style="color:var(--cork)">Sardegna</em></h1>
+    <p class="standfirst">Il sughero non è solo quanti ettari hai. È su che suolo cresce, quanto rischia di bruciare, quanto è frammentato. Trenta comuni, tre indici.</p>
+  </div>
+  <p class="scroll-hint" aria-hidden="true">Scorri<span>↓</span></p>
+</header>
+
+<div id="capitoli" aria-label="I numeri della Sughereta"></div>
+
+<nav class="subnav" aria-label="In questa pagina">
+  <div class="subnav-inner">
+    <a href="#indici">I tre indici</a>
+    <a href="#risorsa">Dove sta la risorsa</a>
+    <a href="#esploratore">Esplora i 30 comuni</a>
+    <a href="#insieme">Leggere insieme</a>
+    <a href="#approfondimenti">Approfondimenti</a>
+  </div>
+</nav>
+
+<main id="contenuto">
+
+<section class="section" id="indici">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Tre domande, tre indici</p>
+      <h2 class="section-title">Suolo, fuoco, continuità.</h2>
+      <p class="section-lead">Ogni comune della Sughereta è letto con tre indici costruiti su cartografia e pedologia: dove la sughera cresce meglio, quanto rischia il fuoco, quanto il bosco è compatto.</p>
+    </div>
+    <div class="indici-grid reveal" id="indici-cards"></div>
+  </div>
+</section>
+
+<section class="section" id="risorsa">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Dove sta la risorsa</p>
+      <h2 class="section-title">Bitti, Berchidda, Oschiri e Buddusò superano i 5.000 ettari.</h2>
+      <p class="section-lead">Il sughero si concentra in Gallura, Monte Acuto, Nuorese, Goceano, Marghine e Logudoro, con un nucleo nel Sulcis-Iglesiente. Tempio Pausania e Calangianus, il cuore industriale, sono all'11° e 13° posto per estensione.</p>
+    </div>
+    <div class="chart-block reveal">
+      <h3 class="chart-title">I dieci comuni con più sughereta</h3>
+      <p class="chart-sub">Ettari di sughereta · quota % sulla Sughereta Sardegna</p>
+      <div class="chart-body" id="top10"></div>
+      <p class="chart-source">Fonte: Studio 2, Terza parte e Allegato I (dossier dei 30 comuni), p. 50-141.</p>
+    </div>
+    <div class="doc-list reveal" style="margin-top:24px">
+      <figure class="infografica" style="margin:0">
+        <button onclick="openLightbox('lb-fig2')" aria-label="Ingrandisci: ranking IVP 30 comuni"><img src="assets/figure/fig-2-ivp-ranking-30-comuni.jpeg" alt="Ranking IVP dei 30 comuni" loading="lazy"></button>
+        <figcaption>Figura 2 — Ranking IVP. <em>Elaborazione grafica dello studio; i valori di riferimento sono quelli delle schede comunali.</em></figcaption>
+      </figure>
+      <figure class="infografica" style="margin:0">
+        <button onclick="openLightbox('lb-fig3')" aria-label="Ingrandisci: pericolosità incendio 30 comuni"><img src="assets/figure/fig-3-ipi-pericolosita-incendio-30-comuni.jpeg" alt="Pericolosità incendio dei 30 comuni" loading="lazy"></button>
+        <figcaption>Figura 3 — Pericolosità da incendio. <em>Elaborazione grafica dello studio; i valori di riferimento sono quelli delle schede comunali.</em></figcaption>
+      </figure>
+    </div>
+    <figure class="infografica reveal">
+      <button onclick="openLightbox('lb-fig4')" aria-label="Ingrandisci: continuità della risorsa 30 comuni"><img src="assets/figure/fig-4-icr-continuita-risorsa-30-comuni.jpeg" alt="Continuità della risorsa nei 30 comuni" loading="lazy"></button>
+      <figcaption>Figura 4 — Continuità della risorsa. <em>Elaborazione grafica dello studio; i valori di riferimento sono quelli delle schede comunali.</em></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="esploratore">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Esplora i 30 comuni</p>
+      <h2 class="section-title">Ordina, filtra, apri la scheda.</h2>
+      <p class="section-lead">Un indicatore alla volta. Il colore della barra è la classe di vocazionalità pedologica del comune.</p>
+    </div>
+
+    <div class="chart-block reveal" style="margin-top:0">
+      <div class="biblio-controls" style="grid-template-columns:2fr 1fr 1fr auto; margin-bottom:22px">
+        <div><label for="sel-ind">Indicatore</label>
+          <select id="sel-ind">
+            <option value="sugherete_ha">Sugherete (ha)</option>
+            <option value="ivp">Vocazionalità pedologica (IVP)</option>
+            <option value="quota_medioalto_alto_pct">Sugherete in pericolo Medioalto+Alto (%)</option>
+            <option value="quota_complesso_maggiore_pct">Continuità: quota del nucleo maggiore (%)</option>
+          </select></div>
+        <div><label for="sel-classe">Classe IVP</label>
+          <select id="sel-classe"><option value="">Tutte</option><option>Alta</option><option>Media</option><option>Bassa</option></select></div>
+        <div><label for="sel-ord">Ordine</label>
+          <select id="sel-ord"><option value="desc">Decrescente</option><option value="asc">Crescente</option></select></div>
+        <div class="biblio-count" id="exp-count"></div>
+      </div>
+      <div class="bars" id="explorer"></div>
+      <p class="chart-source">Fonte: Studio 2, Allegato I, dossier dei 30 comuni (p. 50-141). Clicca su una riga per aprire la scheda comune.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="insieme">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Leggere i tre indici insieme</p>
+      <h2 class="section-title">Ogni comune ha un profilo — e indicazioni dedicate.</h2>
+      <p class="section-lead">Berchidda e Tempio Pausania: risorsa vocata, esposta al fuoco ma compatta, quindi governabile. Calangianus: vocata ed esposta, ma frammentata in molti nuclei, gestione più complessa. Bitti: vocata, poco esposta, governabile.</p>
+    </div>
+
+    <div class="chart-block reveal">
+      <h3 class="chart-title">La sughereta per classe di pericolo incendio</h3>
+      <p class="chart-sub">Distribuzione della superficie totale (83.790,90 ha) · ettari e %</p>
+      <div class="chart-body"><div id="stack-incendio"></div></div>
+      <p class="chart-source">Fonte: Studio 2, par. 3.1-3.2, conteggi ricalcolati dai dossier dei 30 comuni.</p>
+    </div>
+
+    <div class="kpi-row reveal" style="margin-top:24px" id="conteggi-kpi"></div>
+    <p class="chart-source reveal" style="margin-top:14px">Conteggi calcolati dal dataset dei 30 dossier: IVP alta in 21 comuni (il testo ne cita 22), ICR alta in 9. Fonte: Studio 2, par. 3.2 e Allegato I.</p>
+  </div>
+</section>
+
+<section class="section" id="approfondimenti">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Approfondimenti</p>
+      <h2 class="section-title">Definizioni, soglie e conteggi.</h2>
+    </div>
+    <details class="deep-dive reveal">
+      <summary>Definizioni e soglie dei tre indici <span class="n">3 indici</span><span class="chev">▾</span></summary>
+      <div class="table-wrap" id="tbl-indici"></div>
+    </details>
+    <details class="deep-dive reveal">
+      <summary>Conteggi regionali per classe <span class="n">IVP · incendio · ICR</span><span class="chev">▾</span></summary>
+      <div class="table-wrap" id="tbl-conteggi"></div>
+    </details>
+  </div>
+</section>
+
+<div class="container">
+  <p class="sources-line">Fonti: Studio <em>Valorizzazione della filiera del sughero in Sardegna</em> (RISSTE, 2025), Terza e Quarta parte; Allegato I (dossier dei 30 comuni).</p>
+</div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <img src="assets/logo-risste-orizzontale.png" alt="RISSTE">
+        <p>Centro Studi per la Ricerca, l'Innovazione, lo Sviluppo Sostenibile e la Transizione Energetica — Olbia.</p>
+      </div>
+      <div>
+        <h5>Sughero Sardegna</h5>
+        <a href="#esploratore">I 30 comuni</a>
+        <a href="innovazione.html">Innovazione</a>
+        <a href="alta-gallura.html">Alta Gallura</a>
+      </div>
+      <div>
+        <h5>Documenti</h5>
+        <a href="pdf/RISSTE_CUP_E77G24000450002_Parte2_signed.pdf" target="_blank" rel="noopener">Studio 2 (PDF)</a>
+        <a href="innovazione.html#biblioteca">Database bibliografico</a>
+        <a href="progetto.html">Il progetto</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Prototipo di design — v1 · 2025</span>
+      <span>CUP E77G24000450002 · Unione dei Comuni Alta Gallura</span>
+    </div>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lb-fig2"><img src="assets/figure/fig-2-ivp-ranking-30-comuni.jpeg" alt="Ranking IVP"><div class="lb-bar"><a href="assets/figure/fig-2-ivp-ranking-30-comuni.jpeg" download>Scarica</a><button onclick="this.closest('dialog').close()">Chiudi</button></div></dialog>
+<dialog class="lightbox" id="lb-fig3"><img src="assets/figure/fig-3-ipi-pericolosita-incendio-30-comuni.jpeg" alt="Pericolosità incendio"><div class="lb-bar"><a href="assets/figure/fig-3-ipi-pericolosita-incendio-30-comuni.jpeg" download>Scarica</a><button onclick="this.closest('dialog').close()">Chiudi</button></div></dialog>
+<dialog class="lightbox" id="lb-fig4"><img src="assets/figure/fig-4-icr-continuita-risorsa-30-comuni.jpeg" alt="Continuità risorsa"><div class="lb-bar"><a href="assets/figure/fig-4-icr-continuita-risorsa-30-comuni.jpeg" download>Scarica</a><button onclick="this.closest('dialog').close()">Chiudi</button></div></dialog>
+
+<!-- ============ DRAWER COMUNE (30 comuni) ============ -->
+<div class="drawer-overlay"></div>
+<aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+  <div class="drawer-head">
+    <button class="drawer-btn" data-close aria-label="Chiudi il pannello">✕</button>
+    <span class="drawer-eyebrow micro left fascia-tag" style="font-size:11px"></span>
+    <span class="spacer"></span>
+    <button class="drawer-btn text" data-copy>Copia link</button>
+  </div>
+  <div>
+    <div style="padding:28px 26px 0">
+      <h2 class="drawer-title" id="drawer-title" tabindex="-1" style="outline:none"></h2>
+      <p class="drawer-funzione" style="color:var(--cork)"></p>
+    </div>
+    <div class="drawer-body"></div>
+  </div>
+</aside>
+
+<script src="assets/data-sughero.js"></script>
+<script src="assets/site.js"></script>
+<script>
+const SG = window.RISSTE_SUGHERO;
+const C = SG.comuni;
+const bySlug30 = Object.fromEntries(C.map((c) => [c.slug, c]));
+const order30 = C.slice().sort((a, b) => a.rank - b.rank).map((c) => c.slug);
+
+const CLASS_COLOR = { Alta: "#2E7D32", Media: "#F0B800", Bassa: "#F08800", "Molto bassa": "#D84315",
+  Basso: "#2E7D32", Mediobasso: "#8BC34A", Medio: "#F0B800", Medioalto: "#F08800", Alto: "#D84315" };
+const badge = (label) => `<span class="badge-classe"><i style="background:${CLASS_COLOR[label] ?? "#999"}"></i>${label}</span>`;
+
+/* ---- hero: 30 sferette ambra grandi ∝ ettari ---- */
+(() => {
+  const max = Math.max(...C.map((c) => c.sugherete_ha));
+  const tones = [["#E8C28E", "#C2603A"], ["#D9A441", "#E8C28E"], ["#C2603A", "#E8C28E"], ["#E8C28E", "#A8552F"]];
+  let seed = 7;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const orbs = C.map((c, i) => {
+    const s = 26 + Math.sqrt(c.sugherete_ha / max) * 120;
+    return { x: 58 + rnd() * 38, y: 12 + rnd() * 72, size: s, colors: tones[i % 4],
+      drift: 8 + rnd() * 10, delay: rnd() * 8, duration: 16 + rnd() * 12, blur: 16, opacity: 0.55 + rnd() * 0.3 };
+  });
+  initOrbs(document.querySelector(".page-hero"), orbs, { pointer: true, parallax: true });
+})();
+
+/* ---- capitoli ---- */
+initChapters(document.getElementById("capitoli"), [
+  { title: "Il sughero italiano è qui.", context: "La Sardegna ospita circa il 90 % delle sugherete nazionali: il materiale è una risorsa d'isola.",
+    value: 90, prefix: "≈", unit: "%", valueLabel: "Delle sugherete italiane in Sardegna",
+    source: "Studio 2, Premessa", ghost: "SARDEGNA", tone: "cork", orbPos: { x: 68, y: 46, s: 60 } },
+  { title: "Trenta comuni, 83.790 ettari.", context: "La Sughereta Sardegna è il sistema dei 30 comuni chiave della filiera, mappato suolo per suolo.",
+    value: 83790, unit: "ha", valueLabel: "Di sughereta nei 30 comuni (83.790,90)",
+    source: "Studio 2, par. 2.2, p. 20", ghost: "SUGHERETA", tone: "green", orbPos: { x: 26, y: 52, s: 66 } },
+  { title: "In 21 comuni la vocazione è alta.", context: "L'IVP misura quanto i suoli si adattano alla quercia da sughero. Suolo giusto, bosco che dura.",
+    value: 21, unit: "su 30", valueLabel: "Comuni con IVP in classe Alta",
+    source: "Studio 2, par. 3.2 e Allegato I", ghost: "SUOLO", tone: "blue", orbPos: { x: 66, y: 40, s: 56 } },
+  { title: "Ma il fuoco è il rischio principale.", context: "In 16 comuni oltre il 90 % delle sugherete cade in zone di pericolo Medioalto o Alto. Il 72 % della superficie complessiva.",
+    value: 16, unit: "su 30", valueLabel: "Comuni con oltre il 90 % di sughereta in pericolo Medioalto+Alto",
+    source: "Studio 2, par. 3.1-3.2", ghost: "FUOCO", tone: "cork", orbPos: { x: 30, y: 56, s: 62 } },
+], "contenuto");
+
+initSubnav(document.querySelector(".subnav"), document.querySelector(".page-hero"));
+
+/* ---- card indici ---- */
+const IND_META = [
+  { sigla: "IVP", a: "Su che suolo cresce?", d: "L'Indice di Vocazionalità Pedologica misura quanto i suoli del comune si adattano alla sughera. In 21 comuni la vocazione è alta.", extra: "21 comuni su 30 in classe Alta" },
+  { sigla: "IPI", a: "Quanto rischia il fuoco?", d: "L'Indice di Pericolosità da Incendio dice quanta sughereta ricade nelle classi di pericolo più alte. Nel complesso, il 72 % della superficie.", extra: "72 % della superficie in pericolo alto" },
+  { sigla: "ICR", a: "Quanto è continua?", d: "L'Indice di Continuità della Risorsa misura se la sughereta è un bosco compatto o tanti frammenti. Solo 9 comuni hanno una continuità alta.", extra: "9 comuni su 30 con continuità alta" },
+];
+document.getElementById("indici-cards").innerHTML = IND_META.map((m) => `
+  <div class="indice-card">
+    <span class="sigla">${m.sigla}</span>
+    <h3>${(SG.indici.indici.find((i) => i.sigla === m.sigla) ?? {}).nome ?? ""}</h3>
+    <p class="q">${m.a}</p>
+    <p class="d">${m.d}</p>
+  </div>`).join("");
+
+/* ---- top 10 barre ---- */
+(() => {
+  const top = C.slice().sort((a, b) => b.sugherete_ha - a.sugherete_ha).slice(0, 10);
+  const max = top[0].sugherete_ha;
+  document.getElementById("top10").innerHTML = `<div class="bars">` + top.map((c) => `
+    <div class="bar-row" style="cursor:default">
+      <span class="nm">${c.rank}. ${c.comune}</span>
+      <span class="track"><span class="fill" style="width:${(c.sugherete_ha / max) * 100}%;background:${CLASS_COLOR[c.classe_ivp]}"></span></span>
+      <span class="val">${fmt.dec(c.sugherete_ha, 0)} ha · ${fmt.dec(c.peso_pct, 1)} %</span>
+    </div>`).join("") + `</div>`;
+})();
+
+/* ---- stack incendio regionale ---- */
+(() => {
+  const sup = SG.sintesi.superficie_per_classe_incendio_ha;
+  const tot = Object.values(sup).reduce((s, v) => s + v, 0);
+  const order = ["Basso", "Mediobasso", "Medio", "Medioalto", "Alto"];
+  landStack(document.getElementById("stack-incendio"),
+    order.filter((k) => sup[k] != null).map((k) => ({ classe: k, ha: sup[k], pct: (sup[k] / tot) * 100 })));
+})();
+
+/* ---- conteggi KPI ---- */
+(() => {
+  const s = SG.sintesi;
+  const icr = s.conteggi_classe_icr.dataset;
+  document.getElementById("conteggi-kpi").innerHTML = `
+    <div class="kpi-card"><div class="kpi-value" style="color:${CLASS_COLOR.Alta}">${s.conteggi_classe_ivp.dataset.find((x) => x.classe === "Alta").n_comuni}</div><div class="kpi-label">Comuni con IVP Alta</div><div class="kpi-source"><span class="pill-source">Fonte: Studio 2, All. I</span></div></div>
+    <div class="kpi-card"><div class="kpi-value" style="color:var(--fire)">${fmt.dec(s.totali.quota_medioalto_alto_pct_sul_totale, 1)}<span class="unit">%</span></div><div class="kpi-label">Della superficie in pericolo Medioalto+Alto</div><div class="kpi-source"><span class="pill-source">Fonte: Studio 2, par. 3.1</span></div></div>
+    <div class="kpi-card"><div class="kpi-value" style="color:${CLASS_COLOR.Alta}">${icr.find((x) => x.classe === "Alta").n_comuni}</div><div class="kpi-label">Comuni con continuità ICR Alta</div><div class="kpi-source"><span class="pill-source">Fonte: Studio 2, All. I</span></div></div>
+    <div class="kpi-card"><div class="kpi-value">${fmt.int(s.totali.n_complessi_totali)}</div><div class="kpi-label">Complessi di sughereta censiti</div><div class="kpi-source"><span class="pill-source">Fonte: Studio 2, All. I</span></div></div>`;
+})();
+
+/* ---- esploratore ---- */
+const IND_CFG = {
+  sugherete_ha: { f: (v) => fmt.dec(v, 0) + " ha" },
+  ivp: { f: (v) => fmt.dec(v, 3) },
+  quota_medioalto_alto_pct: { f: (v) => fmt.dec(v, 1) + " %" },
+  quota_complesso_maggiore_pct: { f: (v) => fmt.dec(v, 1) + " %" },
+};
+const els = { ind: document.getElementById("sel-ind"), classe: document.getElementById("sel-classe"), ord: document.getElementById("sel-ord") };
+function renderExplorer() {
+  const key = els.ind.value, classe = els.classe.value, ord = els.ord.value;
+  let rows = C.filter((c) => !classe || c.classe_ivp === classe);
+  rows.sort((a, b) => (ord === "desc" ? b[key] - a[key] : a[key] - b[key]));
+  const max = Math.max(...C.map((c) => c[key]));
+  document.getElementById("exp-count").textContent = `${rows.length} comuni`;
+  document.getElementById("explorer").innerHTML = rows.map((c) => `
+    <button class="bar-row" data-open30="${c.slug}">
+      <span class="nm">${c.rank}. ${c.comune}<span class="sub">IVP ${badge(c.classe_ivp)} · ICR ${badge(c.classe_icr)}</span></span>
+      <span class="track"><span class="fill" style="width:${(c[key] / max) * 100}%;background:${CLASS_COLOR[c.classe_ivp]}"></span></span>
+      <span class="val">${IND_CFG[key].f(c[key])}</span>
+    </button>`).join("");
+}
+Object.values(els).forEach((el) => el.addEventListener("change", renderExplorer));
+renderExplorer();
+
+/* ---- drawer 30 comuni ---- */
+(() => {
+  const overlay = document.querySelector(".drawer-overlay");
+  const drawer = document.querySelector(".drawer");
+  const body = drawer.querySelector(".drawer-body");
+  const titleEl = drawer.querySelector(".drawer-title");
+  const funzione = drawer.querySelector(".drawer-funzione");
+
+  const stacked = (container, dist, colorOf, labelOf) => {
+    const tot = dist.reduce((s, d) => s + d.incidenza_pct, 0);
+    container.innerHTML = `<div class="stack">${dist.map((d) => `<div style="width:${d.incidenza_pct}%;background:${colorOf(d)}" title="${labelOf(d)} — ${fmt.dec(d.incidenza_pct, 1)} %"></div>`).join("")}</div>
+    <div class="stack-legend">${dist.map((d) => `<span><i style="background:${colorOf(d)}"></i>${labelOf(d)} · ${fmt.dec(d.incidenza_pct, 1)} %</span>`).join("")}</div>`;
+  };
+
+  const render = (c) => {
+    titleEl.textContent = c.comune;
+    funzione.textContent = `Rank ${c.rank} su 30 per estensione di sughereta`;
+    drawer.querySelector(".fascia-tag").innerHTML = `<i style="width:8px;height:8px;border-radius:50%;background:${CLASS_COLOR[c.classe_ivp]};display:inline-block"></i> Sughereta Sardegna`;
+    const indicazioni = Array.isArray(c.indicazioni_operative) ? c.indicazioni_operative : [c.indicazioni_operative].filter(Boolean);
+    body.innerHTML = `
+      <div class="drawer-kpis">
+        <div class="drawer-kpi"><div class="v">${fmt.dec(c.sugherete_ha, 0)}</div><div class="l">Ettari di sughereta</div></div>
+        <div class="drawer-kpi"><div class="v">${fmt.dec(c.peso_pct, 2)} %</div><div class="l">Peso sulla Sughereta Sardegna</div></div>
+        <div class="drawer-kpi"><div class="v">${fmt.dec(c.ivp, 3)}</div><div class="l">IVP — vocazionalità pedologica ${badge(c.classe_ivp)}</div></div>
+        <div class="drawer-kpi"><div class="v">${fmt.dec(c.quota_medioalto_alto_pct, 1)} %</div><div class="l">Sugherete in pericolo Medioalto+Alto · classe ${badge(c.classe_incendio)}</div></div>
+      </div>
+
+      <h4>Su che suoli cresce</h4>
+      <div data-ped></div>
+      <h4>Quanto rischia il fuoco</h4>
+      <div data-inc></div>
+
+      <h4>Quanto è continua</h4>
+      <div class="drawer-kpis">
+        <div class="drawer-kpi"><div class="v">${fmt.int(c.n_complessi)}</div><div class="l">Complessi di sughereta</div></div>
+        <div class="drawer-kpi"><div class="v">${fmt.dec(c.quota_complesso_maggiore_pct, 1)} %</div><div class="l">Quota del nucleo maggiore ${badge(c.classe_icr)}</div></div>
+      </div>
+      <p class="muted" style="margin-top:12px">Densità di frammentazione: ${fmt.dec(c.densita_frammentazione, 3)} complessi per 100 ettari.</p>
+
+      <h4>Profilo integrato</h4>
+      <p>${c.profilo_integrato}</p>
+      <p class="muted" style="margin-top:8px">${c.lettura_icr ?? ""}</p>
+
+      <h4>Indicazioni operative</h4>
+      <ul class="opp">${indicazioni.map((x) => `<li>${x}</li>`).join("")}</ul>
+      <p class="muted" style="margin-top:14px;font-size:12.5px">La scheda è una sintesi comunale; per interventi puntuali servono verifiche locali.</p>
+
+      ${(c.slug === "calangianus" || c.slug === "tempio-pausania") ? `
+      <a class="cross-link" href="alta-gallura.html?comune=${c.slug}">
+        <span aria-hidden="true">◍</span> Vedi questo comune nell'Alta Gallura →
+      </a>` : ""}
+
+      <div class="drawer-nav">
+        <button data-prev>← Comune precedente</button>
+        <button data-next>Comune successivo →</button>
+      </div>
+      <p class="muted" style="margin-top:26px;font-size:12px">Fonte: Studio 2, Allegato I, dossier comunale (p. 50-141).</p>`;
+    stacked(body.querySelector("[data-ped]"), c.distribuzione_pedologica, (d) => CLASS_COLOR[d.classe_ivp], (d) => `${d.unita_pedologica} (IVP ${d.classe_ivp})`);
+    stacked(body.querySelector("[data-inc]"), c.distribuzione_incendio, (d) => CLASS_COLOR[d.classe], (d) => d.classe);
+    const i = order30.indexOf(c.slug);
+    body.querySelector("[data-prev]").disabled = i <= 0;
+    body.querySelector("[data-next]").disabled = i >= order30.length - 1;
+    body.querySelector("[data-prev]").onclick = () => open(order30[i - 1]);
+    body.querySelector("[data-next]").onclick = () => open(order30[i + 1]);
+  };
+
+  const open = (slug, push = true) => {
+    const c = bySlug30[slug];
+    if (!c) return;
+    render(c);
+    overlay.classList.add("open");
+    drawer.classList.add("open");
+    document.body.style.overflow = "hidden";
+    if (push) history.replaceState(null, "", `?comune=${slug}`);
+    setTimeout(() => titleEl.focus({ preventScroll: true }), 350);
+  };
+  const close = () => {
+    overlay.classList.remove("open");
+    drawer.classList.remove("open");
+    document.body.style.overflow = "";
+    history.replaceState(null, "", location.pathname);
+  };
+  document.addEventListener("click", (e) => {
+    const t = e.target.closest("[data-open30]");
+    if (t) open(t.dataset.open30);
+  });
+  overlay.addEventListener("click", close);
+  drawer.querySelector("[data-close]").addEventListener("click", close);
+  drawer.querySelector("[data-copy]").addEventListener("click", async (e) => {
+    const b = e.currentTarget;
+    try { await navigator.clipboard.writeText(location.href); b.textContent = "Copiato ✓"; } catch {}
+    setTimeout(() => (b.textContent = "Copia link"), 1600);
+  });
+  addEventListener("keydown", (e) => e.key === "Escape" && close());
+  const slug = new URLSearchParams(location.search).get("comune");
+  if (slug && bySlug30[slug]) open(slug, false);
+})();
+
+/* ---- approfondimenti ---- */
+const table = (cols, rows) => `<table class="data"><thead><tr>${cols.map((c) => `<th scope="col">${c.h}</th>`).join("")}</tr></thead>
+<tbody>${rows.map((r) => `<tr>${cols.map((c) => `<td class="${c.cls ? c.cls(r) : ""}">${c.v(r)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+
+document.getElementById("tbl-indici").innerHTML = table([
+  { h: "Indice", v: (r) => `<strong>${r.sigla}</strong> — ${r.nome}` },
+  { h: "Domanda", v: (r) => `<em>${r.domanda}</em>` },
+  { h: "Definizione", v: (r) => r.definizione, cls: () => "ref" },
+], SG.indici.indici) + `<p class="chart-source" style="padding:12px 16px">Fonte: Studio 2, par. 2.3 e metodologia GIS.</p>`;
+
+(() => {
+  const s = SG.sintesi;
+  const rows = [
+    ...s.conteggi_classe_ivp.dataset.map((x) => ({ indice: "IVP", classe: x.classe, n: x.n_comuni })),
+    ...s.conteggi_classe_icr.dataset.map((x) => ({ indice: "ICR", classe: x.classe, n: x.n_comuni })),
+  ];
+  document.getElementById("tbl-conteggi").innerHTML = table([
+    { h: "Indice", v: (r) => r.indice },
+    { h: "Classe", v: (r) => badge(r.classe) },
+    { h: "N. comuni", v: (r) => fmt.int(r.n) },
+  ], rows) + `<p class="chart-source" style="padding:12px 16px">Conteggi ricalcolati dai 30 dossier (Allegato I). Il testo del par. 3.2 cita 22 comuni IVP alta e 8 ICR alta; i dossier ne danno 21 e 9.</p>`;
+})();
+</script>
+</body>
+</html>
